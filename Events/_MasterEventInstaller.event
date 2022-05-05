@@ -1,0 +1,11 @@
+//REDA helpers
+#include "REDAHelpers.event"
+
+
+//kill opening world map cutscene
+{
+#include "KillOpening.event"
+}
+
+
+
