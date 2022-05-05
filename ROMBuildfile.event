@@ -1,30 +1,45 @@
-#ifdef _FE8_
-    #include "EAstdlib.event"
+
     #include "CustomDefinitions.event"
-//PROTECT $25224
+	
     ORG FreeSpace
 
-    #include "repointedTextTable.event"
-
     //Text first for Text ID definitions
+	REGION_Text:
+    #include "Text/repointedTextTable.event"
     #include "Text/InstallTextData.event"
-    MESSAGE Used text space ends at currentOffset
-
+	MESSAGE (currentOffset-REGION_Text) bytes used
+	MESSAGE Used text space ends at currentOffset
+	
     //CSV tables
-    #include "Tables/TableInstaller.event"
-    MESSAGE Used table space ends at currentOffset
+    REGION_Tables:
+	#include "Tables/TableInstaller.event"
+	MESSAGE (currentOffset-REGION_Tables) bytes used
+	MESSAGE Used table space ends at currentOffset
 
     //Engine Hacks
+	REGION_Hax:
     #include "EngineHacks/_MasterHackInstaller.event"
+	MESSAGE (currentOffset-REGION_Hax) bytes used
     MESSAGE Used hax space ends at currentOffset
+	
+	//Graphics
+	REGION_Gfx:
+	#include "Graphics/_MasterGraphicsInstaller.event"
+	MESSAGE (currentOffset-REGION_Gfx) bytes used
+	MESSAGE Used graphics space ends at currentOffset
 
     //Events
+	REGION_Events:
     #include "Events/_MasterEventInstaller.event"
+	MESSAGE (currentOffset-REGION_Events) bytes used
+	MESSAGE Used event space ends at currentOffset
 
     //Maps
+	REGION_Maps:
     #include "Maps/MasterMapInstaller.event"
-	
+	MESSAGE (currentOffset-REGION_Maps) bytes used
+	MESSAGE Used map space ends at currentOffset
+
+	MESSAGE "-----------------------"
+	MESSAGE (currentOffset-FreeSpace) bytes used overall
     MESSAGE Used free space ends at currentOffset
-#else
-    ERROR "You are not assembling FE8 events!"
-#endif

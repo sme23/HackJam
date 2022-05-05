@@ -1,3 +1,5 @@
+#include "EAstdlib.event"
+
 #define FreeSpace 0xb2a610
 #define FreeSpaceBLRange 0x1c1ec0
 
@@ -37,3 +39,7 @@
 #include "EngineHacks/SkillSystem/skill_definitions.event"
 
 // #define __DEBUG__ // Uncomment to get the Debug startup menu :p
+
+
+#include "Definitions/_MasterDefinitionInstaller.event"
+
