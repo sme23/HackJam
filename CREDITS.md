@@ -1,8 +1,6 @@
-Note: This list is incomplete and insufficiently organized. If you contributed
-something that you'd like special recognition for, please make a pull request
-adding yourself!
+# Skill System Credits
 
-# Skill contributors
+## Skill contributors
 
 - Tequila
 - Rossendale
@@ -21,12 +19,12 @@ adding yourself!
 - Ganzap
 - Mikey Seregon
 
-# Other
+## Other
 
 - 7743: various bugfixes
 - RobertFPY, Pikmin1211, and Snakey1: Str/Mag Split Finalization
 
-# Icons
+## Icons
 
 - Monkeybard, Black Mage
 - Blaze: Stances
@@ -35,4 +33,3 @@ adding yourself!
 - 2WB: Miscellaneous
 - Zaim: Indoor March
 - Reds: Quick Riposte
-
