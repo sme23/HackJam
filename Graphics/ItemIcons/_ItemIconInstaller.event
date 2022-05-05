@@ -1,0 +1,13 @@
+//apparently i've literally never done this properly before :)
+
+#define ItemIconSheetOffset 0x5926F4
+#define SetItemIcon(Index) "ORG ItemIconSheetOffset + (Index * 0x80)"
+
+PUSH	
+/*
+	SetItemIcon(Index)
+	#incext Png2Dmp "file.png"
+*/
+	
+POP
+

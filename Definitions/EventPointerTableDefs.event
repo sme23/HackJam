@@ -1,0 +1,159 @@
+//event ptr table defs
+
+#define Ch1EventsID 0x7
+#define Ch2EventsID 0xA
+#define Ch3EventsID 0xD
+#define Ch4EventsID 0x14
+#define Ch5EventsID 0x17
+#define Ch6EventsID 0x1E
+#define Ch7EventsID 0x21
+#define Ch8EventsID 0x24
+#define Ch9EventsID 0x27
+#define Ch10EventsID 0x2A
+#define Ch11EventsID 0x2D
+#define Ch12EventsID 0x33
+#define Ch13EventsID 0x37
+#define Ch14EventsID 0x3B
+
+#define Ch1MapID 0x4
+#define Ch1MapChangesID 0x6
+#define Ch2MapID 0x8
+#define Ch2MapChangesID 0x9
+#define Ch3MapID 0xB
+#define Ch3MapChangesID 0xC
+#define Ch4MapID 0x11
+#define Ch4MapChangesID 0x13
+#define Ch5MapID 0x15
+#define Ch5MapChangesID 0x16
+#define Ch6MapID 0x1B
+#define Ch6MapChangesID 0x1D
+#define Ch7MapID 0x1F
+#define Ch7MapChangesID 0x20
+#define Ch8MapID 0x22
+#define Ch8MapChangesID 0x23
+#define Ch9MapID 0x25
+#define Ch9MapChangesID 0x26
+#define Ch10MapID 0x28
+#define Ch10MapChangesID 0x29 
+#define Ch11MapID 0x2B
+#define Ch11MapChangesID 0x2C
+#define Ch12MapID 0x31
+#define Ch12MapChangesID 0x32
+#define Ch13MapID 0x35
+#define Ch13MapChangesID 0x36
+#define Ch14MapID 0x39
+#define Ch14MapChangesID 0x3A
+
+//this is probably the third time i've done these with the thought of "oh I only have to do this once then I'll have them whenever I need them in the future"
+
+#define PlainsObjType 0x1
+#define PlainsTileConfig 0x3
+#define PlainsAnims 0x5
+
+#define PlainsPalette1 0x2
+#define PlainsPalette2 0x38
+#define PlainsPalette3 0x4C
+#define PlainsPalette4 0x5B
+
+#define VillageObjType 0xE
+#define VillageTileConfig 0x10
+#define VillageAnims 0x12
+
+#define VillagePalette1 0xF
+#define VillagePalette2 0x72
+#define VillagePalette3 0xEA
+
+#define CastleObjType 0x18
+#define CastleTileConfig 0x1A
+#define CastleAnims 0x1C
+
+#define CastlePalette1 0x19
+#define CastlePalette2 0x48
+#define CastlePalette3 0x57
+#define CastlePalette4 0xB9
+
+#define FieldsObjType 0x2E
+#define FieldsTileConfig 0x30
+#define FieldsAnims 0x5 
+
+#define FieldsPalette1 0x2F
+#define FieldsPalette2 0x34
+
+#define FortObjType 0x3C
+#define FortTileConfig 0x3E
+#define FortAnims 0x0
+
+#define FortPalette1 0x3D
+#define FortPalette2 0x68
+#define FortPalette3 0xCE
+
+#define DesertObjType 0x42
+#define DesertTileConfig 0x44
+#define DesertAnims 0x5
+
+#define DesertPalette1 0x43
+
+#define LavaObjType 0x50
+#define LavaTileConfig 0x52
+#define LavaAnims 0x0
+#define LavaAnims2 0x54
+
+#define LavaPalette1 0x51
+
+#define TempleObjType 0x5F
+#define TempleTileConfig 0x61
+#define TempleAnims 0x0
+
+#define TemplePalette1 0x60
+
+#define StrongholdObjType 0x79
+#define StrongholdTileConfig 0x7B
+#define StrongholdAnims 0x7D
+
+#define StrongholdPalette1 0x7A
+#define StrongholdPalette2 0xE6
+
+#define MountainousObjType 0x6C
+#define MountainousTileConfig 0x6E
+#define MountainousAnims 0x5
+
+#define MountainousPalette1 0x6D
+#define MountainousPalette2 0xA3
+
+#define ValniObjType 0x88
+#define ValniTileConfig 0x8A
+#define ValniAnims 0x9D
+
+#define ValniPalette1 0x89
+
+
+
+#define CastlePalette5 0x8B
+#define CastlePalette6 0x8C
+
+#define CaveTileConfig 0x8D
+#define CaveObjType 0x8E
+
+#define CavePalette1 0x8F
+#define CavePalette2 0x90
+
+#define DesertBastionTileConfig 0x91
+#define DesertBastionObjType 0x92
+
+#define DesertBastionPalette1 0x93
+
+#define PlainsPalette5 0x94
+#define PlainsPalette6 0x95
+
+#define LavaPalette2 0x96
+
+#define SnowCastleObjType 0x97
+#define SnowCastleTileConfig 0x98
+
+#define SnowCastlePalette1 0x99
+
+#define SnowFieldsObjType 0x9A
+#define SnowFieldsTileConfig 0x9B
+
+#define SnowFieldsPalette1 0x9C
+

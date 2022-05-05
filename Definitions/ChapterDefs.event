@@ -1,0 +1,17 @@
+//Chapter ID defs
+
+#define Ch1ID 00
+#define Ch2ID 01
+#define Ch3ID 02
+#define Ch4ID 03
+#define Ch5ID 04
+#define Ch6ID 05
+#define Ch7ID 06
+#define Ch8ID 07
+#define Ch9ID 08
+#define Ch10ID 09
+#define Ch11ID 10
+#define Ch12ID 11
+#define Ch13ID 12
+#define Ch14ID 13
+

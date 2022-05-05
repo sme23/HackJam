@@ -1,0 +1,27 @@
+
+PUSH
+
+ORG $88590
+WORD 0
+
+ORG $88638
+POIN StatScreenGfx
+
+ORG $88640
+POIN StatScreenPal
+
+ORG $88644
+POIN StatScreenTsa
+
+POP
+
+ALIGN 4
+StatScreenGfx:
+#incbin "gfx.dmp"
+
+ALIGN 4
+StatScreenPal:
+#incbin "pal.dmp"
+
+StatScreenTsa:
+#incbin "tsa.dmp" 

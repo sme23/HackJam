@@ -1,0 +1,37 @@
+BattleFrameGraphic1:
+//#incext Png2Dmp "BattleFrameGraphic1.png" --lz77
+#incbin "battleframe_main.dmp"
+
+BattleFrameGraphic2:
+//#incext Png2Dmp "BattleFrameGraphic2.png" --lz77
+#incbin "battleframe_left1.dmp"
+
+BattleFrameGraphic3:
+//#incext Png2Dmp "BattleFrameGraphic3.png" --lz77
+#incbin "battleframe_left2.dmp"
+
+BattleFrameGraphic4:
+//#incext Png2Dmp "BattleFrameGraphic4.png" --lz77
+#incbin "battleframe_right1.dmp"
+
+BattleFrameGraphic5:
+//#incext Png2Dmp "BattleFrameGraphic5.png" --lz77
+#incbin "battleframe_right2.dmp"
+
+PUSH
+ORG $51F68
+POIN BattleFrameGraphic1
+ORG $51FC8
+POIN BattleFrameGraphic2
+ORG $52028
+POIN BattleFrameGraphic3
+ORG $52088
+POIN BattleFrameGraphic4
+ORG $52164
+POIN BattleFrameGraphic5
+ORG $80210C
+#incbin "battleframe_maintsa.dmp"
+ORG $802558
+#incbin "battlescreen_palettes.dmp"
+POP
+

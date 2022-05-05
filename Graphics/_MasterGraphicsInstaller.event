@@ -1,0 +1,8 @@
+#include "Animations/_MasterAnimsInstaller.event"
+#include "BattleFrame/BattleFrameInstaller.event"
+#include "BG/_BGInstaller.event"
+#include "ItemIcons/_ItemIconInstaller.event"
+#include "MapSprites/_MapSpriteInstaller.event"
+#include "Mugs/_MugInstaller.event"
+#include "StatScreen/StatScreenInstaller.event"
+#include "Tilesets/Tilesets.event"

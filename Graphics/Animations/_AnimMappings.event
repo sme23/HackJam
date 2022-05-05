@@ -1,0 +1,591 @@
+//for things pointed to from char data
+
+
+ALIGN 4
+EphraimLordAnims:
+LanceAnim(EphraimLordLanceAnimID)
+UnarmedAnim(EphraimLordUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+EirikaLordAnims:
+SwordAnim(EirikaLordSwordAnimID)
+UnarmedAnim(EirikaLordUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+EphraimGreatLordAnims:
+LanceAnim(EphraimGreatLordLanceAnimID)
+UnarmedAnim(EphraimGreatLordUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+EirikaGreatLordAnims:
+SwordAnim(EirikaGreatLordSwordAnimID)
+UnarmedAnim(EirikaGreatLordUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+CavalierAnims:
+SwordAnim(CavalierSwordAnimID)
+LanceAnim(CavalierLanceAnimID)
+UnarmedAnim(CavalierUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+CavalierFAnims:
+SwordAnim(CavalierFSwordAnimID)
+LanceAnim(CavalierFLanceAnimID)
+UnarmedAnim(CavalierFUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+PaladinAnims:
+SwordAnim(PaladinSwordAnimID)
+LanceAnim(PaladinLanceAnimID)
+UnarmedAnim(PaladinUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+PaladinFAnims:
+SwordAnim(PaladinFSwordAnimID)
+LanceAnim(PaladinFLanceAnimID)
+UnarmedAnim(PaladinFUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+KnightAnims:
+LanceAnim(KnightLanceAnimID)
+UnarmedAnim(KnightUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+KnightFAnims:
+LanceAnim(KnightFLanceAnimID)
+UnarmedAnim(KnightFUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+GeneralAnims:
+SwordAnim(GeneralSwordAnimID)
+LanceAnim(GeneralLanceAnimID)
+AxeAnim(GeneralAxeAnimID)
+HandAxeAnim(GeneralHandAxeAnimID)
+UnarmedAnim(GeneralUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+GeneralFAnims:
+SwordAnim(GeneralFSwordAnimID)
+LanceAnim(GeneralFLanceAnimID)
+AxeAnim(GeneralFAxeAnimID)
+HandAxeAnim(GeneralFHandAxeAnimID)
+UnarmedAnim(GeneralFUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+ThiefAnims:
+SwordAnim(ThiefSwordAnimID)
+UnarmedAnim(ThiefUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+MercenaryAnims:
+SwordAnim(MercenarySwordAnimID)
+UnarmedAnim(MercenaryUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+HeroAnims:
+SwordAnim(HeroSwordAnimID)
+AxeAnim(HeroAxeAnimID)
+HandAxeAnim(HeroHandAxeAnimID)
+UnarmedAnim(HeroUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+MyrmidonAnims:
+SwordAnim(MyrmidonSwordAnimID)
+UnarmedAnim(MyrmidonUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+MyrmidonFAnims:
+SwordAnim(MyrmidonFSwordAnimID)
+UnarmedAnim(MyrmidonFUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+SwordmasterAnims:
+SwordAnim(SwordmasterSwordAnimID)
+UnarmedAnim(SwordmasterUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+SwordmasterFAnims:
+SwordAnim(SwordmasterFSwordAnimID)
+UnarmedAnim(SwordmasterFUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+AssassinAnims:
+SwordAnim(AssassinSwordAnimID)
+UnarmedAnim(AssassinUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+AssassinFAnims:
+SwordAnim(AssassinFSwordAnimID)
+UnarmedAnim(AssassinFUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+ArcherAnims:
+BowAnim(ArcherBowAnimID)
+UnarmedAnim(ArcherUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+ArcherFAnims:
+BowAnim(ArcherFBowAnimID)
+UnarmedAnim(ArcherFUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+SniperAnims:
+BowAnim(SniperBowAnimID)
+UnarmedAnim(SniperUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+SniperFAnims:
+BowAnim(SniperFBowAnimID)
+UnarmedAnim(SniperFUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+RangerAnims:
+SwordAnim(RangerSwordAnimID)
+BowAnim(RangerBowAnimID)
+UnarmedAnim(RangerUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+RangerFAnims:
+SwordAnim(RangerFSwordAnimID)
+BowAnim(RangerFBowAnimID)
+UnarmedAnim(RangerFUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+WyvernRiderAnims:
+LanceAnim(WyvernRiderLanceAnimID)
+UnarmedAnim(WyvernRiderUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+WyvernRiderFAnims:
+LanceAnim(WyvernRiderFLanceAnimID)
+UnarmedAnim(WyvernRiderFUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+WyvernLordAnims:
+SwordAnim(WyvernLordSwordAnimID)
+LanceAnim(WyvernLordLanceAnimID)
+UnarmedAnim(WyvernLordUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+WyvernLordFAnims:
+SwordAnim(WyvernLordFSwordAnimID)
+LanceAnim(WyvernLordFLanceAnimID)
+UnarmedAnim(WyvernLordFUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+WyvernKnightAnims:
+LanceAnim(WyvernKnightLanceAnimID)
+UnarmedAnim(WyvernKnightUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+WyvernKnightFAnims:
+LanceAnim(WyvernKnightFLanceAnimID)
+UnarmedAnim(WyvernKnightFUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+MageAnims:
+MagicAnim(MageMagicAnimID)
+UnarmedAnim(MageMagicAnimID)
+EndAnim
+
+ALIGN 4
+MageFAnims:
+MagicAnim(MageFMagicAnimID)
+UnarmedAnim(MageFMagicAnimID)
+EndAnim
+
+ALIGN 4
+SageAnims:
+MagicAnim(SageMagicAnimID)
+StaffAnim(SageStaffAnimID)
+UnarmedAnim(SageMagicAnimID)
+EndAnim
+
+ALIGN 4
+SageFAnims:
+MagicAnim(SageFMagicAnimID)
+StaffAnim(SageFStaffAnimID)
+UnarmedAnim(SageFMagicAnimID)
+EndAnim
+
+ALIGN 4
+MageKnightAnims:
+MagicAnim(MageKnightMagicAnimID)
+StaffAnim(MageKnightStaffAnimID)
+UnarmedAnim(MageKnightMagicAnimID)
+EndAnim
+
+ALIGN 4
+MageKnightFAnims:
+MagicAnim(MageKnightFMagicAnimID)
+StaffAnim(MageKnightFStaffAnimID)
+UnarmedAnim(MageKnightFMagicAnimID)
+EndAnim
+
+ALIGN 4
+BishopAnims:
+MagicAnim(BishopMagicAnimID)
+StaffAnim(BishopStaffAnimID)
+UnarmedAnim(BishopMagicAnimID)
+EndAnim
+
+ALIGN 4
+BishopFAnims:
+MagicAnim(BishopFMagicAnimID)
+StaffAnim(BishopFStaffAnimID)
+UnarmedAnim(BishopFMagicAnimID)
+EndAnim
+
+ALIGN 4
+ShamanAnims:
+MagicAnim(ShamanMagicAnimID)
+UnarmedAnim(ShamanMagicAnimID)
+EndAnim
+
+ALIGN 4
+ShamanFAnims:
+MagicAnim(ShamanFMagicAnimID)
+UnarmedAnim(ShamanFMagicAnimID)
+EndAnim
+
+ALIGN 4
+DruidAnims:
+MagicAnim(DruidMagicAnimID)
+StaffAnim(DruidStaffAnimID)
+UnarmedAnim(DruidMagicAnimID)
+EndAnim
+
+ALIGN 4
+DruidFAnims:
+MagicAnim(DruidFMagicAnimID)
+StaffAnim(DruidFStaffAnimID)
+UnarmedAnim(DruidFMagicAnimID)
+EndAnim
+
+ALIGN 4
+SummonerAnims:
+MagicAnim(SummonerMagicAnimID)
+StaffAnim(SummonerStaffAnimID)
+UnarmedAnim(SummonerMagicAnimID)
+EndAnim
+
+ALIGN 4
+RogueAnims:
+SwordAnim(RogueSwordAnimID)
+UnarmedAnim(RogueUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+GreatKnightAnims:
+SwordAnim(GreatKnightSwordAnimID)
+LanceAnim(GreatKnightLanceAnimID)
+AxeAnim(GreatKnightAxeAnimID)
+HandAxeAnim(GreatKnightHandAxeAnimID)
+UnarmedAnim(GreatKnightUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+GreatKnightFAnims:
+SwordAnim(GreatKnightFSwordAnimID)
+LanceAnim(GreatKnightFLanceAnimID)
+AxeAnim(GreatKnightFAxeAnimID)
+HandAxeAnim(GreatKnightFHandAxeAnimID)
+UnarmedAnim(GreatKnightFUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+RecruitAnims:
+LanceAnim(RecruitLanceAnimID)
+UnarmedAnim(RecruitUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+JourneymanAnims:
+AxeAnim(JourneymanAxeAnimID)
+HandAxeAnim(JourneymanHandAxeAnimID)
+UnarmedAnim(JourneymanUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+PupilAnims:
+MagicAnim(PupilMagicAnimID)
+UnarmedAnim(PupilMagicAnimID)
+EndAnim
+
+ALIGN 4
+MorvaManaketeAnims:
+MonsterAnim(ManaketeUndeadAnimID)
+UnarmedAnim(ManaketeUndeadAnimID)
+EndAnim
+
+ALIGN 4
+MyrrhManaketeAnims:
+MonsterAnim(ManaketeAttackAnimID)
+UnarmedAnim(ManaketeUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+FighterAnims:
+AxeAnim(FighterAxeAnimID)
+HandAxeAnim(FighterHandAxeAnimID)
+UnarmedAnim(FighterUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+WarriorAnims:
+AxeAnim(WarriorAxeAnimID)
+HandAxeAnim(WarriorHandAxeAnimID)
+BowAnim(WarriorBowAnimID)
+UnarmedAnim(WarriorUnarmedAnimID)
+
+EndAnim
+
+ALIGN 4
+BrigandAnims:
+AxeAnim(BrigandAxeAnimID)
+HandAxeAnim(BrigandHandAxeAnimID)
+UnarmedAnim(BrigandUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+PirateAnims:
+AxeAnim(PirateAxeAnimID)
+HandAxeAnim(PirateHandAxeAnimID)
+UnarmedAnim(PirateUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+BerserkerAnims:
+AxeAnim(BerserkerAxeAnimID)
+HandAxeAnim(BerserkerHandAxeAnimID)
+UnarmedAnim(BerserkerUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+MonkAnims:
+MagicAnim(MonkMagicAnimID)
+UnarmedAnim(MonkMagicAnimID)
+EndAnim
+
+ALIGN 4
+PriestAnims:
+StaffAnim(PriestStaffAnimID)
+UnarmedAnim(PriestUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+PegasusKnightAnims:
+LanceAnim(PegasusKnightLanceAnimID)
+UnarmedAnim(PegasusKnightUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+FalcoknightAnims:
+SwordAnim(FalcoknightSwordAnimID)
+LanceAnim(FalcoknightLanceAnimID)
+UnarmedAnim(FalcoknightUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+ClericAnims:
+StaffAnim(ClericStaffAnimID)
+UnarmedAnim(ClericUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+TroubadourAnims:
+StaffAnim(TroubadourStaffAnimID)
+UnarmedAnim(TroubadourUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+ValkyrieAnims:
+MagicAnim(ValkyrieMagicAnimID)
+StaffAnim(ValkyrieStaffAnimID)
+UnarmedAnim(ValkyrieMagicAnimID)
+EndAnim
+
+ALIGN 4
+DancerAnims:
+UnarmedAnim(DancerAnimID)
+EndAnim
+
+ALIGN 4
+SoldierAnims:
+LanceAnim(SoldierLanceAnimID)
+UnarmedAnim(SoldierUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+NecromancerAnims:
+MagicAnim(NecromancerMagicAnimID)
+StaffAnim(NecromancerStaffAnimID)
+UnarmedAnim(NecromancerMagicAnimID)
+EndAnim
+
+ALIGN 4
+RevenantAnims:
+MonsterAnim(RevenantAnimID)
+UnarmedAnim(RevenantAnimID)
+EndAnim
+
+ALIGN 4
+EntombedAnims:
+MonsterAnim(EntombedAnimID)
+UnarmedAnim(EntombedAnimID)
+EndAnim
+
+ALIGN 4
+BonewalkerAnims:
+SwordAnim(BonewalkerSwordAnimID)
+LanceAnim(BonewalkerLanceAnimID)
+UnarmedAnim(BonewalkerUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+BonewalkerBowAnims:
+BowAnim(BonewalkerBowAnimID)
+UnarmedAnim(BonewalkerUnarmed2AnimID)
+EndAnim
+
+ALIGN 4
+WightAnims:
+SwordAnim(WightSwordAnimID)
+LanceAnim(WightLanceAnimID)
+UnarmedAnim(WightUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+WightBowAnims:
+BowAnim(WightBowAnimID)
+UnarmedAnim(WightUnarmed2AnimID)
+EndAnim
+
+ALIGN 4
+BaelAnims:
+MonsterAnim(BaelAnimID)
+UnarmedAnim(BaelAnimID)
+EndAnim
+
+ALIGN 4
+ElderBaelAnims:
+MonsterAnim(ElderBaelAnimID)
+UnarmedAnim(ElderBaelAnimID)
+EndAnim
+
+ALIGN 4
+CyclopsAnims:
+AxeAnim(CyclopsAxeAnimID)
+HandAxeAnim(CyclopsHandAxeAnimID)
+UnarmedAnim(CyclopsUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+MautheDoogAnims:
+MonsterAnim(MautheDoogAnimID)
+UnarmedAnim(MautheDoogAnimID)
+EndAnim
+
+ALIGN 4
+GwyllgiAnims:
+MonsterAnim(GwyllgiAnimID)
+UnarmedAnim(GwyllgiAnimID)
+EndAnim
+
+ALIGN 4
+TarvosAnims:
+AxeAnim(TarvosAxeAnimID)
+HandAxeAnim(TarvosHandAxeAnimID)
+UnarmedAnim(TarvosUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+MaelduinAnims:
+AxeAnim(MaelduinAxeAnimID)
+HandAxeAnim(MaelduinHandAxeAnimID)
+BowAnim(MaelduinBowAnimID)
+UnarmedAnim(MaelduinUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+MogallAnims:
+MagicAnim(MogallMagicAnimID)
+MonsterAnim(MogallMagicAnimID)
+UnarmedAnim(MogallMagicAnimID)
+EndAnim
+
+ALIGN 4
+ArchMogallAnims:
+MagicAnim(ArchMogallMagicAnimID)
+MonsterAnim(ArchMogallMagicAnimID)
+UnarmedAnim(ArchMogallMagicAnimID)
+EndAnim
+
+ALIGN 4
+GorgonAnims:
+MagicAnim(GorgonMagicAnimID)
+MonsterAnim(GorgonMagicAnimID)
+UnarmedAnim(GorgonMagicAnimID)
+EndAnim
+
+ALIGN 4
+GargoyleAnims:
+LanceAnim(GargoyleLanceAnimID)
+UnarmedAnim(GargoyleUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+DeathgoyleAnims:
+LanceAnim(DeathgoyleLanceAnimID)
+UnarmedAnim(DeathgoyleUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+DracoZombieAnims:
+MagicAnim(DracoZombieAnimID)
+MonsterAnim(DracoZombieAnimID)
+UnarmedAnim(DracoZombieAnimID)
+EndAnim
+
+ALIGN 4
+DemonKingAnims:
+MagicAnim(DemonKingMagicAnimID)
+MonsterAnim(DemonKingAttackAnimID)
+UnarmedAnim(DemonKingAttackAnimID)
+EndAnim
+
+
+
