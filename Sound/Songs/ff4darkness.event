@@ -1,0 +1,2028 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	ff4darkness_grp  MusicVoices
+	#define	ff4darkness_pri  0
+	#define	ff4darkness_rev  0
+	#define	ff4darkness_mvl  85
+	#define	ff4darkness_key  0
+	#define	ff4darkness_tbs  1
+	#define	ff4darkness_exg  0
+	#define	ff4darkness_cmp  1
+
+	// .rodata
+	//	ff4darkness
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+ff4darkness_1:
+	BYTE	KEYSH   ff4darkness_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   132*ff4darkness_tbs/2
+	BYTE		VOICE   73
+	BYTE		VOL     110*ff4darkness_mvl/mxv
+	BYTE	W72
+// 001   ----------------------------------------
+	BYTE	W72
+// 002   ----------------------------------------
+	BYTE	W72
+// 003   ----------------------------------------
+	BYTE	W72
+ff4darkness_1_B1:
+// 004   ----------------------------------------
+	BYTE		N24     Fn3   v092
+	BYTE	W24
+	BYTE		        Gn3 
+	BYTE	W24
+	BYTE		        Gs3 
+	BYTE	W24
+// 005   ----------------------------------------
+ff4darkness_1_005:
+	BYTE		N24     Fn4   v092
+	BYTE	W24
+	BYTE		        En4 
+	BYTE	W24
+	BYTE		        Cn4 
+	BYTE	W24
+	BYTE	PEND
+// 006   ----------------------------------------
+ff4darkness_1_006:
+	BYTE		N24     Ds4   v092
+	BYTE	W24
+	BYTE		        Cs4 
+	BYTE	W24
+	BYTE		        As3 
+	BYTE	W24
+	BYTE	PEND
+// 007   ----------------------------------------
+ff4darkness_1_007:
+	BYTE		N36     Fs3   v092
+	BYTE	W36
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE	PEND
+// 008   ----------------------------------------
+ff4darkness_1_008:
+	BYTE		MOD 0 //     0
+	BYTE		N72     Fn3   v092
+	BYTE	W60
+	BYTE		MOD 0 //     34
+	BYTE	W12
+	BYTE	PEND
+// 009   ----------------------------------------
+ff4darkness_1_009:
+	BYTE		MOD 0 //     0
+	BYTE		N72     Cn4   v092
+	BYTE	W60
+	BYTE		MOD 0 //     34
+	BYTE	W12
+	BYTE	PEND
+// 010   ----------------------------------------
+	BYTE		        0
+	BYTE		N72     Ds3 
+	BYTE	W60
+	BYTE		MOD 0 //     34
+	BYTE	W12
+// 011   ----------------------------------------
+	BYTE		        0
+	BYTE		N72     As3 
+	BYTE	W60
+	BYTE		MOD 0 //     34
+	BYTE	W12
+// 012   ----------------------------------------
+	BYTE		        0
+	BYTE		N24     Fn3 
+	BYTE	W24
+	BYTE		        Gn3 
+	BYTE	W24
+	BYTE		        Gs3 
+	BYTE	W24
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_1_005
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_1_006
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_1_007
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_1_008
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_1_009
+// 018   ----------------------------------------
+	BYTE		MOD 0 //     0
+	BYTE		N72     Fs3   v092
+	BYTE	W60
+	BYTE		MOD 0 //     34
+	BYTE	W12
+// 019   ----------------------------------------
+	BYTE		        0
+	BYTE		N72     Cs4 
+	BYTE	W60
+	BYTE		MOD 0 //     34
+	BYTE	W12
+// 020   ----------------------------------------
+ff4darkness_1_020:
+	BYTE		MOD 0 //     0
+	BYTE		N24     Gs3   v092
+	BYTE	W24
+	BYTE		        As3 
+	BYTE	W24
+	BYTE		        Cn4 
+	BYTE	W24
+	BYTE	PEND
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_1_006
+// 022   ----------------------------------------
+	BYTE		MOD 0 //     0
+	BYTE		TIE     Fs3   v092
+	BYTE	W60
+	BYTE		MOD 0 //     34
+	BYTE	W12
+// 023   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_1_020
+// 025   ----------------------------------------
+	BYTE		N24     Ds4   v092
+	BYTE	W24
+	BYTE		        Cs4 
+	BYTE	W24
+	BYTE		        Ds4 
+	BYTE	W24
+// 026   ----------------------------------------
+ff4darkness_1_026:
+	BYTE		MOD 0 //     0
+	BYTE		N72     Fs4   v092
+	BYTE	W60
+	BYTE		MOD 0 //     34
+	BYTE	W12
+	BYTE	PEND
+// 027   ----------------------------------------
+ff4darkness_1_027:
+	BYTE		MOD 0 //     0
+	BYTE		N72     Dn4   v092
+	BYTE	W60
+	BYTE		MOD 0 //     34
+	BYTE	W12
+	BYTE	PEND
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_1_026
+// 029   ----------------------------------------
+ff4darkness_1_029:
+	BYTE		MOD 0 //     0
+	BYTE		N24     Gs4   v092
+	BYTE	W24
+	BYTE		        Fs4 
+	BYTE	W24
+	BYTE		        Gs4 
+	BYTE	W24
+	BYTE	PEND
+// 030   ----------------------------------------
+	BYTE		MOD 0 //     0
+	BYTE		TIE     An4 
+	BYTE	W60
+	BYTE		MOD 0 //     34
+	BYTE	W12
+// 031   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_1_026
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_1_027
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_1_026
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_1_029
+// 036   ----------------------------------------
+	BYTE		MOD 0 //     0
+	BYTE		TIE     As4   v092
+	BYTE	W60
+	BYTE		MOD 0 //     34
+	BYTE	W12
+// 037   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+// 038   ----------------------------------------
+	BYTE		MOD 0 //     0
+	BYTE	W72
+// 039   ----------------------------------------
+	BYTE	W72
+	BYTE	GoTo
+	 POIN2	ff4darkness_1_B1
+ff4darkness_1_B2:
+// 040   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+ff4darkness_2:
+	BYTE	KEYSH   ff4darkness_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   13
+	BYTE		VOL     78*ff4darkness_mvl/mxv
+	BYTE	W72
+// 001   ----------------------------------------
+	BYTE	W72
+// 002   ----------------------------------------
+	BYTE	W72
+// 003   ----------------------------------------
+	BYTE	W72
+ff4darkness_2_B1:
+// 004   ----------------------------------------
+ff4darkness_2_004:
+	BYTE		N07     Gs2   v076
+	BYTE	W08
+	BYTE		        Cn3 
+	BYTE	W08
+	BYTE		        Fn3 
+	BYTE	W08
+	BYTE		        Gs3 
+	BYTE	W08
+	BYTE		        Cn4 
+	BYTE	W08
+	BYTE		        Fn4 
+	BYTE	W08
+	BYTE		        Gs4 
+	BYTE	W08
+	BYTE		        Cn5 
+	BYTE	W08
+	BYTE		        Fn5 
+	BYTE	W08
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_2_004
+// 006   ----------------------------------------
+ff4darkness_2_006:
+	BYTE		N07     As2   v076
+	BYTE	W08
+	BYTE		        Cs3 
+	BYTE	W08
+	BYTE		        Fs3 
+	BYTE	W08
+	BYTE		        As3 
+	BYTE	W08
+	BYTE		        Cs4 
+	BYTE	W08
+	BYTE		        Fs4 
+	BYTE	W08
+	BYTE		        As4 
+	BYTE	W08
+	BYTE		        Cs5 
+	BYTE	W08
+	BYTE		        Fs5 
+	BYTE	W08
+	BYTE	PEND
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_2_006
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_2_004
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_2_004
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_2_006
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_2_006
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_2_004
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_2_004
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_2_006
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_2_006
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_2_004
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_2_004
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_2_006
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_2_006
+// 020   ----------------------------------------
+ff4darkness_2_020:
+	BYTE		N07     Gs2   v076
+	BYTE	W08
+	BYTE		        Cn3 
+	BYTE	W08
+	BYTE		        Ds3 
+	BYTE	W08
+	BYTE		        Gs3 
+	BYTE	W08
+	BYTE		        Cn4 
+	BYTE	W08
+	BYTE		        Ds4 
+	BYTE	W08
+	BYTE		        Gs4 
+	BYTE	W08
+	BYTE		        Cn5 
+	BYTE	W08
+	BYTE		        Ds5 
+	BYTE	W08
+	BYTE	PEND
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_2_020
+// 022   ----------------------------------------
+ff4darkness_2_022:
+	BYTE		N07     Fs2   v076
+	BYTE	W08
+	BYTE		        As2 
+	BYTE	W08
+	BYTE		        Ds3 
+	BYTE	W08
+	BYTE		        Fs3 
+	BYTE	W08
+	BYTE		        As3 
+	BYTE	W08
+	BYTE		        Ds4 
+	BYTE	W08
+	BYTE		        Fs4 
+	BYTE	W08
+	BYTE		        As4 
+	BYTE	W08
+	BYTE		        Ds5 
+	BYTE	W08
+	BYTE	PEND
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_2_022
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_2_020
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_2_020
+// 026   ----------------------------------------
+ff4darkness_2_026:
+	BYTE		N07     Fs2   v076
+	BYTE	W08
+	BYTE		        Bn2 
+	BYTE	W08
+	BYTE		        Dn3 
+	BYTE	W08
+	BYTE		        Fs3 
+	BYTE	W08
+	BYTE		        Bn3 
+	BYTE	W08
+	BYTE		        Dn4 
+	BYTE	W08
+	BYTE		        Fs4 
+	BYTE	W08
+	BYTE		        Bn4 
+	BYTE	W08
+	BYTE		        Dn5 
+	BYTE	W08
+	BYTE	PEND
+// 027   ----------------------------------------
+ff4darkness_2_027:
+	BYTE		N07     Gn2   v076
+	BYTE	W08
+	BYTE		        Bn2 
+	BYTE	W08
+	BYTE		        Dn3 
+	BYTE	W08
+	BYTE		        Gn3 
+	BYTE	W08
+	BYTE		        Bn3 
+	BYTE	W08
+	BYTE		        Dn4 
+	BYTE	W08
+	BYTE		        Gn4 
+	BYTE	W08
+	BYTE		        Bn4 
+	BYTE	W08
+	BYTE		        Dn5 
+	BYTE	W08
+	BYTE	PEND
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_2_026
+// 029   ----------------------------------------
+	BYTE		N07     Gs2   v076
+	BYTE	W08
+	BYTE		        Cs3 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE	W08
+	BYTE		        Gs3 
+	BYTE	W08
+	BYTE		        Cs4 
+	BYTE	W08
+	BYTE		        En4 
+	BYTE	W08
+	BYTE		        Gs4 
+	BYTE	W08
+	BYTE		        Cs5 
+	BYTE	W08
+	BYTE		        En5 
+	BYTE	W08
+// 030   ----------------------------------------
+ff4darkness_2_030:
+	BYTE		N07     An2   v076
+	BYTE	W08
+	BYTE		        Cs3 
+	BYTE	W08
+	BYTE		        Fs3 
+	BYTE	W08
+	BYTE		        An3 
+	BYTE	W08
+	BYTE		        Cs4 
+	BYTE	W08
+	BYTE		        Fs4 
+	BYTE	W08
+	BYTE		        An4 
+	BYTE	W08
+	BYTE		        Cs5 
+	BYTE	W08
+	BYTE		        Fs5 
+	BYTE	W08
+	BYTE	PEND
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_2_030
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_2_026
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_2_027
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_2_026
+// 035   ----------------------------------------
+	BYTE		N07     Gs2   v076
+	BYTE	W08
+	BYTE		        Bn2 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE	W08
+	BYTE		        Gs3 
+	BYTE	W08
+	BYTE		        Bn3 
+	BYTE	W08
+	BYTE		        En4 
+	BYTE	W08
+	BYTE		        Gs4 
+	BYTE	W08
+	BYTE		        Bn4 
+	BYTE	W08
+	BYTE		        En5 
+	BYTE	W08
+// 036   ----------------------------------------
+	BYTE		N11     As4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+// 037   ----------------------------------------
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+// 038   ----------------------------------------
+	BYTE		        As4 
+	BYTE	W02
+	BYTE	W02
+	BYTE	W02
+	BYTE	W03
+	BYTE	W02
+	BYTE	W01
+	BYTE		        Gn4 
+	BYTE	W01
+	BYTE	W03
+	BYTE	W02
+	BYTE	W02
+	BYTE	W02
+	BYTE	W02
+	BYTE		        Fs4 
+	BYTE	W01
+	BYTE	W02
+	BYTE	W02
+	BYTE	W03
+	BYTE	W02
+	BYTE	W02
+	BYTE		        En4 
+	BYTE	W02
+	BYTE	W03
+	BYTE	W02
+	BYTE	W02
+	BYTE	W03
+	BYTE		        Cs4 
+	BYTE	W02
+	BYTE	W02
+	BYTE	W02
+	BYTE	W03
+	BYTE	W02
+	BYTE	W01
+	BYTE		        Cn4 
+	BYTE	W01
+	BYTE	W03
+	BYTE	W02
+	BYTE	W02
+	BYTE	W02
+	BYTE	W02
+// 039   ----------------------------------------
+	BYTE		        As3 
+	BYTE	W01
+	BYTE	W02
+	BYTE	W02
+	BYTE	W03
+	BYTE	W02
+	BYTE	W02
+	BYTE		        Gn3 
+	BYTE	W02
+	BYTE	W03
+	BYTE	W02
+	BYTE	W02
+	BYTE	W03
+	BYTE		        Fs3 
+	BYTE	W02
+	BYTE	W02
+	BYTE	W02
+	BYTE	W03
+	BYTE	W02
+	BYTE	W01
+	BYTE		        En3 
+	BYTE	W01
+	BYTE	W03
+	BYTE	W02
+	BYTE	W02
+	BYTE	W02
+	BYTE	W02
+	BYTE		        Cs3 
+	BYTE	W01
+	BYTE	W02
+	BYTE	W02
+	BYTE	W03
+	BYTE	W02
+	BYTE	W02
+	BYTE		        Cn3 
+	BYTE	W02
+	BYTE	W03
+	BYTE	W02
+	BYTE	W02
+	BYTE	W03
+	BYTE	GoTo
+	 POIN2	ff4darkness_2_B1
+ff4darkness_2_B2:
+// 040   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+ff4darkness_3:
+	BYTE	KEYSH   ff4darkness_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   48
+	BYTE		VOL     92*ff4darkness_mvl/mxv
+	BYTE		N12     As4   v076
+	BYTE	W04
+	BYTE	W05
+	BYTE	W03
+	BYTE		        Gn4 
+	BYTE	W01
+	BYTE	W05
+	BYTE	W04
+	BYTE	W02
+	BYTE		        As4 
+	BYTE	W03
+	BYTE	W05
+	BYTE	W04
+	BYTE		        Gn4 
+	BYTE	W05
+	BYTE	W04
+	BYTE	W03
+	BYTE		        As4 
+	BYTE	W02
+	BYTE	W04
+	BYTE	W05
+	BYTE	W01
+	BYTE		        Gn4 
+	BYTE	W04
+	BYTE	W04
+	BYTE	W04
+// 001   ----------------------------------------
+	BYTE		        As4 
+	BYTE	W01
+	BYTE	W04
+	BYTE	W05
+	BYTE	W02
+	BYTE		        Gn4 
+	BYTE	W02
+	BYTE	W05
+	BYTE	W05
+	BYTE		        As4 
+	BYTE	W04
+	BYTE	W05
+	BYTE	W03
+	BYTE		        Gn4 
+	BYTE	W01
+	BYTE	W05
+	BYTE	W04
+	BYTE	W02
+	BYTE		        As4 
+	BYTE	W03
+	BYTE	W05
+	BYTE	W04
+	BYTE		        Gn4 
+	BYTE	W05
+	BYTE	W04
+	BYTE	W03
+// 002   ----------------------------------------
+	BYTE		        As4 
+	BYTE	W02
+	BYTE	W04
+	BYTE	W05
+	BYTE	W01
+	BYTE		        Gn4 
+	BYTE	W04
+	BYTE	W04
+	BYTE	W04
+	BYTE		        As4 
+	BYTE	W01
+	BYTE	W04
+	BYTE	W05
+	BYTE	W02
+	BYTE		        Gn4 
+	BYTE	W02
+	BYTE	W05
+	BYTE	W05
+	BYTE		        As4 
+	BYTE	W04
+	BYTE	W05
+	BYTE	W03
+	BYTE		        Gn4 
+	BYTE	W01
+	BYTE	W05
+	BYTE	W04
+	BYTE	W02
+// 003   ----------------------------------------
+	BYTE		        As4 
+	BYTE	W03
+	BYTE	W05
+	BYTE	W04
+	BYTE		        Gn4 
+	BYTE	W05
+	BYTE	W04
+	BYTE	W03
+	BYTE		        As4 
+	BYTE	W02
+	BYTE	W04
+	BYTE	W05
+	BYTE	W01
+	BYTE		        Gn4 
+	BYTE	W04
+	BYTE	W04
+	BYTE	W04
+	BYTE		        As4 
+	BYTE	W01
+	BYTE	W04
+	BYTE	W05
+	BYTE	W02
+	BYTE		        Gn4 
+	BYTE	W02
+	BYTE	W05
+	BYTE	W05
+ff4darkness_3_B1:
+// 004   ----------------------------------------
+	BYTE		N24     Fn4   v076
+	BYTE	W24
+	BYTE		        Gn4 
+	BYTE	W24
+	BYTE		        Gs4 
+	BYTE	W24
+// 005   ----------------------------------------
+ff4darkness_3_005:
+	BYTE		N24     Fn5   v076
+	BYTE	W24
+	BYTE		        En5 
+	BYTE	W24
+	BYTE		        Cn5 
+	BYTE	W24
+	BYTE	PEND
+// 006   ----------------------------------------
+ff4darkness_3_006:
+	BYTE		N24     Ds5   v076
+	BYTE	W24
+	BYTE		        Cs5 
+	BYTE	W24
+	BYTE		        As4 
+	BYTE	W24
+	BYTE	PEND
+// 007   ----------------------------------------
+	BYTE		N72     Fs4 
+	BYTE	W72
+// 008   ----------------------------------------
+	BYTE		        Fn4 
+	BYTE	W72
+// 009   ----------------------------------------
+	BYTE		        Cn5 
+	BYTE	W72
+// 010   ----------------------------------------
+	BYTE		        Ds4 
+	BYTE	W72
+// 011   ----------------------------------------
+	BYTE		        As4 
+	BYTE	W72
+// 012   ----------------------------------------
+	BYTE		N24     Fn4 
+	BYTE	W24
+	BYTE		        Gn4 
+	BYTE	W24
+	BYTE		        Gs4 
+	BYTE	W24
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_3_005
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_3_006
+// 015   ----------------------------------------
+	BYTE		N72     Fs4   v076
+	BYTE	W72
+// 016   ----------------------------------------
+	BYTE		        Fn4 
+	BYTE	W72
+// 017   ----------------------------------------
+	BYTE		        Cn5 
+	BYTE	W72
+// 018   ----------------------------------------
+	BYTE		        Fs4 
+	BYTE	W72
+// 019   ----------------------------------------
+	BYTE		        Cs5 
+	BYTE	W72
+// 020   ----------------------------------------
+ff4darkness_3_020:
+	BYTE		N24     Gs3   v076
+	BYTE	W24
+	BYTE		        As3 
+	BYTE	W24
+	BYTE		        Cn4 
+	BYTE	W24
+	BYTE	PEND
+// 021   ----------------------------------------
+	BYTE		        Ds4 
+	BYTE	W24
+	BYTE		        Cs4 
+	BYTE	W24
+	BYTE		        As3 
+	BYTE	W24
+// 022   ----------------------------------------
+	BYTE		TIE     Fs3 
+	BYTE	W72
+// 023   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_3_020
+// 025   ----------------------------------------
+	BYTE		N24     Ds4   v076
+	BYTE	W24
+	BYTE		        Cs4 
+	BYTE	W24
+	BYTE		        Ds4 
+	BYTE	W24
+// 026   ----------------------------------------
+	BYTE		N72     Fs4 
+	BYTE	W72
+// 027   ----------------------------------------
+	BYTE		        Dn4 
+	BYTE	W72
+// 028   ----------------------------------------
+	BYTE		        Fs4 
+	BYTE	W72
+// 029   ----------------------------------------
+ff4darkness_3_029:
+	BYTE		N24     Gs4   v076
+	BYTE	W24
+	BYTE		        Fs4 
+	BYTE	W24
+	BYTE		        Gs4 
+	BYTE	W24
+	BYTE	PEND
+// 030   ----------------------------------------
+	BYTE		TIE     An4 
+	BYTE	W72
+// 031   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+// 032   ----------------------------------------
+	BYTE		N72     Fs4 
+	BYTE	W72
+// 033   ----------------------------------------
+	BYTE		        Dn4 
+	BYTE	W72
+// 034   ----------------------------------------
+	BYTE		        Fs4 
+	BYTE	W72
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_3_029
+// 036   ----------------------------------------
+	BYTE		N12     As4   v076
+	BYTE	W04
+	BYTE	W05
+	BYTE	W03
+	BYTE		        Gn4 
+	BYTE	W01
+	BYTE	W05
+	BYTE	W04
+	BYTE	W02
+	BYTE		        As4 
+	BYTE	W03
+	BYTE	W05
+	BYTE	W04
+	BYTE		        Gn4 
+	BYTE	W05
+	BYTE	W04
+	BYTE	W03
+	BYTE		        As4 
+	BYTE	W02
+	BYTE	W04
+	BYTE	W05
+	BYTE	W01
+	BYTE		        Gn4 
+	BYTE	W04
+	BYTE	W04
+	BYTE	W04
+// 037   ----------------------------------------
+	BYTE		        As4 
+	BYTE	W01
+	BYTE	W04
+	BYTE	W05
+	BYTE	W02
+	BYTE		        Gn4 
+	BYTE	W02
+	BYTE	W05
+	BYTE	W05
+	BYTE		        As4 
+	BYTE	W04
+	BYTE	W05
+	BYTE	W03
+	BYTE		        Gn4 
+	BYTE	W01
+	BYTE	W05
+	BYTE	W04
+	BYTE	W02
+	BYTE		        As4 
+	BYTE	W03
+	BYTE	W05
+	BYTE	W04
+	BYTE		        Gn4 
+	BYTE	W05
+	BYTE	W04
+	BYTE	W03
+// 038   ----------------------------------------
+	BYTE		        As4 
+	BYTE	W02
+	BYTE	W04
+	BYTE	W05
+	BYTE	W01
+	BYTE		        Gn4 
+	BYTE	W04
+	BYTE	W04
+	BYTE	W04
+	BYTE		        As4 
+	BYTE	W01
+	BYTE	W04
+	BYTE	W05
+	BYTE	W02
+	BYTE		        Gn4 
+	BYTE	W02
+	BYTE	W05
+	BYTE	W05
+	BYTE		        As4 
+	BYTE	W04
+	BYTE	W05
+	BYTE	W03
+	BYTE		        Gn4 
+	BYTE	W01
+	BYTE	W05
+	BYTE	W04
+	BYTE	W02
+// 039   ----------------------------------------
+	BYTE		        As4 
+	BYTE	W03
+	BYTE	W05
+	BYTE	W04
+	BYTE		        Gn4 
+	BYTE	W05
+	BYTE	W04
+	BYTE	W03
+	BYTE		        As4 
+	BYTE	W02
+	BYTE	W04
+	BYTE	W05
+	BYTE	W01
+	BYTE		        Gn4 
+	BYTE	W04
+	BYTE	W04
+	BYTE	W04
+	BYTE		        As4 
+	BYTE	W01
+	BYTE	W04
+	BYTE	W05
+	BYTE	W02
+	BYTE		        Gn4 
+	BYTE	W02
+	BYTE	W05
+	BYTE	W05
+	BYTE	GoTo
+	 POIN2	ff4darkness_3_B1
+ff4darkness_3_B2:
+// 040   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+ff4darkness_4:
+	BYTE	KEYSH   ff4darkness_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   48
+	BYTE		VOL     94*ff4darkness_mvl/mxv
+	BYTE		PAN     c_v+20
+	BYTE		N12     Cs4   v076
+	BYTE	W04
+	BYTE	W05
+	BYTE	W03
+	BYTE		        Cn4 
+	BYTE	W01
+	BYTE	W05
+	BYTE	W04
+	BYTE	W02
+	BYTE		        Cs4 
+	BYTE	W03
+	BYTE	W05
+	BYTE	W04
+	BYTE		        Cn4 
+	BYTE	W05
+	BYTE	W04
+	BYTE	W03
+	BYTE		        Cs4 
+	BYTE	W02
+	BYTE	W04
+	BYTE	W05
+	BYTE	W01
+	BYTE		        Cn4 
+	BYTE	W04
+	BYTE	W04
+	BYTE	W04
+// 001   ----------------------------------------
+	BYTE		        Cs4 
+	BYTE	W01
+	BYTE	W04
+	BYTE	W05
+	BYTE	W02
+	BYTE		        Cn4 
+	BYTE	W02
+	BYTE	W05
+	BYTE	W05
+	BYTE		        Cs4 
+	BYTE	W04
+	BYTE	W05
+	BYTE	W03
+	BYTE		        Cn4 
+	BYTE	W01
+	BYTE	W05
+	BYTE	W04
+	BYTE	W02
+	BYTE		        Cs4 
+	BYTE	W03
+	BYTE	W05
+	BYTE	W04
+	BYTE		        Cn4 
+	BYTE	W05
+	BYTE	W04
+	BYTE	W03
+// 002   ----------------------------------------
+	BYTE		        Cs4 
+	BYTE	W02
+	BYTE	W04
+	BYTE	W05
+	BYTE	W01
+	BYTE		        Cn4 
+	BYTE	W04
+	BYTE	W04
+	BYTE	W04
+	BYTE		        Cs4 
+	BYTE	W01
+	BYTE	W04
+	BYTE	W05
+	BYTE	W02
+	BYTE		        Cn4 
+	BYTE	W02
+	BYTE	W05
+	BYTE	W05
+	BYTE		        Cs4 
+	BYTE	W04
+	BYTE	W05
+	BYTE	W03
+	BYTE		        Cn4 
+	BYTE	W01
+	BYTE	W05
+	BYTE	W04
+	BYTE	W02
+// 003   ----------------------------------------
+	BYTE		        Cs4 
+	BYTE	W03
+	BYTE	W05
+	BYTE	W04
+	BYTE		        Cn4 
+	BYTE	W05
+	BYTE	W04
+	BYTE	W03
+	BYTE		        Cs4 
+	BYTE	W02
+	BYTE	W04
+	BYTE	W05
+	BYTE	W01
+	BYTE		        Cn4 
+	BYTE	W04
+	BYTE	W04
+	BYTE	W04
+	BYTE		        Cs4 
+	BYTE	W01
+	BYTE	W04
+	BYTE	W05
+	BYTE	W02
+	BYTE		        Cn4 
+	BYTE	W02
+	BYTE	W05
+	BYTE	W05
+ff4darkness_4_B1:
+// 004   ----------------------------------------
+	BYTE		TIE     Gs3   v076
+	BYTE	W72
+// 005   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+// 006   ----------------------------------------
+	BYTE		TIE     As3 
+	BYTE	W72
+// 007   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+// 008   ----------------------------------------
+	BYTE		TIE     Gs3 
+	BYTE	W72
+// 009   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+// 010   ----------------------------------------
+	BYTE		TIE     As3 
+	BYTE	W72
+// 011   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+// 012   ----------------------------------------
+	BYTE		TIE     Gs3 
+	BYTE	W72
+// 013   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+// 014   ----------------------------------------
+	BYTE		TIE     As3 
+	BYTE	W72
+// 015   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+// 016   ----------------------------------------
+	BYTE		TIE     Gs3 
+	BYTE	W72
+// 017   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+// 018   ----------------------------------------
+	BYTE		TIE     As3 
+	BYTE	W72
+// 019   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+// 020   ----------------------------------------
+	BYTE		N72     Ds3 
+	BYTE	W72
+// 021   ----------------------------------------
+	BYTE		        Cn3 
+	BYTE	W72
+// 022   ----------------------------------------
+	BYTE		N48     Cs3 
+	BYTE	W48
+	BYTE		N24     Cn3 
+	BYTE	W24
+// 023   ----------------------------------------
+	BYTE		N72     As2 
+	BYTE	W72
+// 024   ----------------------------------------
+	BYTE		        Cn3 
+	BYTE	W72
+// 025   ----------------------------------------
+	BYTE		N48     Ds3 
+	BYTE	W48
+	BYTE		N24     Fn3 
+	BYTE	W24
+// 026   ----------------------------------------
+	BYTE		N72     Fs3 
+	BYTE	W72
+// 027   ----------------------------------------
+ff4darkness_4_027:
+	BYTE		N48     Bn3   v076
+	BYTE	W48
+	BYTE		N24     Gn3 
+	BYTE	W24
+	BYTE	PEND
+// 028   ----------------------------------------
+	BYTE		N72     Fs3 
+	BYTE	W72
+// 029   ----------------------------------------
+	BYTE		        En3 
+	BYTE	W72
+// 030   ----------------------------------------
+	BYTE		TIE     Fs3 
+	BYTE	W72
+// 031   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+// 032   ----------------------------------------
+	BYTE		N72   
+	BYTE	W72
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_4_027
+// 034   ----------------------------------------
+	BYTE		N72     Fs3   v076
+	BYTE	W72
+// 035   ----------------------------------------
+	BYTE		        Gs3 
+	BYTE	W72
+// 036   ----------------------------------------
+	BYTE		N12     Cs4 
+	BYTE	W04
+	BYTE	W05
+	BYTE	W03
+	BYTE		        Cn4 
+	BYTE	W01
+	BYTE	W05
+	BYTE	W04
+	BYTE	W02
+	BYTE		        Cs4 
+	BYTE	W03
+	BYTE	W05
+	BYTE	W04
+	BYTE		        Cn4 
+	BYTE	W05
+	BYTE	W04
+	BYTE	W03
+	BYTE		        Cs4 
+	BYTE	W02
+	BYTE	W04
+	BYTE	W05
+	BYTE	W01
+	BYTE		        Cn4 
+	BYTE	W04
+	BYTE	W04
+	BYTE	W04
+// 037   ----------------------------------------
+	BYTE		        Cs4 
+	BYTE	W01
+	BYTE	W04
+	BYTE	W05
+	BYTE	W02
+	BYTE		        Cn4 
+	BYTE	W02
+	BYTE	W05
+	BYTE	W05
+	BYTE		        Cs4 
+	BYTE	W04
+	BYTE	W05
+	BYTE	W03
+	BYTE		        Cn4 
+	BYTE	W01
+	BYTE	W05
+	BYTE	W04
+	BYTE	W02
+	BYTE		        Cs4 
+	BYTE	W03
+	BYTE	W05
+	BYTE	W04
+	BYTE		        Cn4 
+	BYTE	W05
+	BYTE	W04
+	BYTE	W03
+// 038   ----------------------------------------
+	BYTE		        Cs4 
+	BYTE	W02
+	BYTE	W04
+	BYTE	W05
+	BYTE	W01
+	BYTE		        Cn4 
+	BYTE	W04
+	BYTE	W04
+	BYTE	W04
+	BYTE		        Cs4 
+	BYTE	W01
+	BYTE	W04
+	BYTE	W05
+	BYTE	W02
+	BYTE		        Cn4 
+	BYTE	W02
+	BYTE	W05
+	BYTE	W05
+	BYTE		        Cs4 
+	BYTE	W04
+	BYTE	W05
+	BYTE	W03
+	BYTE		        Cn4 
+	BYTE	W01
+	BYTE	W05
+	BYTE	W04
+	BYTE	W02
+// 039   ----------------------------------------
+	BYTE		        Cs4 
+	BYTE	W03
+	BYTE	W05
+	BYTE	W04
+	BYTE		        Cn4 
+	BYTE	W05
+	BYTE	W04
+	BYTE	W03
+	BYTE		        Cs4 
+	BYTE	W02
+	BYTE	W04
+	BYTE	W05
+	BYTE	W01
+	BYTE		        Cn4 
+	BYTE	W04
+	BYTE	W04
+	BYTE	W04
+	BYTE		        Cs4 
+	BYTE	W01
+	BYTE	W04
+	BYTE	W05
+	BYTE	W02
+	BYTE		        Cn4 
+	BYTE	W02
+	BYTE	W05
+	BYTE	W05
+	BYTE	GoTo
+	 POIN2	ff4darkness_4_B1
+ff4darkness_4_B2:
+// 040   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.5) ****************//
+
+ff4darkness_5:
+	BYTE	KEYSH   ff4darkness_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   48
+	BYTE		VOL     93*ff4darkness_mvl/mxv
+	BYTE		PAN     c_v-20
+	BYTE		N12     Fs3   v076
+	BYTE	W04
+	BYTE	W05
+	BYTE	W03
+	BYTE		        En3 
+	BYTE	W01
+	BYTE	W05
+	BYTE	W04
+	BYTE	W02
+	BYTE		        Fs3 
+	BYTE	W03
+	BYTE	W05
+	BYTE	W04
+	BYTE		        En3 
+	BYTE	W05
+	BYTE	W04
+	BYTE	W03
+	BYTE		        Fs3 
+	BYTE	W02
+	BYTE	W04
+	BYTE	W05
+	BYTE	W01
+	BYTE		        En3 
+	BYTE	W04
+	BYTE	W04
+	BYTE	W04
+// 001   ----------------------------------------
+	BYTE		        Fs3 
+	BYTE	W01
+	BYTE	W04
+	BYTE	W05
+	BYTE	W02
+	BYTE		        En3 
+	BYTE	W02
+	BYTE	W05
+	BYTE	W05
+	BYTE		        Fs3 
+	BYTE	W04
+	BYTE	W05
+	BYTE	W03
+	BYTE		        En3 
+	BYTE	W01
+	BYTE	W05
+	BYTE	W04
+	BYTE	W02
+	BYTE		        Fs3 
+	BYTE	W03
+	BYTE	W05
+	BYTE	W04
+	BYTE		        En3 
+	BYTE	W05
+	BYTE	W04
+	BYTE	W03
+// 002   ----------------------------------------
+	BYTE		        Fs3 
+	BYTE	W02
+	BYTE	W04
+	BYTE	W05
+	BYTE	W01
+	BYTE		        En3 
+	BYTE	W04
+	BYTE	W04
+	BYTE	W04
+	BYTE		        Fs3 
+	BYTE	W01
+	BYTE	W04
+	BYTE	W05
+	BYTE	W02
+	BYTE		        En3 
+	BYTE	W02
+	BYTE	W05
+	BYTE	W05
+	BYTE		        Fs3 
+	BYTE	W04
+	BYTE	W05
+	BYTE	W03
+	BYTE		        En3 
+	BYTE	W01
+	BYTE	W05
+	BYTE	W04
+	BYTE	W02
+// 003   ----------------------------------------
+	BYTE		        Fs3 
+	BYTE	W03
+	BYTE	W05
+	BYTE	W04
+	BYTE		        En3 
+	BYTE	W05
+	BYTE	W04
+	BYTE	W03
+	BYTE		        Fs3 
+	BYTE	W02
+	BYTE	W04
+	BYTE	W05
+	BYTE	W01
+	BYTE		        En3 
+	BYTE	W04
+	BYTE	W04
+	BYTE	W04
+	BYTE		        Fs3 
+	BYTE	W01
+	BYTE	W04
+	BYTE	W05
+	BYTE	W02
+	BYTE		        En3 
+	BYTE	W02
+	BYTE	W05
+	BYTE	W05
+ff4darkness_5_B1:
+// 004   ----------------------------------------
+	BYTE		TIE     Cn3   v076
+	BYTE	W72
+// 005   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+// 006   ----------------------------------------
+	BYTE		TIE     Cs3 
+	BYTE	W72
+// 007   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+// 008   ----------------------------------------
+	BYTE		TIE     Cn3 
+	BYTE	W72
+// 009   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+// 010   ----------------------------------------
+	BYTE		TIE     Cs3 
+	BYTE	W72
+// 011   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+// 012   ----------------------------------------
+	BYTE		TIE     Cn3 
+	BYTE	W72
+// 013   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+// 014   ----------------------------------------
+	BYTE		TIE     Cs3 
+	BYTE	W72
+// 015   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+// 016   ----------------------------------------
+	BYTE		TIE     Cn3 
+	BYTE	W72
+// 017   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+// 018   ----------------------------------------
+	BYTE		TIE     Cs3 
+	BYTE	W72
+// 019   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+// 020   ----------------------------------------
+	BYTE		TIE     Gs2 
+	BYTE	W72
+// 021   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+// 022   ----------------------------------------
+	BYTE		TIE     Fs2 
+	BYTE	W72
+// 023   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+// 024   ----------------------------------------
+	BYTE		TIE     Gs2 
+	BYTE	W72
+// 025   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+// 026   ----------------------------------------
+	BYTE		N72     Bn2 
+	BYTE	W72
+// 027   ----------------------------------------
+	BYTE		        Dn3 
+	BYTE	W72
+// 028   ----------------------------------------
+	BYTE		        Bn2 
+	BYTE	W72
+// 029   ----------------------------------------
+	BYTE		        Gs2 
+	BYTE	W72
+// 030   ----------------------------------------
+	BYTE		TIE     An2 
+	BYTE	W72
+// 031   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+// 032   ----------------------------------------
+	BYTE		N72     Bn2 
+	BYTE	W72
+// 033   ----------------------------------------
+	BYTE		        Dn3 
+	BYTE	W72
+// 034   ----------------------------------------
+	BYTE		        Bn2 
+	BYTE	W72
+// 035   ----------------------------------------
+	BYTE		        Dn3 
+	BYTE	W72
+// 036   ----------------------------------------
+	BYTE		N12     Fs3 
+	BYTE	W04
+	BYTE	W05
+	BYTE	W03
+	BYTE		        En3 
+	BYTE	W01
+	BYTE	W05
+	BYTE	W04
+	BYTE	W02
+	BYTE		        Fs3 
+	BYTE	W03
+	BYTE	W05
+	BYTE	W04
+	BYTE		        En3 
+	BYTE	W05
+	BYTE	W04
+	BYTE	W03
+	BYTE		        Fs3 
+	BYTE	W02
+	BYTE	W04
+	BYTE	W05
+	BYTE	W01
+	BYTE		        En3 
+	BYTE	W04
+	BYTE	W04
+	BYTE	W04
+// 037   ----------------------------------------
+	BYTE		        Fs3 
+	BYTE	W01
+	BYTE	W04
+	BYTE	W05
+	BYTE	W02
+	BYTE		        En3 
+	BYTE	W02
+	BYTE	W05
+	BYTE	W05
+	BYTE		        Fs3 
+	BYTE	W04
+	BYTE	W05
+	BYTE	W03
+	BYTE		        En3 
+	BYTE	W01
+	BYTE	W05
+	BYTE	W04
+	BYTE	W02
+	BYTE		        Fs3 
+	BYTE	W03
+	BYTE	W05
+	BYTE	W04
+	BYTE		        En3 
+	BYTE	W05
+	BYTE	W04
+	BYTE	W03
+// 038   ----------------------------------------
+	BYTE		        Fs3 
+	BYTE	W02
+	BYTE	W04
+	BYTE	W05
+	BYTE	W01
+	BYTE		        En3 
+	BYTE	W04
+	BYTE	W04
+	BYTE	W04
+	BYTE		        Fs3 
+	BYTE	W01
+	BYTE	W04
+	BYTE	W05
+	BYTE	W02
+	BYTE		        En3 
+	BYTE	W02
+	BYTE	W05
+	BYTE	W05
+	BYTE		        Fs3 
+	BYTE	W04
+	BYTE	W05
+	BYTE	W03
+	BYTE		        En3 
+	BYTE	W01
+	BYTE	W05
+	BYTE	W04
+	BYTE	W02
+// 039   ----------------------------------------
+	BYTE		        Fs3 
+	BYTE	W03
+	BYTE	W05
+	BYTE	W04
+	BYTE		        En3 
+	BYTE	W05
+	BYTE	W04
+	BYTE	W03
+	BYTE		        Fs3 
+	BYTE	W02
+	BYTE	W04
+	BYTE	W05
+	BYTE	W01
+	BYTE		        En3 
+	BYTE	W04
+	BYTE	W04
+	BYTE	W04
+	BYTE		        Fs3 
+	BYTE	W01
+	BYTE	W04
+	BYTE	W05
+	BYTE	W02
+	BYTE		        En3 
+	BYTE	W02
+	BYTE	W05
+	BYTE	W05
+	BYTE	GoTo
+	 POIN2	ff4darkness_5_B1
+ff4darkness_5_B2:
+// 040   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 6 (Midi-Chn.6) ****************//
+
+ff4darkness_6:
+	BYTE	KEYSH   ff4darkness_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   35
+	BYTE		VOL     111*ff4darkness_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W72
+// 001   ----------------------------------------
+	BYTE	W72
+// 002   ----------------------------------------
+	BYTE	W72
+// 003   ----------------------------------------
+	BYTE	W72
+ff4darkness_6_B1:
+// 004   ----------------------------------------
+ff4darkness_6_004:
+	BYTE		N42     Fn1   v092
+	BYTE	W48
+	BYTE		N20     Cn2 
+	BYTE	W24
+	BYTE	PEND
+// 005   ----------------------------------------
+ff4darkness_6_005:
+	BYTE		N11     Fn1   v092
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W60
+	BYTE	PEND
+// 006   ----------------------------------------
+ff4darkness_6_006:
+	BYTE		N42     Fs1   v092
+	BYTE	W48
+	BYTE		N20     Cs2 
+	BYTE	W24
+	BYTE	PEND
+// 007   ----------------------------------------
+	BYTE		N66     Fs2 
+	BYTE	W72
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_6_004
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_6_005
+// 010   ----------------------------------------
+ff4darkness_6_010:
+	BYTE		N42     Ds1   v092
+	BYTE	W48
+	BYTE		N20     As1 
+	BYTE	W24
+	BYTE	PEND
+// 011   ----------------------------------------
+	BYTE		N66     Ds2 
+	BYTE	W72
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_6_004
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_6_005
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_6_006
+// 015   ----------------------------------------
+	BYTE		N66     Fs2   v092
+	BYTE	W72
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_6_004
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_6_005
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_6_010
+// 019   ----------------------------------------
+	BYTE		N66     Ds2   v092
+	BYTE	W72
+// 020   ----------------------------------------
+	BYTE		        Gs1 
+	BYTE	W72
+// 021   ----------------------------------------
+	BYTE		N42     Cn2 
+	BYTE	W48
+	BYTE		N20     Ds2 
+	BYTE	W24
+// 022   ----------------------------------------
+	BYTE		N66     Ds1 
+	BYTE	W72
+// 023   ----------------------------------------
+	BYTE		        Cs2 
+	BYTE	W72
+// 024   ----------------------------------------
+	BYTE		        Gs1 
+	BYTE	W72
+// 025   ----------------------------------------
+	BYTE		N42     Ds2 
+	BYTE	W48
+	BYTE		N20     Cn2 
+	BYTE	W24
+// 026   ----------------------------------------
+	BYTE		N66     Bn1 
+	BYTE	W72
+// 027   ----------------------------------------
+ff4darkness_6_027:
+	BYTE		N42     Gn1   v092
+	BYTE	W48
+	BYTE		N20     An1 
+	BYTE	W24
+	BYTE	PEND
+// 028   ----------------------------------------
+	BYTE		N66     Bn1 
+	BYTE	W72
+// 029   ----------------------------------------
+	BYTE		N42     Cs2 
+	BYTE	W48
+	BYTE		N20     Cs1 
+	BYTE	W24
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_6_006
+// 031   ----------------------------------------
+	BYTE		N24     An2   v092
+	BYTE	W24
+	BYTE		        Gs2 
+	BYTE	W24
+	BYTE		        Gn2 
+	BYTE	W24
+// 032   ----------------------------------------
+	BYTE		N66     Bn1 
+	BYTE	W72
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_6_027
+// 034   ----------------------------------------
+	BYTE		N66     Bn1   v092
+	BYTE	W72
+// 035   ----------------------------------------
+	BYTE		        En1 
+	BYTE	W72
+// 036   ----------------------------------------
+	BYTE		TIE     Fs1 
+	BYTE	W72
+// 037   ----------------------------------------
+	BYTE	W72
+// 038   ----------------------------------------
+	BYTE	W72
+// 039   ----------------------------------------
+	BYTE	W66
+	BYTE		EOT   
+	BYTE	W06
+	BYTE	GoTo
+	 POIN2	ff4darkness_6_B1
+ff4darkness_6_B2:
+// 040   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 7 (Midi-Chn.7) ****************//
+
+ff4darkness_7:
+	BYTE	KEYSH   ff4darkness_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   123
+	BYTE		VOL     97*ff4darkness_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W72
+// 001   ----------------------------------------
+	BYTE	W72
+// 002   ----------------------------------------
+	BYTE	W72
+// 003   ----------------------------------------
+	BYTE	W72
+ff4darkness_7_B1:
+// 004   ----------------------------------------
+ff4darkness_7_004:
+	BYTE		N20     Gs1   v092
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE		N20   
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE		N20   
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	W01
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ff4darkness_7_004
+// 036   ----------------------------------------
+	BYTE	W72
+// 037   ----------------------------------------
+	BYTE	W72
+// 038   ----------------------------------------
+	BYTE	W72
+// 039   ----------------------------------------
+	BYTE	W72
+	BYTE	GoTo
+	 POIN2	ff4darkness_7_B1
+ff4darkness_7_B2:
+// 040   ----------------------------------------
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+ff4darkness:
+	BYTE	7	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	ff4darkness_pri	// Priority
+	BYTE	ff4darkness_rev	// Reverb.
+
+	POIN2	ff4darkness_grp
+
+	POIN2	ff4darkness_1
+	POIN2	ff4darkness_2
+	POIN2	ff4darkness_3
+	POIN2	ff4darkness_4
+	POIN2	ff4darkness_5
+	POIN2	ff4darkness_6
+	POIN2	ff4darkness_7
+
+	

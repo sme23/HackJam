@@ -1,0 +1,689 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	zanarkand_grp  MusicVoices
+	#define	zanarkand_pri  0
+	#define	zanarkand_rev  0
+	#define	zanarkand_mvl  75
+	#define	zanarkand_key  0
+	#define	zanarkand_tbs  1
+	#define	zanarkand_exg  0
+	#define	zanarkand_cmp  1
+
+	// .rodata
+	//	zanarkand
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+zanarkand_1:
+	BYTE	KEYSH   zanarkand_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   87*zanarkand_tbs/2
+	BYTE		VOICE   1
+	BYTE		VOL     96*zanarkand_mvl/mxv
+	BYTE		N48     En3   v127
+	BYTE		N72     Bn3 
+	BYTE		N12     Bn4 
+	BYTE		N12     En5 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        Bn4 
+	BYTE	W12
+	BYTE		N24     Dn3 
+	BYTE		N12     En5 
+	BYTE	W12
+	BYTE		        Dn5 
+	BYTE		N12     Fs5 
+	BYTE	W12
+// 001   ----------------------------------------
+	BYTE		N72     Cn3 
+	BYTE		N72     Cn5 
+	BYTE		N72     Gn5 
+	BYTE	W72
+// 002   ----------------------------------------
+	BYTE		N48     Dn3 
+	BYTE		N72     An3 
+	BYTE		N12     An4 
+	BYTE		N12     Dn5 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+	BYTE		        An4 
+	BYTE	W12
+	BYTE		N24     Cn3 
+	BYTE		N12     Dn5 
+	BYTE	W12
+	BYTE		        Cn5 
+	BYTE		N12     En5 
+	BYTE	W12
+// 003   ----------------------------------------
+	BYTE		N72     Bn2 
+	BYTE		N72     Bn4 
+	BYTE		N72     Fs5 
+	BYTE	W72
+// 004   ----------------------------------------
+	BYTE		TIE     Cn3 
+	BYTE		N24     Bn4 
+	BYTE	W12
+	BYTE		N12     Gn3 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE		N24     Bn4 
+	BYTE	W12
+	BYTE		N12     Cn4 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE		N24     Bn4 
+	BYTE	W12
+	BYTE		N12     Fs4 
+	BYTE	W12
+// 005   ----------------------------------------
+	BYTE		N72     Cn4 
+	BYTE		N72     En4 
+	BYTE		N72     Gn4 
+	BYTE		N72     Bn4 
+	BYTE	W24
+	BYTE		N36     An4 
+	BYTE	W36
+	BYTE		N12     Dn5 
+	BYTE	W12
+	BYTE		EOT     Cn3 
+// 006   ----------------------------------------
+	BYTE		TIE     Bn2 
+	BYTE		N60     Fs4 
+	BYTE	W12
+	BYTE		N12     Fs3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+// 007   ----------------------------------------
+	BYTE		N72     Bn4 
+	BYTE	W72
+	BYTE		EOT     Bn2 
+// 008   ----------------------------------------
+	BYTE		TIE     An2 
+	BYTE		N24     En5 
+	BYTE	W12
+	BYTE		N12     En3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE		N24     En5 
+	BYTE	W12
+	BYTE		N12     An3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE		N24     En5 
+	BYTE	W12
+	BYTE		N12     Dn4 
+	BYTE	W12
+// 009   ----------------------------------------
+	BYTE		N72     An3 
+	BYTE		N72     Cn4 
+	BYTE		N72     En4 
+	BYTE		N24     En5 
+	BYTE	W24
+	BYTE		N36     Dn5 
+	BYTE	W36
+	BYTE		N12     Gn5 
+	BYTE	W12
+	BYTE		EOT     An2 
+// 010   ----------------------------------------
+	BYTE		TIE     Fn2 
+	BYTE		N72     Cn5 
+	BYTE	W12
+	BYTE		N12     Cn3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+// 011   ----------------------------------------
+	BYTE		        Fn4 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        An4 
+	BYTE	W12
+	BYTE		        Cn5 
+	BYTE	W12
+	BYTE		EOT     Fn2 
+zanarkand_1_B1:
+// 012   ----------------------------------------
+zanarkand_1_012:
+	BYTE		N72     En2   v127
+	BYTE		N36     Gn3 
+	BYTE		N36     En4 
+	BYTE	W12
+	BYTE		N12     Bn2 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE		N12     Bn3 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE		N12     En4 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE		N12     Fs4 
+	BYTE	W12
+	BYTE	PEND
+// 013   ----------------------------------------
+zanarkand_1_013:
+	BYTE		N60     Cn3   v127
+	BYTE		N72     Bn3 
+	BYTE		N72     Cn4 
+	BYTE		N24     Gn4 
+	BYTE	W12
+	BYTE		N12     Gn3 
+	BYTE	W12
+	BYTE		N24     Fs4 
+	BYTE	W12
+	BYTE		N12     Fs3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N24     En4 
+	BYTE	W12
+	BYTE		N12     Cn3 
+	BYTE	W12
+	BYTE	PEND
+// 014   ----------------------------------------
+zanarkand_1_014:
+	BYTE		N72     Dn2   v127
+	BYTE		N36     Fs3 
+	BYTE		N36     Dn4 
+	BYTE	W12
+	BYTE		N12     An2 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N12     Gn3 
+	BYTE		N12     En4 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE		N24     An3 
+	BYTE		N24     Cn4 
+	BYTE		N24     Dn4 
+	BYTE	W12
+	BYTE		N12     Dn3 
+	BYTE	W12
+	BYTE	PEND
+// 015   ----------------------------------------
+	BYTE		N72     Gn1 
+	BYTE		N60     Dn3 
+	BYTE		N72     Bn3 
+	BYTE	W12
+	BYTE		N12     Dn2 
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	zanarkand_1_012
+// 017   ----------------------------------------
+	BYTE		N60     Cn3   v127
+	BYTE		N72     Bn3 
+	BYTE		N72     Cn4 
+	BYTE		N24     Gn4 
+	BYTE	W12
+	BYTE		N12     Gn3 
+	BYTE	W12
+	BYTE		N24     Fs4 
+	BYTE	W12
+	BYTE		N12     Fs3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N24     Gn4 
+	BYTE	W12
+	BYTE		N12     Cn3 
+	BYTE	W12
+// 018   ----------------------------------------
+	BYTE		N72     Dn2 
+	BYTE		N36     An3 
+	BYTE		N36     Fs4 
+	BYTE		N36     An4 
+	BYTE	W12
+	BYTE		N12     An2 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N12     Gn3 
+	BYTE		N12     En4 
+	BYTE		N12     Gn4 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE		N24     An3 
+	BYTE		N24     Fs4 
+	BYTE		N24     An4 
+	BYTE	W12
+	BYTE		N12     Cn3 
+	BYTE	W12
+// 019   ----------------------------------------
+	BYTE		N72     Gn1 
+	BYTE		N72     Bn3 
+	BYTE		N72     Gn4 
+	BYTE		N72     Bn4 
+	BYTE	W12
+	BYTE		N12     Dn2 
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	zanarkand_1_012
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	zanarkand_1_013
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	zanarkand_1_014
+// 023   ----------------------------------------
+	BYTE		N72     Gn1   v127
+	BYTE		N60     Dn3 
+	BYTE		N72     Bn3 
+	BYTE	W12
+	BYTE		N12     Dn2 
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE		N12     Gn3 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE		N12     An3 
+	BYTE	W12
+// 024   ----------------------------------------
+	BYTE		N72     Cn2 
+	BYTE		N24     Dn3 
+	BYTE		N24     En3 
+	BYTE		N24     Gn3 
+	BYTE		N24     Bn3 
+	BYTE	W12
+	BYTE		N12     Gn2 
+	BYTE	W12
+	BYTE		N24     Cn3 
+	BYTE		N24     En3 
+	BYTE		N24     Gn3 
+	BYTE		N24     Bn3 
+	BYTE	W12
+	BYTE		N12     Gn2 
+	BYTE	W12
+	BYTE		N24     Bn2 
+	BYTE		N24     En3 
+	BYTE		N24     Gn3 
+	BYTE		N24     Bn3 
+	BYTE	W12
+	BYTE		N12     Gn2 
+	BYTE	W12
+// 025   ----------------------------------------
+	BYTE		N72     Dn2 
+	BYTE		N72     Cn3 
+	BYTE		N72     Fs3 
+	BYTE		N24     Bn3 
+	BYTE	W24
+	BYTE		        An3 
+	BYTE	W24
+	BYTE		        Dn4 
+	BYTE	W24
+// 026   ----------------------------------------
+	BYTE		N48     An1 
+	BYTE		N36     Cn3 
+	BYTE		N36     En3 
+	BYTE		N36     Gn3 
+	BYTE	W12
+	BYTE		N12     En2 
+	BYTE	W12
+	BYTE		N24     An2 
+	BYTE	W12
+	BYTE		N12     Gn3 
+	BYTE	W12
+	BYTE		N24     Bn1 
+	BYTE		N24     Fs2 
+	BYTE		N12     Fs3 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+// 027   ----------------------------------------
+	BYTE		TIE     Cn2 
+	BYTE		N36     En3 
+	BYTE	W12
+	BYTE		N12     Gn2 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+// 028   ----------------------------------------
+	BYTE		N48     En4 
+	BYTE	W12
+	BYTE		N12     En3 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		EOT     Cn2 
+// 029   ----------------------------------------
+	BYTE		N72     An2 
+	BYTE		N48     An4 
+	BYTE	W12
+	BYTE		N12     En3 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE		N24     En5 
+	BYTE	W12
+	BYTE		N12     En4 
+	BYTE	W12
+// 030   ----------------------------------------
+	BYTE		N72     Fn2 
+	BYTE		N24     Gn4 
+	BYTE		N24     An4 
+	BYTE		N24     En5 
+	BYTE	W12
+	BYTE		N12     Cn3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE		N24     Dn5 
+	BYTE	W12
+	BYTE		N12     Gn3 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE		N24     Fn4 
+	BYTE		N24     Cn5 
+	BYTE	W12
+	BYTE		N12     Cn4 
+	BYTE	W12
+// 031   ----------------------------------------
+	BYTE		N72     Gn2 
+	BYTE		N48     Gn4 
+	BYTE		N48     Bn4 
+	BYTE	W12
+	BYTE		N12     Dn3 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE		N24     Gn5 
+	BYTE	W12
+	BYTE		N12     Dn4 
+	BYTE	W04
+	BYTE		N72     Gn4 
+	BYTE	W03
+	BYTE		        Bn4 
+	BYTE	W02
+	BYTE		        En5 
+	BYTE	W03
+// 032   ----------------------------------------
+	BYTE		        En2 
+	BYTE		N72     Gn5 
+	BYTE	W12
+	BYTE		N12     Bn2 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+// 033   ----------------------------------------
+	BYTE		N72     Bn2 
+	BYTE		N66     Fs4 
+	BYTE		N72     Bn4 
+	BYTE	W12
+	BYTE		N12     Fs3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE		N24     Fs5 
+	BYTE	W12
+	BYTE		N12     En4 
+	BYTE	W06
+	BYTE		N06     Fs4 
+	BYTE	W02
+	BYTE		N72     An4 
+	BYTE	W02
+	BYTE		        Cs5 
+	BYTE	W02
+// 034   ----------------------------------------
+	BYTE		        Fs3 
+	BYTE		N72     Fs5 
+	BYTE	W72
+// 035   ----------------------------------------
+	BYTE		        An2 
+	BYTE		N24     An3 
+	BYTE		N72     En4 
+	BYTE		N72     An4 
+	BYTE	W12
+	BYTE		N12     En3 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE		N24     En5 
+	BYTE	W12
+	BYTE		N12     An3 
+	BYTE	W05
+	BYTE		N24     Fs4 
+	BYTE	W03
+	BYTE		        Bn4 
+	BYTE	W04
+// 036   ----------------------------------------
+	BYTE		N48     Bn2 
+	BYTE		N72     Bn3 
+	BYTE		N24     En5 
+	BYTE	W24
+	BYTE		N48     Ds5 
+	BYTE	W24
+	BYTE		N12     Bn2 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+// 037   ----------------------------------------
+	BYTE		N72     Bn1 
+	BYTE		N48     Fs3 
+	BYTE		N48     Bn3 
+	BYTE	W12
+	BYTE		N12     Fs2 
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE		N24     Fs3 
+	BYTE		N24     Dn4 
+	BYTE		N24     Fs4 
+	BYTE	W12
+	BYTE		N12     Fs2 
+	BYTE	W12
+// 038   ----------------------------------------
+	BYTE		N72     Gn1 
+	BYTE		N24     An3 
+	BYTE		N24     Bn3 
+	BYTE		N24     Fs4 
+	BYTE	W12
+	BYTE		N12     Dn2 
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE		N24     Gn3 
+	BYTE		N24     Bn3 
+	BYTE		N24     En4 
+	BYTE	W12
+	BYTE		N12     An2 
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE		N24     Fs3 
+	BYTE		N24     Bn3 
+	BYTE		N24     Dn4 
+	BYTE	W12
+	BYTE		N12     Dn2 
+	BYTE	W12
+// 039   ----------------------------------------
+	BYTE		N72     An1 
+	BYTE		N48     En3 
+	BYTE		N48     An3 
+	BYTE		N48     Cs4 
+	BYTE	W12
+	BYTE		N12     En2 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE		N24     Bn3 
+	BYTE		N24     Cs4 
+	BYTE		N24     An4 
+	BYTE	W12
+	BYTE		N12     En2 
+	BYTE	W12
+// 040   ----------------------------------------
+	BYTE		N72     Fs1 
+	BYTE		N72     An3 
+	BYTE		N72     Cs4 
+	BYTE		N72     Fs4 
+	BYTE		N72     An4 
+	BYTE	W12
+	BYTE		N12     Cs2 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+// 041   ----------------------------------------
+	BYTE	TEMPO   80*zanarkand_tbs/2
+	BYTE		N72     Cs2 
+	BYTE		N72     Gs2 
+	BYTE		N72     Cs3 
+	BYTE		N24     Cs4 
+	BYTE		N24     Gs4 
+	BYTE	W24
+	BYTE		        En4 
+	BYTE	W24
+	BYTE		        Cs4 
+	BYTE	W24
+// 042   ----------------------------------------
+	BYTE		N72     Gn1 
+	BYTE		N48     Gn2 
+	BYTE		N48     Gn3 
+	BYTE		N48     Bn3 
+	BYTE	W48
+	BYTE		N24     Gn2 
+	BYTE		N24     Bn2 
+	BYTE		N24     Bn3 
+	BYTE		N24     Fs4 
+	BYTE	W24
+// 043   ----------------------------------------
+	BYTE		N72     Fs2 
+	BYTE		N48     An2 
+	BYTE		N36     Fs3 
+	BYTE		N36     An3 
+	BYTE	W36
+	BYTE		N12     Fs3 
+	BYTE	W12
+	BYTE		N24     An2 
+	BYTE		N24     En3 
+	BYTE		N24     An3 
+	BYTE	W24
+// 044   ----------------------------------------
+	BYTE		TIE     Bn0 
+	BYTE		N72     Fs3 
+	BYTE		N72     Bn3 
+	BYTE	W12
+	BYTE		N12     Bn1 
+	BYTE	W12
+	BYTE		        Ds2 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE	TEMPO   72*zanarkand_tbs/2
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+// 045   ----------------------------------------
+	BYTE	TEMPO   65*zanarkand_tbs/2
+	BYTE		N72     Fs3 
+	BYTE	W72
+	BYTE		EOT     Bn0 
+	BYTE	GoTo
+	 POIN2	zanarkand_1_B1
+zanarkand_1_B2:
+// 046   ----------------------------------------
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+zanarkand:
+	BYTE	1	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	zanarkand_pri	// Priority
+	BYTE	zanarkand_rev	// Reverb.
+
+	POIN2	zanarkand_grp
+
+	POIN2	zanarkand_1
+
+	

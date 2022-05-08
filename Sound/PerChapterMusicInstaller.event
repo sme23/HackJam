@@ -1,0 +1,60 @@
+
+// contains: 
+// - post-table setting of map music
+// - boss music list
+// - attack/defend music per chapter table
+// - more things if necessary (PC character specific battle music list?)
+
+
+// ===== Map Music =====
+
+
+//setting standard phase tunes
+#define SetPlayerPhaseTheme(chID,songID) "PUSH; ORG (ChapterDataTable+(148*chID)+0x16); SHORT songID; POP"
+#define SetEnemyPhaseTheme(chID,songID) "PUSH; ORG (ChapterDataTable+(148*chID)+0x18); SHORT songID; POP"
+#define SetNPCPhaseTheme(chID,songID) "PUSH; ORG (ChapterDataTable+(148*chID)+0x1A); SHORT songID; POP"
+#define SetPrepTheme(chID,songID)  "PUSH; ORG (ChapterDataTable+(148*chID)+0x26); SHORT songID; POP"
+#define SetVictoryTheme(chID,songID) "PUSH; ORG (ChapterDataTable+(148*chID)+0x28); SHORT songID; POP"
+
+
+
+//setting phase themes when flag 4 is set
+#define SetPlayerPhaseThemeWithFlag(chID,songID) "PUSH; ORG (ChapterDataTable+(148*chID)+0x22); SHORT songID; POP"
+#define SetEnemyPhaseThemeWithFlag(chID,songID) "PUSH; ORG (ChapterDataTable+(148*chID)+0x24); SHORT songID; POP"
+
+//setting all phase themes at once
+#define SetChapterMapThemes(chID,pSongID,eSongID,nSongID) "SetPlayerPhaseTheme(chID,pSongID); SetEnemyPhaseTheme(chID,eSongID); SetNPCPhaseTheme(chID,nSongID)"
+#define SetChapterMapThemesWithFlag(chID,pSongID,eSongID) "SetPlayerPhaseThemeWithFlag(chID,pSongID); SetEnemyPhaseThemeWithFlag(chID,eSongID)"
+
+
+SetChapterMapThemes(Ch1ID,SpaceHarrier,Field2Herc4,Field2Herc4) 
+SetVictoryTheme(Ch1ID,PTBStage7)
+
+
+
+
+// ===== Battle Music =====
+
+
+#define SetPlayerPhaseBattleTheme(chID,songID) "PUSH; ORG (ChapterDataTable+(148*chID)+0x1C); SHORT songID; POP"
+#define SetEnemyPhaseBattleTheme(chID,songID) "PUSH; ORG (ChapterDataTable+(148*chID)+0x1E); SHORT songID; POP"
+#define SetNPCPhaseBattleTheme(chID,songID) "PUSH; ORG (ChapterDataTable+(148*chID)+0x20); SHORT songID; POP"
+
+//setting all phase themes at once
+#define SetChapterBattleThemes(chID,pSongID,eSongID,nSongID) "SetPlayerPhaseBattleTheme(chID,pSongID); SetEnemyPhaseBattleTheme(chID,eSongID); SetNPCPhaseBattleTheme(chID,nSongID)"
+
+SetChapterBattleThemes(Ch1ID,FFL2Battle,Battle7thSaga,Battle7thSaga) 
+
+// ===== Boss Music =====
+PUSH
+ORG $72908
+POIN BossMusicList
+POP
+
+#define BossMusicEntry(charID,songID) "WORD charID songID"
+#define BossMusicEnd "WORD 0xFFFFFFFF 0xFFFFFFFF"
+
+
+BossMusicList:
+BossMusicEnd
+

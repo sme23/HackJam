@@ -1,0 +1,23 @@
+//macro definitions for setting the song table
+#define SongTableOffset  0x224470
+#define SongTable(index,SongPointer,Group) "PUSH; ORG SongTableOffset+(8*index); POIN SongPointer; SHORT Group Group; POP"
+#define BattleMusicGroup 0
+#define MapMusicGroup 1
+#define SFXGroup 6
+
+#define voicegroup000 MusicVoices //to save some time later
+
+//voice table entry definitions
+  #define VoiceDirect(VoiceTable,VoiceIndex,BaseNote,Address,FixedFreq,IsForcedPan,Pan,EnvAtk,EnvDec,EnvSus,EnvRel) "ORG VoiceTable+VoiceIndex*0x0c; BYTE $00+FixedFreq*0x8 BaseNote $00 IsForcedPan*80+Pan; POIN Address; BYTE EnvAtk EnvDec EnvSus EnvRel"
+  #define VoiceSquare1(VoiceTable,VoiceIndex,DutyCycle,NoteOffWithNoise,SweepTime,SweepShift,EnvAtk,EnvDec,EnvSus,EnvRel) "ORG VoiceTable+VoiceIndex*0x0c; BYTE $01+NoteOffWithNoise*8 $3c $00 SweepTime+SweepShift DutyCycle $00 $00 $00 EnvAtk EnvDec EnvSus EnvRel" 
+  #define VoiceSquare2(VoiceTable,VoiceIndex,DutyCycle,NoteOffWithNoise,EnvAtk,EnvDec,EnvSus,EnvRel) "ORG VoiceTable+VoiceIndex*0x0c; BYTE $02+NoteOffWithNoise*8 $3c $00 $00 DutyCycle $00 $00 $00 EnvAtk EnvDec EnvSus EnvRel" 
+  #define VoiceWave(VoiceTable,VoiceIndex,WaveData,NoteOffWithNoise,EnvAtk,EnvDec,EnvSus,EnvRel) "ORG VoiceTable+VoiceIndex*0x0c; BYTE $03+NoteOffWithNoise*8 $3c $00 $00 POIN WaveData EnvAtk EnvDec EnvSus EnvRel"
+  #define VoiceNoise(VoiceTable,VoiceIndex,NoisePattern,NoteOffWithNoise,EnvAtk,EnvDec,EnvSus,EnvRel) "ORG VoiceTable+VoiceIndex*0x0c; BYTE $04+NoteOffWithNoise*8 $3c $00 $00 NoisePattern  $00 $00 $00 EnvAtk EnvDec EnvSus EnvRel"
+  #define VoiceMulti(VoiceTable,VoiceIndex,MultiSampleTable,NoteChart) "ORG VoiceTable+VoiceIndex*0x0c; BYTE $40 $3c $00 $00; POIN MultiSampleTable; POIN NoteChart"
+  #define VoiceDrum(VoiceTable,VoiceIndex,DrumTable) "ORG VoiceTable+VoiceIndex*0x0c; BYTE $80 $3c $00 $00; POIN DrumTable; BYTE $00 $00 $00 $00"
+  #define VoiceDummy(VoiceTable,VoiceIndex) "ORG VoiceTable+VoiceIndex*0x0c; BYTE $01 $3c $00 $00 $02 $00 $00 $00 $00 $00 $0f $00" 
+//VoiceDummy is for quick demarcation of unused/empty instrument slots
+
+
+#include "_SongSFXDefinitions.event"
+

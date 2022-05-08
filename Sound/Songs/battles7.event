@@ -1,0 +1,713 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	battles7_grp  MusicVoices
+	#define	battles7_pri  0
+	#define	battles7_rev  0
+	#define	battles7_mvl  75
+	#define	battles7_key  0
+	#define	battles7_tbs  1
+	#define	battles7_exg  0
+	#define	battles7_cmp  1
+
+	// .rodata
+	//	battles7
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+battles7_1:
+	BYTE	KEYSH   battles7_key+0
+battles7_1_B1:
+// 000   ----------------------------------------
+	BYTE	TEMPO   271*battles7_tbs/2
+	BYTE		VOICE   48
+	BYTE		VOL     88*battles7_mvl/mxv
+	BYTE		PAN     c_v-10
+	BYTE		TIE     An3   v080
+	BYTE		TIE     An4   v064
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     An3 
+	BYTE		        An4 
+// 004   ----------------------------------------
+battles7_1_004:
+	BYTE		TIE     Gs3   v080
+	BYTE		TIE     Gs4   v064
+	BYTE	W96
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     Gs3 
+	BYTE		        Gs4 
+// 008   ----------------------------------------
+battles7_1_008:
+	BYTE		TIE     An3   v080
+	BYTE		TIE     An4   v064
+	BYTE	W96
+	BYTE	PEND
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     An3 
+	BYTE		        An4 
+// 012   ----------------------------------------
+	BYTE		TIE     Bn3   v080
+	BYTE		TIE     Bn4   v064
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     Bn3 
+	BYTE		        Bn4 
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_1_008
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     An3 
+	BYTE		        An4 
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_1_004
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     Gs3 
+	BYTE		        Gs4 
+	BYTE	GoTo
+	 POIN2	battles7_1_B1
+battles7_1_B2:
+// 024   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+battles7_2:
+	BYTE	KEYSH   battles7_key+0
+battles7_2_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   35
+	BYTE		VOL     97*battles7_mvl/mxv
+	BYTE		N12     Fs5   v127
+	BYTE	W12
+	BYTE		        Dn5 
+	BYTE	W12
+	BYTE		        Bn4 
+	BYTE	W12
+	BYTE		        Gs5 
+	BYTE	W24
+	BYTE		        Fs5 
+	BYTE	W12
+	BYTE		        En5 
+	BYTE	W12
+	BYTE		        An5 
+	BYTE	W12
+// 001   ----------------------------------------
+battles7_2_001:
+	BYTE	W12
+	BYTE		N12     Gs5   v127
+	BYTE	W12
+	BYTE		        Fs5 
+	BYTE	W12
+	BYTE		        En5 
+	BYTE	W12
+	BYTE		TIE     Fs5 
+	BYTE	W48
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 003   ----------------------------------------
+	BYTE	W72
+	BYTE		N12     Cs5 
+	BYTE	W12
+	BYTE		        Dn5 
+	BYTE	W12
+// 004   ----------------------------------------
+	BYTE		        Cs5 
+	BYTE	W12
+	BYTE		        Bn4 
+	BYTE	W12
+	BYTE		        An4 
+	BYTE	W12
+	BYTE		N36     En5 
+	BYTE	W36
+	BYTE		N12     Cs5 
+	BYTE	W12
+	BYTE		N72     An4 
+	BYTE	W12
+// 005   ----------------------------------------
+	BYTE	W72
+	BYTE		N24     En4 
+	BYTE	W24
+// 006   ----------------------------------------
+	BYTE		N96     Fs4 
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE		N12     Fs5 
+	BYTE	W12
+	BYTE		        Dn5 
+	BYTE	W12
+	BYTE		        Bn4 
+	BYTE	W12
+	BYTE		        Gs5 
+	BYTE	W24
+	BYTE		        Fs5 
+	BYTE	W12
+	BYTE		        En5 
+	BYTE	W12
+	BYTE		        An5 
+	BYTE	W12
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_2_001
+// 010   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     Fs5 
+// 011   ----------------------------------------
+	BYTE	W72
+	BYTE		N12     Bn5   v127
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+// 012   ----------------------------------------
+	BYTE		        Gs5 
+	BYTE	W12
+	BYTE		        An5 
+	BYTE	W12
+	BYTE		        Gs5 
+	BYTE	W12
+	BYTE		N36     En5 
+	BYTE	W36
+	BYTE		N12     Gs5 
+	BYTE	W12
+	BYTE		TIE     Fs5 
+	BYTE	W12
+// 013   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 014   ----------------------------------------
+	BYTE		N06     Bn1   v064
+	BYTE	W06
+	BYTE		        Fs2   v068
+	BYTE	W06
+	BYTE		        An2 
+	BYTE	W06
+	BYTE		        En2 
+	BYTE	W06
+	BYTE		        An2   v072
+	BYTE	W06
+	BYTE		        Bn2 
+	BYTE	W06
+	BYTE		        An2   v076
+	BYTE	W06
+	BYTE		        Bn2 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE	W06
+	BYTE		        Bn2   v080
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        En3   v084
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Bn3   v088
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+// 015   ----------------------------------------
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		        En4   v092
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		        An4   v096
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        An4   v100
+	BYTE	W06
+	BYTE		        Bn4 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W06
+	BYTE		        Bn4   v104
+	BYTE	W06
+	BYTE		        En5 
+	BYTE	W06
+	BYTE		        Bn4 
+	BYTE	W06
+	BYTE		        En5   v108
+	BYTE	W06
+	BYTE		        Fs5 
+	BYTE	W06
+	BYTE		        Bn5   v112
+	BYTE	W06
+	BYTE		        En6 
+	BYTE	W06
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	battles7_2_B1
+battles7_2_B2:
+// 024   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+battles7_3:
+	BYTE	KEYSH   battles7_key+0
+battles7_3_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   34
+	BYTE		VOL     79*battles7_mvl/mxv
+	BYTE		PAN     c_v-7
+	BYTE		N12     An1   v112
+	BYTE	W12
+	BYTE		        Bn1 
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        An1 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W12
+// 001   ----------------------------------------
+battles7_3_001:
+	BYTE		N12     An1   v112
+	BYTE	W12
+	BYTE		        Bn1 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE		        An1 
+	BYTE	W24
+	BYTE		        Bn1 
+	BYTE	W24
+	BYTE	PEND
+// 002   ----------------------------------------
+battles7_3_002:
+	BYTE		N24     An1   v112
+	BYTE	W24
+	BYTE		N12     Bn1 
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        An1 
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+battles7_3_003:
+	BYTE		N12     Gn2   v112
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        An1 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W36
+	BYTE		        Dn2 
+	BYTE	W24
+	BYTE	PEND
+// 004   ----------------------------------------
+battles7_3_004:
+	BYTE		N12     An1   v112
+	BYTE	W12
+	BYTE		        Bn1 
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        An1 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_3_001
+// 006   ----------------------------------------
+battles7_3_006:
+	BYTE		N12     An1   v112
+	BYTE	W24
+	BYTE		        Bn1 
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        An1 
+	BYTE	W24
+	BYTE		        Bn1 
+	BYTE	W12
+	BYTE	PEND
+// 007   ----------------------------------------
+battles7_3_007:
+	BYTE		N12     An2   v112
+	BYTE	W12
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		        En2 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W24
+	BYTE		N18     Dn2 
+	BYTE	W36
+	BYTE	PEND
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_3_004
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_3_001
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_3_002
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_3_003
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_3_004
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_3_001
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_3_006
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_3_007
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_3_004
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_3_001
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_3_002
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_3_003
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_3_004
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_3_001
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_3_006
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_3_007
+	BYTE	GoTo
+	 POIN2	battles7_3_B1
+battles7_3_B2:
+// 024   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+battles7_4:
+	BYTE	KEYSH   battles7_key+0
+battles7_4_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   61
+	BYTE		VOL     101*battles7_mvl/mxv
+	BYTE		PAN     c_v+8
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+battles7_4_016:
+	BYTE		N12     Bn2   v096
+	BYTE	W48
+	BYTE		        Cs3 
+	BYTE	W48
+	BYTE	PEND
+// 017   ----------------------------------------
+battles7_4_017:
+	BYTE		N12     Dn3   v096
+	BYTE	W36
+	BYTE		        En3 
+	BYTE	W36
+	BYTE		        Bn2 
+	BYTE	W24
+	BYTE	PEND
+// 018   ----------------------------------------
+	BYTE	W48
+	BYTE		        Cs3 
+	BYTE	W48
+// 019   ----------------------------------------
+	BYTE		        Dn3 
+	BYTE	W36
+	BYTE		        An2 
+	BYTE	W36
+	BYTE		        Bn2 
+	BYTE	W24
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_4_016
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_4_017
+// 022   ----------------------------------------
+	BYTE	W48
+	BYTE		N12     Cs3   v096
+	BYTE	W48
+// 023   ----------------------------------------
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE		N06     An2 
+	BYTE	W24
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W24
+	BYTE	GoTo
+	 POIN2	battles7_4_B1
+battles7_4_B2:
+// 024   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.5) ****************//
+
+battles7_5:
+	BYTE	KEYSH   battles7_key+0
+battles7_5_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   123
+	BYTE		VOL     91*battles7_mvl/mxv
+	BYTE		PAN     c_v+6
+	BYTE		N06     Bn0   v096
+	BYTE		N06     Gs1 
+	BYTE	W24
+	BYTE		        Dn1   v080
+	BYTE		N06     Gs1   v096
+	BYTE	W24
+	BYTE		        Bn0 
+	BYTE		N06     Gs1 
+	BYTE	W24
+	BYTE		        Dn1   v080
+	BYTE		N06     Gs1   v096
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+// 001   ----------------------------------------
+battles7_5_001:
+	BYTE		N06     Bn0   v096
+	BYTE		N06     Gs1 
+	BYTE	W24
+	BYTE		        Dn1   v080
+	BYTE		N06     Gs1   v096
+	BYTE	W24
+	BYTE		        Bn0 
+	BYTE		N06     Gs1 
+	BYTE	W24
+	BYTE		        Dn1   v080
+	BYTE		N06     Gs1   v096
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_5_001
+// 003   ----------------------------------------
+battles7_5_003:
+	BYTE		N06     Bn0   v096
+	BYTE		N06     Gs1 
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Dn1   v080
+	BYTE		N06     Gs1   v096
+	BYTE	W24
+	BYTE		        Bn0 
+	BYTE		N06     Gs1 
+	BYTE	W24
+	BYTE		        Dn1   v080
+	BYTE		N06     Gs1   v096
+	BYTE	W24
+	BYTE	PEND
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_5_001
+// 005   ----------------------------------------
+battles7_5_005:
+	BYTE		N06     Bn0   v096
+	BYTE		N06     Gs1 
+	BYTE	W24
+	BYTE		        Dn1   v080
+	BYTE		N06     Gs1   v096
+	BYTE	W24
+	BYTE		        Bn0 
+	BYTE		N06     Gs1 
+	BYTE	W24
+	BYTE		        Dn1   v080
+	BYTE		N06     Gs1   v096
+	BYTE	W24
+	BYTE	PEND
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_5_001
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_5_003
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_5_001
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_5_001
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_5_001
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_5_003
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_5_001
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_5_005
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_5_001
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_5_003
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_5_001
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_5_001
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_5_001
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_5_003
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_5_001
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_5_005
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_5_001
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	battles7_5_003
+	BYTE	GoTo
+	 POIN2	battles7_5_B1
+battles7_5_B2:
+// 024   ----------------------------------------
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+battles7:
+	BYTE	5	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	battles7_pri	// Priority
+	BYTE	battles7_rev	// Reverb.
+
+	POIN2	battles7_grp
+
+	POIN2	battles7_1
+	POIN2	battles7_2
+	POIN2	battles7_3
+	POIN2	battles7_4
+	POIN2	battles7_5
+
+	

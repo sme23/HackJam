@@ -1,0 +1,2291 @@
+//Event file generated from Sappy .s format.
+        #include "MPlayDef.event"
+
+        #define    phlnx4_grp  MusicVoices
+        #define    phlnx4_pri  0
+        #define    phlnx4_rev  0
+        #define    phlnx4_key  0
+
+        // .rodata
+        // phlnx4
+       ALIGN 4
+
+//****************** Track 0 (Midi-Chn.0) ******************//
+
+phlnx4_0:
+        BYTE   KEYSH   phlnx4_key+0
+// 000   ----------------------------------------
+        BYTE   TEMPO   252/2
+        BYTE           VOICE   123
+        BYTE           PAN     c_v+5
+        BYTE           VOL     88
+        BYTE           BENDR   12
+        BYTE   W72
+        BYTE           N05     Dn1   v099
+        BYTE   W06
+        BYTE                   Dn1
+        BYTE   W06
+        BYTE                   Dn1
+        BYTE   W06
+        BYTE                   Dn1
+        BYTE   W06
+// 001   ----------------------------------------
+phlnx4_0_1:
+        BYTE           N23     Cn1   v099
+        BYTE           N23     Cs2
+        BYTE   W96
+        BYTE   PEND
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W72
+        BYTE           N05     Dn1
+        BYTE   W06
+        BYTE                   Dn1
+        BYTE   W06
+        BYTE                   Dn1
+        BYTE   W06
+        BYTE                   Dn1
+        BYTE   W06
+// 005   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_1
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE           N05     Cn2   v124
+        BYTE   W12
+        BYTE                   Cn2
+        BYTE   W12
+        BYTE                   Cn2
+        BYTE   W12
+        BYTE                   Cn2   v125
+        BYTE   W12
+        BYTE                   Bn1
+        BYTE   W06
+        BYTE                   Bn1
+        BYTE   W06
+        BYTE                   An1
+        BYTE   W06
+        BYTE                   An1   v126
+        BYTE   W06
+        BYTE                   Gn1
+        BYTE   W06
+        BYTE                   Gn1
+        BYTE   W06
+        BYTE                   Fn1
+        BYTE   W06
+        BYTE                   Fn1
+        BYTE   W06
+// 009   ----------------------------------------
+        BYTE           N23     Gn2   v108
+        BYTE           N11     Cn1   v099
+        BYTE           N11     Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+phlnx4_0_LOOP:
+        BYTE           N11     Dn1   v099
+        BYTE           N11     Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Cn1
+        BYTE           N11     Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Dn1
+        BYTE           N11     Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+// 010   ----------------------------------------
+phlnx4_0_10:
+        BYTE           N11     Cn1   v099
+        BYTE           N11     Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Dn1
+        BYTE           N11     Fs1
+        BYTE   W12
+        BYTE                   Cn1
+        BYTE           N11     Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Cn1
+        BYTE           N11     Fs1
+        BYTE   W12
+        BYTE                   Dn1
+        BYTE           N11     Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE   PEND
+// 011   ----------------------------------------
+phlnx4_0_11:
+        BYTE           N11     Cn1   v099
+        BYTE           N11     Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Dn1
+        BYTE           N11     Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Cn1
+        BYTE           N11     Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Dn1
+        BYTE           N11     Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE   PEND
+// 012   ----------------------------------------
+        BYTE                   Fs1
+        BYTE           N11     Cn1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE           N11     Dn1
+        BYTE   W12
+        BYTE                   Cn1
+        BYTE           N11     Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Cn1
+        BYTE           N11     Fs1
+        BYTE   W12
+        BYTE                   Dn1
+        BYTE           N11     Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_11
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_10
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_11
+// 016   ----------------------------------------
+        BYTE           N05     Cn2   v127
+        BYTE   W06
+        BYTE                   Cn2
+        BYTE   W06
+        BYTE                   Cn2
+        BYTE   W06
+        BYTE                   Cn2
+        BYTE   W06
+        BYTE                   Bn1
+        BYTE   W06
+        BYTE                   Bn1
+        BYTE   W06
+        BYTE                   Bn1   v126
+        BYTE   W06
+        BYTE                   Bn1
+        BYTE   W06
+        BYTE                   An1
+        BYTE   W06
+        BYTE                   An1
+        BYTE   W06
+        BYTE                   An1
+        BYTE   W06
+        BYTE                   An1   v125
+        BYTE   W06
+        BYTE                   Gn1
+        BYTE   W06
+        BYTE                   Gn1
+        BYTE   W06
+        BYTE                   Gn1
+        BYTE   W06
+        BYTE                   Gn1
+        BYTE   W06
+// 017   ----------------------------------------
+phlnx4_0_17:
+        BYTE           N11     Cn1   v099
+        BYTE   W24
+        BYTE                   Dn1
+        BYTE   W24
+        BYTE                   Cn1
+        BYTE   W24
+        BYTE                   Dn1
+        BYTE   W24
+        BYTE   PEND
+// 018   ----------------------------------------
+phlnx4_0_18:
+        BYTE           N11     Cn1   v099
+        BYTE   W24
+        BYTE                   Dn1
+        BYTE   W12
+        BYTE                   Cn1
+        BYTE   W24
+        BYTE                   Cn1
+        BYTE   W12
+        BYTE                   Dn1
+        BYTE   W24
+        BYTE   PEND
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_17
+// 020   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_18
+// 021   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_17
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_18
+// 023   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_17
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_18
+// 025   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_17
+// 026   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_18
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_17
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_18
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_17
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_18
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_17
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_18
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_17
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_18
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_17
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_18
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_17
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_18
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_17
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_18
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_17
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_18
+// 043   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_17
+// 044   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_18
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_17
+// 046   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_18
+// 047   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_17
+// 048   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_18
+// 049   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_17
+// 050   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_18
+// 051   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_17
+// 052   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_18
+// 053   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_17
+// 054   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_18
+// 055   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_17
+// 056   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_18
+// 057   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_17
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_18
+// 059   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_17
+// 060   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_18
+// 061   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_17
+// 062   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_0_18
+// 063   ----------------------------------------
+        BYTE           N11     Dn1   v108
+        BYTE   W12
+        BYTE                   Cn1
+        BYTE   W12
+        BYTE                   Cn1
+        BYTE   W12
+        BYTE                   Dn1
+        BYTE   W12
+        BYTE                   Cn1
+        BYTE   W12
+        BYTE                   Cn1
+        BYTE   W12
+        BYTE                   Dn1
+        BYTE   W12
+        BYTE                   Cn1
+        BYTE   W12
+// 064   ----------------------------------------
+        BYTE                   Cn1
+        BYTE   W12
+        BYTE                   Dn1
+        BYTE   W12
+        BYTE                   Cn1
+        BYTE   W12
+        BYTE                   Cn1
+        BYTE   W12
+        BYTE           N05     Dn2
+        BYTE   W06
+        BYTE                   Dn2
+        BYTE   W06
+        BYTE                   Cn2
+        BYTE   W06
+        BYTE                   Cn2
+        BYTE   W06
+        BYTE                   An1
+        BYTE   W06
+        BYTE                   An1
+        BYTE   W06
+        BYTE                   Gn1
+        BYTE   W06
+        BYTE                   Gn1
+        BYTE   W06
+// 065   ----------------------------------------
+        BYTE           N23     Gn2
+        BYTE           N11     Cn1   v099
+        BYTE           N11     Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE   GoTo
+         POIN2  phlnx4_0_LOOP
+        BYTE   FINE
+
+//****************** Track 1 (Midi-Chn.1) ******************//
+
+phlnx4_1:
+        BYTE   KEYSH   phlnx4_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   30
+        BYTE           PAN     c_v-4
+        BYTE           VOL     87
+        BYTE           BENDR   12
+        BYTE   W96
+// 001   ----------------------------------------
+phlnx4_1_1:
+        BYTE   W24
+        BYTE           N23     Fn2   v108
+        BYTE           N23     As2
+        BYTE   W36
+        BYTE           N11     Fn2
+        BYTE           N11     As2
+        BYTE   W24
+        BYTE           N23     Gn2
+        BYTE           N23     Cn3
+        BYTE   W12
+        BYTE   PEND
+// 002   ----------------------------------------
+phlnx4_1_2:
+        BYTE   W36
+        BYTE           N23     Fn2   v108
+        BYTE           N23     As2
+        BYTE   W60
+        BYTE   PEND
+// 003   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_1
+// 004   ----------------------------------------
+phlnx4_1_4:
+        BYTE   W24
+        BYTE           N23     Fn2   v108
+        BYTE           N23     As2
+        BYTE   W36
+        BYTE           N32     Gn2   v108   gtp3
+        BYTE                   Dn2
+        BYTE   W36
+        BYTE   PEND
+// 005   ----------------------------------------
+        BYTE   W24
+        BYTE           N23     As2
+        BYTE           N23     Fn2
+        BYTE   W36
+        BYTE           N11     As2
+        BYTE           N11     Fn2
+        BYTE   W24
+        BYTE           N23     Gn2
+        BYTE           N23     Cn3
+        BYTE   W12
+// 006   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_2
+// 007   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_1
+// 008   ----------------------------------------
+phlnx4_1_8:
+        BYTE   W24
+        BYTE           N23     Fn2   v108
+        BYTE           N23     As2
+        BYTE   W36
+        BYTE           N32     Dn2   v108   gtp3
+        BYTE                   Gn2
+        BYTE   W36
+        BYTE   PEND
+// 009   ----------------------------------------
+        BYTE   W24
+phlnx4_1_LOOP:
+        BYTE           N23     Fn2   v108
+        BYTE           N23     As2
+        BYTE   W36
+        BYTE           N11     Fn2
+        BYTE           N11     As2
+        BYTE   W24
+        BYTE           N23     Gn2
+        BYTE           N23     Cn3
+        BYTE   W12
+// 010   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_2
+// 011   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_1
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_8
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_1
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_2
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_1
+// 016   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_8
+// 017   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_1
+// 018   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_2
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_1
+// 020   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_4
+// 021   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_1
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_2
+// 023   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_1
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_8
+// 025   ----------------------------------------
+phlnx4_1_25:
+        BYTE   W24
+        BYTE           N23     Gn2   v108
+        BYTE           N23     Cn3
+        BYTE   W36
+        BYTE           N11     Gn2
+        BYTE           N11     Cn3
+        BYTE   W24
+        BYTE           N23     An2
+        BYTE           N23     Dn3
+        BYTE   W12
+        BYTE   PEND
+// 026   ----------------------------------------
+phlnx4_1_26:
+        BYTE   W36
+        BYTE           N23     Gn2   v108
+        BYTE           N23     Cn3
+        BYTE   W60
+        BYTE   PEND
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_25
+// 028   ----------------------------------------
+phlnx4_1_28:
+        BYTE   W24
+        BYTE           N23     Gn2   v108
+        BYTE           N23     Cn3
+        BYTE   W36
+        BYTE           N32     En2   v108   gtp3
+        BYTE                   An2
+        BYTE   W36
+        BYTE   PEND
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_25
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_26
+// 031   ----------------------------------------
+phlnx4_1_31:
+        BYTE   W24
+        BYTE           N23     Dn3   v108
+        BYTE           N23     An2
+        BYTE   W36
+        BYTE           N11
+        BYTE           N11     Dn3
+        BYTE   W24
+        BYTE           N23     As2
+        BYTE           N23     Ds3
+        BYTE   W12
+        BYTE   PEND
+// 032   ----------------------------------------
+        BYTE           N11     Cn1
+        BYTE   W12
+        BYTE                   Cn1
+        BYTE   W12
+        BYTE           N23     Dn3
+        BYTE           N23     An2
+        BYTE   W24
+        BYTE           N11     Cn1
+        BYTE   W12
+        BYTE                   Cn1
+        BYTE   W12
+        BYTE                   Cn1
+        BYTE   W12
+        BYTE                   Cn1
+        BYTE   W12
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_1
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_2
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_1
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_4
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_1
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_2
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_1
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_8
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_25
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_26
+// 043   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_25
+// 044   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_28
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_25
+// 046   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_26
+// 047   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_31
+// 048   ----------------------------------------
+        BYTE           N11     Cn1   v108
+        BYTE   W12
+        BYTE                   Cn1
+        BYTE   W12
+        BYTE           N23     An2
+        BYTE           N23     Dn3
+        BYTE   W24
+        BYTE           N11     Cn1
+        BYTE   W12
+        BYTE                   Cn1
+        BYTE   W12
+        BYTE                   Cn1
+        BYTE   W24
+// 049   ----------------------------------------
+        BYTE                   Ds1
+        BYTE   W12
+        BYTE                   Ds1
+        BYTE   W12
+        BYTE           N23     Fn3
+        BYTE           N23     As3
+        BYTE   W12
+        BYTE           N11     Ds1
+        BYTE   W12
+        BYTE                   Ds1
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE           N11     As3
+        BYTE   W12
+        BYTE                   Ds1
+        BYTE   W12
+        BYTE           N23     Gn3
+        BYTE           N23     Cn4
+        BYTE   W12
+// 050   ----------------------------------------
+        BYTE   W06
+        BYTE           N11     Ds1
+        BYTE   W12
+        BYTE                   Ds1
+        BYTE   W18
+        BYTE           N23     Fn3
+        BYTE           N23     As3
+        BYTE   W24
+        BYTE           N11     Ds1
+        BYTE   W12
+        BYTE                   Ds1
+        BYTE   W12
+        BYTE                   Ds1
+        BYTE   W12
+// 051   ----------------------------------------
+        BYTE                   Ds1
+        BYTE   W12
+        BYTE                   Ds1
+        BYTE   W12
+        BYTE           N23     Fn3
+        BYTE           N23     As3
+        BYTE   W24
+        BYTE           N11     Ds1
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE           N11     As3
+        BYTE   W12
+        BYTE                   Ds1
+        BYTE   W12
+        BYTE           N23     Gn3
+        BYTE           N23     Cn4
+        BYTE   W12
+// 052   ----------------------------------------
+        BYTE           N11     Ds1
+        BYTE   W12
+        BYTE                   Ds1
+        BYTE   W24
+        BYTE           N23     Fn3
+        BYTE           N23     As3
+        BYTE   W24
+        BYTE           N11     Ds1
+        BYTE   W12
+        BYTE                   Ds1
+        BYTE   W12
+        BYTE                   Ds1
+        BYTE   W12
+// 053   ----------------------------------------
+phlnx4_1_53:
+        BYTE   W24
+        BYTE           N23     Fn3   v108
+        BYTE           N23     As3
+        BYTE   W36
+        BYTE           N11     Fn3
+        BYTE           N11     As3
+        BYTE   W24
+        BYTE           N23     Gn3
+        BYTE           N23     Cn4
+        BYTE   W12
+        BYTE   PEND
+// 054   ----------------------------------------
+phlnx4_1_54:
+        BYTE   W36
+        BYTE           N23     Fn3   v108
+        BYTE           N23     As3
+        BYTE   W60
+        BYTE   PEND
+// 055   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_53
+// 056   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_54
+// 057   ----------------------------------------
+        BYTE   W24
+        BYTE           N23     Ds4   v108
+        BYTE           N23     As3
+        BYTE   W36
+        BYTE           N11
+        BYTE           N11     Ds4
+        BYTE   W24
+        BYTE           N23     Cn4
+        BYTE           N23     Fn4
+        BYTE   W12
+// 058   ----------------------------------------
+        BYTE   W36
+        BYTE                   As3
+        BYTE           N23     Ds4
+        BYTE   W60
+// 059   ----------------------------------------
+        BYTE           N11     Cs1
+        BYTE   W12
+        BYTE                   Cs1
+        BYTE   W12
+        BYTE           N23     As3
+        BYTE           N23     Ds4
+        BYTE   W12
+        BYTE           N11     Cs1
+        BYTE   W12
+        BYTE                   Cs1
+        BYTE   W12
+        BYTE                   As3
+        BYTE           N11     Ds4
+        BYTE   W12
+        BYTE                   Cs1
+        BYTE   W12
+        BYTE           N23     Cn4
+        BYTE           N23     Fn4
+        BYTE   W12
+// 060   ----------------------------------------
+        BYTE           N11     Cs1
+        BYTE   W12
+        BYTE                   Cs1
+        BYTE   W24
+        BYTE           N23     As3
+        BYTE           N23     Ds4
+        BYTE   W24
+        BYTE           N11     Cs1
+        BYTE   W12
+        BYTE                   Cs1
+        BYTE   W12
+        BYTE                   Cs1
+        BYTE   W12
+// 061   ----------------------------------------
+        BYTE   W24
+        BYTE           N23     Cn4
+        BYTE           N23     Fn4
+        BYTE   W36
+        BYTE           N11
+        BYTE           N11     Cn4
+        BYTE   W24
+        BYTE           N23     Dn4
+        BYTE           N23     Gn4
+        BYTE   W12
+// 062   ----------------------------------------
+        BYTE   W36
+        BYTE                   Cn4
+        BYTE           N23     Fn4
+        BYTE   W60
+// 063   ----------------------------------------
+        BYTE           N11     Cn1
+        BYTE   W12
+        BYTE                   Cs1
+        BYTE   W12
+        BYTE                   Dn1
+        BYTE   W48
+        BYTE                   Cn1
+        BYTE   W12
+        BYTE                   Cs1
+        BYTE   W12
+// 064   ----------------------------------------
+phlnx4_1_64:
+        BYTE           N11     Dn1   v108
+        BYTE   W12
+        BYTE                   Fn1
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   As1
+        BYTE   W12
+        BYTE                   Cn2
+        BYTE   W12
+        BYTE                   Cs2
+        BYTE   W12
+        BYTE                   Dn2
+        BYTE   W12
+        BYTE                   Fn2
+        BYTE   W12
+        BYTE   PEND
+// 065   ----------------------------------------
+        BYTE   W24
+        BYTE   GoTo
+         POIN2  phlnx4_1_LOOP
+        BYTE   FINE
+
+//****************** Track 2 (Midi-Chn.2) ******************//
+
+phlnx4_2:
+        BYTE   KEYSH   phlnx4_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   34
+        BYTE           PAN     c_v-9
+        BYTE           VOL     81
+        BYTE           BENDR   12
+        BYTE   W96
+// 001   ----------------------------------------
+        BYTE           N23     Gn1   v108
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE                   Gn1
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE           N11
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+phlnx4_2_LOOP:
+        BYTE           N11     Gn1   v108
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+// 010   ----------------------------------------
+phlnx4_2_10:
+        BYTE           N11     Gn1   v108
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE   PEND
+// 011   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_10
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_10
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_10
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_10
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_10
+// 016   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_10
+// 017   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_10
+// 018   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_10
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_10
+// 020   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_10
+// 021   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_10
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_10
+// 023   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_10
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_10
+// 025   ----------------------------------------
+phlnx4_2_25:
+        BYTE           N11     An1   v108
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W12
+        BYTE   PEND
+// 026   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_25
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_25
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_25
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_25
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_25
+// 031   ----------------------------------------
+phlnx4_2_31:
+        BYTE           N11     Bn1   v108
+        BYTE   W12
+        BYTE                   Bn1
+        BYTE   W12
+        BYTE                   Bn1
+        BYTE   W12
+        BYTE                   Bn1
+        BYTE   W12
+        BYTE                   Bn1
+        BYTE   W12
+        BYTE                   Bn1
+        BYTE   W12
+        BYTE                   Bn1
+        BYTE   W12
+        BYTE                   Cn2
+        BYTE   W12
+        BYTE   PEND
+// 032   ----------------------------------------
+phlnx4_2_32:
+        BYTE           N11     Cn2   v108
+        BYTE   W12
+        BYTE                   Cn2
+        BYTE   W12
+        BYTE                   Cn2
+        BYTE   W12
+        BYTE                   Dn2
+        BYTE   W12
+        BYTE                   Dn2
+        BYTE   W12
+        BYTE                   Dn2
+        BYTE   W12
+        BYTE                   Dn2
+        BYTE   W12
+        BYTE                   Dn2
+        BYTE   W12
+        BYTE   PEND
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_10
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_10
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_10
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_10
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_10
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_10
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_10
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_10
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_25
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_25
+// 043   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_25
+// 044   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_25
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_25
+// 046   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_25
+// 047   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_31
+// 048   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_32
+// 049   ----------------------------------------
+phlnx4_2_49:
+        BYTE           N11     Ds2   v108
+        BYTE   W12
+        BYTE                   Ds2
+        BYTE   W12
+        BYTE                   Ds2
+        BYTE   W12
+        BYTE                   Ds2
+        BYTE   W12
+        BYTE                   Ds2
+        BYTE   W12
+        BYTE                   Ds2
+        BYTE   W12
+        BYTE                   Ds2
+        BYTE   W12
+        BYTE                   Ds2
+        BYTE   W12
+        BYTE   PEND
+// 050   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_49
+// 051   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_49
+// 052   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_49
+// 053   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_10
+// 054   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_10
+// 055   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_10
+// 056   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_10
+// 057   ----------------------------------------
+phlnx4_2_57:
+        BYTE           N11     Gs1   v108
+        BYTE   W12
+        BYTE                   Gs1
+        BYTE   W12
+        BYTE                   Gs1
+        BYTE   W12
+        BYTE                   Gs1
+        BYTE   W12
+        BYTE                   Gs1
+        BYTE   W12
+        BYTE                   Gs1
+        BYTE   W12
+        BYTE                   Gs1
+        BYTE   W12
+        BYTE                   Gs1
+        BYTE   W12
+        BYTE   PEND
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_57
+// 059   ----------------------------------------
+phlnx4_2_59:
+        BYTE           N11     Cs2   v108
+        BYTE   W12
+        BYTE                   Cs2
+        BYTE   W12
+        BYTE                   Cs2
+        BYTE   W12
+        BYTE                   Cs2
+        BYTE   W12
+        BYTE                   Cs2
+        BYTE   W12
+        BYTE                   Cs2
+        BYTE   W12
+        BYTE                   Cs2
+        BYTE   W12
+        BYTE                   Cs2
+        BYTE   W12
+        BYTE   PEND
+// 060   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_59
+// 061   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_25
+// 062   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_2_25
+// 063   ----------------------------------------
+        BYTE           N11     Cn1   v108
+        BYTE   W12
+        BYTE                   Cs1
+        BYTE   W12
+        BYTE                   Dn1
+        BYTE   W12
+        BYTE                   Fn0
+        BYTE   W12
+        BYTE                   Gn0
+        BYTE   W12
+        BYTE                   As0
+        BYTE   W12
+        BYTE                   Cn1
+        BYTE   W12
+        BYTE                   Cs1
+        BYTE   W12
+// 064   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_1_64
+// 065   ----------------------------------------
+        BYTE           N11     Gn1   v108
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE   GoTo
+         POIN2  phlnx4_2_LOOP
+        BYTE   FINE
+
+//****************** Track 3 (Midi-Chn.3) ******************//
+
+phlnx4_3:
+        BYTE   KEYSH   phlnx4_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   103
+        BYTE           PAN     c_v+9
+        BYTE           VOL     80
+        BYTE           BENDR   12
+        BYTE   W96
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE   W24
+phlnx4_3_LOOP:
+        BYTE   W72
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+        BYTE   W96
+// 017   ----------------------------------------
+        BYTE           TIE     As3   v108
+        BYTE   W96
+// 018   ----------------------------------------
+phlnx4_3_18:
+        BYTE   W68
+        BYTE   W03
+        BYTE           EOT     As3
+        BYTE   W01
+        BYTE           N11     Gn3   v108
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE   PEND
+// 019   ----------------------------------------
+phlnx4_3_19:
+        BYTE           N32     Gn3   v108   gtp3
+        BYTE   W36
+        BYTE                   Dn3
+        BYTE   W60
+        BYTE   PEND
+// 020   ----------------------------------------
+phlnx4_3_20:
+        BYTE   W48
+        BYTE           N11     Cn3   v108
+        BYTE   W12
+        BYTE                   Cs3
+        BYTE   W12
+        BYTE                   Dn3
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE   PEND
+// 021   ----------------------------------------
+        BYTE           TIE     As3
+        BYTE   W96
+// 022   ----------------------------------------
+phlnx4_3_22:
+        BYTE   W23
+        BYTE           EOT     As3
+        BYTE   W01
+        BYTE           N11     Gn3   v108
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE           N32     Gn3   v108   gtp3
+        BYTE   W36
+        BYTE           N11     Dn3
+        BYTE   W12
+        BYTE   PEND
+// 023   ----------------------------------------
+phlnx4_3_23:
+        BYTE           N11     Cn3   v108
+        BYTE   W12
+        BYTE                   Dn3
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE           N32     Dn3   v108   gtp3
+        BYTE   W60
+        BYTE   PEND
+// 024   ----------------------------------------
+phlnx4_3_24:
+        BYTE   W48
+        BYTE           N11     Dn3   v108
+        BYTE   W12
+        BYTE                   Ds3
+        BYTE   W12
+        BYTE                   En3
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE   PEND
+// 025   ----------------------------------------
+        BYTE           TIE     Cn4
+        BYTE   W96
+// 026   ----------------------------------------
+phlnx4_3_26:
+        BYTE   W68
+        BYTE   W03
+        BYTE           EOT     Cn4
+        BYTE   W01
+        BYTE           N11     An3   v108
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE   PEND
+// 027   ----------------------------------------
+phlnx4_3_27:
+        BYTE           N32     An3   v108   gtp3
+        BYTE   W36
+        BYTE                   En3
+        BYTE   W60
+        BYTE   PEND
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_3_24
+// 029   ----------------------------------------
+        BYTE           TIE     Cn4   v108
+        BYTE   W96
+// 030   ----------------------------------------
+phlnx4_3_30:
+        BYTE   W23
+        BYTE           EOT     Cn4
+        BYTE   W01
+        BYTE           N11     An3   v108
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W36
+        BYTE           N32     Dn4   v108   gtp3
+        BYTE   W12
+        BYTE   PEND
+// 031   ----------------------------------------
+phlnx4_3_31:
+        BYTE   W24
+        BYTE           N11     Bn3   v108
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W12
+        BYTE                   Bn3
+        BYTE   W36
+        BYTE           N23     Ds4
+        BYTE   W12
+        BYTE   PEND
+// 032   ----------------------------------------
+phlnx4_3_32:
+        BYTE   W12
+        BYTE           N11     Dn4   v108
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   Dn4
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE                   Dn3
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE   PEND
+// 033   ----------------------------------------
+        BYTE           TIE     As3
+        BYTE   W96
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_3_18
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_3_19
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_3_20
+// 037   ----------------------------------------
+        BYTE           TIE     As3   v108
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_3_22
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_3_23
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_3_24
+// 041   ----------------------------------------
+        BYTE           TIE     Cn4   v108
+        BYTE   W96
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_3_26
+// 043   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_3_27
+// 044   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_3_24
+// 045   ----------------------------------------
+        BYTE           TIE     Cn4   v108
+        BYTE   W96
+// 046   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_3_30
+// 047   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_3_31
+// 048   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_3_32
+// 049   ----------------------------------------
+phlnx4_3_49:
+        BYTE   W24
+        BYTE           N32     As3   v108   gtp3
+        BYTE   W36
+        BYTE           N11     An3
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE   PEND
+// 050   ----------------------------------------
+phlnx4_3_50:
+        BYTE           N56     Gn3   v108   gtp3
+        BYTE   W72
+        BYTE           N32     Dn3   v108   gtp3
+        BYTE   W24
+        BYTE   PEND
+// 051   ----------------------------------------
+phlnx4_3_51:
+        BYTE   W12
+        BYTE           N11     Cn3   v108
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE           TIE     Dn3
+        BYTE   W60
+        BYTE   PEND
+// 052   ----------------------------------------
+        BYTE   W80
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W13
+// 053   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_3_49
+// 054   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_3_50
+// 055   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_3_51
+// 056   ----------------------------------------
+        BYTE   W80
+        BYTE   W03
+        BYTE           EOT     Dn3
+        BYTE   W13
+// 057   ----------------------------------------
+phlnx4_3_57:
+        BYTE   W24
+        BYTE           N32     Cn4   v108   gtp3
+        BYTE   W36
+        BYTE           N11     As3
+        BYTE   W12
+        BYTE                   Gs3
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE   PEND
+// 058   ----------------------------------------
+        BYTE           N56     Gs3   v108   gtp3
+        BYTE   W96
+// 059   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_3_57
+// 060   ----------------------------------------
+        BYTE           N56     Gs3   v108   gtp3
+        BYTE   W96
+// 061   ----------------------------------------
+        BYTE   W24
+        BYTE           N32     Dn4   v108   gtp3
+        BYTE   W36
+        BYTE           N11     Cn4
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+// 062   ----------------------------------------
+        BYTE           N56     An3   v108   gtp3
+        BYTE   W96
+// 063   ----------------------------------------
+        BYTE           N11     Fn4
+        BYTE   W12
+        BYTE                   Dn4
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W12
+        BYTE                   Dn4
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+// 064   ----------------------------------------
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE                   Dn3
+        BYTE   W12
+// 065   ----------------------------------------
+        BYTE   W24
+        BYTE   GoTo
+         POIN2  phlnx4_3_LOOP
+        BYTE   FINE
+
+//****************** Track 4 (Midi-Chn.4) ******************//
+
+phlnx4_4:
+        BYTE   KEYSH   phlnx4_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   103
+        BYTE           PAN     c_v+1
+        BYTE           VOL     62
+        BYTE           BENDR   12
+        BYTE   W96
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE   W24
+phlnx4_4_LOOP:
+        BYTE   W72
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+        BYTE   W96
+// 017   ----------------------------------------
+        BYTE   W12
+        BYTE           TIE     As3   v108
+        BYTE   W84
+// 018   ----------------------------------------
+phlnx4_4_18:
+        BYTE   W80
+        BYTE   W03
+        BYTE           EOT     As3
+        BYTE   W01
+        BYTE           N11     Gn3   v108
+        BYTE   W12
+        BYTE   PEND
+// 019   ----------------------------------------
+phlnx4_4_19:
+        BYTE           N11     Fn3   v108
+        BYTE   W12
+        BYTE           N32     Gn3   v108   gtp3
+        BYTE   W36
+        BYTE                   Dn3
+        BYTE   W48
+        BYTE   PEND
+// 020   ----------------------------------------
+phlnx4_4_20:
+        BYTE   W60
+        BYTE           N11     Cn3   v108
+        BYTE   W12
+        BYTE                   Cs3
+        BYTE   W12
+        BYTE                   Dn3
+        BYTE   W12
+        BYTE   PEND
+// 021   ----------------------------------------
+phlnx4_4_21:
+        BYTE           N11     Fn3   v108
+        BYTE   W12
+        BYTE           TIE     As3
+        BYTE   W84
+        BYTE   PEND
+// 022   ----------------------------------------
+phlnx4_4_22:
+        BYTE   W32
+        BYTE   W03
+        BYTE           EOT     As3
+        BYTE   W01
+        BYTE           N11     Gn3   v108
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE           N32     Gn3   v108   gtp3
+        BYTE   W36
+        BYTE   PEND
+// 023   ----------------------------------------
+phlnx4_4_23:
+        BYTE           N11     Dn3   v108
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   Dn3
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE           N32     Dn3   v108   gtp3
+        BYTE   W48
+        BYTE   PEND
+// 024   ----------------------------------------
+phlnx4_4_24:
+        BYTE   W60
+        BYTE           N11     Dn3   v108
+        BYTE   W12
+        BYTE                   Ds3
+        BYTE   W12
+        BYTE                   En3
+        BYTE   W12
+        BYTE   PEND
+// 025   ----------------------------------------
+phlnx4_4_25:
+        BYTE           N11     Gn3   v108
+        BYTE   W12
+        BYTE           TIE     Cn4
+        BYTE   W84
+        BYTE   PEND
+// 026   ----------------------------------------
+phlnx4_4_26:
+        BYTE   W80
+        BYTE   W03
+        BYTE           EOT     Cn4
+        BYTE   W01
+        BYTE           N11     An3   v108
+        BYTE   W12
+        BYTE   PEND
+// 027   ----------------------------------------
+phlnx4_4_27:
+        BYTE           N11     Gn3   v108
+        BYTE   W12
+        BYTE           N32     An3   v108   gtp3
+        BYTE   W36
+        BYTE                   En3
+        BYTE   W48
+        BYTE   PEND
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_4_24
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_4_25
+// 030   ----------------------------------------
+phlnx4_4_30:
+        BYTE   W32
+        BYTE   W03
+        BYTE           EOT     Cn4
+        BYTE   W01
+        BYTE           N11     An3   v108
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W36
+        BYTE   PEND
+// 031   ----------------------------------------
+phlnx4_4_31:
+        BYTE           N32     Dn4   v108   gtp3
+        BYTE   W36
+        BYTE           N11     Bn3
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W12
+        BYTE                   Bn3
+        BYTE   W36
+        BYTE   PEND
+// 032   ----------------------------------------
+        BYTE           N23     Ds4
+        BYTE   W24
+        BYTE           N11     Dn4
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   Dn4
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W24
+// 033   ----------------------------------------
+        BYTE   W12
+        BYTE           TIE     As3
+        BYTE   W84
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_4_18
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_4_19
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_4_20
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_4_21
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_4_22
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_4_23
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_4_24
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_4_25
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_4_26
+// 043   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_4_27
+// 044   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_4_24
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_4_25
+// 046   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_4_30
+// 047   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_4_31
+// 048   ----------------------------------------
+        BYTE           N23     Ds4   v108
+        BYTE   W24
+        BYTE           N11     Dn4
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   Dn4
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE                   Dn3
+        BYTE   W12
+// 049   ----------------------------------------
+        BYTE                   Fn3
+        BYTE   W36
+        BYTE           N32     As3   v108   gtp3
+        BYTE   W36
+        BYTE           N11     An3
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+// 050   ----------------------------------------
+phlnx4_4_50:
+        BYTE           N11     Fn3   v108
+        BYTE   W12
+        BYTE           N56     Gn3   v108   gtp3
+        BYTE   W72
+        BYTE           N32     Dn3   v108   gtp3
+        BYTE   W12
+        BYTE   PEND
+// 051   ----------------------------------------
+phlnx4_4_51:
+        BYTE   W24
+        BYTE           N11     Cn3   v108
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE           TIE     Dn3
+        BYTE   W48
+        BYTE   PEND
+// 052   ----------------------------------------
+        BYTE   W92
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W01
+// 053   ----------------------------------------
+        BYTE   W36
+        BYTE           N32     As3   v108   gtp3
+        BYTE   W36
+        BYTE           N11     An3
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+// 054   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_4_50
+// 055   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_4_51
+// 056   ----------------------------------------
+        BYTE   W92
+        BYTE   W03
+        BYTE           EOT     Dn3
+        BYTE   W01
+// 057   ----------------------------------------
+phlnx4_4_57:
+        BYTE   W36
+        BYTE           N32     Cn4   v108   gtp3
+        BYTE   W36
+        BYTE           N11     As3
+        BYTE   W12
+        BYTE                   Gs3
+        BYTE   W12
+        BYTE   PEND
+// 058   ----------------------------------------
+phlnx4_4_58:
+        BYTE           N11     Gn3   v108
+        BYTE   W12
+        BYTE           N56     Gs3   v108   gtp3
+        BYTE   W84
+        BYTE   PEND
+// 059   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_4_57
+// 060   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_4_58
+// 061   ----------------------------------------
+        BYTE   W36
+        BYTE           N32     Dn4   v108   gtp3
+        BYTE   W36
+        BYTE           N11     Cn4
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W12
+// 062   ----------------------------------------
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE           N56     An3   v108   gtp3
+        BYTE   W84
+// 063   ----------------------------------------
+        BYTE   W12
+        BYTE           N11     Fn4
+        BYTE   W12
+        BYTE                   Dn4
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W12
+        BYTE                   Dn4
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W12
+// 064   ----------------------------------------
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+// 065   ----------------------------------------
+        BYTE                   Dn3
+        BYTE   W24
+        BYTE   GoTo
+         POIN2  phlnx4_4_LOOP
+        BYTE   FINE
+
+//****************** Track 5 (Midi-Chn.5) ******************//
+
+phlnx4_5:
+        BYTE   KEYSH   phlnx4_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   30
+        BYTE           PAN     c_v+6
+        BYTE           VOL     69
+        BYTE   W96
+// 001   ----------------------------------------
+phlnx4_5_1:
+        BYTE           N11     Gn1   v108
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W24
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W24
+        BYTE                   Gn1
+        BYTE   W24
+        BYTE   PEND
+// 002   ----------------------------------------
+phlnx4_5_2:
+        BYTE   W06
+        BYTE           N11     Gn1   v108
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W42
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE   PEND
+// 003   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_1
+// 004   ----------------------------------------
+phlnx4_5_4:
+        BYTE           N11     Gn1   v108
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W36
+        BYTE                   Gn1
+        BYTE   W48
+        BYTE   PEND
+// 005   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_1
+// 006   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_2
+// 007   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_1
+// 008   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_4
+// 009   ----------------------------------------
+        BYTE           N11     Gn1   v108
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+phlnx4_5_LOOP:
+        BYTE   W12
+        BYTE           N11     Gn1   v108
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W24
+        BYTE                   Gn1
+        BYTE   W24
+// 010   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_2
+// 011   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_1
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_4
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_1
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_2
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_1
+// 016   ----------------------------------------
+        BYTE   W12
+        BYTE           N11     Gn1   v108
+        BYTE   W36
+        BYTE                   Gn1
+        BYTE   W48
+// 017   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_1
+// 018   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_2
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_1
+// 020   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_4
+// 021   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_1
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_2
+// 023   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_1
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_4
+// 025   ----------------------------------------
+phlnx4_5_25:
+        BYTE           N11     An1   v108
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W24
+        BYTE                   An1
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W24
+        BYTE                   An1
+        BYTE   W24
+        BYTE   PEND
+// 026   ----------------------------------------
+phlnx4_5_26:
+        BYTE   W06
+        BYTE           N11     An1   v108
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W42
+        BYTE                   An1
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W12
+        BYTE   PEND
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_25
+// 028   ----------------------------------------
+phlnx4_5_28:
+        BYTE           N11     An1   v108
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W36
+        BYTE                   An1
+        BYTE   W48
+        BYTE   PEND
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_25
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_26
+// 031   ----------------------------------------
+phlnx4_5_31:
+        BYTE           N11     Bn1   v108
+        BYTE   W12
+        BYTE                   Bn1
+        BYTE   W24
+        BYTE                   Bn1
+        BYTE   W12
+        BYTE                   Bn1
+        BYTE   W24
+        BYTE                   Bn1
+        BYTE   W24
+        BYTE   PEND
+// 032   ----------------------------------------
+        BYTE   W96
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_1
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_2
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_1
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_4
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_1
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_2
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_1
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_4
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_25
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_26
+// 043   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_25
+// 044   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_28
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_25
+// 046   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_26
+// 047   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_31
+// 048   ----------------------------------------
+        BYTE   W96
+// 049   ----------------------------------------
+        BYTE   W96
+// 050   ----------------------------------------
+        BYTE   W96
+// 051   ----------------------------------------
+        BYTE   W96
+// 052   ----------------------------------------
+        BYTE   W96
+// 053   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_1
+// 054   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_2
+// 055   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_1
+// 056   ----------------------------------------
+        BYTE           N11     Gn1   v108
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W48
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+// 057   ----------------------------------------
+        BYTE                   Gs1
+        BYTE   W12
+        BYTE                   Gs1
+        BYTE   W24
+        BYTE                   Gs1
+        BYTE   W12
+        BYTE                   Gs1
+        BYTE   W24
+        BYTE                   Gs1
+        BYTE   W24
+// 058   ----------------------------------------
+        BYTE   W06
+        BYTE                   Gs1
+        BYTE   W12
+        BYTE                   Gs1
+        BYTE   W42
+        BYTE                   Gs1
+        BYTE   W12
+        BYTE                   Gs1
+        BYTE   W12
+        BYTE                   Gs1
+        BYTE   W12
+// 059   ----------------------------------------
+        BYTE   W96
+// 060   ----------------------------------------
+        BYTE   W96
+// 061   ----------------------------------------
+        BYTE   PATT
+         POIN2  phlnx4_5_25
+// 062   ----------------------------------------
+        BYTE           N11     An1   v108
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W48
+        BYTE                   An1
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W12
+// 063   ----------------------------------------
+        BYTE   W36
+        BYTE                   Fn1
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   As1
+        BYTE   W36
+// 064   ----------------------------------------
+        BYTE   W96
+// 065   ----------------------------------------
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE   GoTo
+         POIN2  phlnx4_5_LOOP
+        BYTE   FINE
+
+
+//********************** End of Song ***********************//
+
+       ALIGN 4
+phlnx4:
+        BYTE   6                       // Num Tracks
+        BYTE   0                       // Unknown
+        BYTE   phlnx4_pri              // Priority
+        BYTE   phlnx4_rev              // Reverb
+
+        POIN2   phlnx4_grp             
+
+        POIN2   phlnx4_0
+        POIN2   phlnx4_1
+        POIN2   phlnx4_2
+        POIN2   phlnx4_3
+        POIN2   phlnx4_4
+        POIN2   phlnx4_5
+
+        

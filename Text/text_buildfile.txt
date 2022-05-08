@@ -117,3 +117,5 @@ A scroll that teaches[N]
 a skill when used.[X]
 
 #include "skilldesc_text.txt"
+
+#include "soundroom_text.txt"
