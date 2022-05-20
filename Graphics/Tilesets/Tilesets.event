@@ -140,7 +140,7 @@ Plains_Pal3:
 
 ALIGN 4
 Plains_Pal4:
-#incbin "Fields/Fields4_pal.dmp"
+#incbin "Fields/nightfields.bin"
 
 ALIGN 4
 Plains_Pal5:
