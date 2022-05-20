@@ -53,10 +53,10 @@
 	MESSAGE Used map space ends at currentOffset
 	MESSAGE 
 	
-	MESSAGE "-----------------------"
-	MESSAGE 
+	MESSAGE
 	MESSAGE (currentOffset-FreeSpace) bytes used overall
     MESSAGE Used free space ends at currentOffset
+	MESSAGE 
 	ASSERT (0x2000000-currentOffset)
-	
+	MESSAGE 
 	
