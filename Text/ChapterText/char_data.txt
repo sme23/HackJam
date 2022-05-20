@@ -1,0 +1,69 @@
+## RupertName
+Rupert[X]
+
+## RupertDesc
+A virtuous and headstrong lord.[X]
+
+## NellyName
+Nelly[X]
+
+## NellyDesc
+What's a child doing[N]
+on a battlefield?[X]
+
+## EriName
+Eri[X]
+
+## EriDesc
+A cunning thief.[X]
+
+## JebName
+Jeb[X]
+
+## JebDesc
+Jeb[X]
+
+## RabaName
+Raba[X]
+
+## RabaDesc
+A kindly old priest.[X]
+
+## TerraName
+Terra[X]
+
+## TerraDesc
+A swashbuckling pirate.[X]
+
+## ThornName
+Thorn[X]
+
+## ThornDesc
+A kind-hearted brigand.[X]
+
+## JeffName
+Jeff[X]
+
+## JeffDesc
+his name jef[X]
+
+## BromleyName
+Bromley[X]
+
+## BromleyDesc
+The Mountain King's[N]
+second-in-command.[X]
+
+## XariusName
+Xarius[X]
+
+## XariusDesc
+The Mountain King himself.[X]
+
+## MountainBanditName
+Mtn. Bandit[X]
+
+## MountainBanditDesc
+Bandits loyal to[N]
+the Mountain King.[X]
+

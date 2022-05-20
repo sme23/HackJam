@@ -119,3 +119,5 @@ a skill when used.[X]
 #include "skilldesc_text.txt"
 
 #include "soundroom_text.txt"
+
+#include "ChapterText/_chapter_text.txt"
