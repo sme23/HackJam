@@ -5,4 +5,52 @@ Portrait:			// by
 #incext PortraitFormatter ".png"
 */
 
+setMugEntry(Mug,Portrait,2,6,3,4)
+ALIGN 4
+Portrait:			// by Zaim
+#incext PortraitFormatter "Playables/Thorn.png"
 
+setMugEntry(Mug,Portrait,2,6,3,4)
+ALIGN 4
+Portrait:			// by Zaim
+#incext PortraitFormatter "Enemies/Jeff.png"
+
+setMugEntry(Mug,Portrait,2,6,3,4)
+ALIGN 4
+Portrait:			// by Smokeyguy77
+#incext PortraitFormatter "Enemies/Bromley.png"
+
+setMugEntry(Mug,Portrait,2,6,3,4)
+ALIGN 4
+Portrait:			// by Tsushi
+#incext PortraitFormatter "Enemies/Xarius.png"
+
+setMugEntry(Mug,Portrait,2,6,3,4)
+ALIGN 4
+Portrait:			// by CanDy
+#incext PortraitFormatter "Playables/Terra.png"
+
+setMugEntry(Mug,Portrait,2,6,3,4)
+ALIGN 4
+Portrait:			// by CanDy
+#incext PortraitFormatter "Playables/Raba.png"
+
+setMugEntry(Mug,Portrait,2,6,3,4)
+ALIGN 4
+Portrait:			// by Zaim
+#incext PortraitFormatter "Playables/Jeb.png"
+
+setMugEntry(Mug,Portrait,2,6,3,4)
+ALIGN 4
+Portrait:			// by CanDy
+#incext PortraitFormatter "Playables/Nelly.png"
+
+setMugEntry(Mug,Portrait,2,6,3,4)
+ALIGN 4
+Portrait:			// by Zaim
+#incext PortraitFormatter "Playables/Rupert.png"
+
+setMugEntry(Mug,Portrait,2,6,3,4)
+ALIGN 4
+Portrait:			// by MVPMaster
+#incext PortraitFormatter "Playables/Eri.png"
