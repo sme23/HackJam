@@ -82,6 +82,9 @@ BattleQuoteEntryBothWays(Ch1ID,8,Nelly,Jeff,Ch1BattleQuoteNelly)
 BattleQuoteEntryBothWays(Ch2ID,12,Rupert,Bromley,Ch2BattleQuoteRupert)
 BattleQuoteEntryBothWays(Ch2ID,13,Jeb,Bromley,Ch2BattleQuoteJeb)
 BattleQuoteEntryBothWays(Ch2ID,14,Nelly,Bromley,Ch2BattleQuoteNelly)
+BattleQuoteEntryBothWays(Ch3ID,7,Rupert,Xarius,Ch3BattleQuoteRupert)
+BattleQuoteEntryBothWays(Ch3ID,8,Terra,Xarius,Ch3BattleQuoteTerra)
+BattleQuoteEntryBothWays(Ch3ID,9,Nelly,Xarius,Ch3BattleQuoteNelly)
 
 QuoteListEnd
 

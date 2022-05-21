@@ -22,6 +22,7 @@ LocationBasedEvents:
 END_MAIN
 
 MiscBasedEvents:
+DefeatBoss(EndingScene)
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -38,9 +39,40 @@ Tutorial:
 END_MAIN
 
 Units1:
+UNIT Rupert EphraimLord 0 Level(10,Ally,1) [18,2] 0 0 1 REDA14R3 NoItems NoAI
+UNIT Nelly Mage_F 0 Level(2,Ally,1) [18,2] 0 0 1 REDA0R5 NoItems NoAI
+UNIT Eri Rogue 0 Level(1,Ally,1) [18,2] 0 0 1 REDA1R6 NoItems NoAI
+UNIT Jeb General 0 Level(1,Ally,1) [18,2] 0 0 1 REDA15R2 NoItems NoAI
+UNIT Raba Priest 0 Level(15,Ally,1) [18,2] 0 0 1 REDA15R0 NoItems NoAI
+UNIT Terra Pirate 0 Level(9,Ally,1) [18,2] 0 0 1 REDA13R2 NoItems NoAI
+UNIT Thorn Fighter 0 Level(11,Ally,1) [18,2] 0 0 1 REDA16R2 NoItems NoAI
 UNIT
 
 EnemyUnits:
+UNIT Xarius Druid 0 Level(10,Enemy,1) [21,18] 0 0 0 1 NoItems NeverMoveAI
+UNIT MountainBandit Wight 0 Level(7,Enemy,1) [10,4] 0 0 0 1 [SteelSword] NoAI
+UNIT MountainBandit Wight 0 Level(6,Enemy,1) [12,6] 0 0 0 1 [SteelLance] NoAI
+UNIT MountainBandit Wight 0 Level(4,Enemy,1) [15,6] 0 0 0 1 [SilverSword] NoAI
+UNIT MountainBandit Wight_Bow 0 Level(5,Enemy,1) [5,1] 0 0 0 1 [SteelBow] NoAI
+UNIT MountainBandit Entombed 0 Level(10,Enemy,1) [19,8] 0 0 0 1 [RottenClaw] AttackInRangeAI
+UNIT MountainBandit Entombed 0 Level(10,Enemy,1) [2,2] 0 0 0 1 [RottenClaw] AttackInRangeAI
+UNIT MountainBandit ArchMogall 0 Level(9,Enemy,1) [6,4] 0 0 0 1 [CrimsonEye] AttackInRangeAI
+UNIT MountainBandit ArchMogall 0 Level(7,Enemy,1) [4,14] 0 0 0 1 [CrimsonEye] AttackInRangeAI
+UNIT MountainBandit ArchMogall 0 Level(8,Enemy,1) [15,17] 0 0 0 1 [CrimsonEye] AttackInRangeAI
+UNIT MountainBandit ArchMogall 0 Level(6,Enemy,1) [20,16] 0 0 0 1 [Shadowshot] AttackInRangeAI
+UNIT MountainBandit Maelduin 0 Level(8,Enemy,1) [2,12] 0 0 0 1 [SilverAxe,IronBow] AttackInRangeAI
+UNIT MountainBandit Maelduin 0 Level(7,Enemy,1) [0,15] 0 0 0 1 [SteelAxe,SteelBow] AttackInRangeAI
+UNIT MountainBandit Maelduin 0 Level(5,Enemy,1) [1,8] 0 0 0 1 [IronAxe,SilverBow] AttackInRangeAI
+UNIT MountainBandit Gorgon 0 Level(5,Enemy,1) [18,13] 0 0 0 1 [Shadowshot] AttackInRangeAI
+UNIT MountainBandit Gorgon 0 Level(5,Enemy,1) [7,16] 0 0 0 1 [Shadowshot] AttackInRangeAI
+UNIT MountainBandit ElderBael 0 Level(6,Enemy,1) [8,10] 0 0 0 1 [SharpClaw] AttackInRangeAI
+UNIT MountainBandit ElderBael 0 Level(7,Enemy,1) [11,11] 0 0 0 1 [SharpClaw] AttackInRangeAI
+UNIT MountainBandit ElderBael 0 Level(8,Enemy,1) [12,14] 0 0 0 1 [SharpClaw] AttackInRangeAI
+UNIT MountainBandit ElderBael 0 Level(9,Enemy,1) [16,13] 0 0 0 1 [SharpClaw] AttackInRangeAI
+UNIT MountainBandit ArchMogall 0 Level(4,Enemy,1) [3,7] 0 0 0 1 [CrimsonEye] AttackInRangeAI
+UNIT MountainBandit ArchMogall 0 Level(7,Enemy,1) [20,11] 0 0 0 1 [CrimsonEye] AttackInRangeAI
+UNIT MountainBandit ArchMogall 0 Level(6,Enemy,1) [20,2] 0 0 0 1 [CrimsonEye] AttackInRangeAI
+UNIT MountainBandit DracoZombie 0 Level(2,Enemy,1) [19,16] 0 0 0 1 [WretchedAir] AttackInRangeAI
 UNIT
 
 Traps1:
@@ -52,10 +84,24 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+LOAD1 0 EnemyUnits
+ENUN
+MUSC Lights_in_the_Dark
+CAM1 [18,2]
+FADU 10
+LOAD1 1 Units1
+ENUN
+
+Text(Ch3OpeningText1)
+
 NoFade
 ENDA
 
 EndingScene:
+MUSC Victory
+SetBackground(Woodland_Night)
+Text(Ch3EndingText1)
+FADI 40
+MNTS 1
 NoFade
 ENDA
-

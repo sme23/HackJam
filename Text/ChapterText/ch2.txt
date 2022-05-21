@@ -22,7 +22,7 @@ Have at you![A][X]
 ## Ch2BattleQuoteNelly
 [OpenMidRight][LoadNelly]
 Disbewievew sitting[N]
-upon a thwone of wies,[A][N] 
+upon a thwone of wies,[A][N]
 pwepawe tuwu wecieve[N]
 youw wetwibution![A]
 [ClearFace][OpenMidLeft][LoadBromley]

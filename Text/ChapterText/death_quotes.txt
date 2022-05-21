@@ -58,5 +58,5 @@ You'll never win[Beat][A][X]
 ## XariusDeathQuote
 [OpenMidLeft][LoadXarius][CloseEyes]
 You damn[Beat][N]
-interlopers[Beat][A][X]
+fools[Beat][A][X]
 

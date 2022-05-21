@@ -63,7 +63,6 @@ UNIT Raba Priest 0 Level(15,Ally,1) [0,4] 0 0 1 REDA0R4 NoItems NoAI
 UNIT Terra Pirate 0 Level(9,Ally,1) [0,6] 0 0 1 REDA2R6 NoItems NoAI
 UNIT Thorn Fighter 0 Level(11,Ally,1) [0,4] 0 0 1 REDA2R4 NoItems NoAI
 UNIT
-UNIT
 
 EnemyUnits:
 UNIT Bromley Hero 0 Level(3,Enemy,1) [16,1] 2 0 0 1 [SilverSword,HandAxe] NeverMoveAI
@@ -107,6 +106,8 @@ ENDA
 EndingScene:
 MUSC Into_the_Shadow_of_Victory
 Text(Ch2EndingText1)
+
+MNC2 Ch3ID
 
 NoFade
 ENDA
