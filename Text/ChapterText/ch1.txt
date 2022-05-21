@@ -37,7 +37,7 @@ Let's show them a good time, boys![A][X]
 
 ## Ch1BattleQuoteRupert
 [OpenMidRight][LoadRupert]
-You![N] 
+You![N]
 Where is the Mountain King!?[A]
 [ClearFace][OpenMidLeft][LoadJeff]
 As if I would tell[N]

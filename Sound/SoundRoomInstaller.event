@@ -29,68 +29,56 @@ POP
 
 ALIGN 4
 SoundRoomList:
-//menu music
-SoundRoomEntry(PS3TitleTheme,0,SongName_PS3TitleTheme)
 
-//map music
+SoundRoomEntry(SpaceHarrier,0,SongName_SpaceHarrier)
+
+SoundRoomEntry(FieldDO2,0,SongName_FieldDO2)
+SoundRoomEntry(DoomLufia,0,SongName_DoomLufia)
+SoundRoomEntry(RaveInTheGrave,0,SongName_RaveInTheGrave)
+SoundRoomEntry(DarknessFF4,0,SongName_DarknessFF4)
+SoundRoomEntry(DesertFieldDV,0,SongName_DesertFieldDV)
+SoundRoomEntry(Field2Herc4,0,SongName_Field2Herc4)
+SoundRoomEntry(SkyEventPR3,0,SongName_SkyEventPR3)
+
+SoundRoomEntry(FFL2Battle,0,SongName_FFL2Battle)
+SoundRoomEntry(Taisen4Puyo,0,SongName_Taisen4Puyo)
+SoundRoomEntry(QuicklyDifficult,0,SongName_QuicklyDifficult)
+SoundRoomEntry(Battle7thSaga,0,SongName_7thSagaBattle)
+SoundRoomEntry(MadouBoss,0,SongName_MadouBoss)
+SoundRoomEntry(BossFFMQ,0,SongName_BossFFMQ)
+SoundRoomEntry(BossBugFables,0,SongName_BossBugFables)
+SoundRoomEntry(MKHall,0,SongName_MKHall)
+SoundRoomEntry(LamentEcclesia,0,SongName_LamentToTheMaster)
+
+SoundRoomEntry(NeverGonnaGiveYouUp,0,SongName_NeverGonnaGiveYouUp)
+SoundRoomEntry(OneWingedAngel,0,SongName_OneWingedAngel)
 
 SoundRoomEntry(FE1MapTheme,0,SongName_FE1MapTheme)
-SoundRoomEntry(FieldDO2,0,SongName_FieldDO2)
-SoundRoomEntry(OurJourneyBoF2,0,SongName_OurJourneyBoF2)
-SoundRoomEntry(PS3Dungeon,0,SongName_PS3Dungeon)
-SoundRoomEntry(RaveInTheGrave,0,SongName_RaveInTheGrave)
-SoundRoomEntry(CastleKoD,0,SongName_CastleKoD)
-SoundRoomEntry(OverworldDQ3,0,SongName_OverworldDQ3)
-SoundRoomEntry(NeverGonnaGiveYouUp,0,SongName_NeverGonnaGiveYouUp)
-
 SoundRoomEntry(BootlegFE,0,SongName_BootlegFE)
-SoundRoomEntry(UnderFieldDV,0,SongName_UnderFieldDV)
-SoundRoomEntry(DoomLufia,0,SongName_DoomLufia)
-SoundRoomEntry(FireFieldDV,0,SongName_FireFieldDV)
-SoundRoomEntry(DarknessFF4,0,SongName_DarknessFF4)
-SoundRoomEntry(BattlePQ,0,SongName_BattlePQ)
-SoundRoomEntry(ForWhoseSake,0,SongName_ForWhoseSake)
-SoundRoomEntry(OneWingedAngel,0,SongName_OneWingedAngel)
 
 SoundRoomEntry(TimeSurfing,0,SongName_TimeSurfing)
 
-SoundRoomEntry(Taisen4Puyo,0,SongName_Taisen4Puyo)
-SoundRoomEntry(BossFFMQ,0,SongName_BossFFMQ)
-SoundRoomEntry(QuicklyDifficult,0,SongName_QuicklyDifficult)
-SoundRoomEntry(FFL2Battle,0,SongName_FFL2Battle)
+SoundRoomEntry(OurJourneyBoF2,0,SongName_OurJourneyBoF2)
+SoundRoomEntry(PS3Dungeon,0,SongName_PS3Dungeon)
+SoundRoomEntry(PS3TitleTheme,0,SongName_PS3TitleTheme)
 
-SoundRoomEntry(MadouBoss,0,SongName_MadouBoss)
+SoundRoomEntry(CastleKoD,0,SongName_CastleKoD)
+SoundRoomEntry(OverworldDQ3,0,SongName_OverworldDQ3)
+SoundRoomEntry(UnderFieldDV,0,SongName_UnderFieldDV)
+SoundRoomEntry(FireFieldDV,0,SongName_FireFieldDV)
+SoundRoomEntry(BattlePQ,0,SongName_BattlePQ)
+SoundRoomEntry(ForWhoseSake,0,SongName_ForWhoseSake)
 SoundRoomEntry(SinistralBattle,0,SongName_SinistralBattle)
 SoundRoomEntry(PoppleTheme,0,SongName_PoppleTheme)
-SoundRoomEntry(BossBugFables,0,SongName_BossBugFables)
-
-SoundRoomEntry(Battle7thSaga,0,SongName_7thSagaBattle)
-
-
 SoundRoomEntry(FourHeroesBoss,0,SongName_FourHeroesBoss)
 SoundRoomEntry(BossBlockBall,0,SongName_BlockBallBoss)
 SoundRoomEntry(Battle2BoF2,0,SongName_Battle2BoF2)
-SoundRoomEntry(LamentEcclesia,0,SongName_LamentToTheMaster)
-
-
-SoundRoomEntry(SpaceHarrier,0,SongName_SpaceHarrier)
-SoundRoomEntry(DesertFieldDV,0,SongName_DesertFieldDV)
-SoundRoomEntry(Field2Herc4,0,SongName_Field2Herc4)
-
-
-
 SoundRoomEntry(BattlePS2,0,SongName_BattlePS2)
-
-SoundRoomEntry(SkyEventPR3,0,SongName_SkyEventPR3)
-
 SoundRoomEntry(ToZanarkand,0,SongName_ToZanarkand)
-
 SoundRoomEntry(WallsOB,0,SongName_WallsOB)
 SoundRoomEntry(PTBStage7,0,SongName_PTBStage7)
 SoundRoomEntry(PhalanxDeepCore,0,SongName_PhalanxDeepCore)
 SoundRoomEntry(MWBattle,0,SongName_MWBattle)
-
-SoundRoomEntry(MKHall,0,SongName_MKHall)
 
 SoundRoomTerminator
 
