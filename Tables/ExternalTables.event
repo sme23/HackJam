@@ -79,7 +79,9 @@ ALIGN 4
 BattleQuoteList:
 BattleQuoteEntryBothWays(Ch1ID,7,Rupert,Jeff,Ch1BattleQuoteRupert)
 BattleQuoteEntryBothWays(Ch1ID,8,Nelly,Jeff,Ch1BattleQuoteNelly)
-
+BattleQuoteEntryBothWays(Ch2ID,12,Rupert,Bromley,Ch2BattleQuoteRupert)
+BattleQuoteEntryBothWays(Ch2ID,13,Jeb,Bromley,Ch2BattleQuoteJeb)
+BattleQuoteEntryBothWays(Ch2ID,14,Nelly,Bromley,Ch2BattleQuoteNelly)
 
 QuoteListEnd
 
