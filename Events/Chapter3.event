@@ -72,7 +72,7 @@ UNIT MountainBandit ElderBael 0 Level(9,Enemy,1) [16,13] 0 0 0 1 [SharpClaw] Att
 UNIT MountainBandit ArchMogall 0 Level(4,Enemy,1) [3,7] 0 0 0 1 [CrimsonEye] AttackInRangeAI
 UNIT MountainBandit ArchMogall 0 Level(7,Enemy,1) [20,11] 0 0 0 1 [CrimsonEye] AttackInRangeAI
 UNIT MountainBandit ArchMogall 0 Level(6,Enemy,1) [20,2] 0 0 0 1 [CrimsonEye] AttackInRangeAI
-UNIT MountainBandit DracoZombie 0 Level(2,Enemy,1) [19,16] 0 0 0 1 [WretchedAir] AttackInRangeAI
+UNIT MountainBandit DracoZombie 0 Level(10,Enemy,1) [19,16] 0 0 0 1 [CrimsonEye] AttackInRangeAI
 UNIT
 
 Traps1:

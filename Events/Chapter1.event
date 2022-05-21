@@ -80,6 +80,7 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+ENUT $B0 //casual mode on is easier than fixing unit loads :midblink:
 MUSC Advance
 SetBackground(Plain)
 Text(Ch1OpeningText1)
