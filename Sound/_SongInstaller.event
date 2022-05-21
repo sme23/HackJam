@@ -202,4 +202,7 @@ SongTable(MWBattle,battlemw,BattleMusicGroup)
 #include "Songs/ps3theme.event"
 SongTable(PS3TitleTheme,ps3theme,MapMusicGroup)
 }
-
+{
+#include "Songs/hall_2.event"
+SongTable(MKHall,hall_2,BattleMusicGroup)
+}

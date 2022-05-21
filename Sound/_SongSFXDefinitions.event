@@ -57,11 +57,11 @@
 #define PhalanxDeepCore 0x107
 #define MWBattle 0x10B
 #define PS3TitleTheme 0x43 //title screen song
+#define MKHall 0x115
 
 /*
 free:
 
-0x115
 0x116
 0x118
 0x12D

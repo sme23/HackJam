@@ -90,6 +90,7 @@ SoundRoomEntry(PTBStage7,0,SongName_PTBStage7)
 SoundRoomEntry(PhalanxDeepCore,0,SongName_PhalanxDeepCore)
 SoundRoomEntry(MWBattle,0,SongName_MWBattle)
 
+SoundRoomEntry(MKHall,0,SongName_MKHall)
 
 SoundRoomTerminator
 

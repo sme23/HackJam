@@ -27,11 +27,14 @@
 #define SetChapterMapThemesWithFlag(chID,pSongID,eSongID) "SetPlayerPhaseThemeWithFlag(chID,pSongID); SetEnemyPhaseThemeWithFlag(chID,eSongID)"
 
 
-SetChapterMapThemes(Ch1ID,SpaceHarrier,Field2Herc4,Field2Herc4) 
-SetVictoryTheme(Ch1ID,PTBStage7)
+SetChapterMapThemes(Ch1ID,FieldDO2,DoomLufia,DoomLufia) 
+SetVictoryTheme(Ch1ID,SkyEventPR3)
 
+SetChapterMapThemes(Ch2ID,RaveInTheGrave,DarknessFF4,DarknessFF4)
+SetVictoryTheme(Ch2ID,SkyEventPR3)
 
-
+SetChapterMapThemes(Ch3ID,DesertFieldDV,Field2Herc4,Field2Herc4)
+SetVictoryTheme(Ch3ID,SkyEventPR3)
 
 // ===== Battle Music =====
 
@@ -44,6 +47,8 @@ SetVictoryTheme(Ch1ID,PTBStage7)
 #define SetChapterBattleThemes(chID,pSongID,eSongID,nSongID) "SetPlayerPhaseBattleTheme(chID,pSongID); SetEnemyPhaseBattleTheme(chID,eSongID); SetNPCPhaseBattleTheme(chID,nSongID)"
 
 SetChapterBattleThemes(Ch1ID,FFL2Battle,Battle7thSaga,Battle7thSaga) 
+SetChapterBattleThemes(Ch2ID,Taisen4Puyo,MadouBoss,MadouBoss)
+SetChapterBattleThemes(Ch3ID,QuicklyDifficult,BossFFMQ,BossFFMQ)
 
 // ===== Boss Music =====
 PUSH
@@ -56,5 +61,10 @@ POP
 
 
 BossMusicList:
+
+BossMusicEntry(Jeff,BossBugFables)
+BossMusicEntry(Bromley,MKHall)
+BossMusicEntry(Xarius,LamentEcclesia)
+
 BossMusicEnd
 

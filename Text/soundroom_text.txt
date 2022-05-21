@@ -121,3 +121,7 @@ Enemy Commander (Metal Warriors)[X]
 
 ## SongName_PS3TitleTheme ^
 Title (Phantasy Star 3)[X]
+
+## SongName_MKHall ^
+In the Hall of the Mountain King[X]
+
