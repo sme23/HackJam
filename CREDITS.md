@@ -1,3 +1,14 @@
+# Mugs
+- Zaim
+- Smokeyguy77
+- CanDy
+- MVPMaster
+- Tsushi
+
+Granular mug credits are in mug installer
+
+Tilesets by ZoramineFae
+
 # Skill System Credits
 
 ## Skill contributors
