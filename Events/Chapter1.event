@@ -22,6 +22,7 @@ LocationBasedEvents:
 END_MAIN
 
 MiscBasedEvents:
+DefeatBoss(EndingScene)
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -39,7 +40,7 @@ END_MAIN
 
 Units1:
 UNIT Rupert EphraimLord 0 Level(10,Ally,1) [0,10] 0 0 1 REDA3R10 [Reginleif, Elixir] NoAI
-UNIT Nelly Mage_F 0 Level(5,Ally,1) [0,13] 0 0 1 REDA2R13 [Thunder, Vulnerary] NoAI
+UNIT Nelly Mage_F 0 Level(2,Ally,1) [0,13] 0 0 1 REDA2R13 [Thunder, Vulnerary] NoAI
 UNIT Eri Rogue 0 Level(1,Ally,1) [0,9] 0 0 1 REDA2R9 [KillingEdge] NoAI
 UNIT Jeb General 0 Level(1,Ally,1) [0,11] 0 0 1 REDA2R11 [SteelSword,SteelLance] NoAI
 UNIT Raba Priest 0 Level(15,Ally,1) [0,12] 0 0 1 REDA1R12 [Mend,Physic] NoAI
@@ -49,7 +50,7 @@ UNIT
 
 EnemyUnits:
 UNIT Jeff Brigand 0 Level(15,Enemy,1) [17,3] 0 0 0 1 [Tomahawk] NeverMoveAI
-UNIT MountainBandit Mercenary 0 Level(12,Enemy,1) [15,2] 0 0 0 1 [SteelLance] AttackInRangeAI
+UNIT MountainBandit Mercenary 0 Level(12,Enemy,1) [15,2] 0 0 0 1 [SteelBlade] AttackInRangeAI
 UNIT MountainBandit Brigand 0 Level(12,Enemy,1) [10,5] 0 0 0 1 [SteelAxe] AttackInRangeAI
 UNIT MountainBandit Brigand 0 Level(12,Enemy,1) [14,7] 0 0 0 1 [IronAxe,HandAxe] AttackInRangeAI
 UNIT MountainBandit Archer 0 Level(12,Enemy,1) [8,8] 0 0 0 1 [ShortBow,Longbow] AttackInRangeAI
@@ -105,6 +106,11 @@ NoFade
 ENDA
 
 EndingScene:
+MUSC Victory
+Text(Ch1EndingText1)
+
+MNC2 Ch2ID
+
 NoFade
 ENDA
 

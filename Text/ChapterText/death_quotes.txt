@@ -1,0 +1,62 @@
+## RupertDeathQuote
+[OpenMidRight][LoadRupert][CloseEyes]
+So this[Beat][A][N]
+is how it ends[Beat][A][X]
+
+## NellyDeathQuote
+[OpenMidRight][LoadNelly][CloseEyes]
+Uwu have onwy swain[N]
+my mowtaw fowm, foow.[A][N]
+My immowtaw souw[N]
+shaww haunt uwu,[A][N]
+fow the west of time[Beat][A][X]
+
+## EriDeathQuote
+[OpenMidRight][LoadEri][CloseEyes]
+Damn[Beat][N]
+Not here[Beat][A][X]
+
+## JebDeathQuote
+[OpenMidRight][LoadJeb][CloseEyes]
+Even in death[Beat][A][N]
+I will be[Beat][A][N]
+victorious[Beat][A][X]
+
+## RabaDeathQuote
+[OpenMidRight][LoadRaba][CloseEyes]
+Ah[Beat][N]
+Is that[Beat][A][N]
+Take me with you[N]
+to the great beyond,[A][N]
+and you'll be very[N]
+glad you did[Beat][A][X]
+
+## TerraDeathQuote
+[OpenMidRight][LoadTerra][CloseEyes]
+Thorn[Beat][A][N]
+They say a pirate's[N]
+favorite letter is R,[A][N]
+but mine has always[N]
+been U[Beat][A][X]
+
+## ThornDeathQuote
+[OpenMidRight][LoadThorn][CloseEyes]
+So this is[Beat][N]
+where it ends[Beat][A][N]
+Terra[Beat][A][X]
+
+## JeffDeathQuote
+[OpenMidLeft][LoadJeff][CloseEyes]
+Seems that you're[Beat][N]
+stronger than I thought[Beat][A][X]
+
+## BromleyDeathQuote
+[OpenMidLeft][LoadBromley][CloseEyes]
+Heh[Beat][A][N]
+You'll never win[Beat][A][X]
+
+## XariusDeathQuote
+[OpenMidLeft][LoadXarius][CloseEyes]
+You damn[Beat][N]
+interlopers[Beat][A][X]
+

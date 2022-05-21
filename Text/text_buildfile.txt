@@ -116,6 +116,15 @@ Cost[X]
 A scroll that teaches[N]
 a skill when used.[X]
 
+## Ch1Name
+1: Mountain Approach[X]
+
+## Ch2Name
+2: Lair of the King[X]
+
+## Ch3Name
+3: Fall of the King[X]
+
 #include "skilldesc_text.txt"
 
 #include "soundroom_text.txt"
