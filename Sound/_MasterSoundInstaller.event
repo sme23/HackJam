@@ -1,7 +1,0 @@
-#include "Instruments/_InstrumentInstaller.event"
-#include "_SongInstaller.event"
-#include "SoundHax/_SoundHaxInstaller.event"
-
-
-#include "SoundRoomInstaller.event"
-#include "PerChapterMusicInstaller.event"
