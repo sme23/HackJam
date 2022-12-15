@@ -1,0 +1,25 @@
+// New Promo Screen
+// by Sme
+
+PUSH
+	ORG $CDD00
+	replaceWithHack(NewPromoScreen_OnHover)
+POP
+
+#include "NewPromoScreen.lyn.event"
+
+IsStrMagSplitPresent:
+#ifdef "USE_STRMAG_SPLIT"
+BYTE True
+#else // USE_STRMAG_SPLIT
+BYTE False
+#endif // USE_STRMAG_SPLIT
+
+// define NO_SKILL_SYSTEM to create these labels to avoid errors when it's not present
+// will disable skill display & should give non-strmag split display behavior
+// by necessity still requires Icon Rework
+#ifdef NO_SKILL_SYSTEM
+MagClassTable:
+ClassSkillTable:
+FILL (256*4)
+#endif //NO_SKILL_SYSTEM

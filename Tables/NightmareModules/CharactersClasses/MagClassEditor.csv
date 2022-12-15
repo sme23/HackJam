@@ -1,9 +1,9 @@
 INLINE MagClassTable,Base Magic,Magic Growth,Magic Cap,Magic Promotion Bonus
 None,0,0,20,0
-Ephraim Lord,1,10,20,0
-Eirika Lord,1,25,20,0
-Ephraim Master Lord,2,10,24,1
-Eirika Master Lord,2,20,25,2
+Wayfarer,1,10,20,0
+Dragon Warrior,1,25,20,0
+DUMMY,2,10,24,1
+DUMMY,2,20,25,2
 Cavalier,0,0,20,0
 Cavalier (F),0,0,20,0
 Paladin,2,10,24,2
@@ -127,131 +127,131 @@ Cyclops,0,0,21,0
 Elder Bael,0,0,22,0
 Journeyman (2),0,0,20,0
 Pupil (2),2,55,20,1
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
+Earth Dragon,1,10,20,0
+Divine Dragon,1,10,20,0
+Mage Dragon,1,10,20,0
+Fire Dragon,1,10,20,0
+Ice Dragon,1,10,20,0
+Wyvern,1,10,20,0
+Dragoon,1,10,20,0
+Deserter,1,10,20,0
+Hunter,1,10,20,0
+SwordCav,1,10,20,0
+LanceCav,1,10,20,0
+AxeCav,1,10,20,0
+BowCav,1,10,20,0
+SwordArmor,1,10,20,0
+LanceArmor,1,10,20,0
+AxeArmor,1,10,20,0
+BowArmor,1,10,20,0
+FireMage,1,10,20,0
+FireMage_F,1,10,20,0
+ThunderMage,1,10,20,0
+ThunderMage_F,1,10,20,0
+WindMage,1,10,20,0
+WindMage_F,1,10,20,0
+Hoplite,1,10,20,0
+Impaler,1,10,20,0
+SwordGeneral,1,10,20,0
+LanceGeneral,1,10,20,0
+AxeGeneral,1,10,20,0
+BowGeneral,1,10,20,0
+SwordPaladin,1,10,20,0
+LancePaladin,1,10,20,0
+AxePaladin,1,10,20,0
+BowPaladin,1,10,20,0
+FireSage,1,10,20,0
+FireSage_F,1,10,20,0
+ThunderSage,1,10,20,0
+ThunderSage_F,1,10,20,0
+WindSage,1,10,20,0
+WindSage_F,1,10,20,0
+Ballistician,1,10,20,0
+DUMMY,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0
+,1,10,20,0

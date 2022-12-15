@@ -1,19 +1,21 @@
 //event ptr table defs
 
+//theres room for considerably more chapters I just didnt define them yet
+
 #define Ch1EventsID 0x7
 #define Ch2EventsID 0xA
 #define Ch3EventsID 0xD
 #define Ch4EventsID 0x14
 #define Ch5EventsID 0x17
 #define Ch6EventsID 0x1E
-#define Ch7EventsID 0x21
-#define Ch8EventsID 0x24
-#define Ch9EventsID 0x27
-#define Ch10EventsID 0x2A
-#define Ch11EventsID 0x2D
-#define Ch12EventsID 0x33
-#define Ch13EventsID 0x37
-#define Ch14EventsID 0x3B
+#define Ch6xEventsID 0x21
+#define Ch7EventsID 0x24
+#define Ch8EventsID 0x27
+#define Ch9EventsID 0x2A
+#define Ch10EventsID 0x2D
+#define Ch11EventsID 0x33
+#define Ch12EventsID 0x37
+#define Ch13EventsID 0x3B
 
 #define Ch1MapID 0x4
 #define Ch1MapChangesID 0x6
@@ -27,22 +29,22 @@
 #define Ch5MapChangesID 0x16
 #define Ch6MapID 0x1B
 #define Ch6MapChangesID 0x1D
-#define Ch7MapID 0x1F
-#define Ch7MapChangesID 0x20
-#define Ch8MapID 0x22
-#define Ch8MapChangesID 0x23
-#define Ch9MapID 0x25
-#define Ch9MapChangesID 0x26
-#define Ch10MapID 0x28
-#define Ch10MapChangesID 0x29 
-#define Ch11MapID 0x2B
-#define Ch11MapChangesID 0x2C
-#define Ch12MapID 0x31
-#define Ch12MapChangesID 0x32
-#define Ch13MapID 0x35
-#define Ch13MapChangesID 0x36
-#define Ch14MapID 0x39
-#define Ch14MapChangesID 0x3A
+#define Ch6xMapID 0x1F
+#define Ch6xMapChangesID 0x20
+#define Ch7MapID 0x22
+#define Ch7MapChangesID 0x23
+#define Ch8MapID 0x25
+#define Ch8MapChangesID 0x26
+#define Ch9MapID 0x28
+#define Ch9MapChangesID 0x29 
+#define Ch10MapID 0x2B
+#define Ch10MapChangesID 0x2C
+#define Ch11MapID 0x31
+#define Ch11MapChangesID 0x32
+#define Ch12MapID 0x35
+#define Ch12MapChangesID 0x36
+#define Ch13MapID 0x39
+#define Ch13MapChangesID 0x3A
 
 //this is probably the third time i've done these with the thought of "oh I only have to do this once then I'll have them whenever I need them in the future"
 
@@ -126,7 +128,7 @@
 
 #define ValniPalette1 0x89
 
-
+//these are things i added for my buildfile they aren't on the vanilla table
 
 #define CastlePalette5 0x8B
 #define CastlePalette6 0x8C
@@ -156,4 +158,16 @@
 #define SnowFieldsTileConfig 0x9B
 
 #define SnowFieldsPalette1 0x9C
+
+#define FF2TownObjType 0x9D
+#define FF2TownTileConfig 0x9E
+
+#define FF2TownPalette1 0x9F
+#define FF2TownPalette2 0xA0
+#define FF2TownPalette3 0xA1
+#define FF2TownPalette4 0xA2
+
+#define ProtoInteriorObjType 0xA3
+#define ProtoInteriorTileConfig 0xA4
+#define ProtoInteriorPalette1 0xA5
 

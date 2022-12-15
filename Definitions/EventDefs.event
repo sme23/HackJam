@@ -1,0 +1,3 @@
+
+#define FollowMovingUnits "EVBIT_T 9"
+#define StopFollowingMovingUnits "EVBIT_F 9"

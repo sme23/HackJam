@@ -1,5 +1,5 @@
 
-#include "_MapSpriteDefs.event" 
+//#include "_MapSpriteDefs.event" 
 
 //repoint map sprite tables
 
@@ -62,6 +62,93 @@ StandingMapSprite(SigilMapSpriteID,MapSprite16x16,SigilMapSprite)
 StandingMapSprite(TelliusTorchOnMapSpriteID,MapSprite16x16,LitTorch)
 StandingMapSprite(TelliusTorchOffMapSpriteID,MapSprite16x16,UnlitTorch)
 
+/*
+StandingMapSprite(StandingMapSpriteID,MapSprite16x16,StandingMapSprite)
+MovingMapSprite(,NonMountedAP,MovingMapSprite)
+
+*/
+
+StandingMapSprite(BallisticianStandingMapSpriteID,MapSprite16x32,BallisticianStandingMapSprite)
+MovingMapSprite(Ballistician,MountedAP,BallisticianMovingMapSprite)
+
+StandingMapSprite(DeserterStandingMapSpriteID,MapSprite16x16,DeserterStandingMapSprite)
+MovingMapSprite(Deserter,NonMountedAP,DeserterMovingMapSprite)
+
+StandingMapSprite(DivineDragonStandingMapSpriteID,MapSprite16x32,DivineDragonStandingMapSprite)
+MovingMapSprite(DivineDragon,MountedAP,DivineDragonMovingMapSprite)
+
+StandingMapSprite(DragoonStandingMapSpriteID,MapSprite16x32,DragoonStandingMapSprite)
+MovingMapSprite(Dragoon,MountedAP,DragoonMovingMapSprite)
+
+StandingMapSprite(EarthDragonStandingMapSpriteID,MapSprite16x32,EarthDragonStandingMapSprite)
+MovingMapSprite(EarthDragon,MountedAP,EarthDragonMovingMapSprite)
+
+StandingMapSprite(FireDragonStandingMapSpriteID,MapSprite32x32,FireDragonStandingMapSprite)
+MovingMapSprite(FireDragon,MountedAP,FireDragonMovingMapSprite)
+
+StandingMapSprite(HopliteStandingMapSpriteID,MapSprite16x16,HopliteStandingMapSprite)
+MovingMapSprite(Hoplite,NonMountedAP,HopliteMovingMapSprite)
+
+StandingMapSprite(HunterStandingMapSpriteID,MapSprite16x16,HunterStandingMapSprite)
+MovingMapSprite(Hunter,NonMountedAP,HunterMovingMapSprite)
+
+StandingMapSprite(IceDragonStandingMapSpriteID,MapSprite16x32,IceDragonStandingMapSprite)
+MovingMapSprite(IceDragon,MountedAP,IceDragonMovingMapSprite)
+
+StandingMapSprite(ImpalerStandingMapSpriteID,MapSprite16x16,ImpalerStandingMapSprite)
+MovingMapSprite(Impaler,NonMountedAP,ImpalerMovingMapSprite)
+
+StandingMapSprite(MageDragonStandingMapSpriteID,MapSprite16x32,MageDragonStandingMapSprite)
+MovingMapSprite(MageDragon,MountedAP,MageDragonMovingMapSprite)
+
+StandingMapSprite(WyvernStandingMapSpriteID,MapSprite16x32,WyvernStandingMapSprite)
+MovingMapSprite(Wyvern,MountedAP,WyvernMovingMapSprite)
+
+StandingMapSprite(WayfarerStandingMapSpriteID,MapSprite16x32,WayfarerStandingMapSprite)
+MovingMapSprite(Wayfarer,NonMountedAP,WayfarerMovingMapSprite)
+
+// new classes also need moving map sprites set since classID-indexed
+
+MovingMapSprite(SwordCav,0x1C692C,0x1C5FE4)
+MovingMapSprite(LanceCav,0x1C692C,0x1C5FE4)
+MovingMapSprite(AxeCav,0x1C692C,0x1C5FE4)
+MovingMapSprite(BowCav,0x1C692C,0x1C5FE4)
+MovingMapSprite(SwordArmor,0x1C7E74,0x1C7580)
+MovingMapSprite(LanceArmor,0x1C7E74,0x1C7580)
+MovingMapSprite(AxeArmor,0x1C7E74,0x1C7580)
+MovingMapSprite(BowArmor,0x1C7E74,0x1C7580)
+MovingMapSprite(FireMage,0x1D8668,0x1D7E28)
+MovingMapSprite(FireMage_F,0x1D908C,0x1D87C0)
+MovingMapSprite(ThunderMage,0x1D8668,0x1D7E28)
+MovingMapSprite(ThunderMage_F,0x1D908C,0x1D87C0)
+MovingMapSprite(WindMage,0x1D8668,0x1D7E28)
+MovingMapSprite(WindMage_F,0x1D908C,0x1D87C0)
+MovingMapSprite(SwordGeneral,0x1C8A80,0x1C7FCC)
+MovingMapSprite(LanceGeneral,0x1C8A80,0x1C7FCC)
+MovingMapSprite(AxeGeneral,0x1C8A80,0x1C7FCC)
+MovingMapSprite(BowGeneral,0x1C8A80,0x1C7FCC)
+MovingMapSprite(SwordPaladin,0x1C7428,0x1C6A84)
+MovingMapSprite(LancePaladin,0x1C7428,0x1C6A84)
+MovingMapSprite(AxePaladin,0x1C7428,0x1C6A84)
+MovingMapSprite(BowPaladin,0x1C7428,0x1C6A84)
+MovingMapSprite(FireSage,0x1D9B58,0x1D91E4)
+MovingMapSprite(FireSage_F,0x1DA694,0x1D9CB0)
+MovingMapSprite(ThunderSage,0x1D9B58,0x1D91E4)
+MovingMapSprite(ThunderSage_F,0x1DA694,0x1D9CB0)
+MovingMapSprite(WindSage,0x1D9B58,0x1D91E4)
+MovingMapSprite(WindSage_F,0x1DA694,0x1D9CB0)
+
+/*
+ALIGN 4
+StandingMapSprite:
+#incext Png2Dmp ".png" --lz77
+
+ALIGN 4
+MovingMapSprite:
+#incext Png2Dmp "Mov.png" --lz77
+
+*/
+
 ALIGN 4
 LitTorch:
 #incext Png2Dmp "lit_torch.png" --lz77
@@ -73,3 +160,112 @@ UnlitTorch:
 ALIGN 4
 SigilMapSprite:
 #incext Png2Dmp "Sigil.png" --lz77
+
+ALIGN 4
+EarthDragonStandingMapSprite:	//by L95
+#incext Png2Dmp "EarthDragon.png" --lz77
+
+ALIGN 4
+EarthDragonMovingMapSprite:		//by L95
+#incext Png2Dmp "EarthDragonMov.png" --lz77
+
+ALIGN 4
+DivineDragonStandingMapSprite:	//by L95
+#incext Png2Dmp "DivineDragon.png" --lz77
+
+ALIGN 4
+DivineDragonMovingMapSprite:	//by L95
+#incext Png2Dmp "DivineDragonMov.png" --lz77
+
+ALIGN 4
+MageDragonStandingMapSprite:	//by L95
+#incext Png2Dmp "MageDragon.png" --lz77
+
+ALIGN 4
+MageDragonMovingMapSprite:		//by L95
+#incext Png2Dmp "MageDragonMov.png" --lz77
+
+ALIGN 4
+FireDragonStandingMapSprite:	//by Intelligent Systems
+#incext Png2Dmp "FireDragon.png" --lz77
+
+ALIGN 4
+FireDragonMovingMapSprite:		//by Intelligent Systems
+#incext Png2Dmp "FireDragonMov.png" --lz77
+
+ALIGN 4
+IceDragonStandingMapSprite:		//by L95
+#incext Png2Dmp "IceDragon.png" --lz77
+
+ALIGN 4
+IceDragonMovingMapSprite:		//by L95
+#incext Png2Dmp "IceDragonMov.png" --lz77
+
+ALIGN 4
+WyvernStandingMapSprite:		//by Faeriefruit
+#incext Png2Dmp "Wyvern.png" --lz77
+
+ALIGN 4
+WyvernMovingMapSprite:			//by Faeriefruit
+#incext Png2Dmp "WyvernMov.png" --lz77
+
+ALIGN 4
+DragoonStandingMapSprite:		//by Pikmin1211
+#incext Png2Dmp "Dragoon.png" --lz77
+
+ALIGN 4
+DragoonMovingMapSprite:			//by Pikmin1211
+#incext Png2Dmp "DragoonMov.png" --lz77
+
+ALIGN 4
+DeserterStandingMapSprite:		//by Alusq
+#incext Png2Dmp "Deserter.png" --lz77
+
+ALIGN 4
+DeserterMovingMapSprite:		//by Alusq
+#incext Png2Dmp "DeserterMov.png" --lz77
+
+ALIGN 4
+HunterStandingMapSprite:		//by knabepicer
+#incext Png2Dmp "Hunter.png" --lz77
+
+ALIGN 4
+HunterMovingMapSprite:			//by knabepicer
+#incext Png2Dmp "HunterMov.png" --lz77
+
+ALIGN 4
+HopliteStandingMapSprite:		//by FireEmblemier, flasuban
+#incext Png2Dmp "Hoplite.png" --lz77
+
+ALIGN 4
+HopliteMovingMapSprite:			//by FireEmblemier, flasuban
+#incext Png2Dmp "HopliteMov.png" --lz77
+
+ALIGN 4
+ImpalerStandingMapSprite:		//by flasuban
+#incext Png2Dmp "Impaler.png" --lz77
+
+ALIGN 4
+ImpalerMovingMapSprite:			//by flasuban
+#incext Png2Dmp "ImpalerMov.png" --lz77
+
+ALIGN 4
+BallisticianStandingMapSprite:	//by dondon151
+#incext Png2Dmp "Ballistician.png" --lz77
+
+ALIGN 4
+BallisticianMovingMapSprite:	//by dondon151
+#incext Png2Dmp "BallisticianMov.png" --lz77	
+
+ALIGN 4
+WayfarerStandingMapSprite:		//by SSHX
+#incext Png2Dmp "Wayfarer.png" --lz77
+
+ALIGN 4
+WayfarerMovingMapSprite:		//by SSHX
+#incext Png2Dmp "WayfarerMov.png" --lz77	
+
+
+
+
+

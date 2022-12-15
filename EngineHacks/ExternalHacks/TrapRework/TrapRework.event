@@ -39,9 +39,9 @@
 	#define GreyTrapPaletteWord 0xFFFFF080
 	#define GrayTrapPaletteWord GreyTrapPaletteWord //language is dumb
 	
-	#define ExampleMapSpriteTrapID 0x10
-	#define ExampleMapSpriteID 0x66
-	
+	#define BlueSigilTrapID 0x10
+	#define RedSigilTrapID 0x11
+	#define GreenSigilTrapID 0x12
 	
 	#include "TrapRework_Internal.event"
 	
@@ -62,7 +62,6 @@
 	SetTrapEventInit(MineTrapID,$378D6)
 	SetTrapEventInit(GorgonEggTrapID,$378EC)
 	SetTrapEventInit(LightRuneTrapID,0)
-	
 	
 	#define SetTrapMapSprite(trapID,mapSpriteID) "PUSH; ORG TrapMapSpriteTable+(trapID-1); BYTE mapSpriteID; POP"
 
@@ -94,10 +93,17 @@
 	
 
 	//These 3 macros are all you need to define a new trap w/ map sprite
-	SetTrapEventInit(ExampleMapSpriteTrapID,TrapRework_GenericInitializer)
-	SetTrapMapSprite(ExampleMapSpriteTrapID,ExampleMapSpriteID) //thief map sprite
-	SetTrapMapSpritePalette(ExampleMapSpriteTrapID,NPCTrapPaletteWord)
+	SetTrapEventInit(BlueSigilTrapID,TrapRework_GenericInitializer)
+	SetTrapMapSprite(BlueSigilTrapID,SigilMapSpriteID)
+	SetTrapMapSpritePalette(BlueSigilTrapID,PlayerTrapPaletteWord)
 	
+	SetTrapEventInit(RedSigilTrapID,TrapRework_GenericInitializer)
+	SetTrapMapSprite(RedSigilTrapID,SigilMapSpriteID) 
+	SetTrapMapSpritePalette(RedSigilTrapID,EnemyTrapPaletteWord)
+	
+	SetTrapEventInit(GreenSigilTrapID,TrapRework_GenericInitializer)
+	SetTrapMapSprite(GreenSigilTrapID,SigilMapSpriteID) 
+	SetTrapMapSpritePalette(GreenSigilTrapID,NPCTrapPaletteWord)
 	
 	//Use this macro in your events to place a map sprite trap
 	#define MapSpriteTrap(trapID,x,y) "BYTE trapID x y 0 0 0"	
@@ -137,20 +143,13 @@
 
 	#include "Modules/DragonVeins/DragonVeins.event"
 	#include "Modules/HealTiles/HealTiles.event"
+	#include "Modules/TelliusTorches/TelliusTorches.event"
 	
 	//This is here to satiate a hardcoded requirement if heal tiles are not installed.
 	#ifndef HEAL_TILES
 	HealTileTrapIDLink:
 	WORD 0
 	#endif // HEAL_TILES
-	
-	//Tellius Torches are not included in this distribution,
-	//but there are references to it in the code still.
-	//This exists to satiate them, remove it if you add Tellius Torches.
-	TelliusTorchTrapIDLink:
-	TelliusTorchOffMapSpriteIDLink:
-	TelliusTorchOnMapSpriteIDLink:
-	WORD 0
 	
 #endif // TRAP_REWORK_INSTALLED
 

@@ -4,6 +4,8 @@
 #include "ItemIcons/_ItemIconInstaller.event"
 #include "MapSprites/_MapSpriteInstaller.event"
 #include "Mugs/_MugInstaller.event"
-#include "StatScreen/StatScreenInstaller.event"
 #include "Tilesets/Tilesets.event"
 #include "TitleScreen/_TitleScreenInstaller.event"
+#include "WorldMap/WorldMapInstaller.event"
+#include "SpellAnims/MasterSpellInstaller.event"
+

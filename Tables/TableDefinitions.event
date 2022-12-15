@@ -6,12 +6,6 @@
 #ifndef CharacterTable
     #define CharacterTable 0x803D30
 #endif
-#ifndef ClassTable
-  #define ClassTable 0x807110
-#endif
-#ifndef ItemTable
-  #define ItemTable 0x809B10
-#endif
 #ifndef DebuffTable
   #define DebuffTable 0x203f100
 #endif
@@ -168,11 +162,276 @@
 #define AvoRingStatusID 8
 #define SickStatusID 9
 #define PetrifyStatusID 13
+#define HexingRodStatusID 14 //first fully unused status ID
+#define FreezeStatusID 15
+#define RegenStatusID 16
+#define HasteStatusID 17
+#define SlowStatusID 18
+#define NumbStatusID 19
+#define EnfeebleStatusID 31 //last valid status ID
 
 //for setting what status effect 
 //status staves will give 
 #define ItemStatus(StatusID,Duration) "StatusID | (Duration << 4)"
 
-#endif
+//item use effects
+#define NoEffectID 0
+#define HealEffectID 1
+#define MendEffectID 2
+#define RecoverEffectID 3
+#define PhysicEffectID 4
+#define FortifyEffectID 5
+#define RestoreEffectID 6
+#define SilenceEffectID 7
+#define SleepEffectID 8
+#define BerserkEffectID 9
+#define WarpEffectID 10
+#define RescueEffectID 11
+#define TorchEffectID 12
+#define HammerneEffectID 13
+#define UnlockEffectID 14
+#define BarrierEffectID 15
+#define AngelicRobeEffectID 16
+#define EnergyRingEffectID 17
+#define SecretBookEffectID 18
+#define SpeedwingsEffectID 19
+#define GoddessIconEffectID 20
+#define DragonshieldEffectID 21
+#define TalismanEffectID 22
+#define BootsEffectID 23
+#define BodyRingEffectID 24
+#define HeroCrestEffectID 25
+#define KnightCrestEffectID 26
+#define OrionsBoltEffectID 27
+#define ElysianWhipEffectID 28
+#define GuidingRingEffectID 29
+#define ChestKeyEffectID 30
+#define DoorKeyEffectID 31
+#define LockpickEffectID 32
+#define VulneraryEffectID 33
+#define ElixirEffectID 34
+#define PureWaterEffectID 35
+#define AntidoteEffectID 36
+#define TorchItemEffectID 37
+#define MasterKeyEffectID 38
+#define MineEffectID 39
+#define LightRuneEffectID 40
+#define FillasMightEffectID 41
+#define NinisGraceEffectID 42
+#define ThorsIreEffectID 43
+#define SetsLitanyEffectID 44
+#define MasterSealEffectID 45
+#define MetisTomeEffectID 46
+#define HeavenSealEffectID 47
+#define OceanSealEffectID 48
+#define LunarBraceEffectID 49
+#define SolarBraceEffectID 50
+#define Vulnerary2EffectID 51
+#define Vulnerary3EffectID 52
+#define Vulnerary4EffectID 53
+#define JunaFruitEffectID 54
+#define LatonaEffectID 55
+#define SkillScrollEffectID 56
+#define SpiritDustEffectID 57
+#define SootheEffectID 58
+
+#define AntitoxinEffectID AntidoteEffectID
+#define SpeedwingEffectID SpeedwingsEffectID
+
+#define ConcoctionEffectID 61
+#define AnewEffectID 59
+#define AumEffectID 60
+#define EntrapEffectID 62
+
+
+//Generic minimugs
+#define MinimugDefault 0
+#define MinimugDragonRed 1
+#define MinimugSoldierGreen 2
+#define MinimugSoldierRed 3
+#define MinimugMonsterRed 4
+#define MinimugShieldGreen 5
+#define MinimugShieldRed 6
+#define MinimugMonsterBlue 7
+
+#define UseClassCardMug 0
+
+#define NoSupports 0
+#define NoStatBoosts 0
+#define NoUseDesc 0
+#define NoEffectiveness 0
+
+// spell anim IDs
+#define HandAxeSpellAnimID 1
+#define ArrowSpellAnimID 2
+#define Javelin1SpellAnimID 3
+#define Javelin2SpellAnimID 4
+#define Javelin3SpellAnimID 5
+#define Javelin4SpellAnimID 6
+#define Javelin5SpellAnimID 7
+#define Javelin6SpellAnimID 8
+#define Javelin7SpellAnimID 9
+#define Javelin8SpellAnimID 10
+#define Javelin9SpellAnimID 11
+#define Javelin10SpellAnimID 12
+#define Javelin11SpellAnimID 13
+#define DancePlay1SpellAnimID 14
+#define DancePlay2SpellAnimID 15
+#define BallistaSpellAnimID 16
+#define Broken1SpellAnimID 17
+#define BindingBladeSpellAnimID 18
+#define DragonBreathSpellAnimID 19
+#define Broken2SpellAnimID 20
+#define Broken3SpellAnimID 21
+#define FireSpellAnimID 22
+#define ElfireSpellAnimID 23
+#define Broken4SpellAnimID 24
+#define ThunderSpellAnimID 25
+#define BoltingSpellAnimID 26
+#define FimbulvetrSpellAnimID 27
+#define Broken5SpellAnimID 28
+#define FluxSpellAnimID 29
+#define NosferatuSpellAnimID 30
+#define LightningSpellAnimID 31
+#define PurgeSpellAnimID 32
+#define Broken6SpellAnimID 33
+#define DivineSpellAnimID 34
+#define Broken7SpellAnimID 35
+#define EclipseSpellAnimID 36
+#define FenrirSpellAnimID 37
+#define HealSpellAnimID 38
+#define MendSpellAnimID 39
+#define RecoverSpellAnimID 40
+#define PhysicSpellAnimID 41
+#define FortifySpellAnimID 42
+#define Broken8SpellAnimID 43
+#define RestoreSpellAnimID 44
+#define SilenceSpellAnimID 45
+#define SleepSpellAnimID 46
+#define HammerneSpellAnimID 47
+#define BerserkSpellAnimID 48
+#define BarrierSpellAnimID 49
+#define Broken10SpellAnimID 50
+#define ShineSpellAnimID 51
+#define LunaSpellAnimID 52
+#define ExcaliburSpellAnimID 53
+#define Broken11SpellAnimID 54
+#define AuraSpellAnimID 55
+#define Broken12SpellAnimID 56
+#define Broken13SpellAnimID 57
+#define FillasMightSpellAnimID 58
+#define ThorsIreSpellAnimID 59
+#define NinissGraceSpellAnimID 60
+#define SetsLitanySpellAnimID 61
+#define StoneSpellAnimID 62
+#define IvaldiSpellAnimID 63
+#define DemonLightSpellAnimID 64
+#define GleipnirSpellAnimID 65
+#define CrimsonEyeSpellAnimID 66
+#define EvilEyeSpellAnimID 67
+#define ShadowshotSpellAnimID 68
+#define DemonSurgeSpellAnimID 69
+#define NaglfarSpellAnimID 70
+#define WretchedBreathSpellAnimID 71
+#define MapAnimsOnly 0xFFFE
+#define NoSpellAnim 0xFFFF
+
+#define NoHitColor 0
+#define BlackHitColor 1
+#define RedHitColor 2
+#define GreenHitColor 3
+#define BlueHitColor 4
+#define YellowHitColor 5
+
+#define ArcfireSpellAnimID 72
+#define BolganoneSpellAnimID 73
+#define MeteorSpellAnimID 74
+#define ElthunderSpellAnimID 75
+#define ArcthunderSpellAnimID 76
+#define ThoronSpellAnimID 77
+#define WindSpellAnimID 78
+#define ElwindSpellAnimID 79
+#define ArcwindSpellAnimID 80
+#define ValauraSpellAnimID 81
+#define CarreauSpellAnimID 82
+#define VerrineSpellAnimID 83
+#define WormSpellAnimID 84
+#define MireSpellAnimID 85
+#define RuinSpellAnimID 86
+#define WasteSpellAnimID 87
+#define MiasmaSpellAnimID 88
+#define DarkSpikesSpellAnimID 89
+
+
+//Walking Sounds, for Walking Sounds Fix
+#define NormalWalk 0
+#define CavalryWalk 1
+#define WyvernWalk 2
+#define PegasusWalk 3
+#define ArmorWalk 4
+#define FleetWalk 5
+#define DragonWalk 6
+#define ZombieWalk 7
+#define SkeletonWalk 8
+#define SpiderWalk 9
+#define DogWalk 10
+#define FloatWalk 11
+#define GorgonWalk 12
+
+// chapter data related defs
+#define NoWeather 0
+#define SnowWeather 1
+#define BlizzardWeather 2
+#define RainWeather 3
+#define LavaWeather 4
+#define SandstormWeather 5
+#define CloudsWeather 6
+
+#define NormalBattleBGs 0
+#define SnowBattleBGs 1
+#define VolcanoBattleBGs 2
+#define FE7TownBattleBGs 3
+#define FE7FieldsBattleBGs 4
+#define Fort1BattleBGs 5
+#define Town1BattleBGs 6
+#define Town2BattleBGs 7
+#define ShipBattleBGs 8
+#define DesertBattleBGs 9
+#define Fort2BattleBGs 10
+#define ValniBattleBGs 11
+#define JehannaBattleBGs 12
+#define WoodsBattleBGs 13
+#define NightBattleBGs 14
+#define Castle1BattleBGs 15
+#define Castle2BattleBGs 16
+#define NightCastleBattleBGs 17
+#define MountainBattleBGs 18
+#define PortTownBattleBGs 19
+#define SwampBattleBGs 20
+
+//Chapter Objective definitions
+#define SurviveText 0x19C
+#define DefeatBossText 0x19D
+#define DefeatEnemyText 0x19E
+#define SeizeGateText 0x19F
+#define SeizeThroneText 0x1A1
+// also defined:
+// - EscapeText
+// - ArriveText
+// - SearchText
+
+#define SeizeObjective 0
+#define RoutObjective 1
+#define DefendObjective 2
+#define DefeatBossObjective 3
+#define OtherObjective 4
+
+
+
+
+
+
+
+#endif // TABLE_DEFINITIONS
 
 #include "ExternalTables.event"

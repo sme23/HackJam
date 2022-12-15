@@ -7,6 +7,7 @@
 
 // SKILL ICONS SHEET
 {
+InjectIconGfxGetter(0, (prGetItemIconGfx+1))
 InjectIconGfxGetter(1, (prGetSkillIconGfx+1))
 InjectIconGfxGetter(2, (prGetAffinityIconGfx+1))
 InjectIconGfxGetter(3, (prGetMountTypeIconGfx+1))
@@ -14,6 +15,10 @@ InjectIconGfxGetter(4, (prGetWRankIconGfx+1))
 InjectIconGfxGetter(5, (prGetSkillBookIconGfx+1))
 
 ALIGN 4
+prGetItemIconGfx:
+	#incbin "asm/GetSheetIconGfx.bin"
+	POIN ItemIcons
+
 prGetSkillIconGfx:
 	#incbin "asm/GetSheetIconGfx.bin"
 	POIN SkillIcons

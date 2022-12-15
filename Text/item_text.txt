@@ -1,0 +1,1398 @@
+
+## IronSwordName
+Iron Sword[X]
+
+## IronSwordDesc
+ [X]
+
+## SteelSwordName
+Steel Sword[X]
+
+## SteelSwordDesc
+ [X]
+
+## SilverSwordName
+Silver Sword[X]
+
+## SilverSwordDesc
+ [X]
+
+## QuickSwordName
+Quick Sword[X]
+
+## QuickSwordDesc
+Can strike consecutively.[X]
+
+## BraveSwordName
+Brave Sword[X]
+
+## BraveSwordDesc
+Can strike consecutively.[X]
+
+## KillingEdgeName
+Killing Edge[X]
+
+## KillingEdgeDesc
+Improves critical hit rate.[X]
+
+## VeninSwordName
+Venin Sword[X]
+
+## VeninSwordDesc
+Coated in lethal poison.[X]
+
+## IronBladeName
+Iron Blade[X]
+
+## IronBladeDesc
+ [X]
+
+## SteelBladeName
+SteelBlade[X]
+
+## SteelBladeDesc
+ [X]
+
+## SilverBladeName
+Silver Blade[X]
+
+## SilverBladeDesc
+ [X]
+
+## LancereaverName
+Lancereaver[X]
+
+## LancereaverDesc
+Strong against spears.[X]
+
+## ZanbatoName
+Zanbato[X]
+
+## ZanbatoDesc
+Effective against cavalry.[X]
+
+## ArmorslayerName
+Armorslayer[X]
+
+## ArmorslayerDesc
+Effective against knights.[X]
+
+## WyrmslayerName
+Wyrmslayer[X]
+
+## WyrmslayerDesc
+Effective against wyverns.[X]
+
+## LightBrandName
+Light Brand[X]
+
+## LightBrandDesc
+Suffused with light magic.[X]
+
+## IronLanceName
+Iron Lance[X]
+
+## IronLanceDesc
+ [X]
+
+## SteelLanceName
+Steel Lance[X]
+
+## SteelLanceDesc
+ [X]
+
+## SilverLanceName
+Silver Lance[X]
+
+## SilverLanceDesc
+ [X]
+
+## QuickLanceName
+Quick Lance[X]
+
+## QuickLanceDesc
+Can strike consecutively.[X]
+
+## BraveLanceName
+Brave Lance[X]
+
+## BraveLanceDesc
+Can strike consecutively.[X]
+
+## KillerLanceName
+Killer Lance[X]
+
+## KillerLanceDesc
+Improves critical hit rate.[X]
+
+## VeninLanceName
+Venin Lance[X]
+
+## VeninLanceDesc
+Coated in lethal poison.[X]
+
+## IronPikeName
+Iron Pike[X]
+
+## IronPikeDesc
+ [X]
+
+## SteelPikeName
+Steel Pike[X]
+
+## SteelPikeDesc
+ [X]
+
+## SilverPikeName
+Silver Pike[X]
+
+## SilverPikeDesc
+ [X]
+
+## AxereaverName
+Axereaver[X]
+
+## AxereaverDesc
+Strong against axes.[X]
+
+## HorseslayerName
+Horseslayer[X]
+
+## HorseslayerDesc
+Effective against cavalry.[X]
+
+## HeavyLanceName
+Heavy Lance[X]
+
+## HeavyLanceDesc
+Effective against knights.[X]
+
+## BlessedLanceName
+Blessed Lance[X]
+
+## BlessedLanceDesc
+Effective against monsters.[X]
+
+## JavelinName
+Javelin[X]
+
+## JavelinDesc
+Doubles as ranged attack.[X]
+
+## SpearName
+Spear[X]
+
+## SpearDesc
+Doubles as ranged attack.[X]
+
+## PilumName
+Pilum[X]
+
+## PilumDesc
+Doubles as ranged attack.[X]
+
+## BrightLanceName
+Bright Lance[X]
+
+## BrightLanceDesc
+Infused with fire magic.[X]
+
+## IronAxeName
+Iron Axe[X]
+
+## IronAxeDesc
+ [X]
+
+## SteelAxeName
+Steel Axe[X]
+
+## SteelAxeDesc
+ [X]
+
+## SilverAxeName
+Silver Axe[X]
+
+## SilverAxeDesc
+ [X]
+
+## QuickAxeName
+Quick Axe[X]
+
+## QuickAxeDesc
+Can strike consecutively.[X]
+
+## BraveAxeName
+Brave Axe[X]
+
+## BraveAxeDesc
+Can strike consecutively.[X]
+
+## KillerAxeName
+Killer Axe[X]
+
+## KillerAxeDesc
+Improves critical hit rate.[X]
+
+## VeninAxeName
+Venin Axe[X]
+
+## VeninAxeDesc
+Coated in lethal poison.[X]
+
+## IronPoleaxeName
+Iron Poleaxe[X]
+
+## IronPoleaxeDesc
+ [X]
+
+## SteelPoleaxeName
+Steel Poleaxe[X]
+
+## SteelPoleaxeDesc
+ [X]
+
+## SilverPoleaxeName
+Silver Poleaxe[X]
+
+## SilverPoleaxeDesc
+ [X]
+
+## SwordreaverName
+Swordreaver[X]
+
+## SwordreaverDesc
+Strong against swords.[X]
+
+## HalberdName
+Halberd[X]
+
+## HalberdDesc
+Effective against cavalry.[X]
+
+## HammerName
+Hammer[X]
+
+## HammerDesc
+Effective against knights.[X]
+
+## DragonAxeName
+Dragon Axe[X]
+
+## DragonAxeDesc
+Effective against wyverns.[X]
+
+## HandAxeName
+Hand Axe[X]
+
+## HandAxeDesc
+Doubles as ranged attack.[X]
+
+## TomahawkName
+Tomahawk[X]
+
+## TomahawkDesc
+Doubles as ranged attack.[X]
+
+## FranciscaName
+Francisca[X]
+
+## FranciscaDesc
+Doubles as ranged attack.[X]
+
+## BoltAxeName
+Bolt Axe[X]
+
+## BoltAxeDesc
+Leavened with thunder magic.[X]
+
+## IronBowName
+Iron Bow[X]
+
+## IronBowDesc
+ [X]
+
+## SteelBowName
+Steel Bow[X]
+
+## SteelBowDesc
+ [X]
+
+## SilverBowName
+Silver Bow[X]
+
+## SilverBowDesc
+ [X]
+
+## QuickBowName
+Quick Bow[X]
+
+## QuickBowDesc
+Can strike consecutively.[X]
+
+## BraveBowName
+Brave Bow[X]
+
+## BraveBowDesc
+Can strike consecutively.[X]
+
+## KillerBowName
+Killer Bow[X]
+
+## KillerBowDesc
+Improves critical hit rate.[X]
+
+## VeninBowName
+Venin Bow[X]
+
+## VeninBowDesc
+Coated in lethal poison.[X]
+
+## LongbowName
+Longbow[X]
+
+## LongbowDesc
+Extended attack range.[X]
+
+## CrossbowName
+Crossbow[X]
+
+## CrossbowDesc
+Unaffected by strength.[X]
+
+## ArbalestName
+Arbalest[X]
+
+## ArbalestDesc
+Unaffected by strength.[X]
+
+## ArrowspateName
+Arrowspate[X]
+
+## ArrowspateDesc
+Long-range weapon.[X]
+
+## ThunderboltName
+Thunderbolt[X]
+
+## ThunderboltDesc
+Long-range weapon.[X]
+
+## PachydermName
+Pachyderm[X]
+
+## PachydermDesc
+Long-range weapon.[X]
+
+## ArcaneBowName
+Arcane Bow[X]
+
+## ArcaneBowDesc
+Imbued with dark magic.[X]
+
+## FireName
+Fire[X]
+
+## FireDesc
+ [X]
+
+## ElfireName
+Elfire[X]
+
+## ElfireDesc
+ [X]
+
+## ArcfireName
+Arcfire[X]
+
+## ArcfireDesc
+ [X]
+
+## BolganoneName
+Bolganone[X]
+
+## BolganoneDesc
+ [X]
+
+## MeteorName
+Meteor[X]
+
+## MeteorDesc
+Long-range magic attack.[X]
+
+## ThunderName
+Thunder[X]
+
+## ThunderDesc
+ [X]
+
+## ElthunderName
+Elthunder[X]
+
+## ElthunderDesc
+ [X]
+
+## ArcthunderName
+Arcthunder[X]
+
+## ArcthunderDesc
+ [X]
+
+## ThoronName
+Thoron[X]
+
+## ThoronDesc
+ [X]
+
+## BoltingName
+Bolting[X]
+
+## BoltingDesc
+Long-range magic attack.[X]
+
+## WindName
+Wind[X]
+
+## WindDesc
+ [X]
+
+## ElwindName
+Elwind[X]
+
+## ElwindDesc
+ [X]
+
+## ArcwindName
+Arcwind[X]
+
+## ArcwindDesc
+ [X]
+
+## ExcaliburName
+Excalibur[X]
+
+## ExcaliburDesc
+ [X]
+
+## BlizzardName
+Blizzard[X]
+
+## BlizzardDesc
+Long-range magic attack.[X]
+
+## LightningName
+Lightning[X]
+
+## LightningDesc
+ [X]
+
+## ShineName
+Shine[X]
+
+## ShineDesc
+ [X]
+
+## DivineName
+Divine[X]
+
+## DivineDesc
+ [X]
+
+## AuraName
+Aura[X]
+
+## AuraDesc
+ [X]
+
+## PurgeName
+Purge[X]
+
+## PurgeDesc
+Long-range magic attack.[X]
+
+## ValauraName
+Valaura[X]
+
+## ValauraDesc
+Poisons target on hit.[X]
+
+## ResireName
+Resire[X]
+
+## ResireDesc
+Drains enemy HP into caster.[X]
+
+## JormungandName
+Jormungand[X]
+
+## JormungandDesc
+ [X]
+
+## CarreauName
+Carreau[X]
+
+## CarreauDesc
+ [X]
+
+## FenrirName
+Fenrir[X]
+
+## FenrirDesc
+ [X]
+
+## VerrineName
+Verrine[X]
+
+## VerrineDesc
+ [X]
+
+## WormName
+Worm[X]
+
+## WormDesc
+ [X]
+
+## NosferatuName
+Nosferatu[X]
+
+## NosferatuDesc
+Drains enemy HP into caster.[X]
+
+## LunaName
+Luna[X]
+
+## LunaDesc
+Negates enemy resistance.[X]
+
+## EclipseName
+Eclipse[X]
+
+## EclipseDesc
+Reduces enemy HP by half.[X]
+
+## MireName
+Mire[X]
+
+## MireDesc
+Extended attack range.[X]
+
+## RuinName
+Ruin[X]
+
+## RuinDesc
+Improves critical hit rate.[X]
+
+## WasteName
+Waste[X]
+
+## WasteDesc
+Can strike consecutively.[X]
+
+## MiasmaName
+Miasma[X]
+
+## MiasmaDesc
+Poisons target on hit.[X]
+
+## DarkSpikesName
+Dark Spikes[X]
+
+## DarkSpikesDesc
+Effective against cavalry.[X]
+
+## HealName
+Heal[X]
+
+## HealDesc
+Restores HP to allies in[N]
+adjacent spaces.[X]
+ 
+## HealUseDesc
+Restores some HP.[X]
+
+## MendName
+Mend[X]
+
+## MendDesc
+Restores many HP to allies[N]
+in adjacent spaces.[X]
+
+## MendUseDesc
+Restores more HP.[X]
+
+## RecoverName
+Recover[X]
+
+## RecoverDesc
+Restores all HP to allies[N]
+in adjacent spaces.[X]
+
+## RecoverUseDesc
+Restores all HP.[X]
+
+## BloomFestalName
+Bloom Festal[X]
+
+## BloomFestalDesc
+Restores HP to allies[N]
+at a short distance.[X]
+
+## BloomFestalUseDesc
+Restores HP to[N]
+nearby allies.[X]
+
+## PhysicName
+Physic[X]
+
+## PhysicDesc
+Restores HP to allies[N]
+at a distance.[X]
+
+## PhysicUseDesc
+Restores HP to[N]
+distant allies.[X]
+
+## RegenName
+Regen[X]
+
+## RegenDesc
+Let allies regenerate[N]
+health over time.[X]
+
+## RegenUseDesc
+Regenerate health[N]
+over time.[X]
+
+## RestoreName
+Restore[X]
+
+## RestoreDesc
+Returns allies to normal[N]
+condition. (Cures sleep, etc.)[X]
+
+## RestoreUseDesc
+Restores allies to[N]
+normal status.[X]
+
+## WarpName
+Warp[X]
+
+## WarpDesc
+Moves allies in adjacent[N]
+spaces instantly elsewhere.[X]
+
+## WarpUseDesc
+Warps allies to[N]
+other spaces.[X]
+
+## RescueName
+Rescue[X]
+
+## RescueDesc
+Moves allies from distant[N]
+spaces to adjacent ones.[X]
+
+## RescueUseDesc
+Warps allies to a[N]
+space adjacent to[N]
+the staff wielder.[X]
+
+## EntrapName
+Entrap[X]
+
+## EntrapDesc
+Moves enemies from distant[N]
+spaces to adjacent ones.[X]
+
+## EntrapUseDesc
+Warps enemies to a[N]
+space adjacent to[N]
+the staff wielder.[X]
+
+## BarrierName
+Barrier[X]
+
+## BarrierDesc
+Increases magic resistance[N]
+of adjacent allies briefly.[X]
+
+## BarrierUseDesc
+Raises resistance.[X]
+
+## UnlockName
+Unlock[X]
+
+## UnlockDesc
+Unlocks doors and chests,[N]
+even from a distance.[X]
+
+## UnlockUseDesc
+Opens doors and chests.[X]
+
+## SleepName
+Sleep[X]
+
+## SleepDesc
+Puts enemies to sleep for[N]
+several turns.[X]
+
+## SleepUseDesc
+Puts enemies to sleep.[X]
+
+## SilenceName
+Silence[X]
+
+## SilenceDesc
+Halts all enemy magic[N]
+for several turns.[X]
+
+## SilenceUseDesc
+Blocks enemy magic.[X]
+
+## BerserkName
+Berserk[X]
+
+## BerserkDesc
+Sends enemies into a[N]
+berserker rage.[X]
+
+## BerserkUseDesc
+Drives enemies to[N]
+attack wildly in a[N]
+frenzy of rage.[X]
+
+## EnfeebleName
+Enfeeble[X]
+
+## EnfeebleDesc
+Lowers an enemy's[N]
+stats temporarily.[X]
+
+## EnfeebleUseDesc
+Lower an enemy's[N]
+stats temporarily.[X]
+
+## FreezeName
+Freeze[X]
+
+## FreezeDesc
+Freezes enemies in place.[X]
+
+## FreezeUseDesc
+Freeze enemies in place.[X]
+
+## HexingRodName
+Hexing Rod[X]
+
+## HexingRodDesc
+Hex enemies, halving[N]
+their max HP.[X]
+
+## HexingRodUseDesc
+Halve max HP.[X]
+
+## HasteName
+Haste[X]
+
+## HasteDesc
+Bless allies to let[N]
+them act twice a turn.[X]
+
+## HasteUseDesc
+Act twice per turn.[X]
+
+## SlowName
+Slow[X]
+
+## SlowDesc
+Curse enemies to make[N]
+them never double.[X]
+
+## SlowUseDesc
+Never follow-up attack.[X]
+
+## AnewName
+Anew[X]
+
+## AnewDesc
+Allow allies to[N]
+instantly act again.[X]
+
+## AnewUseDesc
+Act again instantly.[X]
+ 
+## HammerneName
+Hammerne[X]
+
+## HammerneDesc
+Restores an adjacent ally's[N]
+weapons to new condition.[X]
+ 
+## HammerneUseDesc
+Restores items to[N]
+new condition.[X]
+
+## AumName
+Aum[X]
+
+## AumDesc
+Revives a dead ally.[X]
+
+## AumUseDesc
+Revive a dead ally.[X]
+
+## AngelicRobeName
+Angelic Robe[X]
+
+## AngelicRobeDesc
+Increases HP by a max of[N]
+7 points. Vanishes after use.[X]
+
+## AngelicRobeUseDesc
+Raises Max HP.[X]
+
+## EnergyDropName
+Energy Drop[X]
+
+## EnergyDropDesc
+Increases Str by 2 points.[N]
+Vanishes after use.[X]
+
+## EnergyDropUseDesc
+Raises strength.[X]
+
+## SpiritDustName
+Spirit Dust[X]
+
+## SpiritDustDesc
+Increases Mag by 2 points.[N]
+Vanishes after use.[X]
+
+## SpiritDustUseDesc
+Raises magic.[X]
+
+## SecretBookName
+Secret Book[X]
+
+## SecretBookDesc
+Increases Skill by 2 points.[N]
+Vanishes after use.[X]
+
+## SecretBookUseDesc
+Raises skill.[X]
+
+## SpeedwingName
+Speedwing[X]
+
+## SpeedwingDesc
+Increases speed by 2 points.[N]
+Vanishes after use.[X]
+
+## SpeedwingUseDesc
+Raises speed.[X]
+
+## GoddessIconName
+Goddess Icon[X]
+
+## GoddessIconDesc
+Increases luck by 2 points.[N] 
+Vanishes after use.[X]
+
+## GoddessIconUseDesc
+Raises luck.[X]
+
+## DragonshieldName
+Dragonshield[X]
+
+## DragonshieldDesc
+Increases defense by 2 points.[N]
+Vanishes after use.[X]
+
+## DragonshieldUseDesc
+Raises defense.[X]
+
+## TalismanName
+Talisman[X]
+
+## TalismanDesc
+Increases resistance by 2 points.[N]
+Vanishes after use.[X]
+
+## TalismanUseDesc
+Raises resistance.[X]
+
+## BootsName
+Boots[X]
+
+## BootsDesc
+Increases movement by 2 points.[N]
+Vanishes after use.[X]
+
+## BootsUseDesc
+Raises movement.[X]
+
+## BodyRingName
+BodyRing[X]
+
+## BodyRingDesc
+Increases constitution by[N]
+2 points. Vanishes after use.[X]
+
+## BodyRingUseDesc
+Raises constitution.[X]
+
+## MasterSealName
+Master Seal[X]
+
+## MasterSealDesc
+For units Lv. 10 and up[N]
+who have not changed class.[X]
+
+## MasterSealUseDesc
+ [X]
+
+## DummyItemName
+Dummy[X]
+
+## DummyItemDesc
+DUMMY[X]
+
+## DummyItemUseDesc
+DUMMY[X]
+
+## LockpickName
+Lockpick[X]
+
+## LockpickDesc
+Opens doors and chests.[N]
+Usable only by thieves.[X]
+
+## LockpickUseDesc
+Universal lockpicks[N]
+designed for thieves.[X]
+
+## VulneraryName
+Vulnerary[X]
+
+## VulneraryDesc
+A medicinal solution used[N]
+for healing minor wounds.[X]
+
+## VulneraryUseDesc
+Restores some HP.[X]
+
+## ConcoctionName
+Concoction[X]
+
+## ConcoctionDesc
+A medicinal mixture used[N]
+for healing moderate wounds.[X]
+
+## ConcoctionUseDesc
+Restores more HP.[X]
+
+## ElixirName
+Elixir[X]
+
+## ElixirDesc
+A powerful solution that[N]
+restores all HP.[X]
+
+## ElixirUseDesc
+Restores all HP.[X]
+
+## PureWaterName
+PureWater[X]
+
+## PureWaterDesc
+A draught that boosts Res.[N]
+Grows weaker each turn.[X]
+
+## PureWaterUseDesc
+Reduces damage[N]
+from magic attacks.[X]
+
+## AntitoxinName
+Antitoxin[X]
+
+## AntitoxinDesc
+A medicinal solution that[N]
+cures poison.[X]
+
+## AntitoxinUseDesc
+Cures poison.[X]
+
+## TorchName
+Torch[X]
+
+## TorchDesc
+A staff with burning pitch.[N]
+Grows dimmer each turn.[X]
+
+## TorchUseDesc
+Lights an area.[X]
+
+## SkillScrollUseDesc
+Teaches a skill.[X]
+
+## MemberCardName
+Member Card[X]
+
+## MemberCardDesc
+If someone with this card[N]
+stops in a suspicious space...[X]
+
+## MemberCardUseDesc
+Grants access to[N]
+secret shops.[X]
+
+## SilverCardName
+Silver Card[X]
+
+## SilverCardDesc
+A special card that reduces[N]
+the cost of all items by half.[X]
+
+## SilverCardUseDesc
+Reduces the cost[N]
+of items.[X]
+
+## IoteShieldName
+Iote Shield[X]
+
+## IoteShieldDesc
+An amulet that protects[N]
+fliers from damage.[X]
+
+## IoteShieldUseDesc
+Protects airborne[N]
+units from wind.[X]
+
+## LamposShieldName
+Lampos Shield[X]
+
+## LamposShieldDesc
+An amulet that protects[N]
+cavalry from damage.[X]
+
+## LamposShieldUseDesc
+Protects mounted[N]
+units from fire.[X]
+
+## KadmosShieldName
+Kadmos Shield[X]
+
+## KadmosShieldDesc
+An amulet that protects[N]
+knights from damage.[X]
+
+## KadmosShieldUseDesc
+Protects armored[N]
+units from thunder.[X]
+
+## HoplonGuardName
+Hoplon Guard[X]
+
+## HoplonGuardDesc
+A device that negates[N]
+enemy critical attacks.[X]
+
+## HoplonGuardUseDesc
+Negates enemies'[N]
+critical attacks.[X]
+
+## RedGemName
+Red Gem[X]
+
+## RedGemDesc
+An uncommon gemstone[N]
+worth 2,500 gold.[X]
+
+## BlueGemName
+Blue Gem[X]
+
+## BlueGemDesc
+A rare gemstone worth[N]
+5,000 gold.[X]
+
+## GreenGemName
+Green Gem[X]
+
+## GreenGemDesc
+A valuable gemstone worth[N]
+10,000 gold.[X]
+
+## MineName
+Mine[X]
+
+## MineDesc
+A trap that damages units[N]
+that step on it.[X]
+
+## MineUseDesc
+Units that enter[N]
+spaces where these[N]
+are take damage.[X]
+
+## LightRuneName
+Light Rune[X]
+
+## LightRuneDesc
+A device that blocks units[N]
+from entering spaces.[X]
+
+## LightRuneUseDesc
+Units cannot enter[N]
+spaces where these[N]
+have been placed.[X]
+
+## FillasMightName
+Filla's Might[X]
+
+## FillasMightDesc
+A dance that increases[N]
+allies' attack for a turn.[X]
+
+## FillasMightUseDesc
+Increases allies'[N]
+attack power[N]
+for a turn.[X]
+
+## ThorsIreName
+Thor's Ire[X]
+
+## ThorsIreDesc
+A dance that increases[N]
+allies' defenses for a turn.[X]
+
+## ThorsIreUseDesc
+Increases allies'[N]
+Def and Res for[N]
+a turn.[X]
+
+## NinissGraceName
+Ninis's Grace[X]
+
+## NinissGraceDesc
+A dance that increases[N]
+critical hit % for a turn.[X]
+
+## NinissGraceUseDesc
+Increases allies'[N]
+Crit for a turn.[X]
+
+## SetsLitanyName
+Set's Litany[X]
+
+## SetsLitanyDesc
+A dance that increases[N]
+allies' dodge for a turn.[X]
+
+## SetsLitanyUseDesc
+Increases allies'[N]
+evasion for a turn.[X]
+
+## LeatherShieldName
+Leather Shield[X]
+
+## LeatherShieldDesc
+Defense +3 when held.[X]
+
+## LeatherShieldUseDesc
+Defense +3.[X]
+
+## IronShieldName
+Iron Shield[X]
+
+## IronShieldDesc
+Defense +4 when held.[X]
+
+## IronShieldUseDesc
+Defense +4.[X]
+
+## SteelShieldName
+Steel Shield[X]
+
+## SteelShieldDesc
+Defense +5 when held.[X]
+
+## SteelShieldUseDesc
+Defense +5.[X]
+
+## SilverShieldName
+Silver Shield[X]
+
+## SilverShieldDesc
+Defense +6 when held.[X]
+
+## SilverShieldUseDesc
+Defense +6.[X]
+
+## HexlockShieldName
+Hexlock Shield[X]
+
+## HexlockShieldDesc
+Resistance +5 when held.[X]
+
+## HexlockShieldUseDesc
+Resistance +5.[X]
+
+## RenewalRingName
+Renewal Ring[X]
+
+## RenewalRingDesc
+Restores 30% of max HP at[N]
+the start of each turn.[X]
+
+## RenewalRingUseDesc
+Restores 30% HP.[X]
+
+## AngelRingName
+Angel Ring[X]
+
+## AngelRingDesc
+Luck +10 when held.[X]
+
+## AngelRingUseDesc
+Luck +10.[X]
+
+## SpeedRingName
+Speed Ring[X]
+
+## SpeedRingDesc
+Speed +5 when held.[X]
+
+## SpeedRingUseDesc
+Speed +5.[X]
+
+## PrayerRingName
+Prayer Ring[X]
+
+## PrayerRingDesc
+Resistance +5 when held.[N]
+May survive lethal attacks.[X]
+
+## PrayerRingUseDesc
+Resistance +5.[N]
+Grants Miracle.[X]
+
+## StarJacinthName
+Star Jacinth[X]
+
+## StarJacinthDesc
++30% to all growth rates.[X]
+
+## StarJacinthUseDesc
++30% growths.[X]
+
+## AriesShardName
+Aries Shard[X]
+
+## AriesShardDesc
+Luck +40%.[X]
+
+## AriesShardUseDesc
+Affects growth rates.[X]
+
+## TaurusShardName
+Taurus Shard[X]
+
+## TaurusShardDesc
++5% to all growth rates.[X]
+
+## TaurusShardUseDesc
+Affects growth rates.[X]
+
+## GeminiShardName
+Gemini Shard[X]
+
+## GeminiShardDesc
+Str +25%, Skl -5%, Def +20%.[X]
+
+## GeminiShardUseDesc
+Affects growth rates.[X]
+
+## CancerShardName
+Cancer Shard[X]
+
+## CancerShardDesc
+Str -10%, Def +50%.[X]
+
+## CancerShardUseDesc
+Affects growth rates.[X]
+
+## LeoShardName
+Leo Shard[X]
+
+## LeoShardDesc
+Str +50%, Def -10%.[X]
+
+## LeoShardUseDesc
+Affects growth rates.[X]
+
+## VirgoShardName
+Virgo Shard[X]
+
+## VirgoShardDesc
+Skl +10%, Def -10%, Res +30%.[X]
+
+## VirgoShardUseDesc
+Affects growth rates.[X]
+
+## LibraShardName
+Libra Shard[X]
+
+## LibraShardDesc
+HP -10%, Spd +40%, Lck + 10%,[N]
+Skl +5%, Res -10%.[X]
+
+## LibraShardUseDesc
+Affects growth rates.[X]
+
+## ScorpioShardName
+Scorpio Shard[X]
+
+## ScorpioShardDesc
+Mag +20%, Skl +20%,[N]
+Spd +10%, Lck -10%[X]
+
+## ScorpioShardUseDesc
+Affects growth rates.[X]
+
+## SagittariusShardName
+Sagittarius Shard[X]
+
+## SagittariusShardDesc
+HP -10%, Skl +40%, Spd +10%.[X]
+
+## SagittariusShardUseDesc
+Affects growth rates.[X]
+
+## CapricornShardName
+Capricorn Shard[X]
+
+## CapricornShardDesc
+HP +20%, Mag +15%, Skl +5%,[N]
+Spd -10%, Def +10%[X]
+
+## CapricornShardUseDesc
+Affects growth rates.[X]
+
+## AquariusShardName
+Aquarius Shard[X]
+
+## AquariusShardDesc
+Str +15%, Skl +15%, Spd +10%.[X]
+
+## AquariusShardUseDesc
+Affects growth rates.[X]
+
+## PiscesShardName
+Pisces Shard[X]
+
+## PiscesShardDesc
+HP +10%, Lck +10%,[N]
+Def +10%, Res +10%[X]
+
+## PiscesShardUseDesc
+Affects growth rates.[X]
+

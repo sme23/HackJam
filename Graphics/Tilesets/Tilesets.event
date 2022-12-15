@@ -296,3 +296,52 @@ Valni_TileConfig:
 #incbin "ValniGate/ValniGate_comp.dmp"
 
 #include "ValniGate/GateAnims/GateAnims.event"
+
+EventPointerTable(FF2TownObjType,FF2Town_ObjType)
+EventPointerTable(FF2TownTileConfig,FF2Town_TileConfig)
+
+EventPointerTable(FF2TownPalette1,FF2Town_Palette1)
+EventPointerTable(FF2TownPalette2,FF2Town_Palette2)
+EventPointerTable(FF2TownPalette3,FF2Town_Palette3)
+EventPointerTable(FF2TownPalette4,FF2Town_Palette4)
+
+ALIGN 4
+FF2Town_ObjType:
+#incbin "FF2Town/FF2Town.dmp"
+
+ALIGN 4
+FF2Town_TileConfig:
+#incbin "FF2Town/FF2Town_comp.dmp"
+
+ALIGN 4
+FF2Town_Palette1:
+#incbin "FF2Town/FF2Town1_pal.dmp"
+
+ALIGN 4
+FF2Town_Palette2:
+#incbin "FF2Town/FF2Town2_pal.dmp"
+
+ALIGN 4
+FF2Town_Palette3:
+#incbin "FF2Town/FF2Town3_pal.dmp"
+
+ALIGN 4
+FF2Town_Palette4:
+#incbin "FF2Town/FF2Town4_pal.dmp"
+
+EventPointerTable(ProtoInteriorObjType,ProtoInterior_ObjType)
+EventPointerTable(ProtoInteriorTileConfig,ProtoInterior_TileConfig)
+EventPointerTable(ProtoInteriorPalette1,ProtoInterior_Palette1)
+
+ALIGN 4
+ProtoInterior_ObjType:
+#incbin "ProtoInterior/fe7_protointerior.dmp"
+
+ALIGN 4
+ProtoInterior_TileConfig:
+#incbin "ProtoInterior/fe7_protointerior_comp.dmp"
+
+ALIGN 4
+ProtoInterior_Palette1:
+#incbin "ProtoInterior/fe7_protointerior_pal.dmp"
+

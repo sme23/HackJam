@@ -1,0 +1,21 @@
+#include "_MainMenuDefs.event"
+
+PUSH
+ORG $59D21C
+    POIN MainMenuTable
+POP
+
+ALIGN 4
+MainMenuTable:
+	MM_Unit
+	MM_Status
+	MM_Guide
+	MM_Options
+	MM_Suspend
+	#ifdef __DEBUG__
+		MenuCommand(ChapterJumpTextID, ChapterJumpDescID, OrangeText, 0x804F449, Jump_OnSelect)
+		MenuCommand(MM_WinButton, MM_WinDesc, OrangeText, 0x804F449, WinEffect)
+	#endif // __DEBUG__
+	MM_End
+	MM_Separator
+

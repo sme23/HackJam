@@ -1,13 +1,555 @@
 //apparently i've literally never done this properly before :)
 
-#define ItemIconSheetOffset 0x5926F4
-#define SetItemIcon(Index) "ORG ItemIconSheetOffset + (Index * 0x80)"
+#define SetItemIcon(Index) "ORG ItemIcons + (Index * 0x80)"
+
+//ItemIcons:
+//FILL 256*0x80
 
 PUSH	
+
+	ORG $5926F4
+	ItemIcons:
+
 /*
-	SetItemIcon(Index)
+	SetItemIcon(Icon)
 	#incext Png2Dmp "file.png"
 */
+
+	SetItemIcon(IronSwordIcon)
+	#incext Png2Dmp "IronSword.png"
+
+	SetItemIcon(SteelSwordIcon)
+	#incext Png2Dmp "SteelSword.png"
+
+	SetItemIcon(SilverSwordIcon)
+	#incext Png2Dmp "SilverSword.png"
+
+	SetItemIcon(QuickSwordIcon)
+	#incext Png2Dmp "QuickSword.png"
+
+	SetItemIcon(BraveSwordIcon)
+	#incext Png2Dmp "BraveSword.png"
+
+	SetItemIcon(KillingEdgeIcon)
+	#incext Png2Dmp "KillingEdge.png"
+
+	SetItemIcon(VeninSwordIcon)
+	#incext Png2Dmp "VeninSword.png"
+
+	SetItemIcon(IronBladeIcon)
+	#incext Png2Dmp "IronBlade.png"
+
+	SetItemIcon(SteelBladeIcon)
+	#incext Png2Dmp "SteelBlade.png"
+
+	SetItemIcon(SilverBladeIcon)
+	#incext Png2Dmp "SilverBlade.png"
+
+	SetItemIcon(LancereaverIcon)
+	#incext Png2Dmp "Lancereaver.png"
+
+	SetItemIcon(ZanbatoIcon)
+	#incext Png2Dmp "Zanbato.png"
+
+	SetItemIcon(ArmorslayerIcon)
+	#incext Png2Dmp "Armorslayer.png"
+
+	SetItemIcon(WyrmslayerIcon)
+	#incext Png2Dmp "Wyrmslayer.png"
+
+	SetItemIcon(LightBrandIcon)
+	#incext Png2Dmp "LightBrand.png"
+
+	SetItemIcon(IronLanceIcon)
+	#incext Png2Dmp "IronLance.png"
+
+	SetItemIcon(SteelLanceIcon)
+	#incext Png2Dmp "SteelLance.png"
+
+	SetItemIcon(SilverLanceIcon)
+	#incext Png2Dmp "SilverLance.png"
+
+	SetItemIcon(QuickLanceIcon)
+	#incext Png2Dmp "QuickLance.png"
+
+	SetItemIcon(BraveLanceIcon)
+	#incext Png2Dmp "BraveLance.png"
+
+	SetItemIcon(KillerLanceIcon)
+	#incext Png2Dmp "KillerLance.png"
+
+	SetItemIcon(VeninLanceIcon)
+	#incext Png2Dmp "VeninLance.png"
+
+	SetItemIcon(IronPikeIcon)
+	#incext Png2Dmp "IronPike.png"
+
+	SetItemIcon(SteelPikeIcon)
+	#incext Png2Dmp "SteelPike.png"
+
+	SetItemIcon(SilverPikeIcon)
+	#incext Png2Dmp "SilverPike.png"
+
+	SetItemIcon(AxereaverIcon)
+	#incext Png2Dmp "Axereaver.png"
+
+	SetItemIcon(HorseslayerIcon)
+	#incext Png2Dmp "Horseslayer.png"
+
+	SetItemIcon(HeavyLanceIcon)
+	#incext Png2Dmp "HeavyLance.png"
+
+	SetItemIcon(BlessedLanceIcon)
+	#incext Png2Dmp "BlessedLance.png"
+
+	SetItemIcon(JavelinIcon)
+	#incext Png2Dmp "Javelin.png"
+
+	SetItemIcon(SpearIcon)
+	#incext Png2Dmp "Spear.png"
+
+	SetItemIcon(PilumIcon)
+	#incext Png2Dmp "Pilum.png"
+
+	SetItemIcon(BrightLanceIcon)
+	#incext Png2Dmp "BrightLance.png"
+
+	SetItemIcon(IronAxeIcon)
+	#incext Png2Dmp "IronAxe.png"
+
+	SetItemIcon(SteelAxeIcon)
+	#incext Png2Dmp "SteelAxe.png"
+
+	SetItemIcon(SilverAxeIcon)
+	#incext Png2Dmp "SilverAxe.png"
+
+	SetItemIcon(QuickAxeIcon)
+	#incext Png2Dmp "QuickAxe.png"
+
+	SetItemIcon(BraveAxeIcon)
+	#incext Png2Dmp "BraveAxe.png"
+
+	SetItemIcon(KillerAxeIcon)
+	#incext Png2Dmp "KillerAxe.png"
+
+	SetItemIcon(VeninAxeIcon)
+	#incext Png2Dmp "VeninAxe.png"
+
+	SetItemIcon(IronPoleaxeIcon)
+	#incext Png2Dmp "IronPoleaxe.png"
+
+	SetItemIcon(SteelPoleaxeIcon)
+	#incext Png2Dmp "SteelPoleaxe.png"
+
+	SetItemIcon(SilverPoleaxeIcon)
+	#incext Png2Dmp "SilverPoleaxe.png"
+
+	SetItemIcon(SwordreaverIcon)
+	#incext Png2Dmp "Swordreaver.png"
+
+	SetItemIcon(HalberdIcon)
+	#incext Png2Dmp "Halberd.png"
+
+	SetItemIcon(HammerIcon)
+	#incext Png2Dmp "Hammer.png"
+
+	SetItemIcon(DragonAxeIcon)
+	#incext Png2Dmp "DragonAxe.png"
+
+	SetItemIcon(HandAxeIcon)
+	#incext Png2Dmp "HandAxe.png"
+
+	SetItemIcon(TomahawkIcon)
+	#incext Png2Dmp "Tomahawk.png"
+
+	SetItemIcon(FranciscaIcon)
+	#incext Png2Dmp "Francisca.png"
+
+	SetItemIcon(BoltAxeIcon)
+	#incext Png2Dmp "BoltAxe.png"
+
+	SetItemIcon(IronBowIcon)
+	#incext Png2Dmp "IronBow.png"
+
+	SetItemIcon(SteelBowIcon)
+	#incext Png2Dmp "SteelBow.png"
+
+	SetItemIcon(SilverBowIcon)
+	#incext Png2Dmp "SilverBow.png"
+
+	SetItemIcon(QuickBowIcon)
+	#incext Png2Dmp "QuickBow.png"
+
+	SetItemIcon(BraveBowIcon)
+	#incext Png2Dmp "BraveBow.png"
+
+	SetItemIcon(KillerBowIcon)
+	#incext Png2Dmp "KillerBow.png"
+
+	SetItemIcon(VeninBowIcon)
+	#incext Png2Dmp "VeninBow.png"
+
+	SetItemIcon(LongbowIcon)
+	#incext Png2Dmp "Longbow.png"
+
+	SetItemIcon(CrossbowIcon)
+	#incext Png2Dmp "Crossbow.png"
+
+	SetItemIcon(ArbalestIcon)
+	#incext Png2Dmp "Arbalest.png"
+
+	SetItemIcon(ArcaneBowIcon)
+	#incext Png2Dmp "ArcaneBow.png"
+
+	SetItemIcon(ArrowspateIcon)
+	#incext Png2Dmp "Arrowspate.png"
+
+	SetItemIcon(ThunderboltIcon)
+	#incext Png2Dmp "Thunderbolt.png"
+
+	SetItemIcon(PachydermIcon)
+	#incext Png2Dmp "Pachyderm.png"
+
+	SetItemIcon(FireIcon)
+	#incext Png2Dmp "Fire.png"
+
+	SetItemIcon(ElfireIcon)
+	#incext Png2Dmp "Elfire.png"
+
+	SetItemIcon(ArcfireIcon)
+	#incext Png2Dmp "Arcfire.png"
+
+	SetItemIcon(BolganoneIcon)
+	#incext Png2Dmp "Bolganone.png"
+
+	SetItemIcon(MeteorIcon)
+	#incext Png2Dmp "Meteor.png"
+
+	SetItemIcon(ThunderIcon)
+	#incext Png2Dmp "Thunder.png"
+
+	SetItemIcon(ElthunderIcon)
+	#incext Png2Dmp "Elthunder.png"
+
+	SetItemIcon(ArcthunderIcon)
+	#incext Png2Dmp "Arcthunder.png"
+
+	SetItemIcon(ThoronIcon)
+	#incext Png2Dmp "Thoron.png"
+
+	SetItemIcon(BoltingIcon)
+	#incext Png2Dmp "Bolting.png"
+
+	SetItemIcon(WindIcon)
+	#incext Png2Dmp "Wind.png"
+
+	SetItemIcon(ElwindIcon)
+	#incext Png2Dmp "Elwind.png"
+
+	SetItemIcon(ArcwindIcon)
+	#incext Png2Dmp "Arcwind.png"
+
+	SetItemIcon(ExcaliburIcon)
+	#incext Png2Dmp "Excalibur.png"
+
+	SetItemIcon(BlizzardIcon)
+	#incext Png2Dmp "Blizzard.png"
+
+	SetItemIcon(LightningIcon)
+	#incext Png2Dmp "Lightning.png"
+
+	SetItemIcon(ShineIcon)
+	#incext Png2Dmp "Shine.png"
+
+	SetItemIcon(DivineIcon)
+	#incext Png2Dmp "Divine.png"
+
+	SetItemIcon(AuraIcon)
+	#incext Png2Dmp "Aura.png"
+
+	SetItemIcon(PurgeIcon)
+	#incext Png2Dmp "Purge.png"
+
+	SetItemIcon(ValauraIcon)
+	#incext Png2Dmp "Valaura.png"
+
+	SetItemIcon(ResireIcon)
+	#incext Png2Dmp "Resire.png"
+
+	SetItemIcon(JormungandIcon)
+	#incext Png2Dmp "Jormungand.png"
+
+	SetItemIcon(CarreauIcon)
+	#incext Png2Dmp "Carreau.png"
+
+	SetItemIcon(FenrirIcon)
+	#incext Png2Dmp "Fenrir.png"
+
+	SetItemIcon(VerrineIcon)
+	#incext Png2Dmp "Verrine.png"
+
+	SetItemIcon(WormIcon)
+	#incext Png2Dmp "Worm.png"
+
+	SetItemIcon(NosferatuIcon)
+	#incext Png2Dmp "Nosferatu.png"
+
+	SetItemIcon(LunaIcon)
+	#incext Png2Dmp "Luna.png"
+
+	SetItemIcon(EclipseIcon)
+	#incext Png2Dmp "Eclipse.png"
+
+	SetItemIcon(MireIcon)
+	#incext Png2Dmp "Mire.png"
+
+	SetItemIcon(RuinIcon)
+	#incext Png2Dmp "Ruin.png"
+
+	SetItemIcon(WasteIcon)
+	#incext Png2Dmp "Waste.png"
+
+	SetItemIcon(MiasmaIcon)
+	#incext Png2Dmp "Miasma.png"
+
+	SetItemIcon(DarkSpikesIcon)
+	#incext Png2Dmp "DarkSpikes.png"
+
+	SetItemIcon(HealIcon)
+	#incext Png2Dmp "Heal.png"
+
+	SetItemIcon(MendIcon)
+	#incext Png2Dmp "Mend.png"
+
+	SetItemIcon(RecoverIcon)
+	#incext Png2Dmp "Recover.png"
+
+	SetItemIcon(BloomFestalIcon)
+	#incext Png2Dmp "BloomFestal.png"
+
+	SetItemIcon(PhysicIcon)
+	#incext Png2Dmp "Physic.png"
+
+	SetItemIcon(RegenIcon)
+	#incext Png2Dmp "Regen.png"
+
+	SetItemIcon(RestoreIcon)
+	#incext Png2Dmp "Restore.png"
+
+	SetItemIcon(WarpIcon)
+	#incext Png2Dmp "Warp.png"
+
+	SetItemIcon(RescueIcon)
+	#incext Png2Dmp "Rescue.png"
+
+	SetItemIcon(EntrapIcon)
+	#incext Png2Dmp "Entrap.png"
+
+	SetItemIcon(BarrierIcon)
+	#incext Png2Dmp "Barrier.png"
+
+	SetItemIcon(UnlockIcon)
+	#incext Png2Dmp "Unlock.png"
+
+	SetItemIcon(SleepIcon)
+	#incext Png2Dmp "Sleep.png"
+
+	SetItemIcon(SilenceIcon)
+	#incext Png2Dmp "Silence.png"
+
+	SetItemIcon(BerserkIcon)
+	#incext Png2Dmp "Berserk.png"
+
+	SetItemIcon(EnfeebleIcon)
+	#incext Png2Dmp "Enfeeble.png"
+
+	SetItemIcon(FreezeIcon)
+	#incext Png2Dmp "Freeze.png"
+
+	SetItemIcon(HexingRodIcon)
+	#incext Png2Dmp "HexingRod.png"
+
+	SetItemIcon(HasteIcon)
+	#incext Png2Dmp "Haste.png"
+
+	SetItemIcon(SlowIcon)
+	#incext Png2Dmp "Slow.png"
+
+	SetItemIcon(AnewIcon)
+	#incext Png2Dmp "Anew.png"
+
+	SetItemIcon(HammerneIcon)
+	#incext Png2Dmp "Hammerne.png"
+
+	SetItemIcon(AumIcon)
+	#incext Png2Dmp "Aum.png"
+
+	SetItemIcon(AngelicRobeIcon)
+	#incext Png2Dmp "AngelicRobe.png"
+
+	SetItemIcon(EnergyDropIcon)
+	#incext Png2Dmp "EnergyDrop.png"
+
+	SetItemIcon(SpiritDustIcon)
+	#incext Png2Dmp "SpiritDust.png"
+
+	SetItemIcon(SecretBookIcon)
+	#incext Png2Dmp "SecretBook.png"
+
+	SetItemIcon(SpeedwingIcon)
+	#incext Png2Dmp "Speedwing.png"
+
+	SetItemIcon(GoddessIconIcon)
+	#incext Png2Dmp "GoddessIcon.png"
+
+	SetItemIcon(DragonshieldIcon)
+	#incext Png2Dmp "Dragonshield.png"
+
+	SetItemIcon(TalismanIcon)
+	#incext Png2Dmp "Talisman.png"
+
+	SetItemIcon(BootsIcon)
+	#incext Png2Dmp "Boots.png"
+
+	SetItemIcon(BodyRingIcon)
+	#incext Png2Dmp "BodyRing.png"
+
+	SetItemIcon(MasterSealIcon)
+	#incext Png2Dmp "MasterSeal.png"
+
+	SetItemIcon(DummyItemIcon)
+	#incext Png2Dmp "DummyItem.png"
+
+	SetItemIcon(LockpickIcon)
+	#incext Png2Dmp "Lockpick.png"
+
+	SetItemIcon(VulneraryIcon)
+	#incext Png2Dmp "Vulnerary.png"
+
+	SetItemIcon(ConcoctionIcon)
+	#incext Png2Dmp "Concoction.png"
+
+	SetItemIcon(ElixirIcon)
+	#incext Png2Dmp "Elixir.png"
+
+	SetItemIcon(PureWaterIcon)
+	#incext Png2Dmp "PureWater.png"
+
+	SetItemIcon(AntitoxinIcon)
+	#incext Png2Dmp "Antitoxin.png"
+
+	SetItemIcon(TorchIcon)
+	#incext Png2Dmp "Torch.png"
+
+	SetItemIcon(MemberCardIcon)
+	#incext Png2Dmp "MemberCard.png"
+
+	SetItemIcon(SilverCardIcon)
+	#incext Png2Dmp "SilverCard.png"
+
+	SetItemIcon(IoteShieldIcon)
+	#incext Png2Dmp "IoteShield.png"
+
+	SetItemIcon(LamposShieldIcon)
+	#incext Png2Dmp "LamposShield.png"
+
+	SetItemIcon(KadmosShieldIcon)
+	#incext Png2Dmp "KadmosShield.png"
+
+	SetItemIcon(HoplonGuardIcon)
+	#incext Png2Dmp "HoplonGuard.png"
+
+	SetItemIcon(RedGemIcon)
+	#incext Png2Dmp "RedGem.png"
+
+	SetItemIcon(BlueGemIcon)
+	#incext Png2Dmp "BlueGem.png"
+
+	SetItemIcon(GreenGemIcon)
+	#incext Png2Dmp "GreenGem.png"
+
+	SetItemIcon(MineItemIcon)
+	#incext Png2Dmp "MineItem.png"
+
+	SetItemIcon(LightRuneIcon)
+	#incext Png2Dmp "LightRune.png"
+
+	SetItemIcon(FillasMightIcon)
+	#incext Png2Dmp "FillasMight.png"
+
+	SetItemIcon(ThorsIreIcon)
+	#incext Png2Dmp "ThorsIre.png"
+
+	SetItemIcon(NinissGraceIcon)
+	#incext Png2Dmp "NinissGrace.png"
+
+	SetItemIcon(SetsLitanyIcon)
+	#incext Png2Dmp "SetsLitany.png"
+
+	SetItemIcon(LeatherShieldIcon)
+	#incext Png2Dmp "LeatherShield.png"
+
+	SetItemIcon(IronShieldIcon)
+	#incext Png2Dmp "IronShield.png"
+
+	SetItemIcon(SteelShieldIcon)
+	#incext Png2Dmp "SteelShield.png"
+
+	SetItemIcon(SilverShieldIcon)
+	#incext Png2Dmp "SilverShield.png"
+
+	SetItemIcon(HexlockShieldIcon)
+	#incext Png2Dmp "HexlockShield.png"
+
+	SetItemIcon(RenewalRingIcon)
+	#incext Png2Dmp "RenewalRing.png"
+
+	SetItemIcon(AngelRingIcon)
+	#incext Png2Dmp "AngelRing.png"
+
+	SetItemIcon(SpeedRingIcon)
+	#incext Png2Dmp "SpeedRing.png"
+
+	SetItemIcon(PrayerRingIcon)
+	#incext Png2Dmp "PrayerRing.png"
+
+	SetItemIcon(StarJacinthIcon)
+	#incext Png2Dmp "StarJacinth.png"
+
+	SetItemIcon(AriesShardIcon)
+	#incext Png2Dmp "AriesShard.png"
+
+	SetItemIcon(TaurusShardIcon)
+	#incext Png2Dmp "TaurusShard.png"
+
+	SetItemIcon(GeminiShardIcon)
+	#incext Png2Dmp "GeminiShard.png"
+
+	SetItemIcon(CancerShardIcon)
+	#incext Png2Dmp "CancerShard.png"
+
+	SetItemIcon(LeoShardIcon)
+	#incext Png2Dmp "LeoShard.png"
+
+	SetItemIcon(VirgoShardIcon)
+	#incext Png2Dmp "VirgoShard.png"
+
+	SetItemIcon(LibraShardIcon)
+	#incext Png2Dmp "LibraShard.png"
+
+	SetItemIcon(ScorpioShardIcon)
+	#incext Png2Dmp "ScorpioShard.png"
+
+	SetItemIcon(SagittariusShardIcon)
+	#incext Png2Dmp "SagittariusShard.png"
+
+	SetItemIcon(CapricornShardIcon)
+	#incext Png2Dmp "CapricornShard.png"
+
+	SetItemIcon(AquariusShardIcon)
+	#incext Png2Dmp "AquariusShard.png"
+
+	SetItemIcon(PiscesShardIcon)
+	#incext Png2Dmp "PiscesShard.png"
 	
 POP
-

@@ -7,3 +7,13 @@ ScrollsCheck:
 WORD Growth_Options
 POIN ItemTable
 WORD PASSIVE_ITEM_BOOSTS_ATTR
+
+#define ZeroGrowthsFlag 0xB7
+#define PerfectGrowthsFlag 0xB8
+
+#include "GrowthModesCheck/GrowthModesCheck.lyn.event"
+
+EnableZeroGrowthsFlagLink:
+BYTE ZeroGrowthsFlag
+EnablePerfectGrowthsFlagLink:
+BYTE PerfectGrowthsFlag

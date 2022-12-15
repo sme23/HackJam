@@ -684,7 +684,7 @@
   cmp     r2, #0
   beq     NoStatusCount
   ldr     r0, =(0x2003ca2+(0x20*2*\tile_y)+(2*\tile_x))
-  lsr     r2, #4
+  lsr     r2, #5
   mov     r1, #0
   blh     DrawUiSmallNumber
   NoStatusCount:

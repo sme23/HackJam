@@ -55,21 +55,21 @@
 	
 	
 	
-	
 	/*
+	
 	//install example map sprite
 	PUSH
-		ORG (0x8AF880+0x8*ExampleMapSpriteID)
+		ORG (0x8AF880+0x8*SigilMapSpriteID)
 			SHORT 0x0002
 			SHORT 0x0000
-			POIN ExampleMapSpriteGraphics
+			POIN SigilMapSpriteGraphics
 	POP
-	*/
+	
 	
 	ALIGN 4
-	ExampleMapSpriteGraphics:
+	SigilMapSpriteGraphics:
 	#incext Png2Dmp "bin/Sigil.png" --lz77
-	
+	*/
 	
 	ALIGN 4
 	TrapInitFromEventsJumpTable: //functions here get the pointer to trap data in  events in r5(!)

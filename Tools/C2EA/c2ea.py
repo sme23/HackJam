@@ -82,13 +82,17 @@ def process(inputCSV, inputNMM, filename, rom):
                     arglen = getArgLength(entry)
                     if (arglen=="WORD ")|(arglen=="SHORT "):
                         outputline += data + ','
-                    else:
-                        dt = int(data, 0).to_bytes(entry.length, 'little', signed=entry.signed) #this is a string i guess
+                    else: 
+                        try:
+                            dt = int(data, 0).to_bytes(entry.length, 'little', signed=entry.signed)
+                        except OverflowError:
+                            input("Int too big to convert: " + data + "\n")
                         for byte in dt:
                             thisentry += (hex(byte)+' ')
                         outputline += thisentry[:-1] + ','
                 except ValueError: #if it's not a number, just add it directly
                     outputline += (data+',')
+    
             outputline = outputline[:-1] + ')'
             outputlines.append(outputline)
 

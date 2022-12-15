@@ -5,7 +5,7 @@
 #define SwordAnim(Animation) "BYTE Swords 0x01 ; SHORT Animation"
 #define LanceAnim(Animation) "BYTE Lances 0x01 ; SHORT Animation"
 #define AxeAnim(Animation) "BYTE Axes 0x01 ; SHORT Animation"
-#define HandAxeAnim(Animation) "BYTE HandAxe 0x00 ; SHORT Animation ; BYTE Tomahawk 0x00 ; SHORT Animation ; BYTE Hatchet 0x00 ; SHORT Animation; "
+#define HandAxeAnim(Animation) "BYTE HandAxe 0x00 ; SHORT Animation ; BYTE Tomahawk 0x00 ; SHORT Animation ; BYTE Francisca 0x00 ; SHORT Animation; "
 #define BowAnim(Animation) "BYTE Bows 0x01 ; SHORT Animation"
 #define StaffAnim(Animation) "BYTE Staves 0x01 ; SHORT Animation"
 #define AnimaAnim(Animation) "BYTE Anima 0x01 ; SHORT Animation"
@@ -90,19 +90,19 @@
 #define RangerFSwordAnimID 49
 #define RangerFBowAnimID 50
 #define RangerFUnarmedAnimID 51
-
+/*
 #define CavalierSwordAnimID 52
 #define CavalierLanceAnimID 53
 #define CavalierUnarmedAnimID 54
-
+*/
 #define CavalierFSwordAnimID 55
 #define CavalierFLanceAnimID 56
 #define CavalierFUnarmedAnimID 57
-
+/*
 #define PaladinSwordAnimID 58
 #define PaladinLanceAnimID 59
 #define PaladinUnarmedAnimID 60
-
+*/
 #define PaladinFSwordAnimID 61
 #define PaladinFLanceAnimID 62
 #define PaladinFUnarmedAnimID 63
@@ -112,13 +112,13 @@
 
 #define KnightFLanceAnimID 66
 #define KnightFUnarmedAnimID 67
-
+/*
 #define GeneralSwordAnimID 68
 #define GeneralLanceAnimID 69
 #define GeneralAxeAnimID 70
 #define GeneralHandAxeAnimID 71
 #define GeneralUnarmedAnimID 72
-
+*/
 #define GeneralFSwordAnimID 73
 #define GeneralFLanceAnimID 74
 #define GeneralFAxeAnimID 75
@@ -312,6 +312,66 @@
 
 #define ManaketeUndeadAnimID 201
 
+// we can overwrite some vanilla stuff we aren't using, rather than purely adding onto the end
+// vanilla lord stuff is IDs 1-10
 
+// individual anim credits are in _AnimsInstaller.event
 
+#define LordSwordAnimID 1
+#define LordBowAnimID 2
+#define LordUnarmedAnimID 3
 
+#define DivineDragonAnimID 4
+#define EarthDragonAnimID 5
+#define MageDragonAnimID 6
+#define FireDragonAnimID 7
+#define IceDragonAnimID 8
+
+#define DragoonLanceAnimID 9
+#define DragoonUnarmedAnimID 10
+
+//vanilla freespace used up, new entries time
+
+#define DeserterLanceAnimID 202
+#define DeserterUnarmedAnimID 203
+
+#define HunterBowAnimID 204
+#define HunterUnarmedAnimID 205
+
+#define CavalierSwordAnimID 206
+#define CavalierLanceAnimID 207
+#define CavalierAxeAnimID 208
+#define CavalierHandaxeAnimID 209
+#define CavalierBowAnimID 210
+#define CavalierUnarmedAnimID 211
+
+#define ArmorSwordAnimID 212
+#define ArmorLanceAnimID 213
+#define ArmorAxeAnimID 214
+#define ArmorHandaxeAnimID 215
+#define ArmorBowAnimID 216
+#define ArmorUnarmedAnimID 217
+
+#define HopliteLanceAnimID 218
+#define HopliteUnarmedAnimID 219
+
+#define ImpalerLanceAnimID 220
+#define ImpalerUnarmedAnimID 221
+
+#define GeneralSwordAnimID 222
+#define GeneralLanceAnimID 223
+#define GeneralAxeAnimID 224
+#define GeneralHandaxeAnimID 225
+#define GeneralBowAnimID 226
+#define GeneralUnarmedAnimID 227
+
+#define PaladinSwordAnimID 228
+#define PaladinLanceAnimID 229
+#define PaladinAxeAnimID 230
+#define PaladinHandaxeAnimID 231
+#define PaladinBowAnimID 232
+#define PaladinUnarmedAnimID 233
+
+#define BallisticianBowAnimID 234 //also the unarmed
+
+#define WyvernAnimID 235

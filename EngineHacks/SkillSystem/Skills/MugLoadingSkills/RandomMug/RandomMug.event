@@ -21,9 +21,9 @@
     ORG $8E2FC
     jumpToHack(RandomMug9)
     ORG $2D7D8
-    jumpToHack(RandomMug10)
+    //jumpToHack(RandomMug10)
     ORG $2D7F0
-    jumpToHack(RandomMug11)
+    //jumpToHack(RandomMug11)
     ORG $9B9A0
     jumpToHack(RandomMug12)
     ORG $9B9BA

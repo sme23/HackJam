@@ -85,7 +85,7 @@ gSaveBlockTypeSizeLookup:
 
 #ifdef USE_STRMAG_SPLIT
 	#ifdef STAIRS_ASM
-		MESSAGE EMS with strmag and Stair
+		//MESSAGE EMS with strmag and Stair
 		#include "SrcModules/SaveUnitExpandedStrmagStairs.lyn.event" // Str/Mag and Stairs both require saving shenanigans.
 	#else
 		#include "SrcModules/SaveUnitExpandedStrmag.lyn.event" // Only Str/Mag split.
@@ -142,6 +142,8 @@ gGameSaveChunks:
 	DeclSaveChunk($0680, $0AA8, ESU_SaveGameUnits, ESU_LoadGameUnits, EMS_CHUNK_SAVEUNITS)
 
 	// $1128
+	
+	//DeclSaveChunk($1128, $4, SaveOptionsData, LoadOptionsData)
 
 	// free up to $1344
 

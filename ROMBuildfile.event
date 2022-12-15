@@ -1,9 +1,14 @@
 
+	#include "EAstdlib.event"
     #include "CustomDefinitions.event"
-	
+
     ORG FreeSpace
+	
+	#inctext DateTimeSetter
+	#inctext ProjectNameSetter
 
     //Text first for Text ID definitions
+	MESSAGE Installing Text
 	REGION_Text:
     #include "Text/repointedTextTable.event"
     #include "Text/InstallTextData.event"
@@ -12,6 +17,7 @@
 	MESSAGE 
 	
     //CSV tables
+	MESSAGE Installing Tables
     REGION_Tables:
 	#include "Tables/TableInstaller.event"
 	MESSAGE (currentOffset-REGION_Tables) bytes used
@@ -19,6 +25,7 @@
 	MESSAGE 
 	
     //Engine Hacks
+	MESSAGE Installing Hax
 	REGION_Hax:
     #include "EngineHacks/_MasterHackInstaller.event"
 	MESSAGE (currentOffset-REGION_Hax) bytes used
@@ -26,6 +33,7 @@
 	MESSAGE 
 	
 	//Graphics
+	MESSAGE Installing Graphics
 	REGION_Gfx:
 	#include "Graphics/_MasterGraphicsInstaller.event"
 	MESSAGE (currentOffset-REGION_Gfx) bytes used
@@ -33,6 +41,7 @@
 	MESSAGE 
 	
 	//Sound
+	MESSAGE Installing Sound
 	REGION_Sound:
 	#include "Sound/_MasterSoundInstaller.event"
 	MESSAGE (currentOffset-REGION_Sound) bytes used
@@ -40,6 +49,7 @@
 	MESSAGE 
 	
     //Events
+	MESSAGE Installing Events
 	REGION_Events:
     #include "Events/_MasterEventInstaller.event"
 	MESSAGE (currentOffset-REGION_Events) bytes used
@@ -47,6 +57,7 @@
 	MESSAGE 
 	
     //Maps
+	MESSAGE Installing Maps
 	REGION_Maps:
     #include "Maps/MasterMapInstaller.event"
 	MESSAGE (currentOffset-REGION_Maps) bytes used
@@ -54,9 +65,11 @@
 	MESSAGE 
 	
 	MESSAGE
+	MESSAGE Totals
 	MESSAGE (currentOffset-FreeSpace) bytes used overall
     MESSAGE Used free space ends at currentOffset
 	MESSAGE 
 	ASSERT (0x2000000-currentOffset)
 	MESSAGE 
+	
 	

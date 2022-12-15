@@ -1,0 +1,251 @@
+## EarthDragonName
+Earth Dragon[X]
+
+## EarthDragonDesc
+Guardian of the earth,[N]
+and all who inhabit it.[X]
+
+## DivineDragonName
+Divine Dragon[X]
+
+## DivineDragonDesc
+A symbol of divinity,[N]
+worshipped far and wide.[X]
+
+## MageDragonName
+Mage Dragon[X]
+
+## MageDragonDesc
+Bestower of the gift[N]
+of magic upon the land.[X]
+
+## FireDragonName
+Fire Dragon[X]
+
+## FireDragonDesc
+Guardian of warmth,[N]
+and of destruction.[X]
+
+## IceDragonName
+Ice Dragon[X]
+
+## IceDragonDesc
+Bringer of winter,[N]
+the guardian of ice.[X]
+
+## WyvernName
+Wyvern[X]
+
+## WyvernDesc
+A feral wyvern.[X]
+
+## WayfarerName
+Wayfarer[X]
+
+## WayfarerDesc
+A wandering traveler[N]
+with no real destination.[X]
+
+## DragoonName
+Dragoon[X]
+
+## DragoonDesc
+One knighted by[N]
+a dragon itself.[X]
+
+## DragonWarriorName
+Dragon Warrior[X]
+
+## DragonWarriorDesc
+A warrior who fights[N]
+for the dragons.[X]
+
+## DeserterName
+Deserter[X]
+
+## DeserterDesc
+A vagabond who fled[N]
+from military service.[X]
+
+## HunterName
+Hunter[X]
+
+## HunterDesc
+A resourceful archer,[N]
+trained through hunting.[X]
+
+## SwordCavName
+Swd. Cavalier[X]
+
+## SwordCavDesc
+Mounted knights with swift movement.[N]
+Trained only in swordfighting.[X]
+
+## LanceCavName
+Lnc. Cavalier[X]
+
+## LanceCavDesc
+Mounted knights with swift movement.[N]
+Trained only in lancefighting.[X]
+
+## AxeCavName
+Axe Cavalier[X]
+
+## AxeCavDesc
+Mounted knights with swift movement.[N]
+Trained only in axefighting.[X]
+
+## BowCavName
+Bow Cavalier[X]
+
+## BowCavDesc
+Mounted knights with swift movement.[N]
+Trained only in bowfighting.[X]
+
+## SwordArmorName
+Swd. Armor[X]
+
+## SwordArmorDesc
+Armored knights with poor movement.[N]
+Trained only in swordfighting.[X]
+
+## LanceArmorName
+Lnc. Armor[X]
+
+## LanceArmorDesc
+Armored knights with poor movement.[N]
+Trained only in lancefighting.[X]
+
+## AxeArmorName
+Axe Armor[X]
+
+## AxeArmorDesc
+Armored knights with poor movement.[N]
+Trained only in axefighting.[X]
+
+## BowArmorName
+Bow Armor[X]
+
+## BowArmorDesc
+Armored knights with poor movement.[N]
+Trained only in bowfighting.[X]
+
+## FireMageName
+Fire Mage[X]
+
+## FireMageDesc
+Magic wielders with low physical strength.[N]
+Specializes in fire magic.[X]
+
+## ThunderMageName
+Thunder Mage[X]
+
+## ThunderMageDesc
+Magic wielders with low physical strength.[N]
+Specializes in thunder magic.[X]
+
+## WindMageName
+Wind Mage[X]
+
+## WindMageDesc
+Magic wielders with low physical strength.[N]
+Specializes in wind magic.[X]
+
+## HopliteName
+Hoplite[X]
+
+## HopliteDesc
+Seasoned veterans with remarkable[N]
+skill. Equip: Lances.[X]
+
+## ImpalerName
+Impaler[X]
+
+## ImpalerDesc
+Lightning-fast fighters of peerless[N]
+and lethal skill. Equip: Lances.[X]
+
+## SwordGeneralName
+Swd. General[X]
+
+## SwordGeneralDesc
+Armored knights of great skill.[N]
+Trained only in swordfighting.[X]
+
+## LanceGeneralName
+Lnc. General[X]
+
+## LanceGeneralDesc
+Armored knights of great skill.[N]
+Trained only in lancefighting.[X]
+
+## AxeGeneralName
+Axe General[X]
+
+## AxeGeneralDesc
+Armored knights of great skill.[N]
+Trained only in axefighting.[X]
+
+## BowGeneralName
+Bow General[X]
+
+## BowGeneralDesc
+Armored knights of great skill.[N]
+Trained only in bowfighting.[X]
+
+## FireSageName
+Fire Sage[X]
+
+## FireSageDesc
+Advanced scholars of magical codices.[N]
+Specializes in fire magic.[X]
+
+## ThunderSageName
+Thunder Sage[X]
+
+## ThunderSageDesc
+Advanced scholars of magical codices.[N]
+Specializes in thunder magic.[X]
+
+## WindSageName
+Wind Sage[X]
+
+## WindSageDesc
+Advanced scholars of magical codices.[N]
+Specializes in wind magic.[X]
+
+## BallisticianName
+Ballistician[X]
+
+## BallisticianDesc
+Long-range fighters who launch[N]
+attacks from across the battlefield.[X]
+
+## SwordPaladinName
+Swd. Paladin[X]
+
+## SwordPaladinDesc
+Mounted knights with superior[N]
+abilities. Equip: Swords.[X]
+
+## LancePaladinName
+Lnc. Paladin[X]
+
+## LancePaladinDesc
+Mounted knights with superior[N]
+abilities. Equip: Lances.[X]
+
+## AxePaladinName
+Axe Paladin[X]
+
+## AxePaladinDesc
+Mounted knights with superior[N]
+abilities. Equip: Axes.[X]
+
+## BowPaladinName
+Bow Paladin[X]
+
+## BowPaladinDesc
+Mounted knights with superior[N]
+abilities. Equip: Bows.[X]
+

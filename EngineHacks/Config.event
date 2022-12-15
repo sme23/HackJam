@@ -7,6 +7,9 @@
 // = GENERAL CONFIGURATION =
 // =========================
 
+// If commented, the test map will not be installed.
+//#define USE_TEST_MAP
+
 // The amount of attack speed needed to double an opponent.
 #define AS_DOUBLING_THRESHOLD 3
 
@@ -25,7 +28,7 @@
 // USE_SAVE_EXPANSION will be used even if commented
 // TODO: Define an item ID for Spirit Dust (Mag statbooster) in "Strmag/Str Mag Split/Installer.event". Energy Ring is used by default!
 // Item icon for Spirit Dust is included! Define your icon ID in "Strmag/_Master Asm Installer.event". Default is Green Note.
-// #define USE_STRMAG_SPLIT
+#define USE_STRMAG_SPLIT
 
 // If uncommented, will use a full (EMS-based) save expansion instead of the "old" suspend expansion
 // Enabling this *will* break saves, but allows for higher stats and other things.
@@ -38,7 +41,7 @@
 #define CASUAL_MODE
 
 //If uncommented, will enable Contemporary Talk & Support.
-#define CONTEMPORARY_TALK_SUPPORT
+// #define CONTEMPORARY_TALK_SUPPORT
 
 //If uncommented, will enable Danger Zone.
 //#define DANGER_ZONE
@@ -46,15 +49,18 @@
 //If uncommented, will enable Display Weapon Rank on Level Up.
 #define WRANK_ON_LEVELUP
 
+//If uncommented, will enable Spell Anim Substitutions
+// #define SPELL_ANIM_SUBSTITUTION
+
 //If uncommented, will use Trap Rework.
 //This is automatically used if Dragon Veins or Heal Tiles are uncommented.
 #define TRAP_REWORK
 
 //If uncommented, will enable Dragon Veins.
-#define DRAGON_VEINS
+//#define DRAGON_VEINS
 
 //If uncommented, will enable Heal Tiles.
-#define HEAL_TILES
+//#define HEAL_TILES
 
 //If uncommented, will enable event ASMCs for adding traps, rescuing units, and sending items to the convoy respectively.
 //#define EVENT_ADD_TRAPS
@@ -68,7 +74,7 @@
 //#define FREEZE_HACK
 
 //If uncommented, will enable HP Bars.
-//#define HP_BARS
+#define HP_BARS
 
 //If uncommented, will enable Improved Sound Mixer.
 #define IMPROVED_SOUND_MIXER
@@ -101,7 +107,7 @@
 //#define HAX_PROPER_RANGE_GETTERS_EVENT
 
 //If uncommented, will use allegiance-based statscreen palettes.
-#define STATSCREEN_ALLEGIANCE
+// #define STATSCREEN_ALLEGIANCE
 
 // If uncommented, the Anima Triangle will be implemented.
 // Go to "AnimaTriangle/AnimaTriangle.event" to define your fire, thunder, and wind magic lists.
@@ -128,7 +134,7 @@
 
 // If uncommented, Escape-Arrive will be implemented.
 // /this adds entries to the Unit Menu and normally conflicts with Lunge and Stairs. Install here to avoid the conflicts.
-// #define ESCAPE_ARRIVE
+#define ESCAPE_ARRIVE
 
 // If uncommented, Leadership Stars will be implemented.
 // Go to LeadershipStars/LeadershipStars.event to edit settings.
@@ -146,7 +152,7 @@
 
 //If uncommented, Cannot Crit will be implemented.
 //Makes weapon crit of 255 negate crits.
-//#define CANNOT_CRIT
+// #define CANNOT_CRIT
 
 //If uncommented, AdvWeaponLocks will be implemented.
 //This is a rewrite of venno's array-based weapon locks.
@@ -158,7 +164,7 @@
 
 //If uncommented, Narrow Font will be implemented.
 //This allows for setting narrower text in addition to standard text.
-// #define NARROW_FONT
+#define NARROW_FONT
 
 // If uncommented, the fourth page of the stat screen will include personal information on the character.
 // This information can be edited in the "Personal Data Editor.csv" file.
@@ -185,7 +191,7 @@
 #define UNLOCK_WORKS_ON_CHESTS
 
 // If uncommented, damage numbers will display over participants' heads during battle animations.
-#define BATTLE_ANIMATION_NUMBERS
+// #define BATTLE_ANIMATION_NUMBERS
 
 //ID of flag to use for hiding damage numbers, if enabled above.
 #define BATTLE_ANIMATION_NUMBERS_FLAG 0xEE
@@ -198,6 +204,9 @@
 // =================================
 // = SKILL BEHAVIOUR CONFIGURATION =
 // =================================
+
+// Setting the 0x00800000 bit in the item ability bitfield will enable passive skills.
+#define PASSIVE_SKILLS_STACK False
 
 // if uncommented units will be select automatically after galeforce (pressing b won't end their turn)
 // #define ENABLE_GALEFORCE_AUTOSELECT
@@ -243,7 +252,7 @@
 #define ALSO_USE_MOVEMENT_SKILL_CHECK True
 
 //If true, get 1/4 prices with both Bargain and Silver Card simultaneously.
-#define DOES_BARGAIN_STACK False
+#define DOES_BARGAIN_STACK True
 
 //If true, will use the vanilla check in addition to the skill check.
 #define ALSO_USE_VANILLA_DANCE_CHECK False
@@ -308,7 +317,7 @@
 // ================================
 
 //If commented, growths will not be displayed by pressing Select.
-#define PRESS_SELECT_TO_VIEW_GROWTHS
+// #define PRESS_SELECT_TO_VIEW_GROWTHS
 
 //If true, the stat colors for player units will reflect their growth in the stat.
 #define USE_STAT_COLORS True

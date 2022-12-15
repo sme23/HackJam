@@ -1,0 +1,13 @@
+
+
+
+SetStatusName(RegenStatusID,RegenStatusName)
+SetStatusDesc(RegenStatusID,RegenStatusDesc)
+
+ALIGN 4
+RegenStatusIDLink:
+BYTE RegenStatusID
+
+#include "Regen.lyn.event"
+
+//add `RegenFunc` to HP restoration calc loop

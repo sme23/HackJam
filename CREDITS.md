@@ -1,13 +1,9 @@
-# Mugs
-- Zaim
-- Smokeyguy77
-- CanDy
-- MVPMaster
-- Tsushi
 
-Granular mug credits are in mug installer
 
-Tilesets by ZoramineFae
+haven't collated things here yet, individual installers have credits where relevant
+
+
+
 
 # Skill System Credits
 
@@ -44,3 +40,4 @@ Tilesets by ZoramineFae
 - 2WB: Miscellaneous
 - Zaim: Indoor March
 - Reds: Quick Riposte
+

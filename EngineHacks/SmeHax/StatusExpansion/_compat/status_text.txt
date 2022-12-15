@@ -1,0 +1,51 @@
+// this is what I use for status names & descriptions
+// you are free to add/change/remove anything you want
+
+## EnfeebleName
+Feeble[X]
+
+## EnfeebleDesc
+Oof.... So heavy...[N]
+Stats are lowered...[X]
+
+## HexingRodStatusName
+Hexed[X]
+
+## HexingRodStatusDesc
+You've been hexed![N]
+Max HP is halved![X]
+
+## FreezeStatusName
+Frozen[X]
+
+## FreezeStatusDesc
+Brr! Too...cold![N]
+Can't...move![X]
+
+## RegenStatusName
+Regen[X]
+
+## RegenStatusDesc
+Ahh! Invigorating![N]
+Heal some every turn![X]
+
+## HasteStatusName
+Haste[X]
+
+## HasteStatusDesc
+I feel so light![N]
+Move twice per turn![X]
+
+## SlowStatusName
+Slow[X]
+
+## SlowStatusDesc
+I feel so heavy... Enemies[N]
+will always attack twice.[X]
+
+## NumbStatusName
+Numb[X]
+
+## NumbStatusDesc
+I can't feel my hands...[N]
+I can only attack with magic.[X]

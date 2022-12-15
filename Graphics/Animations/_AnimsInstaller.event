@@ -1,1 +1,135 @@
 //for AA anim installers
+
+{
+#include "Anims/LordSword.event"		//by DerTheVaporeon, Pikmin1211
+}
+{
+#include "Anims/LordBow.event"			//by DerTheVaporeon, Pikmin1211
+}
+{
+#include "Anims/LordUnarmed.event"		//by DerTheVaporeon, Pikmin1211
+}
+{
+#include "Anims/DivineDragon.event"		//by L95
+}
+{
+#include "Anims/EarthDragon.event"		//by L95
+}
+{
+#include "Anims/MageDragon.event"		//by L95
+}
+{
+#include "Anims/FireDragon.event"		//by Eldritch Abomination, Intelligent Systems
+}
+{
+#include "Anims/IceDragon.event"		//by SqRtOfPi, shadowofchaos
+}
+{
+#include "Anims/DragoonLance.event"		//by Maiser6, Pikmin1211, 7743
+}
+{
+#include "Anims/DragoonUnarmed.event"	//by Maiser6, Pikmin1211
+}
+{
+#include "Anims/DeserterLance.event"	//by Alusq
+}
+{
+#include "Anims/DeserterUnarmed.event"	//by Alusq
+}
+{
+#include "Anims/HunterBow.event"		//by Leo_link, Spud, MeatOfJustice
+}
+{
+#include "Anims/HunterUnarmed.event"	//by Leo_link, Spud, MeatOfJustice
+}
+{
+#include "Anims/CavalierAxe.event"		//by Team SALVAGED
+}
+{
+#include "Anims/CavalierBow.event"		//by Team SALVAGED
+}
+{
+#include "Anims/CavalierHandaxe.event"	//by Team SALVAGED
+}
+{
+#include "Anims/CavalierLance.event"	//by Team SALVAGED
+}
+{
+#include "Anims/CavalierSword.event"	//by Team SALVAGED
+}
+{
+#include "Anims/CavalierUnarmed.event"	//by Team SALVAGED
+}
+{
+#include "Anims/ArmorAxe.event"			//by Team SALVAGED
+}
+{
+#include "Anims/ArmorBow.event"			//by Team SALVAGED
+}
+{
+#include "Anims/ArmorHandaxe.event"		//by Team SALVAGED
+}
+{
+#include "Anims/ArmorLance.event"		//by Team SALVAGED
+}
+{
+#include "Anims/ArmorSword.event"		//by Team SALVAGED
+}
+{
+#include "Anims/ArmorUnarmed.event"		//by Team SALVAGED
+}
+{
+#include "Anims/HopliteLance.event"		//by Flasuban
+}
+{
+#include "Anims/HopliteUnarmed.event"	//by Flasuban
+}
+{
+#include "Anims/ImpalerLance.event"		//by Markex133
+}
+{
+#include "Anims/ImpalerUnarmed.event"	//by Markex133
+}
+{
+#include "Anims/BallisticianBow.event"	//by Spud, Pushwall
+}
+{
+#include "Anims/GeneralSword.event"		//by Intelligent Systems, knabepicer
+}
+{
+#include "Anims/GeneralLance.event"		//by Intelligent Systems
+}
+{
+#include "Anims/GeneralAxe.event"		//by Intelligent Systems
+}
+{
+#include "Anims/GeneralHandaxe.event"	//by Intelligent Systems
+}
+{
+#include "Anims/GeneralBow.event"		//by Intelligent Systems, TheBlindArcher
+}
+{
+#include "Anims/GeneralUnarmed.event"	//by Intelligent Systems
+}
+{
+#include "Anims/PaladinSword.event"		//by Team SALVAGED
+}
+{
+#include "Anims/PaladinLance.event"		//by Team SALVAGED
+}
+{
+#include "Anims/PaladinAxe.event"		//by Team SALVAGED
+}
+{
+#include "Anims/PaladinHandaxe.event"	//by Team SALVAGED
+}
+{
+#include "Anims/PaladinBow.event"		//by Team SALVAGED, Obsidian Daddy
+}
+{
+#include "Anims/PaladinUnarmed.event"	//by Team SALVAGED
+}
+{
+#include "Anims/Wyvern.event"			//by Sme
+}
+

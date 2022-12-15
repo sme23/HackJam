@@ -10,9 +10,9 @@ set "source_rom=%~dp0FE8_clean.gba"
 
 set "main_event=%~dp0ROMBuildfile.event"
 
-set "target_rom=%~dp0_HackJam.gba"
-set "target_ups=%~dp0_HackJam.ups"
-set "target_sym=%~dp0_HackJam.sym"
+set "target_rom=%~dp0_Hack.gba"
+set "target_ups=%~dp0_Hack.ups"
+set "target_sym=%~dp0_Hack.sym"
 
 @rem defining tools
 
@@ -61,7 +61,7 @@ echo:
 echo Assembling
 
 cd "%base_dir%EventAssembler"
-ColorzCore A FE8 "-output:%target_rom%" "-input:%main_event%" --nocash-sym --build-times
+ColorzCore A FE8 "-output:%target_rom%" "-input:%main_event%" --nocash-sym --build-times -def:_RELEASE_=1
 
 if /I not [%1]==[quick] (
 

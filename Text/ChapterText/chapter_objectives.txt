@@ -1,0 +1,17 @@
+## EscapeText
+Escape[X]
+
+## ArriveText
+Arrive[X]
+
+## SearchText
+Search[X]
+
+## Ch1StatusObjectiveText
+Ch1Objective[X]
+
+## Ch2StatusObjectiveText
+Ch2Objective[X]
+
+## Ch3StatusObjectiveText
+Ch3Objective[X]

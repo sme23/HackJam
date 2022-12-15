@@ -1,0 +1,287 @@
+//miscellaneous ez hacks that don't have their own folders
+
+/*
+// thanks to Blademaster for the hex locations for ranks
+
+PUSH // Weapon level modifications
+ORG 0x16d66 // D rank WEXP
+BYTE 50
+ORG 0x16d6e // C rank WEXP
+BYTE 100
+ORG 0x16d76 // B rank WEXP
+BYTE 150
+ORG 0x16d7e // A rank WEXP
+BYTE 200
+ORG 0x16d86 // S rank WEXP, no one should ever get this 
+BYTE 255
+ORG 0x2ad74 // S rank WEXP for in battle bonus (location from pik)
+BYTE 255
+ORG 0x16e90 // bar to D rank WEXP
+BYTE 50
+ORG 0x16e96 // D rank WEXP
+BYTE 50
+ORG 0x16e9a // bar to C rank WEXP
+BYTE 50
+ORG 0x16ea0 // C rank WEXP
+BYTE 100
+ORG 0x16ea4 // bar to B rank WEXP
+BYTE 50
+ORG 0x16eaa // B rank WEXP
+BYTE 150
+ORG 0x16eae // bar to A rank WEXP
+BYTE 50
+ORG 0x16eb4 // A rank WEXP
+BYTE 200
+ORG 0x16eb8 // bar to S rank WEXP
+BYTE 0
+ORG 0x2c1a6
+BYTE 255
+POP
+
+PUSH // this part is from alusq, removes kill bonus for wexp
+ORG $2c142
+BYTE 0x01 0x29 0x0 0xDC 
+POP
+*/
+// item hardcoding
+// all bytes are item IDs
+PUSH
+ORG $582A8 //runesword forced ranged anim
+BYTE 0xFF
+ORG $58a90 //runesword forced ranged anim
+BYTE 0xFF 
+ORG $582D4 //handaxe forced ranged anim
+BYTE HandAxe 
+ORG $582C0 //handaxe forced ranged anim
+BYTE HandAxe 
+ORG $582FC //tomahawk forced ranged anim
+BYTE Tomahawk
+ORG $582E8 //tomahawk forced ranged anim
+BYTE Tomahawk
+ORG $58324 //hatchet forced ranged anim
+BYTE 0xFF 
+ORG $58310 //hatchet forced ranged anim
+BYTE 0xFF 
+ORG $581D0 //force ignore battle anim range start
+BYTE Warp
+ORG $581D4 // force ignore battle anim range end
+BYTE Rescue //range is just these 2 items
+ORG $581D8 // force ignore battle anim extra item
+BYTE Unlock
+/*
+ORG $18ACC //chest key ID
+BYTE 0xFF
+ORG $18AE0 //door key ID
+BYTE 0xFF
+ORG $18AB8 //lockpick ID
+BYTE 0xFF
+ORG $16F50 //lockpick ID
+BYTE 0xFF
+*/
+ORG $2F3C4 //item for healing anim
+BYTE Vulnerary
+ORG $35816 //item for fort healing anim
+BYTE Vulnerary
+ORG $83A7C //member card ID
+BYTE MemberCard
+ORG $991B2 //member card ID
+BYTE MemberCard
+ORG $9A1AA //member card ID
+BYTE MemberCard
+ORG $9A240 //member card ID
+BYTE MemberCard
+//Bargain's stuff already handles SilverCard for us
+//ORG $18AD8 //chest key 2 ID
+//BYTE 0xFF
+/* 
+//dancer ring stuff, possibly unnecessary via IER
+ORG $2FBF6 //filia's might
+BYTE 0xFF
+ORG $2FBEE //ninis's grace
+BYTE 0xFF
+ORG $2FBF2 //ninis's grace
+BYTE 0xFF
+ORG $2FC00 //thor's ire
+BYTE 0xFF
+ORG $2FC04 //set's litany
+BYTE 0xFF
+*/
+ORG $58B12 //sacred weapon music range start
+BYTE 0xFF
+ORG $58B16 //sacred weapon music range end
+BYTE 0xFF
+/*
+//may conflict with IER
+ORG $2F820 //metis tome ID
+BYTE 0xFF
+ORG $291C2 //lunar brace ID
+BYTE 0xFF
+ORG $291C6 //solar brace ID
+BYTE 0xFF
+*/
+ORG $115AA //range 1 for gold drop items start
+BYTE 0xFF
+ORG $115AE //range 1 for gold drop items end
+BYTE 0xFF
+ORG $324CE //range 1 for gold steal items start
+BYTE 0xFF
+ORG $324D2 //range 1 for gold steal items end
+BYTE 0xFF
+ORG $115B6  //range 2 for gold drop items start
+BYTE 0xFF
+ORG $115B2 //range 2 for gold drop items end
+BYTE 0xFF
+ORG $324DA //range 2 for gold steal items start
+BYTE 0xFF
+ORG $324D6 //range 2 for gold steal items end
+BYTE 0xFF
+/*
+//may conflict with IER
+ORG $2FF78 //nightmare ID
+BYTE 0xFF
+ORG $32036 //nightmare ID
+BYTE 0xFF
+ORG $322C6 //nightmare ID
+BYTE 0xFF
+*/
+/* conflicts with calc loops
+ORG $2B008 //stone restrict doubling
+BYTE 0xFF
+ORG $2ACB6 //stone prevent crits
+BYTE 0xFF
+*/
+POP
+
+
+// class hardcoding
+// all bytes are char IDs
+PUSH
+ORG $74FB4 //armor triangle attack class range start
+BYTE 0xFF
+ORG $74FBA //armor triangle attack class range end
+BYTE 0xFF
+ORG $74FC8 //armor triangle attack unpromoted class range start
+BYTE 0xFF
+ORG $75034 //armor triangle attack unpromoted class range start
+ORG $74FD0 //armor triangle attack unpromoted class range end
+BYTE 0xFF
+ORG $7503C //armor triangle attack unpromoted class range end
+BYTE 0xFF
+ORG $7F4D8 //armor triangle attack promoted class range start
+BYTE 0xFF
+ORG $75044 //armor triangle attack promoted class range start
+BYTE 0xFF
+ORG $74FE0 //armor triangle attack promoted class range end
+BYTE 0xFF
+ORG $7504C //armor triangle attack promoted class range end
+BYTE 0xFF
+ORG $2C4FC //gorgon egg 1 override exp
+BYTE 0xFF
+ORG $17D9A //gorgon egg 1 loaded with no items
+BYTE 0xFF
+ORG $17C04 //gorgon egg 1 load with status
+BYTE 0xFF
+ORG $17CFC //gorgon egg 1 load with 5hp
+BYTE 0xFF
+ORG $1C932 //gorgon egg 1 restrict stat screen
+BYTE 0xFF
+ORG $879CA //gorgon egg 1 restrict stat screen
+BYTE 0xFF
+ORG $874B2 //gorgon egg 1 restrict stat screen
+BYTE 0xFF
+ORG $70B7E //manakete transformation anim class
+BYTE 0xFF
+ORG $750C4 //peg triangle attack unpromoted class
+BYTE PegasusKnight
+ORG $7510C //peg triangle attack unpromoted class
+BYTE PegasusKnight
+ORG $75156 //peg triangle attack unpromoted class
+BYTE PegasusKnight
+ORG $750CC //peg triangle attack promoted class
+BYTE Falcoknight
+ORG $75114 //peg triangle attack promoted class
+BYTE Falcoknight
+//phantom data
+ORG $7ADD0
+BYTE 0xFF
+ORG $22BEC
+BYTE 0xFF
+ORG $18EDE
+BYTE 0xFF
+ORG $2304C
+BYTE 0xFF
+ORG $23F78
+BYTE 0xFF
+ORG $23FE2
+BYTE 0xFF
+ORG $2403E
+BYTE 0xFF
+ORG $2409A
+BYTE 0xFF
+ORG $2523E
+BYTE 0xFF
+ORG $25246
+BYTE 0xFF
+ORG $3122E
+BYTE 0xFF
+ORG $232CC
+BYTE 0xFF
+ORG $25366
+BYTE 0xFF
+ORG $2536E
+BYTE 0xFF
+ORG $2C528
+BYTE 0xFF
+ORG $240F6
+BYTE 0xFF
+ORG $2C3FE //entombed bonus exp
+BYTE 0xFF
+ORG $7CF62 //class born from egg
+BYTE 0xFF
+ORG $2C4F8 //gorgon egg 2 override exp
+BYTE 0xFF
+ORG $17C00 //gorgon egg 2 load with status
+BYTE 0xFF
+ORG $17CF8 //gorgon egg 2 load with 5hp
+BYTE 0xFF
+ORG $17D96 //gorgon egg 2 loaded with no items
+BYTE 0xFF
+ORG $1C92E //gorgon egg 2 restrict stat screen
+BYTE 0xFF
+ORG $879C6 //gorgon egg 2 restrict stat screen
+BYTE 0xFF
+ORG $874AE //gorgon egg 2 restrict stat screen
+BYTE 0xFF
+ORG $57708 //draco zombie bg
+BYTE 0xFF
+ORG $70B76 //draco zombie bg
+BYTE 0xFF
+ORG $70B7A //draco zombie bg
+BYTE 0xFF
+// demon king data
+ORG $2CD3C //force status staff miss
+BYTE 0xFF
+ORG $2CD22 //force status staff miss (again)
+BYTE 0xFF 
+ORG $2C514 //gives no exp
+BYTE 0xFF
+ORG $2B62C //status immunity
+BYTE 0xFF
+ORG $24506 //silencer immunity
+BYTE 0xFF
+ORG $70B94 //demon king bg
+BYTE 0xFF
+ORG $5770C //demon king bg
+BYTE 0xFF
+ORG $24506 //multi-summoning
+BYTE 0xFF
+POP
+
+
+//misc hardcoding
+PUSH
+ORG $2CD44 //1st unit immune to status staves (char ID)
+BYTE 0xFF
+ORG $2CD48
+BYTE 0xFF //2nd unit immune to status staves (char ID)
+POP

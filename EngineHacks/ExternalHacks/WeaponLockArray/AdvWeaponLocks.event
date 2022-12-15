@@ -10,7 +10,7 @@ BYTE $00 $3C $3D $FF
 POP
 
 
-#include "AdvWeaponLocks.lyn.event"
+#inctext lyn "AdvWeaponLocks.elf"
 
 #define SoftCharLock 0
 #define HardCharLock 1

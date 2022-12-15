@@ -1,0 +1,81 @@
+//lovingly stolen from Legends of Avenir
+
+//Master Animation Installer
+//Macros
+#define setCSATable(index, framedata, RTLFG, LTRFG, RTLBG, LTRBG) "PUSH; ORG CSATable+(index*20); POIN framedata RTLFG LTRFG RTLBG LTRBG; POP"
+#define setCustomSpell_dim(index) "PUSH; ORG SpellTable+(index*4); POIN CSAEngine_Dim|1; POP"
+#define setCustomSpell_nodim(index) "PUSH; ORG SpellTable+(index*4); POIN CSAEngine_NoDim|1; POP"
+
+ALIGN 4
+SpellTable:	 // Was $5d4e60
+#incbin "RepointedSpellTable.dmp"
+
+ALIGN 4
+CSATable:
+#incbin "BlankCSATable.dmp"
+
+PUSH
+ORG $95d780
+CSAEngine:
+#incbin "CSASystem_fe8.dmp" //the custom spell engine. All custom spells point here.
+POIN CSATable //needed for the routine
+POP
+
+#define CSAEngine_Dim $95d7ec
+#define CSAEngine_NoDim $95d898 //the last word in the dmp, this should be updated if you edit the engine.
+
+ALIGN 4
+{
+#include "Anims/Arcfire/Arcfire.event"			// by 7743
+}
+{
+#include "Anims/Arcthunder/Arcthunder.event"	// by BwdYeti
+}
+{
+#include "Anims/Arcwind/Arcwind.event"			// by Mikey_Seregon
+}
+{
+#include "Anims/Bolganone/Bolganone.event"		// by Mikey_Seregon
+}
+{
+#include "Anims/Carreau/Carreau.event"			// by Arch
+}
+{
+#include "Anims/DarkSpikes/DarkSpikes.event"	// by Orihara_Saki
+}
+{
+#include "Anims/Elthunder/Elthunder.event"		// by 7743
+}
+{
+#include "Anims/Elwind/Elwind.event"			// by Mikey_Seregon
+}
+{
+#include "Anims/Meteor/Meteor.event"			// by Blazer, Jubby
+}
+{
+#include "Anims/Miasma/Miasma.event"			// by Scraiza
+}
+{
+#include "Anims/Mire/Mire.event"				// by Arch
+}
+{
+#include "Anims/Ruin/Ruin.event"				// by Orihara_Saki
+}
+{
+#include "Anims/Thoron/Thoron.event"			// by Mikey_Seregon
+}
+{
+#include "Anims/Valaura/Valaura.event"			// by SHYUTERz
+}
+{
+#include "Anims/Verrine/Verrine.event"			// by Scraiza
+}
+{
+#include "Anims/Waste/Waste.event"				// by Orihara_Saki
+}
+{
+#include "Anims/Wind/Wind.event"				// by Arch
+}
+{
+#include "Anims/Worm/Worm.event"				// by Arch
+}

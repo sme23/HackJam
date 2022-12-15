@@ -1,9 +1,11 @@
 
 EphraimLordSkillList:
+BYTE 1 SupplyID
 BYTE 00 00
 ALIGN 4
 
 EirikaLordSkillList:
+BYTE 1 SupplyID
 BYTE 00 00
 ALIGN 4
 
@@ -33,7 +35,7 @@ BYTE 00 00
 ALIGN 4
 
 ThiefSkillList:
-BYTE 1 StealID
+BYTE 1 StealPlusID
 BYTE 00 00
 ALIGN 4
 
@@ -54,7 +56,7 @@ BYTE 00 00
 ALIGN 4
 
 AssassinSkillList:
-BYTE 255 StealID
+BYTE 255 StealPlusID
 BYTE 1 LethalityID
 BYTE 00 00
 ALIGN 4
@@ -80,7 +82,6 @@ BYTE 00 00
 ALIGN 4
 
 WyvernKnightSkillList:
-BYTE 1 LunaID
 BYTE 00 00
 ALIGN 4
 
@@ -113,7 +114,7 @@ BYTE 00 00
 ALIGN 4
 
 RogueSkillList:
-BYTE 255 StealID
+BYTE 255 StealPlusID
 BYTE 1 LocktouchID
 BYTE 00 00
 ALIGN 4

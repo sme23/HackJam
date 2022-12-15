@@ -172,3 +172,10 @@ Select an area to Attack. Press L/R to Rotate.[X]
 
 ## UM_AoEHealHelp
 Select an area to Heal. Press L/R to Rotate.[X]
+
+## MM_WinButton
+ Win[X]
+ 
+## MM_WinDesc
+Win the chapter.[X]
+

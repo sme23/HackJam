@@ -1,5 +1,8 @@
-//for things pointed to from char data
+//for things pointed to from class data
 
+ALIGN 4
+NoAnims:
+EndAnim
 
 ALIGN 4
 EphraimLordAnims:
@@ -70,7 +73,7 @@ GeneralAnims:
 SwordAnim(GeneralSwordAnimID)
 LanceAnim(GeneralLanceAnimID)
 AxeAnim(GeneralAxeAnimID)
-HandAxeAnim(GeneralHandAxeAnimID)
+HandAxeAnim(GeneralHandaxeAnimID)
 UnarmedAnim(GeneralUnarmedAnimID)
 EndAnim
 
@@ -587,5 +590,120 @@ MonsterAnim(DemonKingAttackAnimID)
 UnarmedAnim(DemonKingAttackAnimID)
 EndAnim
 
+ALIGN 4
+LordAnims:
+SwordAnim(LordSwordAnimID)
+BowAnim(LordBowAnimID)
+UnarmedAnim(LordUnarmedAnimID)
+EndAnim
 
+ALIGN 4
+DivineDragonAnims:
+MonsterAnim(DivineDragonAnimID)
+UnarmedAnim(DivineDragonAnimID)
+EndAnim
+
+ALIGN 4
+EarthDragonAnims:
+MonsterAnim(EarthDragonAnimID)
+UnarmedAnim(EarthDragonAnimID)
+EndAnim
+
+ALIGN 4
+MageDragonAnims:
+MonsterAnim(MageDragonAnimID)
+UnarmedAnim(MageDragonAnimID)
+EndAnim
+
+ALIGN 4
+FireDragonAnims:
+MonsterAnim(FireDragonAnimID)
+UnarmedAnim(FireDragonAnimID)
+EndAnim
+
+ALIGN 4
+IceDragonAnims:
+MonsterAnim(IceDragonAnimID)
+UnarmedAnim(IceDragonAnimID)
+EndAnim
+
+ALIGN 4
+DragoonAnims:
+LanceAnim(DragoonLanceAnimID)
+UnarmedAnim(DragoonUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+DeserterAnims:
+LanceAnim(DeserterLanceAnimID)
+UnarmedAnim(DeserterUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+HunterAnims:
+BowAnim(HunterBowAnimID)
+UnarmedAnim(HunterUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+SplitCavalierAnims:
+SwordAnim(CavalierSwordAnimID)
+LanceAnim(CavalierLanceAnimID)
+AxeAnim(CavalierAxeAnimID)
+HandAxeAnim(CavalierHandaxeAnimID)
+BowAnim(CavalierBowAnimID)
+UnarmedAnim(CavalierUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+SplitArmorAnims:
+SwordAnim(ArmorSwordAnimID)
+LanceAnim(ArmorLanceAnimID)
+AxeAnim(ArmorAxeAnimID)
+HandAxeAnim(ArmorHandaxeAnimID)
+BowAnim(ArmorBowAnimID)
+UnarmedAnim(ArmorUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+SplitGeneralAnims:
+SwordAnim(GeneralSwordAnimID)
+LanceAnim(GeneralLanceAnimID)
+AxeAnim(GeneralAxeAnimID)
+HandAxeAnim(GeneralHandaxeAnimID)
+BowAnim(GeneralBowAnimID)
+UnarmedAnim(GeneralUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+SplitPaladinAnims:
+SwordAnim(PaladinSwordAnimID)
+LanceAnim(PaladinLanceAnimID)
+AxeAnim(PaladinAxeAnimID)
+HandAxeAnim(PaladinHandaxeAnimID)
+BowAnim(PaladinBowAnimID)
+UnarmedAnim(PaladinUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+HopliteAnims:
+LanceAnim(HopliteLanceAnimID)
+UnarmedAnim(HopliteUnarmedAnimID)
+EndAnim
+
+ALIGN 4
+ImpalerAnims:
+LanceAnim(ImpalerLanceAnimID)
+UnarmedAnim(ImpalerUnarmedAnimID)
+EndAnim
+
+BallisticianAnims:
+BowAnim(BallisticianBowAnimID)
+UnarmedAnim(BallisticianBowAnimID)
+EndAnim
+
+WyvernAnims:
+MonsterAnim(WyvernAnimID)
+UnarmedAnim(WyvernAnimID)
+EndAnim
 

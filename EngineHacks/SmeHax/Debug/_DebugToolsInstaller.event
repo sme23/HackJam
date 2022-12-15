@@ -1,0 +1,8 @@
+#ifdef __DEBUG__
+
+#include "ChapterJump/ChapterJump.event"
+#include "WinButton/WinButton.event"
+
+#include "MainMenu.event"
+
+#endif // __DEBUG__

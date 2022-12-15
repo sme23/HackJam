@@ -1,0 +1,8 @@
+#include "src/ChapterJump.lyn.event"
+#include "ChapterMenu.event"
+
+ALIGN 4
+DebugEvent:
+EmptyEvent:
+    NoFade
+    ENDA

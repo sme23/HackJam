@@ -34,7 +34,7 @@ prNullifyIfGuardAI:
 			rConstant(0)
 
 prNullifyIfFreeze:
-	rIfUnitHasStatus(0x9)
+	rIfUnitHasStatus(FreezeStatusID)
 		rConstant(0)
 
 prRallyMov:

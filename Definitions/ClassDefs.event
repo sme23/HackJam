@@ -1,0 +1,57 @@
+
+//grrrrrrr stdlib reeeeeee
+#define Falcoknight FalcoKnight
+#define MautheDoog Mauthedoog
+
+#define Lord 1
+#define GreatLord 2
+
+#define Wayfarer Lord
+#define DragonWarrior GreatLord
+
+#define EarthDragon 128
+#define DivineDragon 129
+#define MageDragon 130
+#define FireDragon 131
+#define IceDragon 132
+#define Wyvern 133
+#define Dragoon 134
+
+//not doing the 3rd tier stuff until i'm certain it'll be used
+
+#define Deserter 135
+#define Hunter 136
+#define SwordCav 137
+#define LanceCav 138
+#define AxeCav 139
+#define BowCav 140
+#define SwordArmor 141
+#define LanceArmor 142
+#define AxeArmor 143
+#define BowArmor 144
+#define FireMage 145
+#define FireMage_F 146
+#define ThunderMage 147
+#define ThunderMage_F 148
+#define WindMage 149
+#define WindMage_F 150
+#define Hoplite 151
+#define Impaler 152
+#define SwordGeneral 153
+#define LanceGeneral 154
+#define AxeGeneral 155
+#define BowGeneral 156
+#define SwordPaladin 157
+#define LancePaladin 158
+#define AxePaladin 159
+#define BowPaladin 160
+#define FireSage 161
+#define FireSage_F 162
+#define ThunderSage 163
+#define ThunderSage_F 164
+#define WindSage 165
+#define WindSage_F 166
+#define Ballistician 167
+
+
+

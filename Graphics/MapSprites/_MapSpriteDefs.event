@@ -9,6 +9,9 @@
 #define MapSprite16x32 1
 #define MapSprite32x32 2
 
+#define NonMountedAP 0x1C3D7C
+#define MountedAP 0x1CA124
+
 
 //moving map sprites are indexed by class ID, no need for specific IDs on those
 
@@ -124,4 +127,22 @@
 #define SigilMapSpriteID 102 //overwrites light rune
 #define TelliusTorchOffMapSpriteID 105
 #define TelliusTorchOnMapSpriteID 106
+
+#define EarthDragonStandingMapSpriteID 107
+#define DivineDragonStandingMapSpriteID 108
+#define MageDragonStandingMapSpriteID 109
+#define FireDragonStandingMapSpriteID 110
+#define IceDragonStandingMapSpriteID 111
+#define WyvernStandingMapSpriteID 112
+#define DragoonStandingMapSpriteID 113
+#define DeserterStandingMapSpriteID 114
+#define HunterStandingMapSpriteID 115
+#define HopliteStandingMapSpriteID 116
+#define ImpalerStandingMapSpriteID 117
+#define BallisticianStandingMapSpriteID 118
+
+#define WayfarerStandingMapSpriteID EphraimLordStandingMapSpriteID
+
+//for placeholders
+#define DummyStandingMapSpriteID 0
 

@@ -1,0 +1,11 @@
+
+#define ZeroGrowthsFlag 0xB7
+#define PerfectGrowthsFlag 0xB8
+
+#include "GrowthModesCheck.lyn.event"
+
+EnableZeroGrowthsFlagLink:
+BYTE ZeroGrowthsFlag
+EnablePerfectGrowthsFlagLink:
+BYTE PerfectGrowthsFlag
+

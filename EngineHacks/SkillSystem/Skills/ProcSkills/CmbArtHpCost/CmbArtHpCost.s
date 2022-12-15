@@ -39,7 +39,7 @@ ldrb r0,[r0]
 
 cmp r0, #4
 blt End
-/*
+
 ldr r2, =ModularPreBattleTable
 mov r3, #0x0		@counter
 
@@ -66,7 +66,7 @@ mov r1, #64
 mul r1, r3, r1		@counter times 64 bytes per entry to get the row
 add r1, r1, r2		@pointer to correct row that we want in r1
 ldrb r3, [r1, #3]		@actual hp cost 
-*/
+
 @make sure damage > 0
 mov r0, #4
 ldrsh r0, [r7, r0]

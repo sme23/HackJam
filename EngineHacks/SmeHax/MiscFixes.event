@@ -1,0 +1,15 @@
+PUSH
+
+	//prevent freezes when units don't exist
+	ORG $F25C
+	SHORT 0x2000
+	ORG $1027C
+	WORD 0xE0222000
+	ORG $102D4
+	SHORT 0x2000
+	ORG $1063C
+	SHORT 0x2000
+	ORG $10804
+	SHORT 0x2000
+
+POP

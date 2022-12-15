@@ -1,4 +1,4 @@
-#define NumberOfAnims 230
+#define NumberOfAnims 300
 
 #include "_AnimDefinitions.event"
 #include "_RepointedAnimTable.event"

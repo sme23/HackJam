@@ -60,7 +60,7 @@
 #endif
 
 //Takes 0x8 bytes
-#define jumpToHack(offset) "BYTE 0x00 0x4B 0x18 0x47; POIN (offset|0x1)"
+#define jumpToHack(offset) "BYTE 0x00 0x4B 0x18 0x47; POIN (offset|0x1); PROTECT (currentOffset - 8) currentOffset"
 
 //Old names
 #define gotoHack(offset) "replaceWithHack(offset)"

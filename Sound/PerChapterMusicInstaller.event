@@ -27,14 +27,13 @@
 #define SetChapterMapThemesWithFlag(chID,pSongID,eSongID) "SetPlayerPhaseThemeWithFlag(chID,pSongID); SetEnemyPhaseThemeWithFlag(chID,eSongID)"
 
 
-SetChapterMapThemes(Ch1ID,FieldDO2,DoomLufia,DoomLufia) 
-SetVictoryTheme(Ch1ID,SkyEventPR3)
 
-SetChapterMapThemes(Ch2ID,RaveInTheGrave,DarknessFF4,DarknessFF4)
-SetVictoryTheme(Ch2ID,SkyEventPR3)
-
-SetChapterMapThemes(Ch3ID,DesertFieldDV,Field2Herc4,Field2Herc4)
-SetVictoryTheme(Ch3ID,SkyEventPR3)
+SetChapterMapThemes(Ch1ID,DesertFieldDV,DesertFieldDV,DesertFieldDV)
+SetVictoryTheme(Ch1ID,DesertFieldDV)
+SetChapterMapThemes(Ch2ID,DesertFieldDV,DesertFieldDV,DesertFieldDV)
+SetVictoryTheme(Ch2ID,DesertFieldDV)
+SetChapterMapThemes(Ch3ID,DesertFieldDV,DesertFieldDV,DesertFieldDV)
+SetVictoryTheme(Ch3ID,DesertFieldDV)
 
 // ===== Battle Music =====
 
@@ -46,9 +45,12 @@ SetVictoryTheme(Ch3ID,SkyEventPR3)
 //setting all phase themes at once
 #define SetChapterBattleThemes(chID,pSongID,eSongID,nSongID) "SetPlayerPhaseBattleTheme(chID,pSongID); SetEnemyPhaseBattleTheme(chID,eSongID); SetNPCPhaseBattleTheme(chID,nSongID)"
 
-SetChapterBattleThemes(Ch1ID,FFL2Battle,Battle7thSaga,Battle7thSaga) 
-SetChapterBattleThemes(Ch2ID,Taisen4Puyo,MadouBoss,MadouBoss)
-SetChapterBattleThemes(Ch3ID,QuicklyDifficult,BossFFMQ,BossFFMQ)
+
+SetChapterBattleThemes(Ch1ID,Battle2BoF2,Battle2BoF2,Battle2BoF2) 
+SetChapterBattleThemes(Ch2ID,Battle2BoF2,Battle2BoF2,Battle2BoF2) 
+SetChapterBattleThemes(Ch3ID,Battle2BoF2,Battle2BoF2,Battle2BoF2) 
+
+
 
 // ===== Boss Music =====
 PUSH
@@ -61,10 +63,5 @@ POP
 
 
 BossMusicList:
-
-BossMusicEntry(Jeff,BossBugFables)
-BossMusicEntry(Bromley,MKHall)
-BossMusicEntry(Xarius,LamentEcclesia)
-
 BossMusicEnd
 

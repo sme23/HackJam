@@ -1,0 +1,209 @@
+## DummyName
+Dummy[X]
+
+## DummyDesc
+NYI[X]
+
+
+//players
+
+## RuebenName
+Rueben[X]
+
+## RuebenDesc
+A wandering traveler.[N]
+Kindhearted.[X]
+
+## LilyName
+Lily[X]
+
+## LilyDesc
+An orphan thief.[N]
+Spunky and immature.[X]
+
+## JetName
+Jet[X]
+
+## JetDesc
+A lone traveler.[N]
+Anti-social.[X]
+
+## KnoxName
+Knox[X]
+
+## KnoxDesc
+A lone traveler.[N]
+More edge than a knife.[X]
+
+## AbbieName
+Abbie[X]
+
+## AbbieDesc
+A lucky fire mage.[N]
+Prone to cause problems.[X]
+
+## ToraxName
+Torax[X]
+
+## ToraxDesc
+An unlucky wind mage.[N]
+Cleans up after others.[X]
+
+## JeffName
+Jeff[X]
+
+## JeffDesc
+A well-meaning, but[N]
+misguided swashbuckler.[X]
+
+## PatrickName
+Patrick[X]
+
+## PatrickDesc
+A stalwart knight.[N]
+Lives to protect others.[X]
+
+## CeliaName
+Celia[X]
+
+## CeliaDesc
+A kindhearted archer.[N]
+Lives to help others.[X]
+
+## LeahName
+Leah[X]
+
+## LeahDesc
+A cleric that travels[N]
+to where she is needed.[X]
+
+## AntonName
+Anton[X]
+
+## AntonDesc
+A conceited solder who[N]
+overestimates his abilities.[X]
+
+//placeholder1
+
+//placeholder2
+
+//placeholder3
+
+## BarbetName
+Barbet[X]
+
+## BarbetDesc
+A flying mercenary.[N]
+In search of adventure.[X]
+
+## JayName
+Jay[X]
+
+## JayDesc
+A protective fighter[N]
+that follows Barbet.[X]
+
+
+
+//bosses
+
+
+
+
+//generics
+
+## VoritianName
+Voritian[X]
+
+## VoritianDesc
+A soldier from the[N]
+nation of Voritia.[X]
+
+## AsgerianName
+Asgerian[X]
+
+## AsgerianDesc
+A soldier from the[N]
+nation of Asger.[X]
+
+## SelinianName
+Selinian[X]
+
+## SelinianDesc
+A holy warrior from[N]
+the nation of Selinia.[X]
+
+## VanitanName
+Vanitan[X]
+
+## VanitanDesc
+A mage from the[N]
+nation of Vanita.[X]
+
+## DerynoliName
+Derynoli[X]
+
+## DerynoliDesc
+A warrior from the[N]
+nation of Derynol.[X]
+
+## InskuName
+Insku[X]
+
+## InskuDesc
+A warrior from[N]
+the Insku tribe.[X]
+
+## BanditName
+Bandit[X]
+
+## BanditDesc
+A marauding brigand.[X]
+
+// npcs
+
+## GrundName
+Grund[X]
+
+## GrundDesc
+The legendary[N]
+Dragon of Earth.[X]
+
+## KaltName
+Kalt[X]
+
+## KaltDesc
+The legendary[N]
+Dragon of Ice.[X]
+
+## LosgiName
+Losgi[X]
+
+## LosgiDesc
+The legendary[N]
+Dragon of Fire.[X]
+
+## DiagaName
+Diaga[X]
+
+## DiagaDesc
+The venerated[N]
+Divine Dragon.[X]
+
+## SaoiName
+Saoi[X]
+
+## SaoiDesc
+The vain and wise[N]
+Dragon of Magic.[X]
+
+## TwyllName
+Twyll[X]
+
+## TwyllDesc
+The legendary evil,[N]
+Dragon of Darkness.[X]
+
+
+

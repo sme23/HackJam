@@ -1,0 +1,31 @@
+//Very largely based on Stan's work with the lord split menu in the past
+//Extended to allow for a handful of additional features + the passing of command lists via memory slot
+
+#include "NewLordSplitMenu.lyn.event"
+
+//ID links for various menu-related flags
+
+
+
+#define EventMenuCommand(textId) "WORD 0; SHORT textId 0; WORD 0; POIN (0x04F448+1); WORD 0; POIN (prEventMenuCommandEffect|1); WORD 0 0 0"
+#define EventMenuCommandEnd "WORD 0 0 0 0 0 0 0 0 0"
+#define EventMenuCommand(textID,usabilityFunc,effectFunc) "WORD 0; SHORT textID 0; WORD 0; POIN usabilityFunc; WORD 0; POIN effectFunc; WORD 0 0 0"
+//in addition, the normal MenuCommand(name,desc,colour,usability,effect) macro work here
+
+/*
+	
+ALIGN 4
+	MyMenu:
+	BYTE 4 4 22 0           // Geometry, order: X, Y, Width, Height (Height doesn't matter)
+	WORD 3                  // style (change it if u want)
+	POIN MyMenu_Commands // Command Definitions
+	WORD 0 0 0 0 0 0        // No routines to handle B press/R press/construction/etc
+
+ALIGN 4
+	MyMenu_Commands:
+		EventMenuCommand()
+	EventMenuCommandEnd
+*/
+
+
+
