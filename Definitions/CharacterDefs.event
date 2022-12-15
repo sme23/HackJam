@@ -1,21 +1,5 @@
 
-// char IDs
-#define Rueben 1
-#define Lily 2
-#define Jet 3
-#define Knox 4
-#define Abbie 5
-#define Torax 6
-#define Jeff 7
-#define Patrick 8
-#define Celia 9
-#define Leah 10
-#define Anton 11
-#define placeholder1 12
-#define placeholder2 13
-#define placeholder3 14
-#define Barbet 15
-#define Jay 16
+//first playable @ 1
 
 //first boss @0x70
 #define Ch1Boss 112
@@ -28,20 +12,4 @@
 
 
 // mug IDs
-#define RuebenMug 1
-#define LilyMug 2
-#define JetMug 3
-#define KnoxMug 4
-#define AbbieMug 5
-#define ToraxMug 6
-#define JeffMug 7
-#define PatrickMug 8
-#define CeliaMug 9
-#define LeahMug 10
-#define AntonMug 11
-#define placeholder1Mug 12
-#define placeholder2Mug 13
-#define placeholder3Mug 14
-#define BarbetMug 15
-#define JayMug 16
 
