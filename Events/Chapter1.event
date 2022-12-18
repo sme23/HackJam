@@ -20,6 +20,11 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Village(7,CottageEvent,13,1)
+Village(8,GuardhouseEvent,4,10)
+Armory(ArmoryShopList,1,4)
+Vendor(VendorShopList,4,4)
+Seize(2,13)
 END_MAIN
 
 MiscBasedEvents:
@@ -39,12 +44,24 @@ Tutorial:
 END_MAIN
 
 PlayerUnits:
+UNIT Serge Hero 0 Level(1,Ally,0) [20,3] 0 0 1 REDA18R5 [SteelBlade,Vulnerary] NoAI
+UNIT Derek GreatKnight 0 Level(5,Ally,0) [20,3] 0 0 1 REDA19R4 [SteelAxe,PureWater] NoAI
+UNIT Scott Impaler 0 Level(2,Ally,0) [20,3] 0 0 1 REDA20R6 [KillerLance] NoAI
 UNIT
 
 EnemyUnits:
 UNIT
 
+GilesUnitGroup:
+UNIT Giles Warrior 0 Level(3,Ally,0) [13,1] 0 0 1 REDA13R1 [SteelAxe] NoAI
+UNIT
+
+LinusUnitGroup:
+UNIT Linus FireSage 0 Level(3,Ally,0) [4,10] 0 0 1 REDA4R10 [Elfire,Elixir] NoAI
+UNIT
+
 Traps1:
+MapSpriteTrap(BlueSigilTrapID,2,13)
 ENDTRAP
 ALIGN 4
 
@@ -54,6 +71,9 @@ ALIGN 4
 
 BeginningScene:
 
+LOAD1 0 PlayerUnits
+ENUN
+
 NoFade
 ENDA
 
@@ -62,5 +82,32 @@ EndingScene:
 
 NoFade
 ENDA
+
+
+CottageEvent:
+
+LOAD1 0 GilesUnitGroup
+ENUN
+
+NoFade
+ENDA
+
+GuardhouseEvent:
+
+LOAD1 0 LinusUnitGroup
+ENUN
+
+NoFade
+ENDA
+
+ArmoryShopList:
+SHLI SteelSword SteelBlade SteelLance SteelAxe SteelBow LightBrand BrightLance
+ALIGN 4
+
+VendorShopList:
+SHLI Elfire Arcfire Elwind Arcwind Elthunder Arcthunder Elixir PureWater
+ALIGN 4
+
+
 
 
