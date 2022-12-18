@@ -1,11 +1,24 @@
 
+# Graphics
 
-haven't collated things here yet, individual installers have credits where relevant
+## Mugs
+- DerTheVaporeon
+- Alusq
+- LaurentLacroix
+- serif
+- L95
+- flasuban
+- Feier
+- Zmr
+- Yang Kai
 
+## Tilesets
+- ZoramineFae
+- Vennobennu
+- flasuban
+- WAve
 
-
-
-# Skill System Credits
+# Skill System
 
 ## Skill contributors
 

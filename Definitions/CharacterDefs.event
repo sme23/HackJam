@@ -1,8 +1,20 @@
 
 //first playable @ 1
+#define Serge 1
+#define Derek 2
+#define Scott 3
+#define Giles 4
+#define Linus 5
+#define Eliza 6
+#define Draco 7
+#define Anton 8
+#define Robert 9
 
 //first boss @0x70
-#define Ch1Boss 112
+#define Nadia 112
+#define Duncan 113
+#define Lillian 114
+#define Klaus 115
 
 //first generic @0x90
 #define Ch1Enemy 144
@@ -10,6 +22,18 @@
 //first NPC @ 0xD0
 #define Ch1NPC 208
 
-
 // mug IDs
+#define SergeMug 1
+#define DerekMug 2
+#define ScottMug 3
+#define GilesMug 4
+#define LinusMug 5
+#define ElizaMug 6
+#define DracoMug 7
+#define AntonMug 8
+#define RobertMug 9
+#define NadiaMug 10
+#define DuncanMug 11
+#define LillianMug 12
+#define KlausMug 13
 

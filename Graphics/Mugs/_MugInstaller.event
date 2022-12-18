@@ -5,3 +5,67 @@ Portrait:			// by
 #incext PortraitFormatter ".png"
 */
 
+setMugEntry(DerekMug,DerekPortrait,2,6,3,3)
+ALIGN 4
+DerekPortrait:			// by DerTheVaporeon
+#incext PortraitFormatter "Playables/Derek.png"
+
+setMugEntry(SergeMug,SergePortrait,3,5,3,3)
+ALIGN 4
+SergePortrait:			// by DerTheVaporeon
+#incext PortraitFormatter "Playables/Serge.png"
+
+setMugEntry(ScottMug,ScottPortrait,2,5,3,3)
+ALIGN 4
+ScottPortrait:			// by DerTheVaporeon
+#incext PortraitFormatter "Playables/Scott.png"
+
+setMugEntry(GilesMug,GilesPortrait,3,5,3,3)
+ALIGN 4
+GilesPortrait:			// by flasuban
+#incext PortraitFormatter "Playables/Giles.png"
+
+setMugEntry(LinusMug,LinusPortrait,4,5,4,3)
+ALIGN 4
+LinusPortrait:			// by LaurentLacroix
+#incext PortraitFormatter "Playables/Linus.png"
+
+setMugEntry(ElizaMug,ElizaPortrait,3,6,3,4)
+ALIGN 4
+ElizaPortrait:			// by LaurentLacroix
+#incext PortraitFormatter "Playables/Eliza.png"
+
+setMugEntry(DracoMug,DracoPortrait,3,5,4,3)
+ALIGN 4
+DracoPortrait:			// by serif
+#incext PortraitFormatter "Playables/Draco.png"
+
+setMugEntry(AntonMug,AntonPortrait,2,5,3,3)
+ALIGN 4
+AntonPortrait:			// by Yang Kai
+#incext PortraitFormatter "Playables/Anton.png"
+
+setMugEntry(RobertMug,RobertPortrait,2,4,2,2)
+ALIGN 4
+RobertPortrait:			// by Zmr
+#incext PortraitFormatter "Playables/Robert.png"
+
+setMugEntry(KlausMug,KlausPortrait,2,5,2,3)
+ALIGN 4
+KlausPortrait:			// by Alusq
+#incext PortraitFormatter "Enemies/Klaus.png"
+
+setMugEntry(LillianMug,LillianPortrait,2,6,3,4)
+ALIGN 4
+LillianPortrait:			// by DerTheVaporeon
+#incext PortraitFormatter "Enemies/Lillian.png"
+
+setMugEntry(DuncanMug,DuncanPortrait,2,6,2,3)
+ALIGN 4
+DuncanPortrait:			// by Feier
+#incext PortraitFormatter "Enemies/Duncan.png"
+
+setMugEntry(NadiaMug,NadiaPortrait,2,5,3,3)
+ALIGN 4
+NadiaPortrait:			// by L95
+#incext PortraitFormatter "Enemies/Nadia.png"

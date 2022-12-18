@@ -1,5 +1,3 @@
 #include "chapter_names.txt"
 #include "chapter_objectives.txt"
 #include "quotes.txt"
-
-#include "ch1.txt"
