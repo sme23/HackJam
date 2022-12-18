@@ -30,6 +30,9 @@ POP
 ALIGN 4
 SoundRoomList:
 
+SoundRoomEntry(FrenchCarol,0,SongName_FrenchCarol)
+
+/*
 SoundRoomEntry(SpaceHarrier,0,SongName_SpaceHarrier)
 
 SoundRoomEntry(FieldDO2,0,SongName_FieldDO2)
@@ -79,7 +82,7 @@ SoundRoomEntry(WallsOB,0,SongName_WallsOB)
 SoundRoomEntry(PTBStage7,0,SongName_PTBStage7)
 SoundRoomEntry(PhalanxDeepCore,0,SongName_PhalanxDeepCore)
 SoundRoomEntry(MWBattle,0,SongName_MWBattle)
-
+*/
 SoundRoomTerminator
 
 /*

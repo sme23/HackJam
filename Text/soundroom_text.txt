@@ -125,3 +125,5 @@ Title (Phantasy Star 3)[X]
 ## SongName_MKHall ^
 In the Hall of the Mountain King[X]
 
+## SongName_FrenchCarol ^
+Opening ~ French Carol[X]

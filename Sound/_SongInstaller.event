@@ -206,3 +206,7 @@ SongTable(PS3TitleTheme,ps3theme,MapMusicGroup)
 #include "Songs/hall_2.event"
 SongTable(MKHall,hall_2,BattleMusicGroup)
 }
+{
+#include "Songs/thefrench.event"
+SongTable(FrenchCarol,thefrench,MapMusicGroup)
+}

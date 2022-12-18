@@ -15,3 +15,7 @@ Ch2Objective[X]
 
 ## Ch3StatusObjectiveText
 Ch3Objective[X]
+
+## Ch4StatusObjectiveText
+Ch4Objective[X]
+

@@ -1,0 +1,464 @@
+//Event file generated from Sappy .s format.
+        #include "MPlayDef.event"
+
+        #define    thefrench_grp  voicegroup000
+        #define    thefrench_pri  0
+        #define    thefrench_rev  0
+        #define    thefrench_key  0
+
+        // .rodata
+        // thefrench
+        ALIGN 4
+
+//****************** Track 0 (Midi-Chn.0) ******************//
+
+thefrench_0:
+        BYTE   KEYSH   thefrench_key+0
+// 000   ----------------------------------------
+        BYTE   TEMPO   80/2
+        BYTE           VOICE   10
+        BYTE           VOL     86
+        BYTE   W12
+        BYTE           N12     Gn3   v080
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE           N24     Cn5
+        BYTE           N24     Ds4
+        BYTE   W12
+        BYTE           N12     Gn3
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE           N24     Dn4
+        BYTE           N24     As4
+        BYTE   W12
+        BYTE           N12     Gn3
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE           N24     Gn4
+        BYTE   W12
+        BYTE           N12     Gn3
+        BYTE   W12
+// 001   ----------------------------------------
+thefrench_0_1:
+        BYTE   W12
+        BYTE           N12     Gn3   v080
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE           N24     Cn5
+        BYTE           N24     Ds4
+        BYTE   W12
+        BYTE           N12     Gn3
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE           N24     Dn4
+        BYTE           N24     As4
+        BYTE   W12
+        BYTE           N12     Gn3
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE           N24     Gn4
+        BYTE   W12
+        BYTE           N12     Gn3
+        BYTE   W12
+        BYTE   PEND
+// 002   ----------------------------------------
+thefrench_0_LOOP:
+        BYTE   W12
+        BYTE           N12     Gn3   v080
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W24
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+// 003   ----------------------------------------
+thefrench_0_3:
+        BYTE   W12
+        BYTE           N12     Gn3   v080
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE   PEND
+// 004   ----------------------------------------
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+// 005   ----------------------------------------
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE           N24     Cn5
+        BYTE   W12
+        BYTE           N12     Gn3
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE           N24     As4
+        BYTE   W12
+        BYTE           N12     Gn3
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE           N24     Gn4
+        BYTE   W12
+        BYTE           N12     Gn3
+        BYTE   W12
+// 006   ----------------------------------------
+thefrench_0_6:
+        BYTE   W12
+        BYTE           N12     Gn3   v080
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W24
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE   PEND
+// 007   ----------------------------------------
+        BYTE   PATT
+         POIN2  thefrench_0_3
+// 008   ----------------------------------------
+        BYTE   W12
+        BYTE           N12     Fn3   v080
+        BYTE   W12
+        BYTE                   Gs3
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE                   Gs3
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE                   Gs3
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+// 009   ----------------------------------------
+        BYTE   PATT
+         POIN2  thefrench_0_3
+// 010   ----------------------------------------
+thefrench_0_10:
+        BYTE   W12
+        BYTE           N12     Ds3   v080
+        BYTE   W12
+        BYTE                   Gs3
+        BYTE   W12
+        BYTE                   Ds3
+        BYTE   W12
+        BYTE                   Gs3
+        BYTE   W12
+        BYTE                   Ds3
+        BYTE   W12
+        BYTE                   Gs3
+        BYTE   W12
+        BYTE                   Ds3
+        BYTE   W12
+        BYTE   PEND
+// 011   ----------------------------------------
+        BYTE   PATT
+         POIN2  thefrench_0_10
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  thefrench_0_10
+// 013   ----------------------------------------
+        BYTE   W12
+        BYTE           N12     Fn3   v080
+        BYTE   W12
+        BYTE                   As3
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE                   As3
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE                   As3
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  thefrench_0_6
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  thefrench_0_3
+// 016   ----------------------------------------
+        BYTE   W12
+        BYTE           N12     Ds3   v080
+        BYTE   W12
+        BYTE                   Gs3
+        BYTE   W12
+        BYTE                   Ds3
+        BYTE   W24
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE                   As3
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+// 017   ----------------------------------------
+        BYTE   PATT
+         POIN2  thefrench_0_1
+// 018   ----------------------------------------
+        BYTE           N12     Ds3   v080
+        BYTE           N12     Gn3
+        BYTE   W12
+        BYTE                   Dn3
+        BYTE           N12     Fn3
+        BYTE   W12
+        BYTE                   Ds3
+        BYTE           N12     Gn3
+        BYTE   W12
+        BYTE                   Dn3
+        BYTE           N12     Fn3
+        BYTE   W12
+        BYTE           N24     Ds3
+        BYTE           N24     Gn3
+        BYTE   W24
+        BYTE                   Dn3
+        BYTE           N24     Fn3
+        BYTE   W24
+// 019   ----------------------------------------
+        BYTE   GoTo
+         POIN2  thefrench_0_LOOP
+        BYTE   FINE
+
+//****************** Track 1 (Midi-Chn.1) ******************//
+
+thefrench_1:
+        BYTE   KEYSH   thefrench_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   40
+        BYTE           VOL     90
+        BYTE           PAN     c_v+1
+        BYTE   W96
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+thefrench_1_LOOP:
+        BYTE           N24     Cn4   v080
+        BYTE   W24
+        BYTE                   Gn4
+        BYTE   W24
+        BYTE                   An4
+        BYTE   W24
+        BYTE                   Fn4
+        BYTE   W24
+// 003   ----------------------------------------
+thefrench_1_3:
+        BYTE           N48     Gn4   v080
+        BYTE   W48
+        BYTE                   Ds4
+        BYTE   W48
+        BYTE   PEND
+// 004   ----------------------------------------
+thefrench_1_4:
+        BYTE           N24     Fn4   v080
+        BYTE   W24
+        BYTE           N12
+        BYTE   W12
+        BYTE                   Gn4
+        BYTE   W12
+        BYTE           N24     Ds4
+        BYTE   W24
+        BYTE                   Dn4
+        BYTE   W24
+        BYTE   PEND
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+thefrench_1_6:
+        BYTE           N24     Cn4   v080
+        BYTE   W24
+        BYTE                   Gn4
+        BYTE   W24
+        BYTE                   An4
+        BYTE   W24
+        BYTE                   Fn4
+        BYTE   W24
+        BYTE   PEND
+// 007   ----------------------------------------
+        BYTE   PATT
+         POIN2  thefrench_1_3
+// 008   ----------------------------------------
+        BYTE   PATT
+         POIN2  thefrench_1_4
+// 009   ----------------------------------------
+        BYTE           N96     Cn4   v080
+        BYTE   W96
+// 010   ----------------------------------------
+thefrench_1_10:
+        BYTE           N24     Ds4   v080
+        BYTE   W24
+        BYTE                   Ds4
+        BYTE   W24
+        BYTE                   Dn4
+        BYTE   W24
+        BYTE                   Cn4
+        BYTE   W24
+        BYTE   PEND
+// 011   ----------------------------------------
+        BYTE           N48     Dn4
+        BYTE   W48
+        BYTE                   As3
+        BYTE   W48
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  thefrench_1_10
+// 013   ----------------------------------------
+        BYTE           N48     Dn4   v080
+        BYTE   W48
+        BYTE                   As4
+        BYTE   W48
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  thefrench_1_6
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  thefrench_1_3
+// 016   ----------------------------------------
+        BYTE   PATT
+         POIN2  thefrench_1_4
+// 017   ----------------------------------------
+        BYTE   W96
+// 018   ----------------------------------------
+        BYTE           N12     Cn4   v080
+        BYTE   W12
+        BYTE                   As3
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   As3
+        BYTE   W60
+// 019   ----------------------------------------
+        BYTE   GoTo
+         POIN2  thefrench_1_LOOP
+        BYTE   FINE
+
+//****************** Track 2 (Midi-Chn.2) ******************//
+
+thefrench_2:
+        BYTE   KEYSH   thefrench_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   48
+        BYTE           VOL     99
+        BYTE           N96     Cn2   v080
+        BYTE   W96
+// 001   ----------------------------------------
+thefrench_2_1:
+        BYTE           N48     Cn2   v080
+        BYTE   W48
+        BYTE                   Cn2
+        BYTE   W48
+        BYTE   PEND
+// 002   ----------------------------------------
+thefrench_2_LOOP:
+        BYTE           N96     Cn2   v080
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE                   Cn2
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE                   Cn2
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   PATT
+         POIN2  thefrench_2_1
+// 006   ----------------------------------------
+        BYTE           N96     Cn2   v080
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE                   Cn2
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE                   Cn2
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE                   Cn2
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE                   Gs1
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE                   Gs1
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE                   Gs1
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE                   As1
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  thefrench_2_1
+// 015   ----------------------------------------
+        BYTE           N96     Cn2   v080
+        BYTE   W96
+// 016   ----------------------------------------
+        BYTE           N48     Gn1
+        BYTE   W48
+        BYTE                   As1
+        BYTE   W48
+// 017   ----------------------------------------
+        BYTE           N96     Cn2
+        BYTE   W96
+// 018   ----------------------------------------
+        BYTE                   Cn3
+        BYTE           N96     As2
+        BYTE           N96     Cn2
+        BYTE           N96     Gn1
+        BYTE           N96     Cn1
+        BYTE   W96
+// 019   ----------------------------------------
+        BYTE   GoTo
+         POIN2  thefrench_2_LOOP
+        BYTE   FINE
+
+
+//********************** End of Song ***********************//
+
+        ALIGN 4
+thefrench:
+        BYTE   3                       // Num Tracks
+        BYTE   0                       // Unknown
+        BYTE   thefrench_pri           // Priority
+        BYTE   thefrench_rev           // Reverb
+
+        POIN2   thefrench_grp          
+
+        POIN2   thefrench_0
+        POIN2   thefrench_1
+        POIN2   thefrench_2
+
+        

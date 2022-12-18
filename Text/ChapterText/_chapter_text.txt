@@ -1,3 +1,9 @@
 #include "chapter_names.txt"
 #include "chapter_objectives.txt"
 #include "quotes.txt"
+
+#include "c1.txt"
+#include "c2.txt"
+#include "c3.txt"
+#include "c4.txt"
+
