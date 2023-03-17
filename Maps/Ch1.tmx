@@ -11,7 +11,7 @@
    <property name="MapChangesID" value="Ch1MapChangesID"/>
    <property name="MapID" value="Ch1MapID"/>
    <property name="ObjectType" value="PlainsObjType"/>
-   <property name="PaletteID" value="PlainsPalette4"/>
+   <property name="PaletteID" value="PlainsPalette6"/>
    <property name="TileConfig" value="PlainsTileConfig"/>
   </properties>
   <data encoding="csv">
