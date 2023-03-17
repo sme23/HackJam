@@ -1,0 +1,51 @@
+PUSH
+	
+	ORG $BA7FC
+	POIN WorldMapGfx_Large
+	
+	ORG $BA808
+	POIN WorldMapPal_Large
+	
+	ORG $BF7B0
+	POIN WorldMapPal_Large
+	
+	ORG $BA800
+	POIN WorldMapTsa_Large
+	
+	ORG $C2044
+	POIN WorldMapGfx_Small
+	
+	ORG $C2048
+	POIN WorldMapPal_Small
+	
+	ORG $C204C
+	POIN WorldMapTsa_Small
+	
+POP	
+	
+	
+ALIGN 4	
+WorldMapGfx_Large:
+#incbin "worldmap.dmp"
+
+ALIGN 4
+WorldMapPal_Large:
+#incbin "worldmap_pal.dmp"
+
+ALIGN 4
+WorldMapTsa_Large:
+#incbin "worldmap_tsa.dmp"
+	
+ALIGN 4
+WorldMapGfx_Small:
+#incbin "worldmap_small.png.dmp"
+
+ALIGN 4
+WorldMapPal_Small:
+#incbin "worldmap_small.png.pal.dmp"
+
+ALIGN 4
+WorldMapTsa_Small:
+#incbin "worldmap_small.png.tsa.dmp"
+
+		

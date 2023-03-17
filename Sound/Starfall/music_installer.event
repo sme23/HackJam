@@ -1,0 +1,117 @@
+// community project music installer
+
+// ***** NOT COMPATIBLE WITH NIMAP *****
+// THIS IS A COMPLETE REPLACEMENT FOR THE NATIVE INSTRUMENT MAP (ALSO KNOWN AS NIMAP).
+// DO NOT USE THIS AND NIMAP AT THE SAME TIME.
+// IF YOU WANT TO USE A SONG THAT WAS ORIGINALLY MADE FOR NIMAP,
+// OPEN THE .s FILE AND DEFINE BCVoices AS THE VOICE GROUP (mysong_grp).
+
+#ifdef _FE8_
+
+//macro definitions for setting the song table
+#ifndef SongTableOffset
+  #define SongTableOffset  0x224470
+  #define SongTable(index,SongPointer,Group) "PUSH; ORG SongTableOffset+(8*index); POIN SongPointer; SHORT Group Group; POP"
+#endif
+#define BattleMusicGroup 0
+#define MapMusicGroup 1
+#define SFXGroup 6
+
+#define voicegroup000 MusicVoices //in case you forget to change this
+
+// --------------- SONGS: MUSIC ---------------
+
+// 1 - TEST SONG TO MAKE SURE THE INSTALLER WORKS-- DO NOT USE THIS IN YOUR GAME; IT DOESN'T SOUND GOOD
+//{
+//SongTable(0x1,ctest,0)
+//#include "songs/ctest.event"
+//}
+
+
+// --------------- SONGS: GUI AND SFX ---------------
+
+// for sound effects for menus, battle anims, Echoes voice acting, etc, as well as jingles like Level Up! and Item Get
+
+// 90 - Item Get
+{
+SongTable(0x5a,itemgetp22,6)
+#include "songs/gui/itemgetp22.event"
+}
+
+// 91 - Level Up!
+{
+SongTable(0x5b,levelupp22,6)
+#include "songs/gui/levelupp22.event"
+}
+
+// 92 - Weapon Broke (also plays for enemies attacking villages or opening treasure chests)
+{
+SongTable(0x5c,weaponbrokep22,6)
+#include "songs/gui/weaponbrokep22.event"
+}
+
+
+// --------------- TECHNICAL STUFF ---------------
+
+// EXPERIMENTAL; STILL NEEDS TESTING! In theory, will slow down the game.
+// (if I have time, I'd like to investigate if I can free up iram for this. sampling rates above 0x06/15768 require repointing)
+// Repoints the sound buffers from iram to wram so there's room to increase the sampling rate.
+// (0x4 13379 to 0xc 26758 would be a nice round double, but you want to go as high as possible to reduce aliasing noise)
+// (in theory we can go all the way up to 0x14 42048Hz)
+// Uncomment the following and scroll down to the sound mixer and include SoundMixerExp instead of SoundMixerNew
+// to make the game sound better, but be prepared to test the game and make sure it doesn't interfere with anything else.
+// For greatest quality return, you'll want to remake all of your samples in the new sampling rate.
+//PUSH
+//ORG $d06f4 //sampling rate byte (04 = 13379Hz; decrements in even numbers; odd numbers do not work)
+//BYTE $0e // NOTE: MUST BE AN EVEN NUMBER! SEE BREGALAD'S DOCUMENT FOR POSSIBLE VALUES
+//ORG $d01d8 //location of sound buffers: pointer called by SoundInit
+//BYTE $30 $6e $02 $02 //pointer to $02026e30
+//ORG $a21304 //for drawing coloured bars in sound room
+//BYTE $30 $6e $02 $02 //pointer to $02026e30
+//POP
+
+// installation of ipatix's sound mixer
+PUSH
+ORG $d01cc
+POIN SoundMixer
+ORG $d01d0
+SHORT $6cb0 $0300 $0218
+ORG $cf53c
+SHORT $6cb1 $0300
+POP
+ALIGN 4
+
+SoundMixer:
+#incbin SoundMixerNew.bin
+// use SoundMixer.bin for old/compatibility sound mixer. old sound mixer is required if you use Camelot/GS synth instruments
+
+// USE ONLY IF THE EXPERIMENTAL OPTION ABOVE IS ALSO USED AND COMMENT OUT INSTALLATION OF REGULAR SOUND MIXER ABOVE
+// changes pointer at $11c to point to $2028F30 (02026e30+0x2100) instead of $03037510 (03005410+0x2100)
+//SoundMixer:
+//#incbin SoundMixerExp.bin
+
+PUSH
+
+// allow 16 tracks and 12 simultaneous directsound voices
+ORG $2900
+SHORT $e00c
+ORG $2924
+SHORT $280c $d00e $200c
+ORG $22440c
+BYTE $10 //$10 $00 $00 $00 $50 $66 $00 $03 $B0 $67 $00 $03 $10
+ORG $224414
+SHORT $67b0 $0300 $0010
+
+// unlock all songs in sound room
+ORG $aede0
+BYTE $FF
+
+POP
+
+
+
+
+
+#else
+ERROR You are not assembling FE8 events!
+#endif

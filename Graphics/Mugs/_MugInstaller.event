@@ -1,0 +1,7 @@
+/*
+setMugEntry(Mug,Portrait,2,6,3,4)
+ALIGN 4
+Portrait:			// by 
+#incext PortraitFormatter ".png"
+*/
+

@@ -1,0 +1,17 @@
+
+// get all the fancy debug tools, including debug startup
+// #define __DEBUG_FULL__
+
+// only get some debug tools, ideal for gameplay testing
+#define __DEBUG__
+
+// no debug tools, for release builds
+// #define __RELEASE__
+
+
+// -----------------
+
+#ifdef __DEBUG_FULL__
+	#define __DEBUG__
+#endif // __DEBUG_FULL__
+

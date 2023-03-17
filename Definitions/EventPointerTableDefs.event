@@ -1,0 +1,320 @@
+//event ptr table defs
+
+//theres room for considerably more chapters I just didnt define them yet
+
+#define Ch1EventsID 0x7
+#define Ch2EventsID 0xA
+#define Ch3EventsID 0xD
+#define Ch4EventsID 0x14
+#define Ch5EventsID 0x17
+#define Ch6EventsID 0x1E
+#define Ch6xEventsID 0x21
+#define Ch7EventsID 0x24
+#define Ch8EventsID 0x27
+#define Ch9EventsID 0x2A
+#define Ch10EventsID 0x2D
+#define Ch11EventsID 0x33
+#define Ch12EventsID 0x37
+#define Ch13EventsID 0x3B
+#define Ch14EventsID 0x3F
+#define Ch15EventsID 0x40
+#define Ch16EventsID 0x41
+#define Ch17EventsID 0x45
+#define Ch18EventsID 0x46
+#define Ch19EventsID 0x47
+#define Ch20EventsID 0x49
+#define Ch21EventsID 0x4A
+#define Ch22EventsID 0x4B
+#define Ch23EventsID 0x4D
+#define Ch24EventsID 0x4E
+#define Ch25EventsID 0x4F
+#define Ch26EventsID 0x53
+#define Ch27EventsID 0x55
+#define Ch28EventsID 0x56
+#define Ch29EventsID 0x58
+
+#define Ch1MapID 0x4
+#define Ch1MapChangesID 0x6
+#define Ch2MapID 0x8
+#define Ch2MapChangesID 0x9
+#define Ch3MapID 0xB
+#define Ch3MapChangesID 0xC
+#define Ch4MapID 0x11
+#define Ch4MapChangesID 0x13
+#define Ch5MapID 0x15
+#define Ch5MapChangesID 0x16
+#define Ch6MapID 0x1B
+#define Ch6MapChangesID 0x1D
+#define Ch6xMapID 0x1F
+#define Ch6xMapChangesID 0x20
+#define Ch7MapID 0x22
+#define Ch7MapChangesID 0x23
+#define Ch8MapID 0x25
+#define Ch8MapChangesID 0x26
+#define Ch9MapID 0x28
+#define Ch9MapChangesID 0x29 
+#define Ch10MapID 0x2B
+#define Ch10MapChangesID 0x2C
+#define Ch11MapID 0x31
+#define Ch11MapChangesID 0x32
+#define Ch12MapID 0x35
+#define Ch12MapChangesID 0x36
+#define Ch13MapID 0x39
+#define Ch13MapChangesID 0x3A
+#define Ch14MapID 0x59
+#define Ch14MapChangesID 0x5A
+#define Ch15MapID 0x5C
+#define Ch15MapChangesID 0x5D
+#define Ch16MapID 0x5E
+#define Ch16MapChangesID 0x62
+#define Ch17MapID 0x63
+#define Ch17MapChangesID 0x64
+#define Ch18MapID 0x65
+#define Ch18MapChangesID 0x66
+#define Ch19MapID 0x67
+#define Ch19MapChangesID 0x69
+#define Ch20MapID 0x6A
+#define Ch20MapChangesID 0x6B
+#define Ch21MapID 0x6F
+#define Ch21MapChangesID 0x70
+#define Ch22MapID 0x71
+#define Ch22MapChangesID 0x73
+#define Ch23MapID 0x74
+#define Ch23MapChangesID 0x75
+#define Ch24MapID 0x76
+#define Ch24MapChangesID 0x77
+#define Ch25MapID 0x78
+#define Ch25MapChangesID 0x7C
+#define Ch26MapID 0x7E
+#define Ch26MapChangesID 0x7F
+#define Ch27MapID 0x80
+#define Ch27MapChangesID 0x81
+#define Ch28MapID 0x82
+#define Ch28MapChangesID 0x83
+#define Ch29MapID 0x84
+#define Ch29MapChangesID 0x85
+
+#define Cutscene1MapID 0xDA
+#define Cutscene1MapChangesID 0xDB
+#define Cutscene2MapID 0xDC
+#define Cutscene2MapChangesID 0xDD
+#define Cutscene3MapID 0xDE
+#define Cutscene3MapChangesID 0xDF
+#define Cutscene4MapID 0xE0
+#define Cutscene4MapChangesID 0xE1
+#define Cutscene5MapID 0xE2
+#define Cutscene5MapChangesID 0xE3
+#define Cutscene6MapID 0xE4
+#define Cutscene6MapChangesID 0xE5
+#define Cutscene7MapID 0xE7
+#define Cutscene7MapChangesID 0xE8
+#define Cutscene8MapID 0xE9
+#define Cutscene8MapChangesID 0xEB
+
+
+//this is probably the third time i've done these with the thought of "oh I only have to do this once then I'll have them whenever I need them in the future"
+
+#define PlainsObjType 0x1
+#define PlainsTileConfig 0x3
+#define PlainsAnims 0x5
+
+#define PlainsPalette1 0x2
+#define PlainsPalette2 0x38
+#define PlainsPalette3 0x4C
+#define PlainsPalette4 0x5B
+
+#define VillageObjType 0xE
+#define VillageTileConfig 0x10
+#define VillageAnims 0x12
+
+#define VillagePalette1 0xF
+#define VillagePalette2 0x72
+#define VillagePalette3 0xEA
+
+#define CastleObjType 0x18
+#define CastleTileConfig 0x1A
+#define CastleAnims 0x1C
+
+#define CastlePalette1 0x19
+#define CastlePalette2 0x48
+#define CastlePalette3 0x57
+#define CastlePalette4 0xB9
+
+#define FieldsObjType 0x2E
+#define FieldsTileConfig 0x30
+#define FieldsAnims 0x5 
+
+#define FieldsPalette1 0x2F
+#define FieldsPalette2 0x34
+
+#define FortObjType 0x3C
+#define FortTileConfig 0x3E
+#define FortAnims 0x0
+
+#define FortPalette1 0x3D
+#define FortPalette2 0x68
+#define FortPalette3 0xCE
+
+#define DesertObjType 0x42
+#define DesertTileConfig 0x44
+#define DesertAnims 0x5
+
+#define DesertPalette1 0x43
+
+#define LavaObjType 0x50
+#define LavaTileConfig 0x52
+#define LavaAnims 0x0
+#define LavaAnims2 0x54
+
+#define LavaPalette1 0x51
+
+#define TempleObjType 0x5F
+#define TempleTileConfig 0x61
+#define TempleAnims 0x0
+
+#define TemplePalette1 0x60
+
+#define StrongholdObjType 0x79
+#define StrongholdTileConfig 0x7B
+#define StrongholdAnims 0x7D
+
+#define StrongholdPalette1 0x7A
+#define StrongholdPalette2 0xE6
+
+#define MountainousObjType 0x6C
+#define MountainousTileConfig 0x6E
+#define MountainousAnims 0x5
+
+#define MountainousPalette1 0x6D
+#define MountainousPalette2 0xA3
+
+#define ValniObjType 0x88
+#define ValniTileConfig 0x8A
+#define ValniAnims 0x9D
+
+#define ValniPalette1 0x89
+
+//these are things i added for my buildfile they aren't on the vanilla table
+
+#define CastlePalette5 0x86
+#define CastlePalette6 0x87
+
+#define CaveTileConfig 0x8B
+#define CaveObjType 0x8C
+
+#define CavePalette1 0x8D
+#define CavePalette2 0x8E
+
+#define DesertBastionTileConfig 0x8F
+#define DesertBastionObjType 0x90
+
+#define DesertBastionPalette1 0x91
+
+#define PlainsPalette5 0x92
+#define PlainsPalette6 0x93
+
+#define LavaPalette2 0x94
+
+#define SnowCastleObjType 0x95
+#define SnowCastleTileConfig 0x96
+
+#define SnowCastlePalette1 0x97
+
+#define SnowFieldsObjType 0x98
+#define SnowFieldsTileConfig 0x99
+
+#define SnowFieldsPalette1 0x9A
+
+#define FF2TownObjType 0x9B
+#define FF2TownTileConfig 0x9C
+
+#define FF2TownPalette1 0x9E
+#define FF2TownPalette2 0x9F
+#define FF2TownPalette3 0xA0
+#define FF2TownPalette4 0xA1
+
+#define ProtoInteriorObjType 0xA2
+#define ProtoInteriorTileConfig 0xA3
+#define ProtoInteriorPalette1 0xA4
+
+/*
+free IDs:
+
+0xA5
+0xA6
+0xA7
+0xA8
+0xA9
+0xAA
+0xAB
+0xAC
+0xAD
+0xAE
+0xAF
+0xB0
+0xB1
+0xB2
+0xB3
+0xB4
+0xB5
+0xB6
+0xB7
+0xB8
+0xBA
+0xBB
+0xBC
+0xBD
+0xBE
+0xBF
+0xC0
+0xC1
+0xC2
+0xC3
+0xC4
+0xC5
+0xC6
+0xC7
+0xC8
+0xC9
+0xCA
+0xCB
+0xCC
+0xCD
+0xCF
+0xD0
+0xD1
+0xD2
+0xD3
+0xD4
+0xD5
+0xD6
+0xD7
+0xD8
+0xD9
+
+//need to repoint plist to use anything past here
+
+0xEC
+0xED
+0xEE
+0xEF
+0xF0
+0xF1
+0xF2
+0xF3
+0xF4
+0xF5
+0xF6
+0xF7
+0xF8
+0xF9
+0xFA
+0xFB
+0xFC
+0xFD
+0xFE
+0xFF
+
+//need to split plist to have any more room
+
+*/

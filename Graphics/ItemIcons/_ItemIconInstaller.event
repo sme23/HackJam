@@ -1,0 +1,20 @@
+//apparently i've literally never done this properly before :)
+
+#define SetItemIcon(Index) "ORG ItemIcons + (Index * 0x80)"
+
+//ItemIcons:
+//FILL 256*0x80
+
+PUSH	
+
+	ORG $5926F4
+	ItemIcons:
+
+/*
+	SetItemIcon(Icon)
+	#incext Png2Dmp "file.png"
+*/
+
+
+	
+POP

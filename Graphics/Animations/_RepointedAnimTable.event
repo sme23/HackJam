@@ -1,0 +1,35 @@
+//for the repointed anim table, thus giving more free space in block 1
+
+PUSH
+ORG 0x59BD8
+POIN ClassAnimTable
+
+ORG 0x5A600
+POIN ClassAnimTable
+
+ORG 0x5A694
+POIN ClassAnimTable
+
+ORG 0x5A82C
+POIN ClassAnimTable
+
+ORG 0x6F6A8
+POIN ClassAnimTable
+
+ORG 0x70940
+POIN ClassAnimTable
+
+ORG 0x70A60
+POIN ClassAnimTable
+POP
+
+ALIGN 4
+BYTE NumberOfAnims 0 0 0
+WORD 0
+ClassAnimTable:
+FILL ((NumberOfAnims+1)*32)
+PUSH
+ORG ClassAnimTable
+#incbin "VanillaAnimTable.dmp"
+POP
+

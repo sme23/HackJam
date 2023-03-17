@@ -1,0 +1,347 @@
+
+#define tilesetAnimation(speed, size, pointer)    "BYTE speed 0; SHORT size; POIN pointer"
+
+
+EventPointerTable(CastleTileConfig,Castle_TileConfig)
+EventPointerTable(CastleObjType,Castle_ObjType)
+EventPointerTable(CastlePalette1,Castle_Pal1)
+EventPointerTable(CastlePalette2,Castle_Pal2)
+EventPointerTable(CastlePalette3,Castle_Pal3)
+EventPointerTable(CastlePalette4,Castle_Pal4)
+EventPointerTable(CastlePalette5,Castle_Pal5)
+EventPointerTable(CastlePalette6,Castle_Pal6)
+
+
+ALIGN 4
+Castle_TileConfig:
+#incbin "Castle/Castle_comp.dmp"
+
+ALIGN 4
+Castle_ObjType:
+#incbin "Castle/Castle1.dmp"
+
+ALIGN 4
+Castle_Pal1:
+#incbin "Castle/Castle1_pal.dmp"
+
+ALIGN 4
+Castle_Pal2:
+#incbin "Castle/Castle2_pal.dmp"
+
+ALIGN 4
+Castle_Pal3:
+#incbin "Castle/Castle3_pal.dmp"
+
+ALIGN 4
+Castle_Pal4:
+#incbin "Castle/Castle4_pal.dmp"
+
+ALIGN 4
+Castle_Pal5:
+#incbin "Castle/Castle5_pal.dmp"
+
+ALIGN 4
+Castle_Pal6:
+#incbin "Castle/Castle6_pal.dmp"
+
+
+
+
+EventPointerTable(CaveTileConfig,Cave_TileConfig)
+EventPointerTable(CaveObjType,Cave_ObjType)
+EventPointerTable(CavePalette1,Cave_Pal1)
+EventPointerTable(CavePalette2,Cave_Pal2)
+
+ALIGN 4
+Cave_TileConfig:
+#incbin "Cave/Cave_comp.dmp"
+
+ALIGN 4
+Cave_ObjType:
+#incbin "Cave/Cave1.dmp"
+
+ALIGN 4
+Cave_Pal1:
+#incbin "Cave/Cave1_pal.dmp"
+
+ALIGN 4
+Cave_Pal2:
+#incbin "Cave/Cave2_pal.dmp"
+
+
+
+
+EventPointerTable(DesertTileConfig,Desert_TileConfig)
+EventPointerTable(DesertObjType,Desert_ObjType)
+EventPointerTable(DesertPalette1,Desert_Pal1)
+
+ALIGN 4
+Desert_TileConfig:
+#incbin "Desert/Desert_comp.dmp"
+
+ALIGN 4
+Desert_ObjType:
+#incbin "Desert/Desert.dmp"
+
+ALIGN 4
+Desert_Pal1:
+#incbin "Desert/Desert_pal.dmp"
+
+
+
+
+EventPointerTable(DesertBastionTileConfig,DesertBastion_TileConfig)
+EventPointerTable(DesertBastionObjType,DesertBastion_ObjType)
+EventPointerTable(DesertBastionPalette1,DesertBastion_Pal1)
+
+ALIGN 4
+DesertBastion_TileConfig:
+#incbin "DesertBastion/DesertBastion_comp.dmp"
+
+ALIGN 4
+DesertBastion_ObjType:
+#incbin "DesertBastion/DesertBastion.dmp"
+
+ALIGN 4
+DesertBastion_Pal1:
+#incbin "DesertBastion/DesertBastion_pal.dmp"
+
+
+
+
+EventPointerTable(PlainsObjType,Plains_ObjType)
+EventPointerTable(PlainsTileConfig,Plains_TileConfig)
+EventPointerTable(PlainsPalette1,Plains_Pal1)
+EventPointerTable(PlainsPalette2,Plains_Pal2)
+EventPointerTable(PlainsPalette3,Plains_Pal3)
+EventPointerTable(PlainsPalette4,Plains_Pal4)
+EventPointerTable(PlainsPalette5,Plains_Pal5)
+EventPointerTable(PlainsPalette6,Plains_Pal6)
+
+ALIGN 4
+Plains_ObjType:
+#incbin "Fields/Fields1.dmp"
+
+ALIGN 4
+Plains_TileConfig:
+#incbin "Fields/Fields_comp.dmp"
+
+ALIGN 4
+Plains_Pal1:
+#incbin "Fields/Fields1_pal.dmp"
+
+ALIGN 4
+Plains_Pal2:
+#incbin "Fields/Fields2_pal.dmp"
+
+ALIGN 4
+Plains_Pal3:
+#incbin "Fields/Fields3_pal.dmp"
+
+ALIGN 4
+Plains_Pal4:
+#incbin "Fields/nightfields.bin"
+
+ALIGN 4
+Plains_Pal5:
+#incbin "Fields/Fields5_pal.dmp"
+
+ALIGN 4
+Plains_Pal6:
+#incbin "Fields/Fields6_pal.dmp"
+
+
+
+
+
+EventPointerTable(FortObjType,Fort_ObjType)
+EventPointerTable(FortTileConfig,Fort_TileConfig)
+EventPointerTable(FortPalette1,Fort_Pal1)
+
+ALIGN 4
+Fort_ObjType:
+#incbin "Fort/Fort.dmp"
+
+ALIGN 4
+Fort_TileConfig:
+#incbin "Fort/Fort_comp.dmp"
+
+ALIGN 4
+Fort_Pal1:
+#incbin "Fort/Fort_pal.dmp"
+
+
+
+
+EventPointerTable(LavaObjType,Lava_ObjType)
+EventPointerTable(LavaTileConfig,Lava_TileConfig)
+EventPointerTable(LavaPalette1,Lava_Pal1)
+EventPointerTable(LavaPalette2,Lava_Pal2)
+
+ALIGN 4
+Lava_ObjType:
+#incbin "LavaCave/LavaCave.dmp"
+
+ALIGN 4
+Lava_TileConfig:
+#incbin "LavaCave/LavaCave_comp.dmp"
+
+ALIGN 4
+Lava_Pal1:
+#incbin "LavaCave/LavaCave_pal.dmp"
+
+ALIGN 4
+Lava_Pal2:
+#incbin "LavaCave/LavaButCold.bin"
+
+
+
+
+EventPointerTable(SnowCastleObjType,SnowCastle_ObjType)
+EventPointerTable(SnowCastleTileConfig,SnowCastle_TileConfig)
+EventPointerTable(SnowCastlePalette1,SnowCastle_Pal1)
+
+ALIGN 4
+SnowCastle_ObjType:
+#incbin "SnowCastle/HASHIRESOREYO.dmp"
+
+ALIGN 4
+SnowCastle_TileConfig:
+#incbin "SnowCastle/HASIRESOREYO_comp.dmp"
+
+ALIGN 4
+SnowCastle_Pal1:
+#incbin "SnowCastle/HASHIRESOREYO_pal.dmp"
+
+
+
+
+EventPointerTable(SnowFieldsObjType,SnowFields_ObjType)
+EventPointerTable(SnowFieldsTileConfig,SnowFields_TileConfig)
+EventPointerTable(SnowFieldsPalette1,SnowFields_Pal1)
+
+ALIGN 4
+SnowFields_ObjType:
+#incbin "SnowFields/SnowFields.dmp"
+
+ALIGN 4
+SnowFields_TileConfig:
+#incbin "SnowFields/SnowFields_comp.dmp"
+
+ALIGN 4
+SnowFields_Pal1:
+#incbin "SnowFields/SnowFields_pal.dmp"
+
+
+
+
+
+EventPointerTable(StrongholdObjType,Stronghold_ObjType)
+EventPointerTable(StrongholdTileConfig,Stronghold_TileConfig)
+EventPointerTable(StrongholdPalette1,Stronghold_Pal1)
+
+ALIGN 4
+Stronghold_ObjType:
+#incbin "Stronghold/Stronghold.dmp"
+
+ALIGN 4
+Stronghold_TileConfig:
+#incbin "Stronghold/Stronghold_comp.dmp"
+
+ALIGN 4
+Stronghold_Pal1:
+#incbin "Stronghold/Stronghold_pal.dmp"
+
+
+
+
+
+EventPointerTable(VillageObjType,Village_ObjType)
+EventPointerTable(VillageTileConfig,Village_TileConfig)
+EventPointerTable(VillagePalette1,Village_Pal1)
+EventPointerTable(VillagePalette2,Village_Pal2)
+EventPointerTable(VillagePalette3,Village_Pal3)
+
+ALIGN 4
+Village_ObjType:
+#incbin "Village/Village1.dmp"
+
+ALIGN 4
+Village_TileConfig:
+#incbin "Village/Village_comp.dmp"
+
+ALIGN 4
+Village_Pal1:
+#incbin "Village/Village1_pal.dmp"
+
+ALIGN 4
+Village_Pal2:
+#incbin "Village/Village2_pal.dmp"
+
+ALIGN 4
+Village_Pal3:
+#incbin "Village/Village3_pal.dmp"
+
+
+EventPointerTable(ValniObjType,Valni_ObjType)
+EventPointerTable(ValniTileConfig,Valni_TileConfig)
+EventPointerTable(ValniAnims,ValniGateAnims)
+
+ALIGN 4
+Valni_ObjType:
+#incbin "ValniGate/ValniGate.dmp"
+
+ALIGN 4
+Valni_TileConfig:
+#incbin "ValniGate/ValniGate_comp.dmp"
+
+#include "ValniGate/GateAnims/GateAnims.event"
+
+EventPointerTable(FF2TownObjType,FF2Town_ObjType)
+EventPointerTable(FF2TownTileConfig,FF2Town_TileConfig)
+
+EventPointerTable(FF2TownPalette1,FF2Town_Palette1)
+EventPointerTable(FF2TownPalette2,FF2Town_Palette2)
+EventPointerTable(FF2TownPalette3,FF2Town_Palette3)
+EventPointerTable(FF2TownPalette4,FF2Town_Palette4)
+
+ALIGN 4
+FF2Town_ObjType:
+#incbin "FF2Town/FF2Town.dmp"
+
+ALIGN 4
+FF2Town_TileConfig:
+#incbin "FF2Town/FF2Town_comp.dmp"
+
+ALIGN 4
+FF2Town_Palette1:
+#incbin "FF2Town/FF2Town1_pal.dmp"
+
+ALIGN 4
+FF2Town_Palette2:
+#incbin "FF2Town/FF2Town2_pal.dmp"
+
+ALIGN 4
+FF2Town_Palette3:
+#incbin "FF2Town/FF2Town3_pal.dmp"
+
+ALIGN 4
+FF2Town_Palette4:
+#incbin "FF2Town/FF2Town4_pal.dmp"
+
+EventPointerTable(ProtoInteriorObjType,ProtoInterior_ObjType)
+EventPointerTable(ProtoInteriorTileConfig,ProtoInterior_TileConfig)
+EventPointerTable(ProtoInteriorPalette1,ProtoInterior_Palette1)
+
+ALIGN 4
+ProtoInterior_ObjType:
+#incbin "ProtoInterior/fe7_protointerior.dmp"
+
+ALIGN 4
+ProtoInterior_TileConfig:
+#incbin "ProtoInterior/fe7_protointerior_comp.dmp"
+
+ALIGN 4
+ProtoInterior_Palette1:
+#incbin "ProtoInterior/fe7_protointerior_pal.dmp"
+

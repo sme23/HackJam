@@ -1,0 +1,1881 @@
+// ---------- SAMPLES: WAVES ----------
+
+WaveGUI14:
+BYTE $00 $00 $12 $34 $55 $55 $43 $21 $00 $00 $12 $34 $55 $55 $43 $21
+
+WaveGUI15:
+BYTE $77 $66 $55 $44 $33 $22 $11 $00 $54 $32 $10 $00 $32 $10 $00 $00
+
+WaveGUI16:
+BYTE $00 $00 $00 $12 $44 $44 $44 $21 $00 $00 $00 $12 $44 $44 $44 $21
+
+
+// ---------- SAMPLES: INSTRUMENTS ----------
+
+i0n0:
+#incbin "samples/i0n0.dmp"
+ALIGN 4
+
+i0n1:
+#incbin "samples/i0n1.dmp"
+ALIGN 4
+
+i0n2:
+#incbin "samples/i0n2.dmp"
+ALIGN 4
+
+i0n3:
+#incbin "samples/i0n3.dmp"
+ALIGN 4
+
+i0n4:
+#incbin "samples/i0n4.dmp"
+ALIGN 4
+
+i0n5:
+#incbin "samples/i0n5.dmp"
+ALIGN 4
+
+i0n6:
+#incbin "samples/i0n6.dmp"
+ALIGN 4
+
+i0n7:
+#incbin "samples/i0n7.dmp"
+ALIGN 4
+
+i0n8:
+#incbin "samples/i0n8.dmp"
+ALIGN 4
+
+i4n0:
+#incbin "samples/i4n0.dmp"
+ALIGN 4
+
+i4n1:
+#incbin "samples/i4n1.dmp"
+ALIGN 4
+
+i4n2:
+#incbin "samples/i4n2.dmp"
+ALIGN 4
+
+i4n3:
+#incbin "samples/i4n3.dmp"
+ALIGN 4
+
+i4n4:
+#incbin "samples/i4n4.dmp"
+ALIGN 4
+
+i4n5:
+#incbin "samples/i4n5.dmp"
+ALIGN 4
+
+i5n0:
+#incbin "samples/i5n0.dmp"
+ALIGN 4
+
+i5n1:
+#incbin "samples/i5n1.dmp"
+ALIGN 4
+
+i5n2:
+#incbin "samples/i5n2.dmp"
+ALIGN 4
+
+i5n3:
+#incbin "samples/i5n3.dmp"
+ALIGN 4
+
+i5n4:
+#incbin "samples/i5n4.dmp"
+ALIGN 4
+
+i5n5:
+#incbin "samples/i5n5.dmp"
+ALIGN 4
+
+i6n0:
+#incbin "samples/i6n0.dmp"
+ALIGN 4
+
+i6n1:
+#incbin "samples/i6n1.dmp"
+ALIGN 4
+
+i6n2:
+#incbin "samples/i6n2.dmp"
+ALIGN 4
+
+i6n3:
+#incbin "samples/i6n3.dmp"
+ALIGN 4
+
+i6n4:
+#incbin "samples/i6n4.dmp"
+ALIGN 4
+
+i7n0:
+#incbin "samples/i7n0.dmp"
+ALIGN 4
+
+i7n1:
+#incbin "samples/i7n1.dmp"
+ALIGN 4
+
+i7n2:
+#incbin "samples/i7n2.dmp"
+ALIGN 4
+
+i7n3:
+#incbin "samples/i7n3.dmp"
+ALIGN 4
+
+i8n0:
+#incbin "samples/i8n0.dmp"
+ALIGN 4
+
+i8n1:
+#incbin "samples/i8n1.dmp"
+ALIGN 4
+
+i8n2:
+#incbin "samples/i8n2.dmp"
+ALIGN 4
+
+i8n3:
+#incbin "samples/i8n3.dmp"
+ALIGN 4
+
+i8n4:
+#incbin "samples/i8n4.dmp"
+ALIGN 4
+
+i10n0:
+#incbin "samples/i10n0.dmp"
+ALIGN 4
+
+i10n1:
+#incbin "samples/i10n1.dmp"
+ALIGN 4
+
+i10n2:
+#incbin "samples/i10n2.dmp"
+ALIGN 4
+
+i10n3:
+#incbin "samples/i10n3.dmp"
+ALIGN 4
+
+i11n0:
+#incbin "samples/i11n0.dmp"
+ALIGN 4
+
+i11n1:
+#incbin "samples/i11n1.dmp"
+ALIGN 4
+
+i11n2:
+#incbin "samples/i11n2.dmp"
+ALIGN 4
+
+i11n3:
+#incbin "samples/i11n3.dmp"
+ALIGN 4
+
+i13n0:
+#incbin "samples/i13n0.dmp"
+ALIGN 4
+
+i13n1:
+#incbin "samples/i13n1.dmp"
+ALIGN 4
+
+i13n2:
+#incbin "samples/i13n2.dmp"
+ALIGN 4
+
+i13n3:
+#incbin "samples/i13n3.dmp"
+ALIGN 4
+
+i14n0:
+#incbin "samples/i14n0.dmp"
+ALIGN 4
+
+i14n1:
+#incbin "samples/i14n1.dmp"
+ALIGN 4
+
+i14n2:
+#incbin "samples/i14n2.dmp"
+ALIGN 4
+
+i14n3:
+#incbin "samples/i14n3.dmp"
+ALIGN 4
+
+i14n4:
+#incbin "samples/i14n4.dmp"
+ALIGN 4
+
+i15n0:
+#incbin "samples/i15n0.dmp"
+ALIGN 4
+
+i15n1:
+#incbin "samples/i15n1.dmp"
+ALIGN 4
+
+i15n2:
+#incbin "samples/i15n2.dmp"
+ALIGN 4
+
+i15n3:
+#incbin "samples/i15n3.dmp"
+ALIGN 4
+
+i15n4:
+#incbin "samples/i15n4.dmp"
+ALIGN 4
+
+i16n0:
+#incbin "samples/i16n0.dmp"
+ALIGN 4
+
+i16n1:
+#incbin "samples/i16n1.dmp"
+ALIGN 4
+
+i16n2:
+#incbin "samples/i16n2.dmp"
+ALIGN 4
+
+i16n3:
+#incbin "samples/i16n3.dmp"
+ALIGN 4
+
+i16n4:
+#incbin "samples/i16n4.dmp"
+ALIGN 4
+
+i17n0:
+#incbin "samples/i17n0.dmp"
+ALIGN 4
+
+i17n1:
+#incbin "samples/i17n1.dmp"
+ALIGN 4
+
+i17n2:
+#incbin "samples/i17n2.dmp"
+ALIGN 4
+
+i17n3:
+#incbin "samples/i17n3.dmp"
+ALIGN 4
+
+i17n4:
+#incbin "samples/i17n4.dmp"
+ALIGN 4
+
+i19n0:
+#incbin "samples/i19n0.dmp"
+ALIGN 4
+
+i19n1:
+#incbin "samples/i19n1.dmp"
+ALIGN 4
+
+i19n2:
+#incbin "samples/i19n2.dmp"
+ALIGN 4
+
+i19n3:
+#incbin "samples/i19n3.dmp"
+ALIGN 4
+
+i19n4:
+#incbin "samples/i19n4.dmp"
+ALIGN 4
+
+i21n0:
+#incbin "samples/i21n0.dmp"
+ALIGN 4
+
+i21n1:
+#incbin "samples/i21n1.dmp"
+ALIGN 4
+
+i21n2:
+#incbin "samples/i21n2.dmp"
+ALIGN 4
+
+i24n0:
+#incbin "samples/i24n0.dmp"
+ALIGN 4
+
+i24n1:
+#incbin "samples/i24n1.dmp"
+ALIGN 4
+
+i24n2:
+#incbin "samples/i24n2.dmp"
+ALIGN 4
+
+i24n3:
+#incbin "samples/i24n3.dmp"
+ALIGN 4
+
+i24n4:
+#incbin "samples/i24n4.dmp"
+ALIGN 4
+
+i24n5:
+#incbin "samples/i24n5.dmp"
+ALIGN 4
+
+i24n6:
+#incbin "samples/i24n6.dmp"
+ALIGN 4
+
+i25n0:
+#incbin "samples/i25n0.dmp"
+ALIGN 4
+
+i25n1:
+#incbin "samples/i25n1.dmp"
+ALIGN 4
+
+i25n2:
+#incbin "samples/i25n2.dmp"
+ALIGN 4
+
+i25n3:
+#incbin "samples/i25n3.dmp"
+ALIGN 4
+
+i25n4:
+#incbin "samples/i25n4.dmp"
+ALIGN 4
+
+i25n5:
+#incbin "samples/i25n5.dmp"
+ALIGN 4
+
+i25n6:
+#incbin "samples/i25n6.dmp"
+ALIGN 4
+
+i25n7:
+#incbin "samples/i25n7.dmp"
+ALIGN 4
+
+i28n0:
+#incbin "samples/i28n0.dmp"
+ALIGN 4
+
+i28n1:
+#incbin "samples/i28n1.dmp"
+ALIGN 4
+
+i28n2:
+#incbin "samples/i28n2.dmp"
+ALIGN 4
+
+i28n3:
+#incbin "samples/i28n3.dmp"
+ALIGN 4
+
+i28n4:
+#incbin "samples/i28n4.dmp"
+ALIGN 4
+
+i29n0:
+#incbin "samples/i29n0.dmp"
+ALIGN 4
+
+i29n1:
+#incbin "samples/i29n1.dmp"
+ALIGN 4
+
+i29n2:
+#incbin "samples/i29n2.dmp"
+ALIGN 4
+
+i29n3:
+#incbin "samples/i29n3.dmp"
+ALIGN 4
+
+i29n4:
+#incbin "samples/i29n4.dmp"
+ALIGN 4
+
+i29n5:
+#incbin "samples/i29n5.dmp"
+ALIGN 4
+
+i29n6:
+#incbin "samples/i29n6.dmp"
+ALIGN 4
+
+i30n0:
+#incbin "samples/i30n0.dmp"
+ALIGN 4
+
+i30n1:
+#incbin "samples/i30n1.dmp"
+ALIGN 4
+
+i30n2:
+#incbin "samples/i30n2.dmp"
+ALIGN 4
+
+i30n3:
+#incbin "samples/i30n3.dmp"
+ALIGN 4
+
+i30n4:
+#incbin "samples/i30n4.dmp"
+ALIGN 4
+
+i30n5:
+#incbin "samples/i30n5.dmp"
+ALIGN 4
+
+i30n6:
+#incbin "samples/i30n6.dmp"
+ALIGN 4
+
+i30n7:
+#incbin "samples/i30n7.dmp"
+ALIGN 4
+
+i31n0:
+#incbin "samples/i31n0.dmp"
+ALIGN 4
+
+i31n1:
+#incbin "samples/i31n1.dmp"
+ALIGN 4
+
+i31n2:
+#incbin "samples/i31n2.dmp"
+ALIGN 4
+
+i31n3:
+#incbin "samples/i31n3.dmp"
+ALIGN 4
+
+i31n4:
+#incbin "samples/i31n4.dmp"
+ALIGN 4
+
+i31n5:
+#incbin "samples/i31n5.dmp"
+ALIGN 4
+
+i31n6:
+#incbin "samples/i31n6.dmp"
+ALIGN 4
+
+i32n0:
+#incbin "samples/i32n0.dmp"
+ALIGN 4
+
+i32n1:
+#incbin "samples/i32n1.dmp"
+ALIGN 4
+
+i32n2:
+#incbin "samples/i32n2.dmp"
+ALIGN 4
+
+i32n3:
+#incbin "samples/i32n3.dmp"
+ALIGN 4
+
+i32n4:
+#incbin "samples/i32n4.dmp"
+ALIGN 4
+
+i33n0:
+#incbin "samples/i33n0.dmp"
+ALIGN 4
+
+i33n1:
+#incbin "samples/i33n1.dmp"
+ALIGN 4
+
+i33n2:
+#incbin "samples/i33n2.dmp"
+ALIGN 4
+
+i33n3:
+#incbin "samples/i33n3.dmp"
+ALIGN 4
+
+i34n0:
+#incbin "samples/i34n0.dmp"
+ALIGN 4
+
+i34n1:
+#incbin "samples/i34n1.dmp"
+ALIGN 4
+
+i34n2:
+#incbin "samples/i34n2.dmp"
+ALIGN 4
+
+i34n3:
+#incbin "samples/i34n3.dmp"
+ALIGN 4
+
+i34n4:
+#incbin "samples/i34n4.dmp"
+ALIGN 4
+
+i34n5:
+#incbin "samples/i34n5.dmp"
+ALIGN 4
+
+i34n6:
+#incbin "samples/i34n6.dmp"
+ALIGN 4
+
+i34n7:
+#incbin "samples/i34n7.dmp"
+ALIGN 4
+
+i34n8:
+#incbin "samples/i34n8.dmp"
+ALIGN 4
+
+i34n9:
+#incbin "samples/i34n9.dmp"
+ALIGN 4
+
+i34n10:
+#incbin "samples/i34n10.dmp"
+ALIGN 4
+
+i46n0:
+#incbin "samples/i46n0.dmp"
+ALIGN 4
+
+i36n0:
+#incbin "samples/i36n0.dmp"
+ALIGN 4
+
+i36n1:
+#incbin "samples/i36n1.dmp"
+ALIGN 4
+
+i36n2:
+#incbin "samples/i36n2.dmp"
+ALIGN 4
+
+i36n3:
+#incbin "samples/i36n3.dmp"
+ALIGN 4
+
+i36n4:
+#incbin "samples/i36n4.dmp"
+ALIGN 4
+
+i36n5:
+#incbin "samples/i36n5.dmp"
+ALIGN 4
+
+i36n6:
+#incbin "samples/i36n6.dmp"
+ALIGN 4
+
+i38n0:
+#incbin "samples/i38n0.dmp"
+ALIGN 4
+
+i38n1:
+#incbin "samples/i38n1.dmp"
+ALIGN 4
+
+i38n2:
+#incbin "samples/i38n2.dmp"
+ALIGN 4
+
+i38n3:
+#incbin "samples/i38n3.dmp"
+ALIGN 4
+
+i39n0:
+#incbin "samples/i39n0.dmp"
+ALIGN 4
+
+i39n1:
+#incbin "samples/i39n1.dmp"
+ALIGN 4
+
+i39n2:
+#incbin "samples/i39n2.dmp"
+ALIGN 4
+
+i39n3:
+#incbin "samples/i39n3.dmp"
+ALIGN 4
+
+i39n4:
+#incbin "samples/i39n4.dmp"
+ALIGN 4
+
+i39n5:
+#incbin "samples/i39n5.dmp"
+ALIGN 4
+
+i84n0:
+#incbin "samples/i84n0.dmp"
+ALIGN 4
+
+i84n1:
+#incbin "samples/i84n1.dmp"
+ALIGN 4
+
+i84n2:
+#incbin "samples/i84n2.dmp"
+ALIGN 4
+
+i84n3:
+#incbin "samples/i84n3.dmp"
+ALIGN 4
+
+i84n4:
+#incbin "samples/i84n4.dmp"
+ALIGN 4
+
+i85n0:
+#incbin "samples/i85n0.dmp"
+ALIGN 4
+
+i85n1:
+#incbin "samples/i85n1.dmp"
+ALIGN 4
+
+i85n2:
+#incbin "samples/i85n2.dmp"
+ALIGN 4
+
+i86n0:
+#incbin "samples/i86n0.dmp"
+ALIGN 4
+
+i86n1:
+#incbin "samples/i86n1.dmp"
+ALIGN 4
+
+i86n2:
+#incbin "samples/i86n2.dmp"
+ALIGN 4
+
+i86n3:
+#incbin "samples/i86n3.dmp"
+ALIGN 4
+
+i45n0:
+#incbin "samples/i45n0.dmp"
+ALIGN 4
+
+i45n1:
+#incbin "samples/i45n1.dmp"
+ALIGN 4
+
+i45n2:
+#incbin "samples/i45n2.dmp"
+ALIGN 4
+
+i45n3:
+#incbin "samples/i45n3.dmp"
+ALIGN 4
+
+i46n1:
+#incbin "samples/i46n1.dmp"
+ALIGN 4
+
+i46n2:
+#incbin "samples/i46n2.dmp"
+ALIGN 4
+
+i46n3:
+#incbin "samples/i46n3.dmp"
+ALIGN 4
+
+i46n4:
+#incbin "samples/i46n4.dmp"
+ALIGN 4
+
+i46n5:
+#incbin "samples/i46n5.dmp"
+ALIGN 4
+
+i47n0:
+#incbin "samples/i47n0.dmp"
+ALIGN 4
+
+i47n1:
+#incbin "samples/i47n1.dmp"
+ALIGN 4
+
+i47n2:
+#incbin "samples/i47n2.dmp"
+ALIGN 4
+
+i47n3:
+#incbin "samples/i47n3.dmp"
+ALIGN 4
+
+i47n4:
+#incbin "samples/i47n4.dmp"
+ALIGN 4
+
+i47n5:
+#incbin "samples/i47n5.dmp"
+ALIGN 4
+
+i48n0:
+#incbin "samples/i48n0.dmp"
+ALIGN 4
+
+i48n1:
+#incbin "samples/i48n1.dmp"
+ALIGN 4
+
+i48n2:
+#incbin "samples/i48n2.dmp"
+ALIGN 4
+
+i48n3:
+#incbin "samples/i48n3.dmp"
+ALIGN 4
+
+i48n4:
+#incbin "samples/i48n4.dmp"
+ALIGN 4
+
+i48n5:
+#incbin "samples/i48n5.dmp"
+ALIGN 4
+
+i48n6:
+#incbin "samples/i48n6.dmp"
+ALIGN 4
+
+i48n7:
+#incbin "samples/i48n7.dmp"
+ALIGN 4
+
+i49n0:
+#incbin "samples/i49n0.dmp"
+ALIGN 4
+
+i49n1:
+#incbin "samples/i49n1.dmp"
+ALIGN 4
+
+i49n2:
+#incbin "samples/i49n2.dmp"
+ALIGN 4
+
+i49n3:
+#incbin "samples/i49n3.dmp"
+ALIGN 4
+
+i49n4:
+#incbin "samples/i49n4.dmp"
+ALIGN 4
+
+i49n5:
+#incbin "samples/i49n5.dmp"
+ALIGN 4
+
+i49n6:
+#incbin "samples/i49n6.dmp"
+ALIGN 4
+
+i49n7:
+#incbin "samples/i49n7.dmp"
+ALIGN 4
+
+i50n0:
+#incbin "samples/i50n0.dmp"
+ALIGN 4
+
+i50n1:
+#incbin "samples/i50n1.dmp"
+ALIGN 4
+
+i50n2:
+#incbin "samples/i50n2.dmp"
+ALIGN 4
+
+i50n3:
+#incbin "samples/i50n3.dmp"
+ALIGN 4
+
+i50n4:
+#incbin "samples/i50n4.dmp"
+ALIGN 4
+
+i51n0:
+#incbin "samples/i51n0.dmp"
+ALIGN 4
+
+i51n1:
+#incbin "samples/i51n1.dmp"
+ALIGN 4
+
+i51n2:
+#incbin "samples/i51n2.dmp"
+ALIGN 4
+
+i51n3:
+#incbin "samples/i51n3.dmp"
+ALIGN 4
+
+i52n0:
+#incbin "samples/i52n0.dmp"
+ALIGN 4
+
+i52n1:
+#incbin "samples/i52n1.dmp"
+ALIGN 4
+
+i52n2:
+#incbin "samples/i52n2.dmp"
+ALIGN 4
+
+i52n3:
+#incbin "samples/i52n3.dmp"
+ALIGN 4
+
+i52n4:
+#incbin "samples/i52n4.dmp"
+ALIGN 4
+
+i55n0:
+#incbin "samples/i55n0.dmp"
+ALIGN 4
+
+i55n1:
+#incbin "samples/i55n1.dmp"
+ALIGN 4
+
+i55n2:
+#incbin "samples/i55n2.dmp"
+ALIGN 4
+
+i55n3:
+#incbin "samples/i55n3.dmp"
+ALIGN 4
+
+i55n4:
+#incbin "samples/i55n4.dmp"
+ALIGN 4
+
+i55n5:
+#incbin "samples/i55n5.dmp"
+ALIGN 4
+
+i56n0:
+#incbin "samples/i56n0.dmp"
+ALIGN 4
+
+i56n1:
+#incbin "samples/i56n1.dmp"
+ALIGN 4
+
+i56n2:
+#incbin "samples/i56n2.dmp"
+ALIGN 4
+
+i56n3:
+#incbin "samples/i56n3.dmp"
+ALIGN 4
+
+i56n4:
+#incbin "samples/i56n4.dmp"
+ALIGN 4
+
+i56n5:
+#incbin "samples/i56n5.dmp"
+ALIGN 4
+
+i58n0:
+#incbin "samples/i58n0.dmp"
+ALIGN 4
+
+i58n1:
+#incbin "samples/i58n1.dmp"
+ALIGN 4
+
+i58n2:
+#incbin "samples/i58n2.dmp"
+ALIGN 4
+
+i58n3:
+#incbin "samples/i58n3.dmp"
+ALIGN 4
+
+i58n4:
+#incbin "samples/i58n4.dmp"
+ALIGN 4
+
+i58n5:
+#incbin "samples/i58n5.dmp"
+ALIGN 4
+
+i59n0:
+#incbin "samples/i59n0.dmp"
+ALIGN 4
+
+i59n1:
+#incbin "samples/i59n1.dmp"
+ALIGN 4
+
+i59n2:
+#incbin "samples/i59n2.dmp"
+ALIGN 4
+
+i59n3:
+#incbin "samples/i59n3.dmp"
+ALIGN 4
+
+i59n4:
+#incbin "samples/i59n4.dmp"
+ALIGN 4
+
+i59n5:
+#incbin "samples/i59n5.dmp"
+ALIGN 4
+
+i60n0:
+#incbin "samples/i60n0.dmp"
+ALIGN 4
+
+i60n1:
+#incbin "samples/i60n1.dmp"
+ALIGN 4
+
+i60n2:
+#incbin "samples/i60n2.dmp"
+ALIGN 4
+
+i60n3:
+#incbin "samples/i60n3.dmp"
+ALIGN 4
+
+i60n4:
+#incbin "samples/i60n4.dmp"
+ALIGN 4
+
+i60n5:
+#incbin "samples/i60n5.dmp"
+ALIGN 4
+
+i61n0:
+#incbin "samples/i61n0.dmp"
+ALIGN 4
+
+i61n1:
+#incbin "samples/i61n1.dmp"
+ALIGN 4
+
+i61n2:
+#incbin "samples/i61n2.dmp"
+ALIGN 4
+
+i61n3:
+#incbin "samples/i61n3.dmp"
+ALIGN 4
+
+i61n4:
+#incbin "samples/i61n4.dmp"
+ALIGN 4
+
+i61n5:
+#incbin "samples/i61n5.dmp"
+ALIGN 4
+
+i61n6:
+#incbin "samples/i61n6.dmp"
+ALIGN 4
+
+i61n7:
+#incbin "samples/i61n7.dmp"
+ALIGN 4
+
+i62n0:
+#incbin "samples/i62n0.dmp"
+ALIGN 4
+
+i62n1:
+#incbin "samples/i62n1.dmp"
+ALIGN 4
+
+i62n2:
+#incbin "samples/i62n2.dmp"
+ALIGN 4
+
+i62n3:
+#incbin "samples/i62n3.dmp"
+ALIGN 4
+
+i62n4:
+#incbin "samples/i62n4.dmp"
+ALIGN 4
+
+i62n5:
+#incbin "samples/i62n5.dmp"
+ALIGN 4
+
+i63n0:
+#incbin "samples/i63n0.dmp"
+ALIGN 4
+
+i63n1:
+#incbin "samples/i63n1.dmp"
+ALIGN 4
+
+i63n2:
+#incbin "samples/i63n2.dmp"
+ALIGN 4
+
+i63n3:
+#incbin "samples/i63n3.dmp"
+ALIGN 4
+
+i63n4:
+#incbin "samples/i63n4.dmp"
+ALIGN 4
+
+i64n0:
+#incbin "samples/i64n0.dmp"
+ALIGN 4
+
+i64n1:
+#incbin "samples/i64n1.dmp"
+ALIGN 4
+
+i64n2:
+#incbin "samples/i64n2.dmp"
+ALIGN 4
+
+i64n3:
+#incbin "samples/i64n3.dmp"
+ALIGN 4
+
+i66n0:
+#incbin "samples/i66n0.dmp"
+ALIGN 4
+
+i66n1:
+#incbin "samples/i66n1.dmp"
+ALIGN 4
+
+i66n2:
+#incbin "samples/i66n2.dmp"
+ALIGN 4
+
+i66n3:
+#incbin "samples/i66n3.dmp"
+ALIGN 4
+
+i68n0:
+#incbin "samples/i68n0.dmp"
+ALIGN 4
+
+i68n1:
+#incbin "samples/i68n1.dmp"
+ALIGN 4
+
+i68n2:
+#incbin "samples/i68n2.dmp"
+ALIGN 4
+
+i68n3:
+#incbin "samples/i68n3.dmp"
+ALIGN 4
+
+i68n4:
+#incbin "samples/i68n4.dmp"
+ALIGN 4
+
+i68n5:
+#incbin "samples/i68n5.dmp"
+ALIGN 4
+
+i70n0:
+#incbin "samples/i70n0.dmp"
+ALIGN 4
+
+i70n1:
+#incbin "samples/i70n1.dmp"
+ALIGN 4
+
+i70n2:
+#incbin "samples/i70n2.dmp"
+ALIGN 4
+
+i70n3:
+#incbin "samples/i70n3.dmp"
+ALIGN 4
+
+i70n4:
+#incbin "samples/i70n4.dmp"
+ALIGN 4
+
+i71n0:
+#incbin "samples/i71n0.dmp"
+ALIGN 4
+
+i71n1:
+#incbin "samples/i71n1.dmp"
+ALIGN 4
+
+i71n2:
+#incbin "samples/i71n2.dmp"
+ALIGN 4
+
+i71n3:
+#incbin "samples/i71n3.dmp"
+ALIGN 4
+
+i71n4:
+#incbin "samples/i71n4.dmp"
+ALIGN 4
+
+i72n0:
+#incbin "samples/i72n0.dmp"
+ALIGN 4
+
+i72n1:
+#incbin "samples/i72n1.dmp"
+ALIGN 4
+
+i72n2:
+#incbin "samples/i72n2.dmp"
+ALIGN 4
+
+i72n3:
+#incbin "samples/i72n3.dmp"
+ALIGN 4
+
+i72n4:
+#incbin "samples/i72n4.dmp"
+ALIGN 4
+
+i73n0:
+#incbin "samples/i73n0.dmp"
+ALIGN 4
+
+i73n1:
+#incbin "samples/i73n1.dmp"
+ALIGN 4
+
+i73n2:
+#incbin "samples/i73n2.dmp"
+ALIGN 4
+
+i73n3:
+#incbin "samples/i73n3.dmp"
+ALIGN 4
+
+i73n4:
+#incbin "samples/i73n4.dmp"
+ALIGN 4
+
+i73n5:
+#incbin "samples/i73n5.dmp"
+ALIGN 4
+
+i75n0:
+#incbin "samples/i75n0.dmp"
+ALIGN 4
+
+i75n1:
+#incbin "samples/i75n1.dmp"
+ALIGN 4
+
+i75n2:
+#incbin "samples/i75n2.dmp"
+ALIGN 4
+
+i75n3:
+#incbin "samples/i75n3.dmp"
+ALIGN 4
+
+i77n0:
+#incbin "samples/i77n0.dmp"
+ALIGN 4
+
+i77n1:
+#incbin "samples/i77n1.dmp"
+ALIGN 4
+
+i77n2:
+#incbin "samples/i77n2.dmp"
+ALIGN 4
+
+i77n3:
+#incbin "samples/i77n3.dmp"
+ALIGN 4
+
+i80n0:
+#incbin "samples/i80n0.dmp"
+ALIGN 4
+
+i80n1:
+#incbin "samples/i80n1.dmp"
+ALIGN 4
+
+i80n2:
+#incbin "samples/i80n2.dmp"
+ALIGN 4
+
+i80n3:
+#incbin "samples/i80n3.dmp"
+ALIGN 4
+
+i80n4:
+#incbin "samples/i80n4.dmp"
+ALIGN 4
+
+i81n0:
+#incbin "samples/i81n0.dmp"
+ALIGN 4
+
+i81n1:
+#incbin "samples/i81n1.dmp"
+ALIGN 4
+
+i81n2:
+#incbin "samples/i81n2.dmp"
+ALIGN 4
+
+i81n3:
+#incbin "samples/i81n3.dmp"
+ALIGN 4
+
+i81n4:
+#incbin "samples/i81n4.dmp"
+ALIGN 4
+
+i81n5:
+#incbin "samples/i81n5.dmp"
+ALIGN 4
+
+i82n0:
+#incbin "samples/i82n0.dmp"
+ALIGN 4
+
+i82n1:
+#incbin "samples/i82n1.dmp"
+ALIGN 4
+
+i82n2:
+#incbin "samples/i82n2.dmp"
+ALIGN 4
+
+i82n3:
+#incbin "samples/i82n3.dmp"
+ALIGN 4
+
+i82n4:
+#incbin "samples/i82n4.dmp"
+ALIGN 4
+
+i82n5:
+#incbin "samples/i82n5.dmp"
+ALIGN 4
+
+i83n0:
+#incbin "samples/i83n0.dmp"
+ALIGN 4
+
+i83n1:
+#incbin "samples/i83n1.dmp"
+ALIGN 4
+
+i83n2:
+#incbin "samples/i83n2.dmp"
+ALIGN 4
+
+i83n3:
+#incbin "samples/i83n3.dmp"
+ALIGN 4
+
+i83n4:
+#incbin "samples/i83n4.dmp"
+ALIGN 4
+
+i83n5:
+#incbin "samples/i83n5.dmp"
+ALIGN 4
+
+i100n0:
+#incbin "samples/i100n0.dmp"
+ALIGN 4
+
+i100n1:
+#incbin "samples/i100n1.dmp"
+ALIGN 4
+
+i100n2:
+#incbin "samples/i100n2.dmp"
+ALIGN 4
+
+i100n3:
+#incbin "samples/i100n3.dmp"
+ALIGN 4
+
+i105n0:
+#incbin "samples/i105n0.dmp"
+ALIGN 4
+
+i105n1:
+#incbin "samples/i105n1.dmp"
+ALIGN 4
+
+i105n2:
+#incbin "samples/i105n2.dmp"
+ALIGN 4
+
+i105n3:
+#incbin "samples/i105n3.dmp"
+ALIGN 4
+
+i105n4:
+#incbin "samples/i105n4.dmp"
+ALIGN 4
+
+i111:
+#incbin "samples/i111.dmp"
+ALIGN 4
+
+i117n0:
+#incbin "samples/i117n0.dmp"
+ALIGN 4
+
+i117n1:
+#incbin "samples/i117n1.dmp"
+ALIGN 4
+
+i117n2:
+#incbin "samples/i117n2.dmp"
+ALIGN 4
+
+i117n3:
+#incbin "samples/i117n3.dmp"
+ALIGN 4
+
+i126n0:
+#incbin "samples/i126n0.dmp"
+ALIGN 4
+
+i126n1:
+#incbin "samples/i126n1.dmp"
+ALIGN 4
+
+i126n2:
+#incbin "samples/i126n2.dmp"
+ALIGN 4
+
+i126n3:
+#incbin "samples/i126n3.dmp"
+ALIGN 4
+
+i126n4:
+#incbin "samples/i126n4.dmp"
+ALIGN 4
+
+i126n5:
+#incbin "samples/i126n5.dmp"
+ALIGN 4
+
+i126n6:
+#incbin "samples/i126n6.dmp"
+ALIGN 4
+
+i126n7:
+#incbin "samples/i126n7.dmp"
+ALIGN 4
+
+i126n8:
+#incbin "samples/i126n8.dmp"
+ALIGN 4
+
+i126n9:
+#incbin "samples/i126n9.dmp"
+ALIGN 4
+
+i126n10:
+#incbin "samples/i126n10.dmp"
+ALIGN 4
+
+i126n11:
+#incbin "samples/i126n11.dmp"
+ALIGN 4
+
+
+// ---------- SAMPLES: DRUMS ----------
+
+d119n36:
+#incbin "samples/drum/d119n36.dmp"
+ALIGN 4
+
+d119n37:
+#incbin "samples/drum/d119n37.dmp"
+ALIGN 4
+
+d119n38:
+#incbin "samples/drum/d119n38.dmp"
+ALIGN 4
+
+d119n39:
+#incbin "samples/drum/d119n39.dmp"
+ALIGN 4
+
+d119n40:
+#incbin "samples/drum/d119n40.dmp"
+ALIGN 4
+
+d119n41:
+#incbin "samples/drum/d119n41.dmp"
+ALIGN 4
+
+d119n45:
+#incbin "samples/drum/d119n45.dmp"
+ALIGN 4
+
+d119n48:
+#incbin "samples/drum/d119n48.dmp"
+ALIGN 4
+
+d119n50:
+#incbin "samples/drum/d119n50.dmp"
+ALIGN 4
+
+d119n54:
+#incbin "samples/drum/d119n54.dmp"
+ALIGN 4
+
+d119n56:
+#incbin "samples/drum/d119n56.dmp"
+ALIGN 4
+
+d119n58:
+#incbin "samples/drum/d119n58.dmp"
+ALIGN 4
+
+d119n61:
+#incbin "samples/drum/d119n61.dmp"
+ALIGN 4
+
+d119n63:
+#incbin "samples/drum/d119n63.dmp"
+ALIGN 4
+
+d119n66:
+#incbin "samples/drum/d119n66.dmp"
+ALIGN 4
+
+d120n38:
+#incbin "samples/drum/d120n38.dmp"
+ALIGN 4
+
+d120n43:
+#incbin "samples/drum/d120n43.dmp"
+ALIGN 4
+
+d120n39:
+#incbin "samples/drum/d120n39.dmp"
+ALIGN 4
+
+d120n51:
+#incbin "samples/drum/d120n51.dmp"
+ALIGN 4
+
+d120n56:
+#incbin "samples/drum/d120n56.dmp"
+ALIGN 4
+
+d121n36:
+#incbin "samples/drum/d121n36.dmp"
+ALIGN 4
+
+d121n38:
+#incbin "samples/drum/d121n38.dmp"
+ALIGN 4
+
+d121n40:
+#incbin "samples/drum/d121n40.dmp"
+ALIGN 4
+
+d121n43:
+#incbin "samples/drum/d121n43.dmp"
+ALIGN 4
+
+d121n45:
+#incbin "samples/drum/d121n45.dmp"
+ALIGN 4
+
+d121n47:
+#incbin "samples/drum/d121n47.dmp"
+ALIGN 4
+
+d121n50:
+#incbin "samples/drum/d121n50.dmp"
+ALIGN 4
+
+d121n51:
+#incbin "samples/drum/d121n51.dmp"
+ALIGN 4
+
+d121n59:
+#incbin "samples/drum/d121n59.dmp"
+ALIGN 4
+
+d122n32:
+#incbin "samples/drum/d122n32.dmp"
+ALIGN 4
+
+d122n33:
+#incbin "samples/drum/d122n33.dmp"
+ALIGN 4
+
+d122n34:
+#incbin "samples/drum/d122n34.dmp"
+ALIGN 4
+
+d122n35:
+#incbin "samples/drum/d122n35.dmp"
+ALIGN 4
+
+d122n36:
+#incbin "samples/drum/d122n36.dmp"
+ALIGN 4
+
+d122n37:
+#incbin "samples/drum/d122n37.dmp"
+ALIGN 4
+
+d122n38:
+#incbin "samples/drum/d122n38.dmp"
+ALIGN 4
+
+d122n39:
+#incbin "samples/drum/d122n39.dmp"
+ALIGN 4
+
+d122n42:
+#incbin "samples/drum/d122n42.dmp"
+ALIGN 4
+
+d122n43:
+#incbin "samples/drum/d122n43.dmp"
+ALIGN 4
+
+d122n44:
+#incbin "samples/drum/d122n44.dmp"
+ALIGN 4
+
+d122n46:
+#incbin "samples/drum/d122n46.dmp"
+ALIGN 4
+
+d122n47:
+#incbin "samples/drum/d122n47.dmp"
+ALIGN 4
+
+d122n49:
+#incbin "samples/drum/d122n49.dmp"
+ALIGN 4
+
+d123n32:
+#incbin "samples/drum/d123n32.dmp"
+ALIGN 4
+
+d123n34:
+#incbin "samples/drum/d123n34.dmp"
+ALIGN 4
+
+d123n35:
+#incbin "samples/drum/d123n35.dmp"
+ALIGN 4
+
+d123n36:
+#incbin "samples/drum/d123n36.dmp"
+ALIGN 4
+
+d123n37:
+#incbin "samples/drum/d123n37.dmp"
+ALIGN 4
+
+d123n38:
+#incbin "samples/drum/d123n38.dmp"
+ALIGN 4
+
+d123n40:
+#incbin "samples/drum/d123n40.dmp"
+ALIGN 4
+
+d123n56:
+#incbin "samples/drum/d123n56.dmp"
+ALIGN 4
+
+d123n57:
+#incbin "samples/drum/d123n57.dmp"
+ALIGN 4
+
+d123n58:
+#incbin "samples/drum/d123n58.dmp"
+ALIGN 4
+
+d123n60:
+#incbin "samples/drum/d123n60.dmp"
+ALIGN 4
+
+d123n80:
+#incbin "samples/drum/d123n80.dmp"
+ALIGN 4
+
+d124n34:
+#incbin "samples/drum/d124n34.dmp"
+ALIGN 4
+
+d124n35:
+#incbin "samples/drum/d124n35.dmp"
+ALIGN 4
+
+d124n36:
+#incbin "samples/drum/d124n36.dmp"
+ALIGN 4
+
+d124n37:
+#incbin "samples/drum/d124n37.dmp"
+ALIGN 4
+
+d124n38:
+#incbin "samples/drum/d124n38.dmp"
+ALIGN 4
+
+d124n39:
+#incbin "samples/drum/d124n39.dmp"
+ALIGN 4
+
+d124n40:
+#incbin "samples/drum/d124n40.dmp"
+ALIGN 4
+
+d124n41:
+#incbin "samples/drum/d124n41.dmp"
+ALIGN 4
+
+d124n42:
+#incbin "samples/drum/d124n42.dmp"
+ALIGN 4
+
+d124n44:
+#incbin "samples/drum/d124n44.dmp"
+ALIGN 4
+
+d124n45:
+#incbin "samples/drum/d124n45.dmp"
+ALIGN 4
+
+d124n46:
+#incbin "samples/drum/d124n46.dmp"
+ALIGN 4
+
+d124n48:
+#incbin "samples/drum/d124n48.dmp"
+ALIGN 4
+
+d124n49:
+#incbin "samples/drum/d124n49.dmp"
+ALIGN 4
+
+d124n51:
+#incbin "samples/drum/d124n51.dmp"
+ALIGN 4
+
+d124n52:
+#incbin "samples/drum/d124n52.dmp"
+ALIGN 4
+
+d124n54:
+#incbin "samples/drum/d124n54.dmp"
+ALIGN 4
+
+d124n55:
+#incbin "samples/drum/d124n55.dmp"
+ALIGN 4
+
+d124n56:
+#incbin "samples/drum/d124n56.dmp"
+ALIGN 4
+
+d124n57:
+#incbin "samples/drum/d124n57.dmp"
+ALIGN 4
+
+d124n58:
+#incbin "samples/drum/d124n58.dmp"
+ALIGN 4
+
+d124n59:
+#incbin "samples/drum/d124n59.dmp"
+ALIGN 4
+
+d124n60:
+#incbin "samples/drum/d124n60.dmp"
+ALIGN 4
+
+d124n61:
+#incbin "samples/drum/d124n61.dmp"
+ALIGN 4
+
+d124n62:
+#incbin "samples/drum/d124n62.dmp"
+ALIGN 4
+
+d124n63:
+#incbin "samples/drum/d124n63.dmp"
+ALIGN 4
+
+d124n64:
+#incbin "samples/drum/d124n64.dmp"
+ALIGN 4
+
+d124n65:
+#incbin "samples/drum/d124n65.dmp"
+ALIGN 4
+
+d124n66:
+#incbin "samples/drum/d124n66.dmp"
+ALIGN 4
+
+d124n67:
+#incbin "samples/drum/d124n67.dmp"
+ALIGN 4
+
+d124n69:
+#incbin "samples/drum/d124n69.dmp"
+ALIGN 4
+
+d124n70:
+#incbin "samples/drum/d124n70.dmp"
+ALIGN 4
+
+d124n71:
+#incbin "samples/drum/d124n71.dmp"
+ALIGN 4
+
+d124n73:
+#incbin "samples/drum/d124n73.dmp"
+ALIGN 4
+
+d124n74:
+#incbin "samples/drum/d124n74.dmp"
+ALIGN 4
+
+d124n75:
+#incbin "samples/drum/d124n75.dmp"
+ALIGN 4
+
+d124n76:
+#incbin "samples/drum/d124n76.dmp"
+ALIGN 4
+
+d124n78:
+#incbin "samples/drum/d124n78.dmp"
+ALIGN 4
+
+d124n79:
+#incbin "samples/drum/d124n79.dmp"
+ALIGN 4
+
+d124n80:
+#incbin "samples/drum/d124n80.dmp"
+ALIGN 4
+
+d124n81:
+#incbin "samples/drum/d124n81.dmp"
+ALIGN 4
+
+d124n82:
+#incbin "samples/drum/d124n82.dmp"
+ALIGN 4
+
+d124n83:
+#incbin "samples/drum/d124n83.dmp"
+ALIGN 4
+
+d124n84:
+#incbin "samples/drum/d124n84.dmp"
+ALIGN 4
+
+d124n85:
+#incbin "samples/drum/d124n85.dmp"
+ALIGN 4
+
+d127n35:
+#incbin "samples/drum/d127n35.dmp"
+ALIGN 4
+
+d127n36:
+#incbin "samples/drum/d127n36.dmp"
+ALIGN 4
+
+d127n37:
+#incbin "samples/drum/d127n37.dmp"
+ALIGN 4
+
+d127n38:
+#incbin "samples/drum/d127n38.dmp"
+ALIGN 4
+
+d127n39:
+#incbin "samples/drum/d127n39.dmp"
+ALIGN 4
+
+d127n40:
+#incbin "samples/drum/d127n40.dmp"
+ALIGN 4
+
+d127n42:
+#incbin "samples/drum/d127n42.dmp"
+ALIGN 4
+
+d127n44:
+#incbin "samples/drum/d127n44.dmp"
+ALIGN 4
+
+d127n46:
+#incbin "samples/drum/d127n46.dmp"
+ALIGN 4
+
+d127n49:
+#incbin "samples/drum/d127n49.dmp"
+ALIGN 4
+
+d127n55:
+#incbin "samples/drum/d127n55.dmp"
+ALIGN 4
+
+d127n57:
+#incbin "samples/drum/d127n57.dmp"
+ALIGN 4
+
+
+// ---------- SAMPLES: SFX ----------
+
+

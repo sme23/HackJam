@@ -1,0 +1,15 @@
+
+// char IDs
+
+//first boss @0x70
+#define Ch1Boss 112
+
+//first generic @0x90
+#define Ch1Enemy 144
+
+//first NPC @ 0xD0
+#define Ch1NPC 208
+
+
+// mug IDs
+
