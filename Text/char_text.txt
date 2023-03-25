@@ -1,0 +1,57 @@
+
+## AdrianName
+Adrian[X]
+
+## AdrianDesc
+The prince of Ularus.[N]
+Accused of regicide.[X]
+
+## AelfwineName
+Aelfwine[X]
+
+## AelfwineDesc
+A strange man living in the woods.[N]
+Always mumbling to himself.[X]
+
+## LamontName
+Lamont[X]
+
+## LamontDesc
+Adrian's loyal retainer.[N]
+Strong and steadfast.[X]
+
+## ElenaName
+Elena[X]
+
+##ElenaDesc
+Adrian's loyal retainer.[N]
+Nimble and graceful.[X]
+
+## MinaName
+Mina[X]
+
+## MinaDesc
+Elena's loyal friend.[N]
+Will follow her anywhere.[X]
+
+## MorrenName
+Morren[X]
+
+## MorrenDesc
+A general of Ularus.[N]
+Steadfast in his duty.[X]
+
+## HolsteinName
+Holstein[X]
+
+## HolsteinDesc
+A knight of Ularus.[N]
+Weak in morality.[X]
+
+## VorkalthName
+Vorkalth[X]
+
+## VorkalthDesc
+A sage of Ularus.[N]
+Attempting a coup.[X]
+

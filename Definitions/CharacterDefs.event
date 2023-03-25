@@ -1,8 +1,15 @@
 
 // char IDs
+#define Adrian 1 //lord dude
+#define Aelfwine 2 //mountain mage man
+#define Lamont 3 //armor knight guy
+#define Elena 4 //peg lady
+#define Mina 5 //cav lady
 
 //first boss @0x70
-#define Ch1Boss 112
+#define Morren 112 //general dude
+#define Holstein 113 //moustache cav
+#define Vorkalth 114 //old guy sage
 
 //first generic @0x90
 #define Ch1Enemy 144
@@ -12,4 +19,13 @@
 
 
 // mug IDs
+
+#define AdrianMug 1
+#define AelfwineMug 2
+#define LamontMug 3
+#define ElenaMug 4
+#define MinaMug 5
+#define MorrenMug 6
+#define HolsteinMug 7
+#define VorkalthMug 8
 

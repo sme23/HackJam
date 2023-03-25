@@ -5,3 +5,43 @@ Portrait:			// by
 #incext PortraitFormatter ".png"
 */
 
+setMugEntry(AdrianMug,AdrianPortrait,2,6,3,4)
+ALIGN 4
+AdrianPortrait:			// by LaurentLacroix
+#incext PortraitFormatter "Playables/Adrian.png"
+
+setMugEntry(AelfwineMug,AelfwinePortrait,2,6,3,4)
+ALIGN 4
+AelfwinePortrait:			// by Sme
+#incext PortraitFormatter "Playables/Aelfwine.png"
+
+setMugEntry(LamontMug,LamontPortrait,2,6,3,4)
+ALIGN 4
+LamontPortrait:			// by LaurentLacroix
+#incext PortraitFormatter "Playables/Lamont.png"
+
+setMugEntry(ElenaMug,ElenaPortrait,2,6,3,4)
+ALIGN 4
+ElenaPortrait:			// by LaurentLacroix
+#incext PortraitFormatter "Playables/Elena.png"
+
+setMugEntry(MinaMug,MinaPortrait,2,6,3,4)
+ALIGN 4
+MinaPortrait:			// by LaurentLacroix
+#incext PortraitFormatter "Playables/Mina.png"
+
+setMugEntry(MorrenMug,MorrenPortrait,2,6,3,4)
+ALIGN 4
+MorrenPortrait:			// by LaurentLacroix
+#incext PortraitFormatter "Enemies/Morren.png"
+
+setMugEntry(HolsteinMug,HolsteinPortrait,2,6,3,4)
+ALIGN 4
+HolsteinPortrait:			// by LaurentLacroix
+#incext PortraitFormatter "Enemies/Holstein.png"
+
+setMugEntry(VorkalthMug,VorkalthPortrait,2,6,3,4)
+ALIGN 4
+VorkalthPortrait:			// by RandomWizard
+#incext PortraitFormatter "Enemies/Vorkalth.png"
+
