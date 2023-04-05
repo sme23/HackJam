@@ -223,3 +223,5 @@ POP
   // Save/Suspend Expansion
   #include "Necessary/ExpandedModularSave/ExModularSave.event"
 
+  #include "Hax/Minesweeper/Minesweeper.event"
+

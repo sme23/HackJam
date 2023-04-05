@@ -1,0 +1,16 @@
+
+#define initialMineCountVal 5
+#define boardXVal 15
+#define boardYVal 10
+
+initialMineCount:
+BYTE initialMineCountVal
+
+boardX:
+BYTE boardXVal
+
+boardY:
+BYTE boardYVal
+
+#include "Minesweeper.lyn.event"
+
