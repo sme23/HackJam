@@ -233,9 +233,9 @@
 #define FF2TownPalette3 0xA0
 #define FF2TownPalette4 0xA1
 
-#define ProtoInteriorObjType 0xA2
-#define ProtoInteriorTileConfig 0xA3
-#define ProtoInteriorPalette1 0xA4
+#define MinesweeperObjType 0xA2
+#define MinesweeperTileConfig 0xA3
+#define MinesweeperPalette1 0xA4
 
 /*
 free IDs:
