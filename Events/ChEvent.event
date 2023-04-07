@@ -24,7 +24,6 @@ LocationBasedEvents:
 END_MAIN
 
 MiscBasedEvents:
-CauseGameOverIfLordDies
 END_MAIN
 
 Dunno1:
@@ -40,6 +39,7 @@ Tutorial:
 END_MAIN
 
 Units1:
+UNIT Eirika EirikaLord 0 Level(1,Ally,0) [0,0] 0 0 0 1 NoItems NoAI
 UNIT
 
 Traps1:
@@ -51,6 +51,9 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+Text(0x903)
+LOAD1 0 Units1
+ENUN
 NoFade
 ENDA
 
