@@ -27,8 +27,8 @@
 #define SetChapterMapThemesWithFlag(chID,pSongID,eSongID) "SetPlayerPhaseThemeWithFlag(chID,pSongID); SetEnemyPhaseThemeWithFlag(chID,eSongID)"
 
 
-
-
+SetPlayerPhaseTheme(0,3)
+SetPlayerPhaseThemeWithFlag(0,3)
 
 // ===== Battle Music =====
 
