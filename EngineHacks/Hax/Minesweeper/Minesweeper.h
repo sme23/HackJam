@@ -1,18 +1,66 @@
 
-#include "gbafe.h"
+#include "global.h"
 
+#include "constants/terrains.h"
+
+#include "hardware.h"
+#include "chapterdata.h"
+#include "proc.h"
+#include "event.h"
+#include "bmunit.h"
+#include "bmmap.h"
+#include "bmidoten.h"
+#include "bmtrick.h"
+#include "rng.h"
+#include "bmtrap.h"
+
+enum { MAP_POOL_SIZE = 0x7B8 };
+
+// TODO: figure out what's up with this (overlaps with a lot of other objects?)
+extern u16 gBmMapBuffer[];
+
+extern void Decompress(const void* src, void* dst);
+
+EWRAM_DATA struct Vec2 gBmMapSize = {};
+
+EWRAM_DATA u8** gBmMapUnit     = NULL;
+EWRAM_DATA u8** gBmMapTerrain  = NULL;
+EWRAM_DATA u8** gBmMapMovement = NULL;
+EWRAM_DATA u8** gBmMapRange    = NULL;
+EWRAM_DATA u8** gBmMapFog      = NULL;
+EWRAM_DATA u8** gBmMapHidden   = NULL;
+EWRAM_DATA u8** gBmMapOther    = NULL;
+
+EWRAM_DATA static u8 sBmMapUnitPool[MAP_POOL_SIZE] = {};
+EWRAM_DATA static u8 sBmMapTerrainPool[MAP_POOL_SIZE] = {};
+EWRAM_DATA static u8 sBmMapFogPool[MAP_POOL_SIZE] = {};
+EWRAM_DATA static u8 sBmMapHiddenPool[MAP_POOL_SIZE] = {};
+EWRAM_DATA static u8 sBmMapOtherPool[MAP_POOL_SIZE] = {};
+
+extern u16 sTilesetConfig[0x1000 + 0x200];
+
+EWRAM_DATA static u16 sBmBaseTilesPool[MAP_POOL_SIZE] = {};
+
+extern void* memset(void* dest, int ch, unsigned int count);
+
+extern unsigned gEventSlots[0xE];
+
+static u8** sInitializingMap;
+
+static u8 sBmMapMovementPool[MAP_POOL_SIZE];
+static u8 sBmMapRangePool[MAP_POOL_SIZE];
 
 // called as ASMC at the start of the chapter to set mine locations
-void InitMinesweeperBoard(Proc* parent);
+void InitMinesweeperBoard(struct Proc* parent);
 
 // called as ASMC when an unrevealed tile is selected
-void PropagateTileSelection(Proc* parent);
+void PropagateTileSelection(struct Proc* parent);
 
 // replaces function that generates the map
 void GenerateTileMapFromMinesAndRevealed(void* pool);
 
 // ASMC that checks if you've won yet
-void CheckWinState(Proc* parent);
+void CheckWinState(struct Proc* parent);
 
 // helper function to get value of a given tile
 u8 GetTileValue(u16 x, u16 y);

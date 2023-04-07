@@ -1,45 +1,54 @@
 
 #include "Minesweeper.h"
 
-void InitMinesweeperBoard(Proc* parent) {
+void InitMinesweeperBoard(struct Proc* parent) {
 	//create 'initialMineCount' # of mine traps at random locations on the board
 
 	for (int i = 0; i < initialMineCount; i++) {
 		AddTrap(NextRN_N(boardX-1), NextRN_N(boardY-1), TRAP_MINE, 0);
 	}
-	BmMapFill(gMapMovement, 0);
+	BmMapFill(gBmMapMovement, 0);
 
 }
 
-void InitChapterMap(u8 chapterIndex) {
-	//we'll see if lyn autohooks this, if not its just a replaceWithHack
-	//for each tile in gMapRawTiles, write TILE_HIDDEN to it
-	//then call InitMinesweeperBoard
+void UnpackChapterMap(void* into, int chapterId) {
 
-	memset(&gGenericBuffer, TILE_HIDDEN, 0x2000);
+	//write (boardX*boardY)+2 bytes of TILE_HIDDEN to buffer
+	u8* cur = into;
+	for (int i = 0; i < (boardX*boardY)+2; i++) {
+		cur = TILE_HIDDEN;
+		cur++;
+	}
+    // Setting map size
+    gBmMapSize.x = boardX;
+    gBmMapSize.y = boardY;
 
-	BmMapInit(&gGenericBuffer,&gMapMovement,boardX,boardY);
+    // Decompress tileset config
+    Decompress(
+        gChapterDataAssetTable[GetROMChapterStruct(chapterId)->map.tileConfigId], sTilesetConfig);
 
-	InitMinesweeperBoard(NULL);
-
+    // Setting max camera offsets (?) TODO: figure out
+    gBmSt.cameraMax.x = gBmMapSize.x*16 - 240;
+    gBmSt.cameraMax.y = gBmMapSize.y*16 - 160;
 }
 
-void PropagateTileSelection(Proc* parent) {
+
+void PropagateTileSelection(struct Proc* parent) {
 	//reveal the tile selected
 	//if the tile selected is a mine, game over
 	//if the tile selected has a value of 0, reveal all adjacent tiles
 	//repeat recursively until all necessary tiles are revealed
 
-	u8 xPos = gGameState.cursorMapPos.x;
-	u8 yPos = gGameState.cursorMapPos.x;
+	u8 xPosit = gBmSt.playerCursor.x;
+	u8 yPosit = gBmSt.playerCursor.y;
 
-	if (GetTrapAt(xPos,yPos)->xPosition == xPos) {
+	if (GetTrapAt(xPosit,yPosit)->xPos == xPosit) {
 		SetEventId(0x65);
 		return;
 	}
 
-	u8* pos = *gMapMovement;
-	pos = pos+(xPos*yPos);
+	u8* pos = *gBmMapMovement;
+	pos = pos+(xPosit*yPosit);
 	*pos = 1;
 }
 
@@ -50,25 +59,25 @@ u8 GetTileValue(u16 x, u16 y) {
 	u8 i = 0;
 
 	for (int j = 0; j < 8; j++) {
-		Trap* curTrap = GetTrapAt(x,y);
-		if (curTrap->xPosition == x) i++;
+		struct Trap* curTrap = GetTrapAt(x,y);
+		if (curTrap->xPos == x) i++;
 	}
 	return i;
 	
 }
 
-void CheckWinState(Proc* parent) {
+void CheckWinState(struct Proc* parent) {
 	//check each tile on the map
 	//if not uncovered and not a mine, return false to memory slot sC
 	//if reaching the end of the map and everything is uncovered, return true to memory slot sC
-	u8* curPos = *gMapMovement;
+	u8* curPos = *gBmMapMovement;
 	bool j = false;
 	for (int i = 0; i < (boardX*boardY); i++) {
 		if (!*curPos) j = true;
 		curPos++;
 	}
-	if (j) gEventSlot[0xC] = false;
-	else gEventSlot[0xC] = true;
+	if (j) gEventSlots[0xC] = false;
+	else gEventSlots[0xC] = true;
 	
 }
 
@@ -80,8 +89,8 @@ void GenerateTileMapFromMinesAndRevealed(void* pool) {
 	u8* buffer = pool;
 
 	//go through (boardX*boardY) tiles in gMapMovement and if a tile is revealed change its appearance
-	if (gMapMovement == 0) return;
-	u8* curPos = gMapMovement;
+	if (gBmMapMovement == 0) return;
+	u8* curPos = *gBmMapMovement;
 	u8 curX = 0;
 	u8 curY = 0;
 
@@ -124,10 +133,10 @@ u8 GetTileIndexFromInt(int i) {
 }
 
 // take an 8-byte input string, cast it to a u16 array, pass to this function
-void ApplyRNGSeed(u16* seed) {
-	const u16* aSeed = seed;
-	SetRandState(aSeed);
-}
+/* void ApplyRNGSeed(u16* seed) {
+	StoreRNState(seed);
+} */
+//decomp does this such that there's no purpose to having this be a helper function
 
 
 void PackMinesweeperData() {
