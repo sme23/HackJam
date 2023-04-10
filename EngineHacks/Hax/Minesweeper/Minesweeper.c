@@ -32,17 +32,35 @@ void UnpackChapterMap(void* into, int chapterId) {
     gBmSt.cameraMax.y = gBmMapSize.y*16 - 160;
 }
 
+int Map_OnAPress(struct Proc* parent) {
+	//This runs when A is pressed
+	//Get current cursor coords
 
-void PropagateTileSelection(struct Proc* parent) {
+	u8 xPosit = gBmSt.playerCursor.x;
+	u8 yPosit = gBmSt.playerCursor.y;
+
+	PropagateTileSelection(xPosit,yPosit);
+
+
+	GenerateTileMapFromMinesAndRevealed(&gBmMapBuffer);
+
+
+	EndPlayerPhaseSideWindows(); 
+	MU_EndAll(); 
+	Proc_Goto(parent, 9); 
+	return (-1); // true 
+
+	return false;
+}
+
+
+void PropagateTileSelection(u8 xPosit, u8 yPosit) {
 	//reveal the tile selected
 	//if the tile selected is a mine, game over
 	//if the tile selected has a value of 0, reveal all adjacent tiles
 	//repeat recursively until all necessary tiles are revealed
 
-	u8 xPosit = gBmSt.playerCursor.x;
-	u8 yPosit = gBmSt.playerCursor.y;
-
-	if (GetTrapAt(xPosit,yPosit)->xPos == xPosit) {
+	if (!GetTrapAt(xPosit,yPosit)) {
 		SetEventId(0x65);
 		return;
 	}
@@ -50,7 +68,17 @@ void PropagateTileSelection(struct Proc* parent) {
 	u8* pos = *gBmMapMovement;
 	pos = pos+(xPosit*yPosit);
 	*pos = 1;
+
+
+	if (!GetTileValue(xPosit,yPosit)) {	// if value of 0, reveal the 4 adjacent tiles too
+		if (xPosit-1 >= 0) PropagateTileSelection(xPosit-1,yPosit);
+		if (xPosit+1 <= boardX) PropagateTileSelection(xPosit+1,yPosit);
+		if (yPosit-1 >= 0) PropagateTileSelection(xPosit,yPosit-1);
+		if (yPosit+1 <= boardY) PropagateTileSelection(xPosit,yPosit+1);
+	}
+
 }
+
 
 u8 GetTileValue(u16 x, u16 y) {
 	//get # of mines within the surrounding 8 tiles of the given position
@@ -58,10 +86,16 @@ u8 GetTileValue(u16 x, u16 y) {
 
 	u8 i = 0;
 
-	for (int j = 0; j < 8; j++) {
-		struct Trap* curTrap = GetTrapAt(x,y);
-		if (curTrap->xPos == x) i++;
-	}
+	if (x-1 >= 0) if (GetTrapAt(x-1,y)) i++;
+	if (x+1 <= boardX) if (GetTrapAt(x+1,y)) i++;
+	if (y-1 >= 0) if (GetTrapAt(x,y-1)) i++;
+	if (y+1 <= boardY) if (GetTrapAt(x,y+1)) i++;
+
+	if (x-1 >= 0 && y-1 >= 0) if (GetTrapAt(x-1,y-1)) i++;
+	if (x+1 <= boardX && y-1 >= 0) if (GetTrapAt(x+1,y-1)) i++;
+	if (x-1 >= 0 && y+1 <= boardY) if (GetTrapAt(x-1,y+1)) i++;
+	if (x+1 <= boardX && y+1 <= boardY) if (GetTrapAt(x+1,y+1)) i++;
+
 	return i;
 	
 }

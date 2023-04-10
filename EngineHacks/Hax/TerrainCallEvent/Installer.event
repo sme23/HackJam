@@ -2,7 +2,7 @@
 #include "HookButtonPress.lyn.event" 
 #include "TerrainCallEvent.lyn.event" 
 
-
+#define callHackNew(offset)         "BYTE $01 $4B $9E $46 $00 $F8 $01 $E0; POIN (offset|0x1)"
 
 PUSH 
 ORG $1CA30

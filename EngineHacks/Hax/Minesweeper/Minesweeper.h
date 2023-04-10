@@ -53,8 +53,11 @@ static u8 sBmMapRangePool[MAP_POOL_SIZE];
 // called as ASMC at the start of the chapter to set mine locations
 void InitMinesweeperBoard(struct Proc* parent);
 
+// This is the handler for when A is pressed
+int Map_OnAPress(struct Proc* parent);
+
 // called as ASMC when an unrevealed tile is selected
-void PropagateTileSelection(struct Proc* parent);
+void PropagateTileSelection(u8 xPosit, u8 yPosit);
 
 // replaces function that generates the map
 void GenerateTileMapFromMinesAndRevealed(void* pool);
