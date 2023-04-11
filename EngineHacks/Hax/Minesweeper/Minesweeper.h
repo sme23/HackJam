@@ -39,6 +39,8 @@ EWRAM_DATA static u8 sBmMapOtherPool[MAP_POOL_SIZE] = {};
 
 extern u16 sTilesetConfig[0x1000 + 0x200];
 
+extern struct Vec2* gUnknown_0203EFB4;
+
 EWRAM_DATA static u16 sBmBaseTilesPool[MAP_POOL_SIZE] = {};
 
 extern void* memset(void* dest, int ch, unsigned int count);
@@ -74,6 +76,8 @@ void applyRNGSeed(u16* seed);
 // gets tile ID from tile value
 u8 GetTileIndexFromInt(int i);
 
+bool TileNotRevealed(u8 xPosit, u8 yPosit);
+
 // # of mines to generate per board
 extern u8 initialMineCount;
 
@@ -95,6 +99,13 @@ enum {
 	TILE_7 = 35,
 	TILE_8 = 36
 };
+
+
+struct Vec4 {int x, y; };
+
+extern struct Vec4* coordArrayLink;
+
+struct Vec4 coordArray[1024] = *coordArrayLink;
 
 // want to eventually move initialMineCount, boardX, and boardY to RAM and let the player set them
 // EMS should save these values, the current trap layout, and the currently revealed board state

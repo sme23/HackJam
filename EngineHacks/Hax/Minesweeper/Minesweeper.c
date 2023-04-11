@@ -3,11 +3,15 @@
 
 void InitMinesweeperBoard(struct Proc* parent) {
 	//create 'initialMineCount' # of mine traps at random locations on the board
+	int curX = -1;
+	int curY = -1;
 
 	for (int i = 0; i < initialMineCount; i++) {
-		AddTrap(NextRN_N(boardX-1), NextRN_N(boardY-1), TRAP_MINE, 0);
+		curX = NextRN_N(boardX-1);
+		curY = NextRN_N(boardY-1);
+		if (GetTrapAt(curX,curY) == 0) AddTrap(curX, curY, TRAP_MINE, 0); //if we roll the same place twice, dont place a second mine
 	}
-	BmMapFill(gBmMapMovement, 0);
+	BmMapFill(gBmMapFog, 0);
 
 }
 
@@ -39,18 +43,20 @@ int Map_OnAPress(struct Proc* parent) {
 	u8 xPosit = gBmSt.playerCursor.x;
 	u8 yPosit = gBmSt.playerCursor.y;
 
-	PropagateTileSelection(xPosit,yPosit);
+	if (gBmMapFog[yPosit][xPosit] == 0) return 0; // false
 
+	PropagateTileSelection(xPosit,yPosit);
 
 	GenerateTileMapFromMinesAndRevealed(&gBmMapBuffer);
 
+	//reload map gfx
+	RenderBmMap();
 
 	EndPlayerPhaseSideWindows(); 
 	MU_EndAll(); 
 	Proc_Goto(parent, 9); 
 	return (-1); // true 
 
-	return false;
 }
 
 
@@ -58,25 +64,96 @@ void PropagateTileSelection(u8 xPosit, u8 yPosit) {
 	//reveal the tile selected
 	//if the tile selected is a mine, game over
 	//if the tile selected has a value of 0, reveal all adjacent tiles
-	//repeat recursively until all necessary tiles are revealed
+	//repeat until all necessary tiles are revealed
 
-	if (!GetTrapAt(xPosit,yPosit)) {
-		SetEventId(0x65);
+	if (GetTrapAt(xPosit,yPosit) != 0) {
+		SetEventId(0x65); //todo: replace with a direct event call 
 		return;
 	}
 
-	u8* pos = *gBmMapMovement;
-	pos = pos+(xPosit*yPosit);
-	*pos = 1;
+	coordArray[0].x= (u32)xPosit;
+	coordArray[0].y = (u32)yPosit;
+
+	int curIndex = 0;
+	int endIndex = 1;
+
+	while (true) { 
+		
+		if (curIndex == endIndex) break;
+
+		if (gBmMapFog[coordArray[curIndex].y][coordArray[curIndex].x] == 0) {
+			curIndex++;
+			continue;
+		}
 
 
-	if (!GetTileValue(xPosit,yPosit)) {	// if value of 0, reveal the 4 adjacent tiles too
-		if (xPosit-1 >= 0) PropagateTileSelection(xPosit-1,yPosit);
-		if (xPosit+1 <= boardX) PropagateTileSelection(xPosit+1,yPosit);
-		if (yPosit-1 >= 0) PropagateTileSelection(xPosit,yPosit-1);
-		if (yPosit+1 <= boardY) PropagateTileSelection(xPosit,yPosit+1);
+		gBmMapFog[coordArray[curIndex].y][coordArray[curIndex].x] = 0;
+
+		if (GetTileValue((u16)coordArray[curIndex].x,(u16)coordArray[curIndex].y) == 0) {
+		
+			//enqueue 8 adjacent tiles
+
+			int realX = coordArray[curIndex].x;
+			int realY = coordArray[curIndex].y;
+		
+			if (realX-1 >= 0) {
+				coordArray[endIndex].x= (u32)realX-1;
+				coordArray[endIndex].y = (u32)realY;
+				endIndex++;
+			}
+
+			if (realX-1 >= 0 && realY-1 >= 0) {
+				coordArray[endIndex].x= (u32)realX-1;
+				coordArray[endIndex].y = (u32)realY-1;
+				endIndex++;
+			}
+
+			if (realY-1 >= 0) {
+				coordArray[endIndex].x= (u32)realX;
+				coordArray[endIndex].y = (u32)realY-1;
+				endIndex++;
+			}
+
+			if (realX+1 < boardX && realY-1 >= 0) {
+				coordArray[endIndex].x= (u32)realX+1;
+				coordArray[endIndex].y = (u32)realY-1;
+				endIndex++;
+			}
+
+			if (realX+1 < boardX) {
+				coordArray[endIndex].x= (u32)realX+1;
+				coordArray[endIndex].y = (u32)realY;
+				endIndex++;
+			}
+
+			if (realX+1 < boardX && realY+1 < boardY) {
+				coordArray[endIndex].x= (u32)realX+1;
+				coordArray[endIndex].y = (u32)realY+1;
+				endIndex++;
+			}
+
+			if (realY+1 < boardY) {
+				coordArray[endIndex].x= (u32)realX;
+				coordArray[endIndex].y = (u32)realY+1;
+				endIndex++;
+			}
+
+			if (realX-1 >= 0 && realY < boardY) {
+				coordArray[endIndex].x= (u32)realX-1;
+				coordArray[endIndex].y = (u32)realY+1;
+				endIndex++;
+			}
+		}
+		curIndex++;
+
 	}
 
+}
+
+
+bool TileNotRevealed(u8 xPosit, u8 yPosit) {
+	if (gBmMapFog[yPosit][xPosit] == 0) return false; //cant return directly because iirc default value is -1 not 0; otherwise its return !gBmMapFog[yPosit][xPosit]
+	return true;
 }
 
 
@@ -104,7 +181,7 @@ void CheckWinState(struct Proc* parent) {
 	//check each tile on the map
 	//if not uncovered and not a mine, return false to memory slot sC
 	//if reaching the end of the map and everything is uncovered, return true to memory slot sC
-	u8* curPos = *gBmMapMovement;
+	u8* curPos = *gBmMapFog;
 	bool j = false;
 	for (int i = 0; i < (boardX*boardY); i++) {
 		if (!*curPos) j = true;
@@ -119,28 +196,17 @@ void GenerateTileMapFromMinesAndRevealed(void* pool) {
 	//this function will replace whatever handles copying the chapter map into RAM
 	//instead it will set everything to covered tile, then copy changes defined on another map overtop
 		
-	memset(pool, TILE_HIDDEN, 0x2000);
-	u8* buffer = pool;
 
-	//go through (boardX*boardY) tiles in gMapMovement and if a tile is revealed change its appearance
-	if (gBmMapMovement == 0) return;
-	u8* curPos = *gBmMapMovement;
-	u8 curX = 0;
-	u8 curY = 0;
 
-	for (int i = 0; i < (boardX*boardY); i++) {
-		if (*curPos) {
-			u8* b = buffer+i;
-			*b = GetTileIndexFromInt(GetTileValue(curX,curY));
+	memset(&gBmMapBuffer, TILE_HIDDEN, 0x2000);
+	
+	for (int y = 0; y < boardY; y++) {
+		for (int x = 0; x < boardX; x++) {
+			if (gBmMapFog[y][x] == 0) {
+				gBmMapBuffer[(y*x)+(4*y)] = GetTileIndexFromInt(GetTileValue(x,y));
+			}
 		}
-		curX ++;
-		if (curX == boardX) {
-			curX = 0;
-			curY ++;
-		}
-		curPos++;
-	} 
-
+	}
 }
 
 u8 GetTileIndexFromInt(int i) {

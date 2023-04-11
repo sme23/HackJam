@@ -1,5 +1,5 @@
 
-#define initialMineCountVal 5
+#define initialMineCountVal 63
 #define boardXVal 15
 #define boardYVal 10
 
@@ -11,6 +11,10 @@ BYTE boardXVal
 
 boardY:
 BYTE boardYVal
+
+ALIGN 4
+coordArrayLink:
+WORD 0x203EFB4
 
 #include "Minesweeper.lyn.event"
 #include "HookButtonPress.lyn.event" //by Vesly
