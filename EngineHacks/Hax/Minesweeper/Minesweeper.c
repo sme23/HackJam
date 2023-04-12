@@ -113,7 +113,7 @@ void RevealAllMines() {
 	//for each trap, reveal the tile at that position
 }
 
-bool PositionIsValid(u16 x, u16 y) {
+bool inline PositionIsValid(u16 x, u16 y) {
 	return (x >= 0) && 
 		   (x < boardX) && 
 		   (y >= 0) && 
@@ -300,7 +300,7 @@ void PropagateTileSelection(u8 xPosit, u8 yPosit) {
 }
 
 
-bool TileNotRevealed(u8 xPosit, u8 yPosit) {
+bool inline TileNotRevealed(u8 xPosit, u8 yPosit) {
 	if (gBmMapFog[yPosit][xPosit] == 2) return false; //1 is visible and 0 is not visible
 	return true;
 }
@@ -309,7 +309,7 @@ bool TileNotRevealed(u8 xPosit, u8 yPosit) {
 //replaces the vanilla func for this, to prevent the unit map from getting initialized
 void RefreshUnitsOnBmMap(void) {}
 
-bool IsTrapAt(int x, int y) {
+bool inline IsTrapAt(int x, int y) {
 	if (GetTrapAt(x,y) != 0) return true;
 	return false;
 }

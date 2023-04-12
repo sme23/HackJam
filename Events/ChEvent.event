@@ -55,7 +55,7 @@ Text(0x903)
 LOAD1 0 Units1
 ENUN
 ASMC InitMinesweeperBoard
-FLAG_F 0x65 //set automatically because 0 units; todo: disable that
+MUSC 5
 NoFade
 ENDA
 
