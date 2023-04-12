@@ -13,6 +13,8 @@
 #include "bmtrick.h"
 #include "rng.h"
 #include "bmtrap.h"
+#include "uiconfig.h"
+#include "gba/io_reg.h"
 
 enum { MAP_POOL_SIZE = 0x7B8 };
 
@@ -55,8 +57,14 @@ static u8 sBmMapRangePool[MAP_POOL_SIZE];
 // called as ASMC at the start of the chapter to set mine locations
 void InitMinesweeperBoard(struct Proc* parent);
 
+bool IsTrapAt(int x, int y);
+
 // This is the handler for when A is pressed
 int Map_OnAPress(struct Proc* parent);
+
+int Map_OnBPress();
+
+int Map_CheckBPress();
 
 // called as ASMC when an unrevealed tile is selected
 void PropagateTileSelection(u8 xPosit, u8 yPosit);
@@ -85,27 +93,22 @@ extern u8 initialMineCount;
 extern u8 boardX;
 extern u8 boardY;
 
+extern u16 loseEvent;
+
 enum {
 	TILE_HIDDEN = 0,
-	TILE_0 = 1,
-	TILE_FLAG = 2,
-	TILE_MINE = 3,
-	TILE_1 = 17,
-	TILE_2 = 18,
-	TILE_3 = 19,
-	TILE_4 = 20,
-	TILE_5 = 33,
-	TILE_6 = 34,
-	TILE_7 = 35,
-	TILE_8 = 36
+	TILE_0 = 4,
+	TILE_FLAG = 8,
+	TILE_MINE = 12,
+	TILE_1 = 16,
+	TILE_2 = 20,
+	TILE_3 = 24,
+	TILE_4 = 28,
+	TILE_5 = 32,
+	TILE_6 = 36,
+	TILE_7 = 40,
+	TILE_8 = 44
 };
-
-
-struct Vec4 {int x, y; };
-
-extern struct Vec4* coordArrayLink;
-
-struct Vec4 coordArray[1024] = *coordArrayLink;
 
 // want to eventually move initialMineCount, boardX, and boardY to RAM and let the player set them
 // EMS should save these values, the current trap layout, and the currently revealed board state

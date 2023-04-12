@@ -9,9 +9,13 @@ void InitMinesweeperBoard(struct Proc* parent) {
 	for (int i = 0; i < initialMineCount; i++) {
 		curX = NextRN_N(boardX-1);
 		curY = NextRN_N(boardY-1);
-		if (GetTrapAt(curX,curY) == 0) AddTrap(curX, curY, TRAP_MINE, 0); //if we roll the same place twice, dont place a second mine
+		if (!IsTrapAt(curX,curY)) AddTrap(curX, curY, TRAP_MINE, 0); //if we roll the same place twice, dont place a second mine
 	}
-	BmMapFill(gBmMapFog, 0);
+	BmMapFill(gBmMapFog, 1);
+
+	//set game options to turn off player phase windows (todo: remove as an option entirely)
+	SetGameOption(GAME_OPTION_TERRAIN,1);
+	SetGameOption(GAME_OPTION_OBJECTIVE,1);
 
 }
 
@@ -40,27 +44,78 @@ int Map_OnAPress(struct Proc* parent) {
 	//This runs when A is pressed
 	//Get current cursor coords
 
+
 	u8 xPosit = gBmSt.playerCursor.x;
 	u8 yPosit = gBmSt.playerCursor.y;
 
-	if (gBmMapFog[yPosit][xPosit] == 0) return 0; // false
-
+	if (gBmMapFog[yPosit][xPosit] == 2) return 0; // false
+ 
 	PropagateTileSelection(xPosit,yPosit);
 
 	GenerateTileMapFromMinesAndRevealed(&gBmMapBuffer);
 
 	//reload map gfx
 	RenderBmMap();
-
-	EndPlayerPhaseSideWindows(); 
-	MU_EndAll(); 
+	
+	//EndPlayerPhaseSideWindows(); 
+	//MU_EndAll(); 
+	if (CheckEventId(0x65)) CallEvent(&loseEvent, 1); //this crashes after the 6th unique mine is selected?
+													  //non-issue once this actually is a proper failstate ig
 	Proc_Goto(parent, 9); 
 	return (-1); // true 
 
 }
 
+int Map_CheckBPress(struct Proc* parent) { //todo: hook for this just after the a button hook returns
+	if (gKeyStatusPtr->newKeys & B_BUTTON) return Map_OnBPress(parent);
+
+}
+
+int Map_OnBPress(struct Proc* parent) {
+	//This runs when B is pressed
+	//Get current cursor coords
+
+	u8 xPosit = gBmSt.playerCursor.x;
+	u8 yPosit = gBmSt.playerCursor.y;
+
+	int val = gBmMapFog[yPosit][xPosit]; 
+	
+	if (val == 1) {
+		gBmMapFog[yPosit][xPosit] = -2;
+	}
+	else if (val == -2) {
+		gBmMapFog[yPosit][xPosit] = 1;
+	}
+	else return 0;
+
+	GenerateTileMapFromMinesAndRevealed(&gBmMapBuffer);
+	RenderBmMap();
+	Proc_Goto(parent, 9); 
+	return (-1); // true 
+
+}
 
 void PropagateTileSelection(u8 xPosit, u8 yPosit) {
+	
+	//todo: implement this for a 5th time
+
+	//temp until removing the thing that sets this in the first place
+	if (CheckEventId(0x65)) UnsetEventId(0x65);
+
+	if (IsTrapAt(xPosit,yPosit)) {
+		SetEventId(0x65); //todo: replace with a direct event call 
+		gBmMapFog[yPosit][xPosit] = -1;
+		return;
+	}
+
+	gBmMapFog[yPosit][xPosit] = 2;
+
+	if (GetTileValue(xPosit,yPosit) == 0) {
+		//do the thing to reveal the 8 adjacent tiles
+	}
+
+
+	/*
 	//reveal the tile selected
 	//if the tile selected is a mine, game over
 	//if the tile selected has a value of 0, reveal all adjacent tiles
@@ -147,13 +202,23 @@ void PropagateTileSelection(u8 xPosit, u8 yPosit) {
 		curIndex++;
 
 	}
+	*/
 
 }
 
 
 bool TileNotRevealed(u8 xPosit, u8 yPosit) {
-	if (gBmMapFog[yPosit][xPosit] == 0) return false; //cant return directly because iirc default value is -1 not 0; otherwise its return !gBmMapFog[yPosit][xPosit]
+	if (gBmMapFog[yPosit][xPosit] == 2) return false; //1 is visible and 0 is not visible
 	return true;
+}
+
+
+//replaces the vanilla func for this, to prevent the unit map from getting initialized
+void RefreshUnitsOnBmMap(void) {}
+
+bool IsTrapAt(int x, int y) {
+	if (GetTrapAt(x,y) != 0) return true;
+	return false;
 }
 
 
@@ -161,17 +226,20 @@ u8 GetTileValue(u16 x, u16 y) {
 	//get # of mines within the surrounding 8 tiles of the given position
 	//this is just the sum of how many of 8 GetTrapAt calls return a trap
 
+	//if there is a mine on the tile the value is -1
+	if (IsTrapAt(x,y)) return -1;
+
 	u8 i = 0;
 
-	if (x-1 >= 0) if (GetTrapAt(x-1,y)) i++;
-	if (x+1 <= boardX) if (GetTrapAt(x+1,y)) i++;
-	if (y-1 >= 0) if (GetTrapAt(x,y-1)) i++;
-	if (y+1 <= boardY) if (GetTrapAt(x,y+1)) i++;
+	if (x-1 >= 0 && IsTrapAt(x-1,y)) i++;
+	if (x+1 < boardX && IsTrapAt(x+1,y)) i++;
+	if (y-1 >= 0 && IsTrapAt(x,y-1)) i++;
+	if (y+1 < boardY && IsTrapAt(x,y+1)) i++;
 
-	if (x-1 >= 0 && y-1 >= 0) if (GetTrapAt(x-1,y-1)) i++;
-	if (x+1 <= boardX && y-1 >= 0) if (GetTrapAt(x+1,y-1)) i++;
-	if (x-1 >= 0 && y+1 <= boardY) if (GetTrapAt(x-1,y+1)) i++;
-	if (x+1 <= boardX && y+1 <= boardY) if (GetTrapAt(x+1,y+1)) i++;
+	if (x-1 >= 0 && y-1 >= 0 && IsTrapAt(x-1,y-1)) i++;
+	if (x+1 < boardX && y-1 >= 0 && IsTrapAt(x+1,y-1)) i++;
+	if (x-1 >= 0 && y+1 <= boardY && IsTrapAt(x-1,y+1)) i++;
+	if (x+1 < boardX && y+1 <= boardY && IsTrapAt(x+1,y+1)) i++;
 
 	return i;
 	
@@ -181,11 +249,12 @@ void CheckWinState(struct Proc* parent) {
 	//check each tile on the map
 	//if not uncovered and not a mine, return false to memory slot sC
 	//if reaching the end of the map and everything is uncovered, return true to memory slot sC
-	u8* curPos = *gBmMapFog;
 	bool j = false;
-	for (int i = 0; i < (boardX*boardY); i++) {
-		if (!*curPos) j = true;
-		curPos++;
+
+	for (int y = 0; y < boardY; y++) {
+		for (int x = 0; x < boardX; x++) {
+			if (gBmMapFog[y][x] == 1) j = true;
+		}
 	}
 	if (j) gEventSlots[0xC] = false;
 	else gEventSlots[0xC] = true;
@@ -198,19 +267,30 @@ void GenerateTileMapFromMinesAndRevealed(void* pool) {
 		
 
 
-	memset(&gBmMapBuffer, TILE_HIDDEN, 0x2000);
+	memset(&gBmMapBaseTiles, TILE_HIDDEN, 0x2000);
 	
 	for (int y = 0; y < boardY; y++) {
 		for (int x = 0; x < boardX; x++) {
-			if (gBmMapFog[y][x] == 0) {
-				gBmMapBuffer[(y*x)+(4*y)] = GetTileIndexFromInt(GetTileValue(x,y));
+			if (gBmMapFog[y][x] == 2) {
+			//	DisplayBmTile(gBG3TilemapBuffer, x, y,
+            //  (short) gBmSt.mapRenderOrigin.x + x, (short) gBmSt.mapRenderOrigin.y + y);
+				gBmMapBaseTiles[y][x] = GetTileIndexFromInt(GetTileValue(x,y));
 			}
+			if (gBmMapFog[y][x] == -1) {
+				gBmMapBaseTiles[y][x] = TILE_MINE;	
+			}
+			if (gBmMapFog[y][x] == -2) {
+				gBmMapBaseTiles[y][x] = TILE_FLAG;	
+			}
+			
 		}
 	}
 }
 
 u8 GetTileIndexFromInt(int i) {
 	switch (i) {
+	case -1:
+		return TILE_MINE;
 	case 0:
 		return TILE_0;
 	case 1:

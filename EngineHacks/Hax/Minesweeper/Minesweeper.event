@@ -1,5 +1,5 @@
 
-#define initialMineCountVal 63
+#define initialMineCountVal 15
 #define boardXVal 15
 #define boardYVal 10
 
@@ -13,11 +13,16 @@ boardY:
 BYTE boardYVal
 
 ALIGN 4
-coordArrayLink:
-WORD 0x203EFB4
+loseEvent:
+FLAG_F 0x65
+Text(0x904)
+MNTS 0x1
+NoFade
+ENDA
 
 #include "Minesweeper.lyn.event"
 #include "HookButtonPress.lyn.event" //by Vesly
+//todo: Map_OnBPress hook for flagging mines
 
 
 #define callHackNew(offset) "BYTE $01 $4B $9E $46 $00 $F8 $01 $E0; POIN (offset|0x1)"
