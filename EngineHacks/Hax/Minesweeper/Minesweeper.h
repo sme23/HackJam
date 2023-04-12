@@ -86,6 +86,12 @@ u8 GetTileIndexFromInt(int i);
 
 bool TileNotRevealed(u8 xPosit, u8 yPosit);
 
+void RevealTileAt(u16 x, u16 y);
+
+bool PositionIsValid(u16 x, u16 y);
+
+void RevealTileAt_ASMC(struct Proc* parent);
+
 // # of mines to generate per board
 extern u8 initialMineCount;
 
@@ -109,6 +115,10 @@ enum {
 	TILE_7 = 40,
 	TILE_8 = 44
 };
+
+struct Coord { u8 x, y; };
+
+extern struct Coord* adjPos;
 
 // want to eventually move initialMineCount, boardX, and boardY to RAM and let the player set them
 // EMS should save these values, the current trap layout, and the currently revealed board state

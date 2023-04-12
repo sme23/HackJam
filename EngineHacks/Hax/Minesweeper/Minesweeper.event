@@ -13,6 +13,11 @@ boardY:
 BYTE boardYVal
 
 ALIGN 4
+adjPos:
+WORD 0x203EFB4
+
+
+ALIGN 4
 loseEvent:
 FLAG_F 0x65
 Text(0x904)

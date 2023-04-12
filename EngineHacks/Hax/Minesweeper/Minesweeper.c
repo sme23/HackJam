@@ -59,9 +59,12 @@ int Map_OnAPress(struct Proc* parent) {
 	
 	//EndPlayerPhaseSideWindows(); 
 	//MU_EndAll(); 
-	if (CheckEventId(0x65)) CallEvent(&loseEvent, 1); //this crashes after the 6th unique mine is selected?
-													  //non-issue once this actually is a proper failstate ig
-	Proc_Goto(parent, 9); 
+	if (CheckEventId(0x65)) {
+		CallEvent(&loseEvent, 1);
+		
+	} 
+	Proc_Goto(parent, 9);
+
 	return (-1); // true 
 
 }
@@ -95,6 +98,30 @@ int Map_OnBPress(struct Proc* parent) {
 
 }
 
+
+void RevealTileAt_ASMC(struct Proc* parent) { //converts sB coords to individual parameters
+	RevealTileAt((gEventSlots[0xB] & 0xFFFF0000)>>16,gEventSlots[0xB] & 0xFFFF);
+}
+
+void RevealTileAt(u16 x, u16 y) {
+	PropagateTileSelection(x,y);
+	GenerateTileMapFromMinesAndRevealed(&gBmMapBuffer);
+	RenderBmMap();
+}
+
+void RevealAllMines() {
+	//for each trap, reveal the tile at that position
+}
+
+bool PositionIsValid(u16 x, u16 y) {
+	return (x >= 0) && 
+		   (x < boardX) && 
+		   (y >= 0) && 
+		   (y < boardY) && 
+		   (gBmMapFog[y][x] == 1 || gBmMapFog[y][x] == 3) &&
+		   (!IsTrapAt(x,y));
+}
+
 void PropagateTileSelection(u8 xPosit, u8 yPosit) {
 	
 	//todo: implement this for a 5th time
@@ -112,6 +139,72 @@ void PropagateTileSelection(u8 xPosit, u8 yPosit) {
 
 	if (GetTileValue(xPosit,yPosit) == 0) {
 		//do the thing to reveal the 8 adjacent tiles
+		int pos = 0;
+		int end = 1;
+
+		adjPos[0].x = xPosit;
+		adjPos[0].y = yPosit;
+
+		while (pos != end) {
+			int curX =adjPos[pos].x;
+			int curY =adjPos[pos].y;
+			gBmMapFog[curY][curX] = 2;
+
+			if (GetTileValue(curX,curY) == 0) {
+
+				//reveal adjacent
+				if (PositionIsValid(curX-1,curY-1)) {
+					adjPos[end].x = curX-1;
+					adjPos[end].y = curY-1;
+					gBmMapFog[curY-1][curX-1] = 3;
+					end++;
+				}
+				if (PositionIsValid(curX-1,curY)) {
+					adjPos[end].x = curX-1;
+					adjPos[end].y = curY;
+					gBmMapFog[curY][curX-1] = 3;
+					end++;
+				}
+				if (PositionIsValid(curX,curY-1)) {
+					adjPos[end].x = curX;
+					adjPos[end].y = curY-1;
+					gBmMapFog[curY-1][curX] = 3;
+					end++;
+				}
+				if (PositionIsValid(curX-1,curY+1)) {
+					adjPos[end].x = curX-1;
+					adjPos[end].y = curY+1;
+					gBmMapFog[curY+1][curX-1] = 3;
+					end++;
+				}
+				if (PositionIsValid(curX+1,curY-1)) {
+					adjPos[end].x = curX+1;
+					adjPos[end].y = curY-1;
+					gBmMapFog[curY-1][curX+1] = 3;
+					end++;
+				}
+				if (PositionIsValid(curX,curY+1)) {
+					adjPos[end].x = curX;
+					adjPos[end].y = curY+1;
+					gBmMapFog[curY+1][curX] = 3;
+					end++;
+				}
+				if (PositionIsValid(curX+1,curY)) {
+					adjPos[end].x = curX+1;
+					adjPos[end].y = curY;
+					gBmMapFog[curY][curX+1] = 3;
+					end++;
+				}
+				if (PositionIsValid(curX+1,curY+1)) {
+					adjPos[end].x = curX+1;
+					adjPos[end].y = curY+1;
+					gBmMapFog[curY+1][curX+1] = 3;
+					end++;
+				}
+			}
+			pos++;
+		}
+
 	}
 
 
