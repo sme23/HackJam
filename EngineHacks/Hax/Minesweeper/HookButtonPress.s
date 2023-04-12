@@ -29,6 +29,19 @@ bx r3
 .ltorg 
 
 
+@hook @ 801CAD4, normally checks start/select, now checks B and does our thing
+.global HookButtonPressB
+.type HookButtonPressB, %function
+HookButtonPressB:
+mov r0,r6 @proc
+bl Map_CheckBPress
+ldr r0,=#0x801CAE7
+bx r0
+.ltorg
+
+
+
+
 
 
 

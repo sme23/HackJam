@@ -65,13 +65,15 @@ int Map_OnAPress(struct Proc* parent) {
 	} 
 	Proc_Goto(parent, 9);
 
+	if (CheckWinState()) CallEvent(&winEvent,1);
+
 	return (-1); // true 
 
 }
 
 int Map_CheckBPress(struct Proc* parent) { //todo: hook for this just after the a button hook returns
-	if (gKeyStatusPtr->newKeys & B_BUTTON) return Map_OnBPress(parent);
-
+	if ((gKeyStatusPtr->newKeys & B_BUTTON)) return Map_OnBPress(parent);
+	return 0;
 }
 
 int Map_OnBPress(struct Proc* parent) {
@@ -81,23 +83,28 @@ int Map_OnBPress(struct Proc* parent) {
 	u8 xPosit = gBmSt.playerCursor.x;
 	u8 yPosit = gBmSt.playerCursor.y;
 
-	int val = gBmMapFog[yPosit][xPosit]; 
-	
-	if (val == 1) {
-		gBmMapFog[yPosit][xPosit] = -2;
+	s8 val = gBmMapFog[yPosit][xPosit]; 
+		
+	switch (val) {
+		case 1:
+			gBmMapFog[yPosit][xPosit] = -2;
+			break;
+		case -2:
+			gBmMapFog[yPosit][xPosit] = 1;
+			break;
+		default:
+			return 0;
 	}
-	else if (val == -2) {
-		gBmMapFog[yPosit][xPosit] = 1;
-	}
-	else return 0;
 
 	GenerateTileMapFromMinesAndRevealed(&gBmMapBuffer);
 	RenderBmMap();
 	Proc_Goto(parent, 9); 
+	
+	if (CheckWinState()) CallEvent(&winEvent,1);
+
 	return (-1); // true 
 
 }
-
 
 void RevealTileAt_ASMC(struct Proc* parent) { //converts sB coords to individual parameters
 	RevealTileAt((gEventSlots[0xB] & 0xFFFF0000)>>16,gEventSlots[0xB] & 0xFFFF);
@@ -207,96 +214,6 @@ void PropagateTileSelection(u8 xPosit, u8 yPosit) {
 
 	}
 
-
-	/*
-	//reveal the tile selected
-	//if the tile selected is a mine, game over
-	//if the tile selected has a value of 0, reveal all adjacent tiles
-	//repeat until all necessary tiles are revealed
-
-	if (GetTrapAt(xPosit,yPosit) != 0) {
-		SetEventId(0x65); //todo: replace with a direct event call 
-		return;
-	}
-
-	coordArray[0].x= (u32)xPosit;
-	coordArray[0].y = (u32)yPosit;
-
-	int curIndex = 0;
-	int endIndex = 1;
-
-	while (true) { 
-		
-		if (curIndex == endIndex) break;
-
-		if (gBmMapFog[coordArray[curIndex].y][coordArray[curIndex].x] == 0) {
-			curIndex++;
-			continue;
-		}
-
-
-		gBmMapFog[coordArray[curIndex].y][coordArray[curIndex].x] = 0;
-
-		if (GetTileValue((u16)coordArray[curIndex].x,(u16)coordArray[curIndex].y) == 0) {
-		
-			//enqueue 8 adjacent tiles
-
-			int realX = coordArray[curIndex].x;
-			int realY = coordArray[curIndex].y;
-		
-			if (realX-1 >= 0) {
-				coordArray[endIndex].x= (u32)realX-1;
-				coordArray[endIndex].y = (u32)realY;
-				endIndex++;
-			}
-
-			if (realX-1 >= 0 && realY-1 >= 0) {
-				coordArray[endIndex].x= (u32)realX-1;
-				coordArray[endIndex].y = (u32)realY-1;
-				endIndex++;
-			}
-
-			if (realY-1 >= 0) {
-				coordArray[endIndex].x= (u32)realX;
-				coordArray[endIndex].y = (u32)realY-1;
-				endIndex++;
-			}
-
-			if (realX+1 < boardX && realY-1 >= 0) {
-				coordArray[endIndex].x= (u32)realX+1;
-				coordArray[endIndex].y = (u32)realY-1;
-				endIndex++;
-			}
-
-			if (realX+1 < boardX) {
-				coordArray[endIndex].x= (u32)realX+1;
-				coordArray[endIndex].y = (u32)realY;
-				endIndex++;
-			}
-
-			if (realX+1 < boardX && realY+1 < boardY) {
-				coordArray[endIndex].x= (u32)realX+1;
-				coordArray[endIndex].y = (u32)realY+1;
-				endIndex++;
-			}
-
-			if (realY+1 < boardY) {
-				coordArray[endIndex].x= (u32)realX;
-				coordArray[endIndex].y = (u32)realY+1;
-				endIndex++;
-			}
-
-			if (realX-1 >= 0 && realY < boardY) {
-				coordArray[endIndex].x= (u32)realX-1;
-				coordArray[endIndex].y = (u32)realY+1;
-				endIndex++;
-			}
-		}
-		curIndex++;
-
-	}
-	*/
-
 }
 
 
@@ -338,20 +255,19 @@ u8 GetTileValue(u16 x, u16 y) {
 	
 }
 
-void CheckWinState(struct Proc* parent) {
+bool CheckWinState() {
 	//check each tile on the map
 	//if not uncovered and not a mine, return false to memory slot sC
 	//if reaching the end of the map and everything is uncovered, return true to memory slot sC
-	bool j = false;
+	bool j = true;
 
 	for (int y = 0; y < boardY; y++) {
 		for (int x = 0; x < boardX; x++) {
-			if (gBmMapFog[y][x] == 1) j = true;
+			if (gBmMapFog[y][x] == 1) j = false;
+			if (GetTrapAt(x,y) != 0 && gBmMapFog[y][x] != -2) j = false;
 		}
 	}
-	if (j) gEventSlots[0xC] = false;
-	else gEventSlots[0xC] = true;
-	
+	return j;	
 }
 
 void GenerateTileMapFromMinesAndRevealed(void* pool) {
@@ -364,24 +280,24 @@ void GenerateTileMapFromMinesAndRevealed(void* pool) {
 	
 	for (int y = 0; y < boardY; y++) {
 		for (int x = 0; x < boardX; x++) {
-			if (gBmMapFog[y][x] == 2) {
-			//	DisplayBmTile(gBG3TilemapBuffer, x, y,
-            //  (short) gBmSt.mapRenderOrigin.x + x, (short) gBmSt.mapRenderOrigin.y + y);
+			int curVal = gBmMapFog[y][x]; 
+			if (curVal == 2) {
 				gBmMapBaseTiles[y][x] = GetTileIndexFromInt(GetTileValue(x,y));
 			}
-			if (gBmMapFog[y][x] == -1) {
+			else if ((s8)curVal == -1) {
 				gBmMapBaseTiles[y][x] = TILE_MINE;	
 			}
-			if (gBmMapFog[y][x] == -2) {
+			else if ((s8)curVal == -2) {
 				gBmMapBaseTiles[y][x] = TILE_FLAG;	
 			}
-			
 		}
 	}
 }
 
 u8 GetTileIndexFromInt(int i) {
 	switch (i) {
+	case -2:
+		return TILE_FLAG;
 	case -1:
 		return TILE_MINE;
 	case 0:

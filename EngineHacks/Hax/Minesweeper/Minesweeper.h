@@ -39,6 +39,7 @@ EWRAM_DATA static u8 sBmMapFogPool[MAP_POOL_SIZE] = {};
 EWRAM_DATA static u8 sBmMapHiddenPool[MAP_POOL_SIZE] = {};
 EWRAM_DATA static u8 sBmMapOtherPool[MAP_POOL_SIZE] = {};
 
+
 extern u16 sTilesetConfig[0x1000 + 0x200];
 
 extern struct Vec2* gUnknown_0203EFB4;
@@ -62,9 +63,9 @@ bool IsTrapAt(int x, int y);
 // This is the handler for when A is pressed
 int Map_OnAPress(struct Proc* parent);
 
-int Map_OnBPress();
+int Map_OnBPress(struct Proc* parent);
 
-int Map_CheckBPress();
+int Map_CheckBPress(struct Proc* parent);
 
 // called as ASMC when an unrevealed tile is selected
 void PropagateTileSelection(u8 xPosit, u8 yPosit);
@@ -73,7 +74,7 @@ void PropagateTileSelection(u8 xPosit, u8 yPosit);
 void GenerateTileMapFromMinesAndRevealed(void* pool);
 
 // ASMC that checks if you've won yet
-void CheckWinState(struct Proc* parent);
+bool CheckWinState();
 
 // helper function to get value of a given tile
 u8 GetTileValue(u16 x, u16 y);
@@ -100,6 +101,7 @@ extern u8 boardX;
 extern u8 boardY;
 
 extern u16 loseEvent;
+extern u16 winEvent;
 
 enum {
 	TILE_HIDDEN = 0,

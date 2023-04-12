@@ -1,0 +1,5 @@
+WorldMapPointerTable(0,Opening)
+ALIGN 4
+Opening:
+SKIPWN
+ENDA

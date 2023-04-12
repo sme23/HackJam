@@ -25,6 +25,15 @@ MNTS 0x1
 NoFade
 ENDA
 
+ALIGN 4
+winEvent:
+ASMC 0x85C71 //show records screen
+STAL 240
+EVBIT_F 0x2
+MNTS 0x1 //return to title screen
+NoFade
+ENDA
+
 #include "Minesweeper.lyn.event"
 #include "HookButtonPress.lyn.event" //by Vesly
 //todo: Map_OnBPress hook for flagging mines
@@ -34,5 +43,7 @@ ENDA
 PUSH 
 	ORG $1CA30
 		callHackNew(HookButtonPressA) // in Procs PlayerPhase - mainLoop 
+	ORG $1CAD4
+		jumpToHack(HookButtonPressB) //just after the previous one, overwrites start/select functionality
 POP 
 
