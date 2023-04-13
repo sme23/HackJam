@@ -19,6 +19,7 @@ WORD 0x203EFB4
 ALIGN 4
 loseEvent:
 FLAG_F 0x65
+Text(FailText)
 EVBIT_MODIFY 0x4
 Text(WinText)
 SVAL s7 1
@@ -37,6 +38,7 @@ ALIGN 4
 winEvent:
 ASMC 0x85C71 //show records screen
 STAL 240
+Text(SucceedText)
 Text(WinText)
 
 ASMC InitMinesweeperBoard

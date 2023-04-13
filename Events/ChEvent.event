@@ -51,7 +51,11 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
-Text(0x903)
+SetBackground(Castle_Hall)
+MUSC 0x26 //Raid!
+FADU 10
+Text(OpeningText)
+EndConvo
 LOAD1 0 Units1
 ENUN
 ASMC InitRNG

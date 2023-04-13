@@ -3,10 +3,10 @@
 // #define __DEBUG_FULL__
 
 // only get some debug tools, ideal for gameplay testing
-#define __DEBUG__
+// #define __DEBUG__
 
 // no debug tools, for release builds
-// #define __RELEASE__
+#define __RELEASE__
 
 
 // -----------------
