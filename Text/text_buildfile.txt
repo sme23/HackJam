@@ -14,7 +14,8 @@ Learned  [X]
 
 #include "statscreen_text.txt"
 
-
+#0x69f
+ Restart[X]
 
 #0xd4c LikesText
 //first text ID in the free block
@@ -115,6 +116,17 @@ Cost[X]
 ## SkillScrollDesc
 A scroll that teaches[N]
 a skill when used.[X]
+
+## RestartText
+[OpenMidRight][LoadAnna]
+Are you sure you want to give up?[N]
+[No][X]
+
+## WinText
+[OpenMidRight][LoadAnna]
+Do you want to play again?[N]
+[Yes][X]
+
 
 #include "unitmenu_text.txt"
 

@@ -1,0 +1,29 @@
+
+#include "_MainMenuDefs.event"
+
+PUSH
+ORG $59D21C
+    POIN MainMenuTable
+POP
+
+ALIGN 4
+MainMenuTable:
+  MM_Suspend
+  MM_Separator
+
+PUSH
+ORG $D38C
+POIN NewSuspendEvent
+POP
+
+NewSuspendEvent:
+EVBIT_MODIFY 0x4
+Text(RestartText)
+SVAL s7 1
+BNE 69 sC s7
+
+ASMC InitMinesweeperBoard
+
+LABEL 69
+NoFade
+ENDA

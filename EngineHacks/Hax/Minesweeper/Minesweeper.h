@@ -38,11 +38,13 @@ EWRAM_DATA static u8 sBmMapTerrainPool[MAP_POOL_SIZE] = {};
 EWRAM_DATA static u8 sBmMapFogPool[MAP_POOL_SIZE] = {};
 EWRAM_DATA static u8 sBmMapHiddenPool[MAP_POOL_SIZE] = {};
 EWRAM_DATA static u8 sBmMapOtherPool[MAP_POOL_SIZE] = {};
-
+extern struct Trap sTrapPool[TRAP_MAX_COUNT];
 
 extern u16 sTilesetConfig[0x1000 + 0x200];
 
 extern struct Vec2* gUnknown_0203EFB4;
+
+extern u8 SetGameOption(u8,u8);
 
 EWRAM_DATA static u16 sBmBaseTilesPool[MAP_POOL_SIZE] = {};
 
@@ -121,11 +123,3 @@ enum {
 struct Coord { u8 x, y; };
 
 extern struct Coord* adjPos;
-
-// want to eventually move initialMineCount, boardX, and boardY to RAM and let the player set them
-// EMS should save these values, the current trap layout, and the currently revealed board state
-// revealed board state should go somewhere else (fog map?)
-
-//gMapRawTiles for the visual layout, gMapMovement for the uncovered state
-
-

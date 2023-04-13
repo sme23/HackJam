@@ -54,8 +54,8 @@ BeginningScene:
 Text(0x903)
 LOAD1 0 Units1
 ENUN
+ASMC InitRNG
 ASMC InitMinesweeperBoard
-MUSC 5
 NoFade
 ENDA
 

@@ -1,5 +1,5 @@
 
-#define initialMineCountVal 15
+#define initialMineCountVal 20
 #define boardXVal 15
 #define boardYVal 10
 
@@ -16,12 +16,20 @@ ALIGN 4
 adjPos:
 WORD 0x203EFB4
 
-
 ALIGN 4
 loseEvent:
 FLAG_F 0x65
-Text(0x904)
-MNTS 0x1
+EVBIT_MODIFY 0x4
+Text(WinText)
+SVAL s7 1
+BNE 69 sC s7
+
+ASMC InitMinesweeperBoard
+GOTO 70
+
+LABEL 69
+ASMC $8085375 //gameover
+LABEL 70
 NoFade
 ENDA
 
@@ -29,8 +37,15 @@ ALIGN 4
 winEvent:
 ASMC 0x85C71 //show records screen
 STAL 240
+Text(WinText)
+
+ASMC InitMinesweeperBoard
+GOTO 70
+
+LABEL 69
 EVBIT_F 0x2
 MNTS 0x1 //return to title screen
+LABEL 70
 NoFade
 ENDA
 
@@ -45,5 +60,13 @@ PUSH
 		callHackNew(HookButtonPressA) // in Procs PlayerPhase - mainLoop 
 	ORG $1CAD4
 		jumpToHack(HookButtonPressB) //just after the previous one, overwrites start/select functionality
+		
+	// Skip difficulty selection by 7743
+	ORG 0xAC3E0
+		//BYTE 0x00 0x22 0x00 0x23 0x2A 0x21 0x42 0x54 0x3D 0x21 0x43 0x54 0x70 0x47 // Easy
+		BYTE 0x01 0x22 0x00 0x23 0x2A 0x21 0x42 0x54 0x3D 0x21 0x43 0x54 0x70 0x47 // Normal 
+		//BYTE 0x02 0x22 0x00 0x23 0x2A 0x21 0x42 0x54 0x3D 0x21 0x43 0x54 0x70 0x47 // Hard
 POP 
+
+#include "MainMenu.event"
 

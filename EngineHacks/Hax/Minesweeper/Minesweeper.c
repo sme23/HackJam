@@ -1,21 +1,42 @@
 
 #include "Minesweeper.h"
 
+void InitRNG() {
+	//before we do the randomness let's randomize based on the frames since startup & frames since new game 
+	int clock = GetGameClock(); 
+	int t_start = gBmSt._unk04;
+	u16 var[3]; 
+	var[0] = ((t_start-0xF0F0F0F0) & 0xFFFF); // clock at start of chapter 
+	var[1] = (((t_start-0x0F0F0F0F) & 0xFFFF0000)>>16); 
+	var[2] = (var[0] - (var[1] % 16));
+	var[3] = (var[1] + (var[2] % 16));
+	
+	StoreRNState(var); 
+}
+
 void InitMinesweeperBoard(struct Proc* parent) {
 	//create 'initialMineCount' # of mine traps at random locations on the board
 	int curX = -1;
 	int curY = -1;
+	
+	//also we want to clear all existing traps
+	memset(&sTrapPool, 0, 2048);
+	BmMapFill(gBmMapFog, 1);
+	
 
 	for (int i = 0; i < initialMineCount; i++) {
 		curX = NextRN_N(boardX-1);
 		curY = NextRN_N(boardY-1);
 		if (!IsTrapAt(curX,curY)) AddTrap(curX, curY, TRAP_MINE, 0); //if we roll the same place twice, dont place a second mine
 	}
-	BmMapFill(gBmMapFog, 1);
+	
 
 	//set game options to turn off player phase windows (todo: remove as an option entirely)
 	SetGameOption(GAME_OPTION_TERRAIN,1);
 	SetGameOption(GAME_OPTION_OBJECTIVE,1);
+	
+	GenerateTileMapFromMinesAndRevealed(&gBmMapBuffer);
+	RenderBmMap();
 
 }
 
@@ -39,6 +60,7 @@ void UnpackChapterMap(void* into, int chapterId) {
     gBmSt.cameraMax.x = gBmMapSize.x*16 - 240;
     gBmSt.cameraMax.y = gBmMapSize.y*16 - 160;
 }
+
 
 int Map_OnAPress(struct Proc* parent) {
 	//This runs when A is pressed
@@ -84,6 +106,8 @@ int Map_OnBPress(struct Proc* parent) {
 	u8 yPosit = gBmSt.playerCursor.y;
 
 	s8 val = gBmMapFog[yPosit][xPosit]; 
+		
+	if (CheckWinState()) CallEvent(&winEvent,1);
 		
 	switch (val) {
 		case 1:
@@ -257,17 +281,16 @@ u8 GetTileValue(u16 x, u16 y) {
 
 bool CheckWinState() {
 	//check each tile on the map
-	//if not uncovered and not a mine, return false to memory slot sC
-	//if reaching the end of the map and everything is uncovered, return true to memory slot sC
-	bool j = true;
-
+	//if not uncovered and not a mine, return false
+	//if reaching the end of the map and everything is uncovered, return true
+	
 	for (int y = 0; y < boardY; y++) {
 		for (int x = 0; x < boardX; x++) {
-			if (gBmMapFog[y][x] == 1) j = false;
-			if (GetTrapAt(x,y) != 0 && gBmMapFog[y][x] != -2) j = false;
+			if (gBmMapFog[y][x] == 1) return false;
+			if ((IsTrapAt(x,y)) && (gBmMapFog[y][x] != 0xFE)) return false;
 		}
 	}
-	return j;	
+	return true;	
 }
 
 void GenerateTileMapFromMinesAndRevealed(void* pool) {
@@ -276,7 +299,7 @@ void GenerateTileMapFromMinesAndRevealed(void* pool) {
 		
 
 
-	memset(&gBmMapBaseTiles, TILE_HIDDEN, 0x2000);
+	memset(*gBmMapBaseTiles, TILE_HIDDEN, 0x2000);
 	
 	for (int y = 0; y < boardY; y++) {
 		for (int x = 0; x < boardX; x++) {
@@ -326,13 +349,4 @@ u8 GetTileIndexFromInt(int i) {
 	StoreRNState(seed);
 } */
 //decomp does this such that there's no purpose to having this be a helper function
-
-
-void PackMinesweeperData() {
-
-}
-
-void UnpackMinesweeperData() {
-
-}
 
