@@ -186,6 +186,8 @@ Now, on to another one[Beat][A][N]
 (Since when did the castle[N]
 have so many rooms[Beat]?)[A][X]
 
+##MSChTitle
+The Hall of Renais[X]
 
 #include "unitmenu_text.txt"
 
