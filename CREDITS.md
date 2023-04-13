@@ -1,6 +1,15 @@
-Note: This list is incomplete and insufficiently organized. If you contributed
-something that you'd like special recognition for, please make a pull request
-adding yourself!
+
+Tileset from Windows 95
+
+Code, music, other graphics by Sme
+
+Vesly for the hook used for A presses & reference material
+
+FE8 decomp, whose header files I lovingly repurposed
+
+----
+
+skillsys is installed but pretty much unused, here's the credits for it anyways
 
 # Skill contributors
 
