@@ -1,3 +1,15 @@
-## SongName_7thSagaBattle ^
-Battle (The 7th Saga)[X]
+## SongName_DTAfricanMines ^
+African Mines (DuckTales)[X]
+
+## SongName_BKGlitterGulchMine ^
+Glitter Gulch Mine (Banjo-Tooie)[X]
+
+## SongName_KSSMineCartRiding ^
+Mine Cart Riding (Kirby Super Star)[X]
+
+## SongName_S2MysticCave ^
+Mystic Cave Zone (Sonic 2)[X]
+
+##SongName_BHRedial ^
+Redial (Bomberman Hero)[X]
 

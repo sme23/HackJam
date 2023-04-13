@@ -1,0 +1,2592 @@
+//Event file generated from Sappy .s format.
+        #include "MPlayDef.event"
+
+        #define    GlitterGulchMine_grp  StarfallVoices
+        #define    GlitterGulchMine_pri  0
+        #define    GlitterGulchMine_rev  0
+        #define    GlitterGulchMine_key  0
+
+        // .rodata
+        // GlitterGulchMine
+        ALIGN 4
+
+//****************** Track 0 (Midi-Chn.0) ******************//
+
+GlitterGulchMine_0:
+        BYTE   KEYSH   GlitterGulchMine_key+0
+// 000   ----------------------------------------
+        BYTE   TEMPO   130/2
+        BYTE           VOICE   127
+        BYTE           VOL     50
+        BYTE           N24     Cn1   v127
+        BYTE   W24
+        BYTE                   Dn1   v120
+        BYTE   W48
+        BYTE                   Dn1
+        BYTE   W24
+// 001   ----------------------------------------
+GlitterGulchMine_0_LOOP:
+        BYTE           N24     Cn1   v127
+        BYTE   W24
+        BYTE                   Dn1   v120
+        BYTE   W48
+        BYTE                   Dn1
+        BYTE   W24
+// 002   ----------------------------------------
+GlitterGulchMine_0_2:
+        BYTE           N24     Cn1   v127
+        BYTE   W24
+        BYTE                   Dn1   v120
+        BYTE   W48
+        BYTE                   Dn1
+        BYTE   W24
+        BYTE   PEND
+// 003   ----------------------------------------
+GlitterGulchMine_0_3:
+        BYTE           N24     Cn1   v127
+        BYTE   W24
+        BYTE                   Dn1   v120
+        BYTE   W40
+        BYTE           N08
+        BYTE   W08
+        BYTE           N16
+        BYTE   W16
+        BYTE           N01
+        BYTE   W08
+        BYTE   PEND
+// 004   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_2
+// 005   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_2
+// 006   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_2
+// 007   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_3
+// 008   ----------------------------------------
+        BYTE           N24     Cn1   v127
+        BYTE   W24
+        BYTE                   Dn1   v120
+        BYTE           N24     As1   v070
+        BYTE   W24
+        BYTE                   Cn1   v127
+        BYTE   W24
+        BYTE                   As1   v070
+        BYTE           N24     Dn1   v120
+        BYTE   W24
+// 009   ----------------------------------------
+GlitterGulchMine_0_9:
+        BYTE           N24     Cn1   v127
+        BYTE   W24
+        BYTE                   As1   v070
+        BYTE           N24     Dn1   v120
+        BYTE   W24
+        BYTE                   Cn1   v127
+        BYTE   W24
+        BYTE                   As1   v070
+        BYTE           N24     Dn1   v120
+        BYTE   W24
+        BYTE   PEND
+// 010   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_9
+// 011   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_9
+// 012   ----------------------------------------
+GlitterGulchMine_0_12:
+        BYTE           N24     Cn1   v127
+        BYTE   W24
+        BYTE                   Dn1   v120
+        BYTE           N24     As1   v070
+        BYTE   W24
+        BYTE                   Cn1   v127
+        BYTE   W24
+        BYTE                   Dn1   v120
+        BYTE           N24     As1   v070
+        BYTE   W24
+        BYTE   PEND
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_12
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_12
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_12
+// 016   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_9
+// 017   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_9
+// 018   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_9
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_9
+// 020   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_12
+// 021   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_12
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_12
+// 023   ----------------------------------------
+GlitterGulchMine_0_23:
+        BYTE           N24     Cn1   v127
+        BYTE   W24
+        BYTE                   Dn1   v120
+        BYTE           N24     As1   v070
+        BYTE   W24
+        BYTE                   Cn1   v127
+        BYTE   W16
+        BYTE           N08     Dn1   v120
+        BYTE   W08
+        BYTE           N16
+        BYTE           N24     As1   v070
+        BYTE   W16
+        BYTE           N01     Dn1   v120
+        BYTE   W08
+        BYTE   PEND
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_9
+// 025   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_9
+// 026   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_9
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_9
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_12
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_12
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_12
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_12
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_9
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_9
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_9
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_9
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_12
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_12
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_12
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_12
+// 040   ----------------------------------------
+        BYTE   W96
+// 041   ----------------------------------------
+        BYTE   W64
+        BYTE           N08     Dn1   v120
+        BYTE   W08
+        BYTE           N16
+        BYTE   W16
+        BYTE           N01
+        BYTE   W08
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_9
+// 043   ----------------------------------------
+        BYTE           N24     Cn1   v127
+        BYTE   W24
+        BYTE                   As1   v070
+        BYTE           N24     Dn1   v120
+        BYTE   W24
+        BYTE                   Cn1   v127
+        BYTE   W16
+        BYTE           N08     Dn1   v120
+        BYTE   W08
+        BYTE           N24     As1   v070
+        BYTE           N16     Dn1   v120
+        BYTE   W16
+        BYTE           N01
+        BYTE   W08
+// 044   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_9
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_9
+// 046   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_9
+// 047   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_9
+// 048   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_12
+// 049   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_12
+// 050   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_12
+// 051   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_12
+// 052   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_9
+// 053   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_23
+// 054   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_9
+// 055   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_9
+// 056   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_9
+// 057   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_9
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_12
+// 059   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_12
+// 060   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_12
+// 061   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_12
+// 062   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_12
+// 063   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_23
+// 064   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_0_2
+// 065   ----------------------------------------
+        BYTE   GoTo
+         POIN2  GlitterGulchMine_0_LOOP
+        BYTE   FINE
+
+//****************** Track 1 (Midi-Chn.1) ******************//
+
+GlitterGulchMine_1:
+        BYTE   KEYSH   GlitterGulchMine_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   61
+        BYTE           VOL     76
+        BYTE           PAN     c_v+26
+        BYTE   W96
+// 001   ----------------------------------------
+GlitterGulchMine_1_LOOP:
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+GlitterGulchMine_1_4:
+        BYTE   W24
+        BYTE           N12     En3   v070
+        BYTE           N12     Cn3
+        BYTE           N12     Gn2
+        BYTE   W16
+        BYTE                   En3
+        BYTE           N12     Cn3
+        BYTE           N12     Gn2
+        BYTE   W32
+        BYTE           N16     Fn3
+        BYTE           N16     Cn3
+        BYTE           N16     An2
+        BYTE   W24
+        BYTE   PEND
+// 005   ----------------------------------------
+        BYTE   W24
+        BYTE           N12     En3
+        BYTE           N12     Cn3
+        BYTE           N12     Gn2
+        BYTE   W16
+        BYTE                   En3
+        BYTE           N12     Cn3
+        BYTE           N12     Gn2
+        BYTE   W32
+        BYTE           N16     Dn3
+        BYTE           N16     Bn2
+        BYTE           N16     Gn2
+        BYTE   W24
+// 006   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_4
+// 007   ----------------------------------------
+        BYTE   W24
+        BYTE           N12     Dn3   v070
+        BYTE           N12     Bn2
+        BYTE           N12     Gn2
+        BYTE   W24
+        BYTE                   En3
+        BYTE           N12     Cn3
+        BYTE           N12     Gn2
+        BYTE   W24
+        BYTE           N24     Fn3
+        BYTE           N24     Dn3
+        BYTE           N24     Gn2
+        BYTE   W24
+// 008   ----------------------------------------
+GlitterGulchMine_1_8:
+        BYTE           N32     Cn2   v100   gtp2
+        BYTE   W24
+        BYTE           N12     En3   v070
+        BYTE           N12     Cn3
+        BYTE           N12     Gn2
+        BYTE   W16
+        BYTE                   En3
+        BYTE           N12     Cn3
+        BYTE           N12     Gn2
+        BYTE   W08
+        BYTE           N36     Fn1   v100   gtp1
+        BYTE   W24
+        BYTE           N17     Fn3   v070
+        BYTE           N17     Cn3
+        BYTE           N17     An2
+        BYTE   W24
+        BYTE   PEND
+// 009   ----------------------------------------
+GlitterGulchMine_1_9:
+        BYTE           N36     Cn2   v100
+        BYTE   W24
+        BYTE           N12     En3   v070
+        BYTE           N12     Cn3
+        BYTE           N12     Gn2
+        BYTE   W16
+        BYTE                   En3
+        BYTE           N12     Cn3
+        BYTE           N12     Gn2
+        BYTE   W08
+        BYTE           N36     Gn1   v100
+        BYTE   W24
+        BYTE           N17     Dn3   v070
+        BYTE           N17     Bn2
+        BYTE           N17     Gn2
+        BYTE   W24
+        BYTE   PEND
+// 010   ----------------------------------------
+GlitterGulchMine_1_10:
+        BYTE           N36     Cn2   v100   gtp1
+        BYTE   W24
+        BYTE           N12     En3   v070
+        BYTE           N12     Cn3
+        BYTE           N12     Gn2
+        BYTE   W16
+        BYTE                   En3
+        BYTE           N12     Cn3
+        BYTE           N12     Gn2
+        BYTE   W08
+        BYTE           N32     Fn1   v100   gtp3
+        BYTE   W24
+        BYTE           N17     Fn3   v070
+        BYTE           N17     Cn3
+        BYTE           N17     An2
+        BYTE   W24
+        BYTE   PEND
+// 011   ----------------------------------------
+GlitterGulchMine_1_11:
+        BYTE           N36     Gn1   v100   gtp1
+        BYTE   W24
+        BYTE           N12     Dn3   v070
+        BYTE           N12     Bn2
+        BYTE           N12     Gn2
+        BYTE   W24
+        BYTE                   En3
+        BYTE           N12     Cn3
+        BYTE           N12     Gn2
+        BYTE           N17     Cn2   v100
+        BYTE   W24
+        BYTE           N24     Fn3   v070
+        BYTE           N24     Dn3
+        BYTE           N24     Gn2
+        BYTE           N21     Gn1   v100
+        BYTE   W24
+        BYTE   PEND
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_8
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_9
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_10
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_11
+// 016   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_8
+// 017   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_9
+// 018   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_10
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_11
+// 020   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_8
+// 021   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_9
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_10
+// 023   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_11
+// 024   ----------------------------------------
+        BYTE           N36     An3   v090   gtp3
+        BYTE           N36     An1   v100   gtp1
+        BYTE   W24
+        BYTE           N12     En3   v070
+        BYTE           N12     Cn3
+        BYTE           N12     An2
+        BYTE   W16
+        BYTE                   En3
+        BYTE           N12     Cn3
+        BYTE           N12     An2
+        BYTE   W08
+        BYTE           N16     An3   v090
+        BYTE           N36     An1   v100   gtp1
+        BYTE   W16
+        BYTE           N08     Bn3   v080
+        BYTE   W08
+        BYTE           N11     Cn4   v094
+        BYTE           N17     En3   v070
+        BYTE           N17     Cn3
+        BYTE           N17     An2
+        BYTE   W24
+// 025   ----------------------------------------
+        BYTE           N10     Bn3   v094
+        BYTE           N36     En1   v100   gtp2
+        BYTE   W24
+        BYTE           N14     Gn3   v088
+        BYTE           N12     En3   v070
+        BYTE           N12     Bn2
+        BYTE           N12     Gn2
+        BYTE   W16
+        BYTE                   En3
+        BYTE           N12     Bn2
+        BYTE           N12     Gn2
+        BYTE   W08
+        BYTE           N42     Gn3   v084   gtp1
+        BYTE           N36     En1   v100
+        BYTE   W24
+        BYTE           N17     En3   v070
+        BYTE           N17     Bn2
+        BYTE           N17     Gn2
+        BYTE   W24
+// 026   ----------------------------------------
+        BYTE           N40     An3   v092   gtp1
+        BYTE           N36     Fn1   v100   gtp1
+        BYTE   W24
+        BYTE           N12     Fn3   v070
+        BYTE           N12     Cn3
+        BYTE           N12     An2
+        BYTE   W16
+        BYTE                   Fn3
+        BYTE           N12     Cn3
+        BYTE           N12     An2
+        BYTE   W08
+        BYTE           N15     An3   v088
+        BYTE           N40     Fn1   v100
+        BYTE   W16
+        BYTE           N08     Bn3   v092
+        BYTE   W08
+        BYTE           N10     Cn4   v097
+        BYTE           N17     Fn3   v070
+        BYTE           N17     Cn3
+        BYTE           N17     An2
+        BYTE   W24
+// 027   ----------------------------------------
+        BYTE           N84     Bn3   v090   gtp1
+        BYTE           N40     Gn1   v100
+        BYTE   W24
+        BYTE           N12     Dn3   v070
+        BYTE           N12     Bn2
+        BYTE           N12     Gn2
+        BYTE   W16
+        BYTE                   Dn3
+        BYTE           N12     Bn2
+        BYTE           N12     Gn2
+        BYTE   W08
+        BYTE           N36     Gn1   v100
+        BYTE   W24
+        BYTE           N17     Dn3   v070
+        BYTE           N17     Bn2
+        BYTE           N17     Gn2
+        BYTE   W24
+// 028   ----------------------------------------
+        BYTE           N36     Bn3   v092   gtp3
+        BYTE           N40     Gs1   v100
+        BYTE   W24
+        BYTE           N12     Dn3   v070
+        BYTE           N12     Bn2
+        BYTE           N12     Gs2
+        BYTE   W16
+        BYTE                   Dn3
+        BYTE           N12     Bn2
+        BYTE           N12     Gs2
+        BYTE   W08
+        BYTE           N16     Bn3   v097
+        BYTE           N32     Gs1   v100   gtp3
+        BYTE   W16
+        BYTE           N08     Cn4   v080
+        BYTE   W08
+        BYTE           N12     Dn4   v094
+        BYTE           N17     Dn3   v070
+        BYTE           N17     Bn2
+        BYTE           N17     Gs2
+        BYTE   W24
+// 029   ----------------------------------------
+        BYTE           N11     En4   v092
+        BYTE           N36     An1   v100   gtp2
+        BYTE   W24
+        BYTE           N12     Cn4   v097
+        BYTE           N12     En3   v070
+        BYTE           N12     Cn3
+        BYTE           N12     An2
+        BYTE   W16
+        BYTE                   En3
+        BYTE           N12     Cn3
+        BYTE           N12     An2
+        BYTE   W08
+        BYTE           N28     Cn4   v084   gtp1
+        BYTE           N36     An1   v100   gtp3
+        BYTE   W24
+        BYTE           N17     En3   v070
+        BYTE           N17     Cn3
+        BYTE           N17     An2
+        BYTE   W12
+        BYTE           N06     Dn4   v088
+        BYTE   W06
+        BYTE                   En4   v074
+        BYTE   W06
+// 030   ----------------------------------------
+        BYTE           N13     Fn4   v086
+        BYTE           N36     Fn1   v100   gtp3
+        BYTE   W24
+        BYTE           N14     En4   v080
+        BYTE           N12     Fn3   v070
+        BYTE           N12     Cn3
+        BYTE           N12     An2
+        BYTE   W16
+        BYTE                   Fn3
+        BYTE           N12     Cn3
+        BYTE           N12     An2
+        BYTE   W08
+        BYTE           N13     Fn4   v092
+        BYTE           N36     Fn1   v100   gtp1
+        BYTE   W24
+        BYTE           N07     Dn4   v092
+        BYTE           N17     Fn3   v070
+        BYTE           N17     Cn3
+        BYTE           N17     An2
+        BYTE   W16
+        BYTE           N06     Dn4   v084
+        BYTE   W08
+// 031   ----------------------------------------
+        BYTE                   Gn4   v100
+        BYTE           N36     Gn1   v100   gtp3
+        BYTE   W16
+        BYTE           N08     Gn4   v080
+        BYTE   W08
+        BYTE                   Fn4   v097
+        BYTE           N12     Fn3   v070
+        BYTE           N12     Dn3
+        BYTE           N12     Bn2
+        BYTE   W16
+        BYTE                   Fn3
+        BYTE           N12     Dn3
+        BYTE           N12     Bn2
+        BYTE   W08
+        BYTE           N11     Dn4   v097
+        BYTE           N42     Gn1   v100
+        BYTE   W24
+        BYTE           N24     Bn3
+        BYTE           N17     Fn3   v070
+        BYTE           N17     Dn3
+        BYTE           N17     Bn2
+        BYTE   W24
+// 032   ----------------------------------------
+        BYTE           N32     Cn2   v100   gtp2
+        BYTE           N12     Cn4   v070
+        BYTE   W24
+        BYTE                   En3
+        BYTE           N12     Cn3
+        BYTE           N12     Gn2
+        BYTE   W16
+        BYTE                   En3
+        BYTE           N12     Cn3
+        BYTE           N12     Gn2
+        BYTE   W08
+        BYTE           N36     Fn1   v100   gtp1
+        BYTE   W24
+        BYTE           N17     Fn3   v070
+        BYTE           N17     Cn3
+        BYTE           N17     An2
+        BYTE   W24
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_9
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_10
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_11
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_8
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_9
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_10
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_11
+// 040   ----------------------------------------
+        BYTE           N15     En3   v080
+        BYTE           N14     Cn3
+        BYTE   W24
+        BYTE           N09     En3
+        BYTE           N09     Cn3
+        BYTE   W16
+        BYTE           N06     En3
+        BYTE           N06     Cn3
+        BYTE   W08
+        BYTE           N15     Fn3
+        BYTE           N15     Dn3
+        BYTE   W24
+        BYTE           N17     Fs3
+        BYTE           N18     Ds3
+        BYTE   W23
+        BYTE           N14     En3
+        BYTE           N14     Gn3
+        BYTE   W01
+// 041   ----------------------------------------
+        BYTE   W24
+        BYTE           N20     Cn4
+        BYTE           N20     Gn3
+        BYTE           N20     En3
+        BYTE   W24
+        BYTE                   Bn3
+        BYTE           N20     Gn3
+        BYTE           N20     Fn3
+        BYTE   W24
+        BYTE                   As3
+        BYTE           N20     Gn3
+        BYTE           N20     En3
+        BYTE   W24
+// 042   ----------------------------------------
+        BYTE                   An3   v117
+        BYTE           N20     Fn3
+        BYTE           N32     Fn2   v100
+        BYTE   W24
+        BYTE           N08     Fn3   v070
+        BYTE           N08     Cn3
+        BYTE           N08     An2
+        BYTE   W16
+        BYTE                   Fn3
+        BYTE           N08     Cn3
+        BYTE           N08     An2
+        BYTE   W08
+        BYTE           N32     Cn2   v100   gtp1
+        BYTE   W24
+        BYTE           N16     Fn3   v070
+        BYTE           N16     Cn3
+        BYTE           N16     An2
+        BYTE   W24
+// 043   ----------------------------------------
+GlitterGulchMine_1_43:
+        BYTE           N32     Fn2   v100   gtp1
+        BYTE   W24
+        BYTE           N08     Fn3   v070
+        BYTE           N08     Cn3
+        BYTE           N08     An2
+        BYTE   W16
+        BYTE                   Fn3
+        BYTE           N08     Cn3
+        BYTE           N08     An2
+        BYTE   W08
+        BYTE           N32     Cn2   v100   gtp1
+        BYTE   W24
+        BYTE           N16     Fn3   v070
+        BYTE           N16     Cn3
+        BYTE           N16     An2
+        BYTE   W24
+        BYTE   PEND
+// 044   ----------------------------------------
+GlitterGulchMine_1_44:
+        BYTE           N32     Fn2   v100   gtp2
+        BYTE   W24
+        BYTE           N08     Fn3   v070
+        BYTE           N08     Cn3
+        BYTE           N08     An2
+        BYTE   W16
+        BYTE                   Fn3
+        BYTE           N08     Cn3
+        BYTE           N08     An2
+        BYTE   W08
+        BYTE           N32     Cn2   v100   gtp2
+        BYTE   W24
+        BYTE           N16     Fn3   v070
+        BYTE           N16     Cn3
+        BYTE           N16     An2
+        BYTE   W24
+        BYTE   PEND
+// 045   ----------------------------------------
+GlitterGulchMine_1_45:
+        BYTE           N32     Fn2   v100
+        BYTE   W24
+        BYTE           N08     Fn3   v070
+        BYTE           N08     Cn3
+        BYTE           N08     An2
+        BYTE   W16
+        BYTE                   Fn3
+        BYTE           N08     Cn3
+        BYTE           N08     An2
+        BYTE   W08
+        BYTE           N36     Cn2   v100   gtp1
+        BYTE   W24
+        BYTE           N16     Fn3   v070
+        BYTE           N16     Cn3
+        BYTE           N16     An2
+        BYTE   W24
+        BYTE   PEND
+// 046   ----------------------------------------
+GlitterGulchMine_1_46:
+        BYTE           N32     Fn2   v100   gtp3
+        BYTE   W24
+        BYTE           N08     Fn3   v070
+        BYTE           N08     Cn3
+        BYTE           N08     An2
+        BYTE   W16
+        BYTE                   Fn3
+        BYTE           N08     Cn3
+        BYTE           N08     An2
+        BYTE   W08
+        BYTE           N18     Cn2   v100
+        BYTE   W24
+        BYTE           N20     Dn3   v117
+        BYTE           N20     As2
+        BYTE           N20     Gs2
+        BYTE           N20     Dn2   v100
+        BYTE   W24
+        BYTE   PEND
+// 047   ----------------------------------------
+GlitterGulchMine_1_47:
+        BYTE           N30     Ds2   v100
+        BYTE   W24
+        BYTE           N08     Ds3   v070
+        BYTE           N08     Cs3
+        BYTE           N08     As2
+        BYTE           N08     Gn2
+        BYTE   W16
+        BYTE                   Ds3
+        BYTE           N08     Cs3
+        BYTE           N08     As2
+        BYTE           N08     Gn2
+        BYTE   W08
+        BYTE           N30     As1   v100
+        BYTE   W24
+        BYTE           N16     Ds3   v070
+        BYTE           N16     Cs3
+        BYTE           N16     As2
+        BYTE           N16     Gn2
+        BYTE   W24
+        BYTE   PEND
+// 048   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_47
+// 049   ----------------------------------------
+GlitterGulchMine_1_49:
+        BYTE           N28     Ds2   v100
+        BYTE   W24
+        BYTE           N08     Ds3   v070
+        BYTE           N08     Cs3
+        BYTE           N08     As2
+        BYTE           N08     Gn2
+        BYTE   W16
+        BYTE                   Ds3
+        BYTE           N08     Cs3
+        BYTE           N08     As2
+        BYTE           N08     Gn2
+        BYTE   W08
+        BYTE           N30     As1   v100
+        BYTE   W24
+        BYTE           N16     Ds3   v070
+        BYTE           N16     Cs3
+        BYTE           N16     As2
+        BYTE           N16     Gn2
+        BYTE   W24
+        BYTE   PEND
+// 050   ----------------------------------------
+GlitterGulchMine_1_50:
+        BYTE           N32     Ds2   v100   gtp1
+        BYTE   W24
+        BYTE           N08     Ds3   v070
+        BYTE           N08     Cs3
+        BYTE           N08     As2
+        BYTE           N08     Gn2
+        BYTE   W16
+        BYTE                   Ds3
+        BYTE           N08     Cs3
+        BYTE           N08     As2
+        BYTE           N08     Gn2
+        BYTE   W08
+        BYTE           N32     As1   v100   gtp1
+        BYTE   W24
+        BYTE           N16     Ds3   v070
+        BYTE           N16     Cs3
+        BYTE           N16     As2
+        BYTE           N16     Gn2
+        BYTE   W24
+        BYTE   PEND
+// 051   ----------------------------------------
+GlitterGulchMine_1_51:
+        BYTE           N36     Ds2   v100   gtp1
+        BYTE   W24
+        BYTE           N08     Ds3   v070
+        BYTE           N08     Cs3
+        BYTE           N08     As2
+        BYTE           N08     Gn2
+        BYTE   W16
+        BYTE                   Ds3
+        BYTE           N08     Cs3
+        BYTE           N08     As2
+        BYTE           N08     Gn2
+        BYTE   W08
+        BYTE           N18     As1   v100
+        BYTE   W24
+        BYTE           N20     En3   v117
+        BYTE           N20     Cn3
+        BYTE           N20     As2
+        BYTE           N20     En2   v100
+        BYTE   W24
+        BYTE   PEND
+// 052   ----------------------------------------
+GlitterGulchMine_1_52:
+        BYTE           N32     Fn2   v100
+        BYTE   W24
+        BYTE           N08     Fn3   v070
+        BYTE           N08     Cn3
+        BYTE           N08     An2
+        BYTE   W16
+        BYTE                   Fn3
+        BYTE           N08     Cn3
+        BYTE           N08     An2
+        BYTE   W08
+        BYTE           N32     Cn2   v100   gtp1
+        BYTE   W24
+        BYTE           N16     Fn3   v070
+        BYTE           N16     Cn3
+        BYTE           N16     An2
+        BYTE   W24
+        BYTE   PEND
+// 053   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_43
+// 054   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_44
+// 055   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_45
+// 056   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_46
+// 057   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_47
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_47
+// 059   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_49
+// 060   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_50
+// 061   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_51
+// 062   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_1_52
+// 063   ----------------------------------------
+        BYTE           N32     Fn2   v100   gtp1
+        BYTE   W24
+        BYTE           N08     Fn3   v070
+        BYTE           N08     Cn3
+        BYTE           N08     An2
+        BYTE   W16
+        BYTE                   Fn3
+        BYTE           N08     Cn3
+        BYTE           N08     An2
+        BYTE   W08
+        BYTE           N32     Gn2   v100   gtp1
+        BYTE   W24
+        BYTE           N16     Fn3   v070
+        BYTE           N16     Dn3
+        BYTE           N16     Bn2
+        BYTE   W24
+// 064   ----------------------------------------
+        BYTE   W96
+// 065   ----------------------------------------
+        BYTE   GoTo
+         POIN2  GlitterGulchMine_1_LOOP
+        BYTE   FINE
+
+//****************** Track 2 (Midi-Chn.2) ******************//
+
+GlitterGulchMine_2:
+        BYTE   KEYSH   GlitterGulchMine_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   36
+        BYTE           VOL     86
+        BYTE   W96
+// 001   ----------------------------------------
+GlitterGulchMine_2_LOOP:
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+GlitterGulchMine_2_8:
+        BYTE           N19     Cn2   v127
+        BYTE   W24
+        BYTE           N07     Gn1
+        BYTE   W16
+        BYTE                   Gn1
+        BYTE   W08
+        BYTE           N19     An1
+        BYTE   W24
+        BYTE           N15     Gn1
+        BYTE   W24
+        BYTE   PEND
+// 009   ----------------------------------------
+GlitterGulchMine_2_9:
+        BYTE           N12     Gn1   v127
+        BYTE   W16
+        BYTE           N09     An1
+        BYTE   W08
+        BYTE           N15     Gn1
+        BYTE   W16
+        BYTE           N08     Fn1
+        BYTE   W08
+        BYTE           N24     En1   v127   gtp3
+        BYTE   W24
+        BYTE           N23     Gn1
+        BYTE   W24
+        BYTE   PEND
+// 010   ----------------------------------------
+GlitterGulchMine_2_10:
+        BYTE           N17     Cn2   v127
+        BYTE   W24
+        BYTE           N07     Gn1
+        BYTE   W16
+        BYTE           N08
+        BYTE   W08
+        BYTE           N19     An1
+        BYTE   W24
+        BYTE           N12     Gn1
+        BYTE   W24
+        BYTE   PEND
+// 011   ----------------------------------------
+GlitterGulchMine_2_11:
+        BYTE           N10     Gn1   v127
+        BYTE   W16
+        BYTE           N09     An1
+        BYTE   W08
+        BYTE           N19     Bn1
+        BYTE   W24
+        BYTE           N17     Cn2
+        BYTE   W48
+        BYTE   PEND
+// 012   ----------------------------------------
+GlitterGulchMine_2_12:
+        BYTE           N19     Cn2   v127
+        BYTE   W24
+        BYTE           N06     Gn1
+        BYTE   W16
+        BYTE                   Gn1
+        BYTE   W08
+        BYTE           N22     An1
+        BYTE   W24
+        BYTE           N11     Gn1
+        BYTE   W24
+        BYTE   PEND
+// 013   ----------------------------------------
+GlitterGulchMine_2_13:
+        BYTE           N13     Gn1   v127
+        BYTE   W16
+        BYTE           N10     An1
+        BYTE   W08
+        BYTE           N16     Gn1
+        BYTE   W16
+        BYTE           N07     Fn1
+        BYTE   W08
+        BYTE           N24     En1   v127   gtp2
+        BYTE   W24
+        BYTE           N20     Gn1
+        BYTE   W24
+        BYTE   PEND
+// 014   ----------------------------------------
+GlitterGulchMine_2_14:
+        BYTE           N18     Cn2   v127
+        BYTE   W24
+        BYTE           N07     Gn1
+        BYTE   W16
+        BYTE                   Gn1
+        BYTE   W08
+        BYTE           N19     An1
+        BYTE   W24
+        BYTE           N17     Gn1
+        BYTE   W24
+        BYTE   PEND
+// 015   ----------------------------------------
+GlitterGulchMine_2_15:
+        BYTE           N12     Bn1   v127
+        BYTE   W16
+        BYTE           N10     An1
+        BYTE   W08
+        BYTE                   Bn1
+        BYTE   W16
+        BYTE           N08     Dn2
+        BYTE   W08
+        BYTE           N19     Cn2
+        BYTE   W48
+        BYTE   PEND
+// 016   ----------------------------------------
+        BYTE                   En2
+        BYTE   W24
+        BYTE           N14     Cn2
+        BYTE   W24
+        BYTE           N17
+        BYTE   W24
+        BYTE           N12     Gn1
+        BYTE   W24
+// 017   ----------------------------------------
+        BYTE           N11     En2
+        BYTE   W16
+        BYTE           N07     Dn2
+        BYTE   W08
+        BYTE           N10     En2
+        BYTE   W16
+        BYTE           N08     Fn2
+        BYTE   W08
+        BYTE           N15     En2
+        BYTE   W24
+        BYTE           N14     Dn2
+        BYTE   W24
+// 018   ----------------------------------------
+        BYTE                   En2
+        BYTE   W24
+        BYTE           N11     Cn2
+        BYTE   W24
+        BYTE           N12
+        BYTE   W24
+        BYTE           N13     Gn1
+        BYTE   W24
+// 019   ----------------------------------------
+        BYTE           N09     Bn1
+        BYTE   W16
+        BYTE           N08     Cn2
+        BYTE   W08
+        BYTE           N10     Dn2
+        BYTE   W24
+        BYTE           N15     En2
+        BYTE   W48
+// 020   ----------------------------------------
+        BYTE           N17
+        BYTE   W24
+        BYTE           N11     Cn2
+        BYTE   W24
+        BYTE           N14
+        BYTE   W24
+        BYTE           N11     Gn1
+        BYTE   W24
+// 021   ----------------------------------------
+        BYTE           N09     En2
+        BYTE   W16
+        BYTE           N07     Dn2
+        BYTE   W08
+        BYTE           N08     En2
+        BYTE   W16
+        BYTE           N09     Fn2
+        BYTE   W08
+        BYTE           N12     En2
+        BYTE   W24
+        BYTE           N14     Dn2
+        BYTE   W24
+// 022   ----------------------------------------
+        BYTE           N13     Cn2
+        BYTE   W24
+        BYTE           N09
+        BYTE   W16
+        BYTE           N06     Dn2
+        BYTE   W08
+        BYTE           N14     En2
+        BYTE   W24
+        BYTE           N12     Cn2
+        BYTE   W24
+// 023   ----------------------------------------
+        BYTE           N08     Bn1
+        BYTE   W16
+        BYTE           N05     Cn2
+        BYTE   W08
+        BYTE           N11     Dn2
+        BYTE   W16
+        BYTE           N05     Bn1
+        BYTE   W08
+        BYTE           N13     Cn2
+        BYTE   W48
+// 024   ----------------------------------------
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE   W96
+// 029   ----------------------------------------
+        BYTE   W96
+// 030   ----------------------------------------
+        BYTE   W96
+// 031   ----------------------------------------
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_2_8
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_2_9
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_2_10
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_2_11
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_2_12
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_2_13
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_2_14
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_2_15
+// 040   ----------------------------------------
+        BYTE   W96
+// 041   ----------------------------------------
+        BYTE   W96
+// 042   ----------------------------------------
+        BYTE   W96
+// 043   ----------------------------------------
+        BYTE   W96
+// 044   ----------------------------------------
+        BYTE   W96
+// 045   ----------------------------------------
+        BYTE   W96
+// 046   ----------------------------------------
+        BYTE   W96
+// 047   ----------------------------------------
+        BYTE   W96
+// 048   ----------------------------------------
+        BYTE   W96
+// 049   ----------------------------------------
+        BYTE   W96
+// 050   ----------------------------------------
+        BYTE   W96
+// 051   ----------------------------------------
+        BYTE   W96
+// 052   ----------------------------------------
+        BYTE   W96
+// 053   ----------------------------------------
+        BYTE   W96
+// 054   ----------------------------------------
+        BYTE   W96
+// 055   ----------------------------------------
+        BYTE   W96
+// 056   ----------------------------------------
+        BYTE   W96
+// 057   ----------------------------------------
+        BYTE   W96
+// 058   ----------------------------------------
+        BYTE   W96
+// 059   ----------------------------------------
+        BYTE   W96
+// 060   ----------------------------------------
+        BYTE   W96
+// 061   ----------------------------------------
+        BYTE   W96
+// 062   ----------------------------------------
+        BYTE   W96
+// 063   ----------------------------------------
+        BYTE   W96
+// 064   ----------------------------------------
+        BYTE   W96
+// 065   ----------------------------------------
+        BYTE   GoTo
+         POIN2  GlitterGulchMine_2_LOOP
+        BYTE   FINE
+
+//****************** Track 3 (Midi-Chn.3) ******************//
+
+GlitterGulchMine_3:
+        BYTE   KEYSH   GlitterGulchMine_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   45
+        BYTE           VOL     60
+        BYTE           PAN     c_v-29
+        BYTE   W96
+// 001   ----------------------------------------
+GlitterGulchMine_3_LOOP:
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE           N52     Cn3   v110   gtp1
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 016   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 017   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 018   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 019   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 020   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 021   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 023   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 029   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 030   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 031   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 033   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 034   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 036   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 037   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 040   ----------------------------------------
+        BYTE   W96
+// 041   ----------------------------------------
+        BYTE   W96
+// 042   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 043   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 044   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 045   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 046   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 047   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 048   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 049   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 050   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 051   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 052   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 053   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 054   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 055   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 056   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 057   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 058   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 059   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 060   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 061   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 062   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 063   ----------------------------------------
+        BYTE                   Cn3
+        BYTE   W96
+// 064   ----------------------------------------
+        BYTE   W96
+// 065   ----------------------------------------
+        BYTE   GoTo
+         POIN2  GlitterGulchMine_3_LOOP
+        BYTE   FINE
+
+//****************** Track 4 (Midi-Chn.4) ******************//
+
+GlitterGulchMine_4:
+        BYTE   KEYSH   GlitterGulchMine_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   33
+        BYTE           VOL     41
+        BYTE           PAN     c_v-34
+        BYTE   W96
+// 001   ----------------------------------------
+GlitterGulchMine_4_LOOP:
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE           N40     Cn2   v127   gtp1
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE           N36     Cn2   v127   gtp3
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE           N36     Cn2   v127   gtp1
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE           N36     Gn1   v127   gtp2
+        BYTE   W48
+        BYTE           N18     Cn2
+        BYTE   W24
+        BYTE                   Gn1
+        BYTE   W24
+// 008   ----------------------------------------
+        BYTE           N40     Cn2   v127   gtp1
+        BYTE   W48
+        BYTE           N42     Fn1   v127   gtp1
+        BYTE   W48
+// 009   ----------------------------------------
+        BYTE           N44     Cn2   v127   gtp1
+        BYTE   W48
+        BYTE           N42     Gn1
+        BYTE   W48
+// 010   ----------------------------------------
+        BYTE           N44     Cn2   v127   gtp1
+        BYTE   W48
+        BYTE           N40     Fn1   v127   gtp1
+        BYTE   W48
+// 011   ----------------------------------------
+        BYTE           N44     Gn1
+        BYTE   W48
+        BYTE           N21     Cn2
+        BYTE   W24
+        BYTE           N23     Gn1
+        BYTE   W24
+// 012   ----------------------------------------
+        BYTE           N42     Cn2   v127   gtp1
+        BYTE   W48
+        BYTE           N44     Fn1   v127   gtp1
+        BYTE   W48
+// 013   ----------------------------------------
+        BYTE           N44     Cn2   v127   gtp2
+        BYTE   W48
+        BYTE           N44     Gn1
+        BYTE   W48
+// 014   ----------------------------------------
+        BYTE           N48     Cn2
+        BYTE   W48
+        BYTE           N44     Fn1
+        BYTE   W48
+// 015   ----------------------------------------
+        BYTE                   Gn1   v127   gtp1
+        BYTE   W48
+        BYTE           N22     Cn2
+        BYTE   W24
+        BYTE           N23     Gn1
+        BYTE   W24
+// 016   ----------------------------------------
+        BYTE           N44     Cn2   v127   gtp1
+        BYTE   W48
+        BYTE           N48     Fn1
+        BYTE   W48
+// 017   ----------------------------------------
+        BYTE           N44     Cn2   v127   gtp3
+        BYTE   W48
+        BYTE           N48     Gn1
+        BYTE   W48
+// 018   ----------------------------------------
+        BYTE           N44     Cn2   v127   gtp2
+        BYTE   W48
+        BYTE                   Fn1
+        BYTE   W48
+// 019   ----------------------------------------
+        BYTE                   Gn1
+        BYTE   W48
+        BYTE           N23     Cn2
+        BYTE   W24
+        BYTE                   Gn1
+        BYTE   W24
+// 020   ----------------------------------------
+        BYTE           N44     Cn2   v127   gtp2
+        BYTE   W48
+        BYTE           N44     Fn1   v127   gtp3
+        BYTE   W48
+// 021   ----------------------------------------
+        BYTE           N48     Cn2
+        BYTE   W48
+        BYTE           N44     Gn1
+        BYTE   W48
+// 022   ----------------------------------------
+GlitterGulchMine_4_22:
+        BYTE           N44     Cn2   v127   gtp3
+        BYTE   W48
+        BYTE           N44     Fn1
+        BYTE   W48
+        BYTE   PEND
+// 023   ----------------------------------------
+        BYTE                   Gn1   v127   gtp1
+        BYTE   W48
+        BYTE           N23     Cn2
+        BYTE   W24
+        BYTE           N21     Gn1
+        BYTE   W24
+// 024   ----------------------------------------
+        BYTE           N40     An1   v127   gtp1
+        BYTE   W48
+        BYTE           N44     An1   v127   gtp1
+        BYTE   W48
+// 025   ----------------------------------------
+        BYTE           N42     En1
+        BYTE   W48
+        BYTE           N36     En1   v127   gtp3
+        BYTE   W48
+// 026   ----------------------------------------
+        BYTE           N40     Fn1
+        BYTE   W48
+        BYTE           N36     Fn1   v127   gtp3
+        BYTE   W48
+// 027   ----------------------------------------
+        BYTE                   Gn1
+        BYTE   W48
+        BYTE           N15
+        BYTE   W24
+        BYTE           N18     Fn1
+        BYTE   W24
+// 028   ----------------------------------------
+        BYTE           N36     En1   v127   gtp3
+        BYTE   W48
+        BYTE           N42     En1   v127   gtp1
+        BYTE   W48
+// 029   ----------------------------------------
+        BYTE           N36     An1   v127   gtp3
+        BYTE   W48
+        BYTE           N42     An1   v127   gtp1
+        BYTE   W48
+// 030   ----------------------------------------
+        BYTE           N36     Fn1   v127   gtp3
+        BYTE   W48
+        BYTE           N42     Fn1   v127   gtp1
+        BYTE   W48
+// 031   ----------------------------------------
+        BYTE           N19     Gn1
+        BYTE   W24
+        BYTE           N20
+        BYTE   W24
+        BYTE           N23     An1
+        BYTE   W24
+        BYTE                   Bn1
+        BYTE   W24
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_4_22
+// 033   ----------------------------------------
+        BYTE           N44     Cn2   v127   gtp2
+        BYTE   W48
+        BYTE                   Gn1
+        BYTE   W48
+// 034   ----------------------------------------
+        BYTE                   Cn2
+        BYTE   W48
+        BYTE           N42     Fn1   v127   gtp1
+        BYTE   W48
+// 035   ----------------------------------------
+        BYTE           N44     Gn1   v127   gtp3
+        BYTE   W48
+        BYTE           N23     Cn2
+        BYTE   W24
+        BYTE                   Gn1
+        BYTE   W24
+// 036   ----------------------------------------
+        BYTE           N48     Cn2
+        BYTE   W48
+        BYTE                   Fn1
+        BYTE   W48
+// 037   ----------------------------------------
+        BYTE                   Cn2
+        BYTE   W48
+        BYTE           N44     Gn1   v127   gtp1
+        BYTE   W48
+// 038   ----------------------------------------
+        BYTE           N48     Cn2
+        BYTE   W48
+        BYTE           N44     Fn1   v127   gtp1
+        BYTE   W48
+// 039   ----------------------------------------
+        BYTE           N44     Gn1   v127   gtp2
+        BYTE   W48
+        BYTE           N22     Cn2
+        BYTE   W24
+        BYTE                   Gn1
+        BYTE   W24
+// 040   ----------------------------------------
+        BYTE           N19     Cn2   v122
+        BYTE   W24
+        BYTE           N16     Cn2   v127
+        BYTE   W16
+        BYTE           N08     Cn2   v114
+        BYTE   W08
+        BYTE           N19     Bn1   v125
+        BYTE   W24
+        BYTE           N18     Bn1   v122
+        BYTE   W24
+// 041   ----------------------------------------
+        BYTE                   As1   v113
+        BYTE   W24
+        BYTE           N24     Cn2   v127
+        BYTE   W24
+        BYTE                   Dn2
+        BYTE   W24
+        BYTE                   En2
+        BYTE   W24
+// 042   ----------------------------------------
+        BYTE           N36     Fn2   v127   gtp1
+        BYTE   W48
+        BYTE           N36     Cn2
+        BYTE   W48
+// 043   ----------------------------------------
+        BYTE           N40     Fn2
+        BYTE   W48
+        BYTE           N32     Cn2   v127   gtp2
+        BYTE   W48
+// 044   ----------------------------------------
+GlitterGulchMine_4_44:
+        BYTE           N40     Fn2   v127
+        BYTE   W48
+        BYTE           N32     Cn2   v127   gtp3
+        BYTE   W48
+        BYTE   PEND
+// 045   ----------------------------------------
+GlitterGulchMine_4_45:
+        BYTE           N36     Fn2   v127   gtp3
+        BYTE   W48
+        BYTE           N40     Cn2
+        BYTE   W48
+        BYTE   PEND
+// 046   ----------------------------------------
+GlitterGulchMine_4_46:
+        BYTE           N36     Fn2   v127
+        BYTE   W48
+        BYTE           N17     Cn2
+        BYTE   W24
+        BYTE           N18     Dn2
+        BYTE   W24
+        BYTE   PEND
+// 047   ----------------------------------------
+GlitterGulchMine_4_47:
+        BYTE           N36     Ds2   v127   gtp2
+        BYTE   W48
+        BYTE                   As1
+        BYTE   W48
+        BYTE   PEND
+// 048   ----------------------------------------
+GlitterGulchMine_4_48:
+        BYTE           N36     Ds2   v127   gtp3
+        BYTE   W48
+        BYTE           N36     As1   v127   gtp1
+        BYTE   W48
+        BYTE   PEND
+// 049   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_4_47
+// 050   ----------------------------------------
+GlitterGulchMine_4_50:
+        BYTE           N40     Ds2   v127
+        BYTE   W48
+        BYTE           N36     As1   v127   gtp2
+        BYTE   W48
+        BYTE   PEND
+// 051   ----------------------------------------
+GlitterGulchMine_4_51:
+        BYTE           N40     Ds2   v127   gtp1
+        BYTE   W48
+        BYTE           N15     As1
+        BYTE   W24
+        BYTE           N19     En2
+        BYTE   W24
+        BYTE   PEND
+// 052   ----------------------------------------
+GlitterGulchMine_4_52:
+        BYTE           N40     Fn2   v127   gtp1
+        BYTE   W48
+        BYTE           N40     Cn2
+        BYTE   W48
+        BYTE   PEND
+// 053   ----------------------------------------
+        BYTE                   Fn2   v127   gtp1
+        BYTE   W48
+        BYTE           N32     Cn2
+        BYTE   W48
+// 054   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_4_44
+// 055   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_4_45
+// 056   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_4_46
+// 057   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_4_47
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_4_48
+// 059   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_4_47
+// 060   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_4_50
+// 061   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_4_51
+// 062   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_4_52
+// 063   ----------------------------------------
+        BYTE           N40     Fn2   v127   gtp1
+        BYTE   W48
+        BYTE           N32     Gn2
+        BYTE   W48
+// 064   ----------------------------------------
+        BYTE                   Cn2
+        BYTE   W96
+// 065   ----------------------------------------
+        BYTE   GoTo
+         POIN2  GlitterGulchMine_4_LOOP
+        BYTE   FINE
+
+//****************** Track 5 (Midi-Chn.5) ******************//
+
+GlitterGulchMine_5:
+        BYTE   KEYSH   GlitterGulchMine_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   34
+        BYTE           VOL     72
+        BYTE   W96
+// 001   ----------------------------------------
+GlitterGulchMine_5_LOOP:
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+        BYTE   W96
+// 017   ----------------------------------------
+        BYTE   W96
+// 018   ----------------------------------------
+        BYTE   W96
+// 019   ----------------------------------------
+        BYTE   W96
+// 020   ----------------------------------------
+        BYTE   W96
+// 021   ----------------------------------------
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE   W96
+// 023   ----------------------------------------
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE   W96
+// 029   ----------------------------------------
+        BYTE   W96
+// 030   ----------------------------------------
+        BYTE   W96
+// 031   ----------------------------------------
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE   W96
+// 033   ----------------------------------------
+        BYTE   W96
+// 034   ----------------------------------------
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE   W96
+// 036   ----------------------------------------
+        BYTE   W96
+// 037   ----------------------------------------
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W96
+// 040   ----------------------------------------
+        BYTE   W96
+// 041   ----------------------------------------
+        BYTE   W96
+// 042   ----------------------------------------
+        BYTE   W96
+// 043   ----------------------------------------
+        BYTE   W96
+// 044   ----------------------------------------
+        BYTE           N24     An2   v127
+        BYTE   W24
+        BYTE                   An2
+        BYTE   W24
+        BYTE           N16
+        BYTE   W16
+        BYTE           N08     Gn2
+        BYTE   W08
+        BYTE           N16     Fn2
+        BYTE   W16
+        BYTE           N08     Gs2
+        BYTE   W08
+// 045   ----------------------------------------
+        BYTE           N24     An2
+        BYTE   W24
+        BYTE                   Cn3
+        BYTE   W24
+        BYTE           N40
+        BYTE   W40
+        BYTE           N08     Gs2
+        BYTE   W08
+// 046   ----------------------------------------
+        BYTE           N24     An2
+        BYTE   W24
+        BYTE                   An2
+        BYTE   W24
+        BYTE           N16
+        BYTE   W16
+        BYTE           N08     Gn2
+        BYTE   W08
+        BYTE           N16     Fn2
+        BYTE   W16
+        BYTE           N08     Fs2
+        BYTE   W08
+// 047   ----------------------------------------
+        BYTE           N24     Gn2
+        BYTE   W24
+        BYTE                   Ds2
+        BYTE   W24
+        BYTE           N56
+        BYTE   W48
+// 048   ----------------------------------------
+        BYTE   W88
+        BYTE           N08     Fs2
+        BYTE   W08
+// 049   ----------------------------------------
+        BYTE           N24     Gn2
+        BYTE   W24
+        BYTE                   Gn2
+        BYTE   W24
+        BYTE           N16
+        BYTE   W16
+        BYTE           N08     Fn2
+        BYTE   W08
+        BYTE           N16     Ds2
+        BYTE   W16
+        BYTE           N08     Fs2
+        BYTE   W08
+// 050   ----------------------------------------
+        BYTE           N24     Gn2
+        BYTE   W24
+        BYTE                   As2
+        BYTE   W24
+        BYTE           N40
+        BYTE   W40
+        BYTE           N08     Fs2
+        BYTE   W08
+// 051   ----------------------------------------
+        BYTE           N24     Gn2
+        BYTE   W24
+        BYTE                   Gn2
+        BYTE   W24
+        BYTE           N16
+        BYTE   W16
+        BYTE           N08     Fn2
+        BYTE   W08
+        BYTE           N16     Ds2
+        BYTE   W16
+        BYTE           N08     En2
+        BYTE   W08
+// 052   ----------------------------------------
+        BYTE           N24     Fn2
+        BYTE   W24
+        BYTE                   An2
+        BYTE   W24
+        BYTE           N52     Cn2   v127   gtp1
+        BYTE   W48
+// 053   ----------------------------------------
+        BYTE   W96
+// 054   ----------------------------------------
+        BYTE   W96
+// 055   ----------------------------------------
+        BYTE   W96
+// 056   ----------------------------------------
+        BYTE   W96
+// 057   ----------------------------------------
+        BYTE   W96
+// 058   ----------------------------------------
+        BYTE           N08     As2
+        BYTE   W08
+        BYTE                   Cn3
+        BYTE   W08
+        BYTE                   As2
+        BYTE   W08
+        BYTE           N16     An2
+        BYTE   W16
+        BYTE           N08     As2
+        BYTE   W08
+        BYTE           N52     Ds3   v127   gtp1
+        BYTE   W48
+// 059   ----------------------------------------
+        BYTE   W96
+// 060   ----------------------------------------
+        BYTE   W96
+// 061   ----------------------------------------
+        BYTE   W96
+// 062   ----------------------------------------
+        BYTE   W96
+// 063   ----------------------------------------
+        BYTE   W96
+// 064   ----------------------------------------
+        BYTE   W96
+// 065   ----------------------------------------
+        BYTE   GoTo
+         POIN2  GlitterGulchMine_5_LOOP
+        BYTE   FINE
+
+//****************** Track 6 (Midi-Chn.6) ******************//
+
+GlitterGulchMine_6:
+        BYTE   KEYSH   GlitterGulchMine_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   70
+        BYTE           VOL     87
+        BYTE           PAN     c_v-29
+        BYTE   W96
+// 001   ----------------------------------------
+GlitterGulchMine_6_LOOP:
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+        BYTE   W96
+// 017   ----------------------------------------
+        BYTE   W96
+// 018   ----------------------------------------
+        BYTE   W96
+// 019   ----------------------------------------
+        BYTE   W96
+// 020   ----------------------------------------
+        BYTE   W96
+// 021   ----------------------------------------
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE   W96
+// 023   ----------------------------------------
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE   W96
+// 029   ----------------------------------------
+        BYTE   W96
+// 030   ----------------------------------------
+        BYTE   W96
+// 031   ----------------------------------------
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE   W96
+// 033   ----------------------------------------
+        BYTE   W96
+// 034   ----------------------------------------
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE   W96
+// 036   ----------------------------------------
+        BYTE   W96
+// 037   ----------------------------------------
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W96
+// 040   ----------------------------------------
+        BYTE   W96
+// 041   ----------------------------------------
+        BYTE   W96
+// 042   ----------------------------------------
+        BYTE   W96
+// 043   ----------------------------------------
+        BYTE   W96
+// 044   ----------------------------------------
+        BYTE   W96
+// 045   ----------------------------------------
+        BYTE   W96
+// 046   ----------------------------------------
+        BYTE   W96
+// 047   ----------------------------------------
+        BYTE   W88
+        BYTE           N07     Fs2   v080
+        BYTE   W08
+// 048   ----------------------------------------
+        BYTE           N22     Gn2
+        BYTE   W24
+        BYTE           N08     Ds2
+        BYTE   W24
+        BYTE           TIE
+        BYTE   W48
+// 049   ----------------------------------------
+        BYTE   W92
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W01
+// 050   ----------------------------------------
+        BYTE   W96
+// 051   ----------------------------------------
+        BYTE   W96
+// 052   ----------------------------------------
+        BYTE   W96
+// 053   ----------------------------------------
+        BYTE           N24     Fn2   v080   gtp2
+        BYTE   W24
+        BYTE           N08     An2
+        BYTE   W24
+        BYTE           N42     Cn2
+        BYTE   W42
+        BYTE           N06     Gs2
+        BYTE           N06     En2
+        BYTE   W06
+// 054   ----------------------------------------
+        BYTE           N14     An2   v070
+        BYTE           N13     Fn2
+        BYTE   W24
+        BYTE           N10     An2
+        BYTE           N10     Fn2
+        BYTE   W24
+        BYTE           N15     An2
+        BYTE           N15     Fn2
+        BYTE   W16
+        BYTE           N07     Gn2
+        BYTE           N07     Dn2
+        BYTE   W08
+        BYTE           N08     Fn2
+        BYTE           N08     Cn2
+        BYTE   W16
+        BYTE           N05     Gs2
+        BYTE           N05     Bn1
+        BYTE   W08
+// 055   ----------------------------------------
+        BYTE           N23     An2
+        BYTE           N22     Cn2
+        BYTE   W24
+        BYTE           N09     Cn3
+        BYTE           N09     Fn2
+        BYTE   W24
+        BYTE           N36     Cn3
+        BYTE           N36     Fn2
+        BYTE   W40
+        BYTE           N07     Gs2
+        BYTE           N07     En2
+        BYTE   W08
+// 056   ----------------------------------------
+        BYTE           N12     An2
+        BYTE           N12     Fn2
+        BYTE   W24
+        BYTE           N11     An2
+        BYTE           N11     Fn2
+        BYTE   W24
+        BYTE           N15     An2
+        BYTE           N15     Fn2
+        BYTE   W16
+        BYTE           N07     Gn2
+        BYTE           N07     Dn2
+        BYTE   W08
+        BYTE           N09     Fn2
+        BYTE           N10     Cn2
+        BYTE   W16
+        BYTE           N06     Fs2
+        BYTE           N06     Dn2
+        BYTE   W08
+// 057   ----------------------------------------
+        BYTE           N23     Gn2
+        BYTE           N23     Ds2
+        BYTE   W24
+        BYTE           N09
+        BYTE           N09     As1
+        BYTE   W24
+        BYTE           TIE     Ds2
+        BYTE           TIE     As1
+        BYTE   W48
+// 058   ----------------------------------------
+        BYTE   W72
+        BYTE           EOT     Ds2
+        BYTE                   As1
+        BYTE   W16
+        BYTE           N07     Fs2
+        BYTE           N07     Dn2
+        BYTE   W08
+// 059   ----------------------------------------
+        BYTE           N11     Gn2
+        BYTE           N11     Ds2
+        BYTE   W24
+        BYTE                   Gn2
+        BYTE           N10     Ds2
+        BYTE   W24
+        BYTE           N13     Gn2
+        BYTE           N13     Ds2
+        BYTE   W16
+        BYTE           N07     Fn2
+        BYTE           N07     Cn2
+        BYTE   W08
+        BYTE           N09     Ds2
+        BYTE           N08     As1
+        BYTE   W16
+        BYTE           N07     Fs2
+        BYTE           N07     An1
+        BYTE   W08
+// 060   ----------------------------------------
+        BYTE           N21     Gn2
+        BYTE           N21     As1
+        BYTE   W24
+        BYTE           N11     As2
+        BYTE           N10     Ds2
+        BYTE   W24
+        BYTE           N30     As2
+        BYTE           N30     Ds2
+        BYTE   W40
+        BYTE           N06     Fs2
+        BYTE           N05     Dn2
+        BYTE   W08
+// 061   ----------------------------------------
+        BYTE           N09     Gn2
+        BYTE           N09     Ds2
+        BYTE   W24
+        BYTE           N12     Gn2
+        BYTE           N10     Ds2
+        BYTE   W24
+        BYTE           N14     Gn2
+        BYTE           N14     Ds2
+        BYTE   W16
+        BYTE           N06     Fn2
+        BYTE           N06     Cn2
+        BYTE   W08
+        BYTE           N10     En2
+        BYTE           N09     As1
+        BYTE   W16
+        BYTE           N06     En2
+        BYTE           N05     Bn1
+        BYTE   W08
+// 062   ----------------------------------------
+        BYTE           N22     Fn2
+        BYTE           N21     Cn2
+        BYTE   W24
+        BYTE           N12     An2
+        BYTE           N12     Fn2
+        BYTE   W24
+        BYTE           N48     Cn2
+        BYTE           N48     An1
+        BYTE   W48
+// 063   ----------------------------------------
+        BYTE   W96
+// 064   ----------------------------------------
+        BYTE   W96
+// 065   ----------------------------------------
+        BYTE   GoTo
+         POIN2  GlitterGulchMine_6_LOOP
+        BYTE   FINE
+
+//****************** Track 7 (Midi-Chn.7) ******************//
+
+GlitterGulchMine_7:
+        BYTE   KEYSH   GlitterGulchMine_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   45
+        BYTE           VOL     88
+        BYTE           N16     Cn2   v090
+        BYTE   W16
+        BYTE           N08     Gn2
+        BYTE   W08
+        BYTE           N16     En2
+        BYTE   W16
+        BYTE           N08     Gn2
+        BYTE   W08
+        BYTE           N16     Fn2
+        BYTE   W16
+        BYTE           N08     An2
+        BYTE   W08
+        BYTE           N16     Cn3
+        BYTE   W16
+        BYTE           N08     An2
+        BYTE   W08
+// 001   ----------------------------------------
+GlitterGulchMine_7_LOOP:
+        BYTE           N16     Cn2   v090
+        BYTE   W16
+        BYTE           N08     Gn2
+        BYTE   W08
+        BYTE           N16     En2
+        BYTE   W16
+        BYTE           N08     Gn2
+        BYTE   W08
+        BYTE           N16
+        BYTE   W16
+        BYTE           N08     Bn2
+        BYTE   W08
+        BYTE           N16     Dn3
+        BYTE   W16
+        BYTE           N08     Bn2
+        BYTE   W08
+// 002   ----------------------------------------
+GlitterGulchMine_7_2:
+        BYTE           N16     Cn2   v090
+        BYTE   W16
+        BYTE           N08     Gn2
+        BYTE   W08
+        BYTE           N16     En2
+        BYTE   W16
+        BYTE           N08     Gn2
+        BYTE   W08
+        BYTE           N16     Fn2
+        BYTE   W16
+        BYTE           N08     An2
+        BYTE   W08
+        BYTE           N16     Cn3
+        BYTE   W16
+        BYTE           N08     An2
+        BYTE   W08
+        BYTE   PEND
+// 003   ----------------------------------------
+        BYTE           N16     Gn2
+        BYTE   W16
+        BYTE           N08     Bn2
+        BYTE   W08
+        BYTE           N16     Dn3
+        BYTE   W16
+        BYTE           N08     Bn2
+        BYTE   W08
+        BYTE           N24     Cn3
+        BYTE   W24
+        BYTE           N08     Gn2
+        BYTE   W08
+        BYTE                   An2
+        BYTE   W08
+        BYTE                   Bn2
+        BYTE   W08
+// 004   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_7_2
+// 005   ----------------------------------------
+        BYTE           N16     Cn2   v090
+        BYTE   W16
+        BYTE           N08     Gn2
+        BYTE   W08
+        BYTE           N16     En2
+        BYTE   W16
+        BYTE           N08     Gn2
+        BYTE   W08
+        BYTE           N16
+        BYTE   W16
+        BYTE           N08     Bn2
+        BYTE   W08
+        BYTE           N16     Dn3
+        BYTE   W16
+        BYTE           N08     Bn2
+        BYTE   W08
+// 006   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_7_2
+// 007   ----------------------------------------
+        BYTE           N16     Gn2   v090
+        BYTE   W16
+        BYTE           N08     Bn2
+        BYTE   W08
+        BYTE           N16     Dn3
+        BYTE   W16
+        BYTE           N08     Bn2
+        BYTE   W08
+        BYTE           N16     Cn3
+        BYTE   W24
+        BYTE           N08     Gn2
+        BYTE   W08
+        BYTE                   An2
+        BYTE   W08
+        BYTE                   Bn2
+        BYTE   W08
+// 008   ----------------------------------------
+        BYTE           N16     Cn3
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+        BYTE   W96
+// 017   ----------------------------------------
+        BYTE   W96
+// 018   ----------------------------------------
+        BYTE   W96
+// 019   ----------------------------------------
+        BYTE   W96
+// 020   ----------------------------------------
+        BYTE   W96
+// 021   ----------------------------------------
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE   W96
+// 023   ----------------------------------------
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE   W96
+// 029   ----------------------------------------
+        BYTE   W96
+// 030   ----------------------------------------
+        BYTE   W96
+// 031   ----------------------------------------
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE   W96
+// 033   ----------------------------------------
+        BYTE   W96
+// 034   ----------------------------------------
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE   W96
+// 036   ----------------------------------------
+        BYTE   W96
+// 037   ----------------------------------------
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W96
+// 040   ----------------------------------------
+        BYTE   W96
+// 041   ----------------------------------------
+        BYTE   W96
+// 042   ----------------------------------------
+        BYTE   W96
+// 043   ----------------------------------------
+        BYTE   W96
+// 044   ----------------------------------------
+        BYTE   W96
+// 045   ----------------------------------------
+        BYTE   W96
+// 046   ----------------------------------------
+        BYTE   W96
+// 047   ----------------------------------------
+        BYTE   W96
+// 048   ----------------------------------------
+        BYTE   W96
+// 049   ----------------------------------------
+        BYTE   W96
+// 050   ----------------------------------------
+        BYTE   W96
+// 051   ----------------------------------------
+        BYTE   W96
+// 052   ----------------------------------------
+        BYTE   W96
+// 053   ----------------------------------------
+        BYTE   W96
+// 054   ----------------------------------------
+        BYTE   W96
+// 055   ----------------------------------------
+        BYTE   W96
+// 056   ----------------------------------------
+        BYTE   W96
+// 057   ----------------------------------------
+        BYTE   W96
+// 058   ----------------------------------------
+        BYTE   W96
+// 059   ----------------------------------------
+        BYTE   W96
+// 060   ----------------------------------------
+        BYTE   W96
+// 061   ----------------------------------------
+        BYTE   W96
+// 062   ----------------------------------------
+        BYTE   W96
+// 063   ----------------------------------------
+        BYTE   W96
+// 064   ----------------------------------------
+        BYTE   PATT
+         POIN2  GlitterGulchMine_7_2
+// 065   ----------------------------------------
+        BYTE   GoTo
+         POIN2  GlitterGulchMine_7_LOOP
+        BYTE   FINE
+
+
+//********************** End of Song ***********************//
+
+        ALIGN 4
+GlitterGulchMine:
+        BYTE   8                       // Num Tracks
+        BYTE   0                       // Unknown
+        BYTE   GlitterGulchMine_pri    // Priority
+        BYTE   GlitterGulchMine_rev    // Reverb
+
+        POIN2   GlitterGulchMine_grp   
+
+        POIN2   GlitterGulchMine_0
+        POIN2   GlitterGulchMine_1
+        POIN2   GlitterGulchMine_2
+        POIN2   GlitterGulchMine_3
+        POIN2   GlitterGulchMine_4
+        POIN2   GlitterGulchMine_5
+        POIN2   GlitterGulchMine_6
+        POIN2   GlitterGulchMine_7
+
+        

@@ -6,6 +6,28 @@ SongTable(SongName,filename,MusicGroup)
 }
 */
 
+{
+#include "Songs/AfricanMines.event"
+SongTable(DTAfricanMines,AfricanMines,MapMusicGroup)
+}
 
+{
+#include "Songs/GlitterGulchMine.event"
+SongTable(BKGlitterGulchMine,GlitterGulchMine,MapMusicGroup)
+}
 
+{
+#include "Songs/MineCartRiding.event"
+SongTable(KSSMineCartRiding,MineCartRiding,MapMusicGroup)
+}
+
+{
+#include "Songs/MysticCave.event"
+SongTable(S2MysticCave,MysticCave,MapMusicGroup)
+}
+
+{
+#include "Songs/Redial.event"
+SongTable(BHRedial,Redial,MapMusicGroup)
+}
 

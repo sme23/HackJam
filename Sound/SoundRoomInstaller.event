@@ -29,8 +29,11 @@ POP
 
 ALIGN 4
 SoundRoomList:
-
-
+SoundRoomEntry(DTAfricanMines,0,SongName_DTAfricanMines)
+SoundRoomEntry(BKGlitterGulchMine,0,SongName_BKGlitterGulchMine)
+SoundRoomEntry(KSSMineCartRiding,0,SongName_KSSMineCartRiding)
+SoundRoomEntry(S2MysticCave,0,SongName_S2MysticCave)
+SoundRoomEntry(BHRedial,0,SongName_BHRedial)
 
 SoundRoomTerminator
 

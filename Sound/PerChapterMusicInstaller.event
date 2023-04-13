@@ -26,7 +26,7 @@
 #define SetChapterMapThemes(chID,pSongID,eSongID,nSongID) "SetPlayerPhaseTheme(chID,pSongID); SetEnemyPhaseTheme(chID,eSongID); SetNPCPhaseTheme(chID,nSongID)"
 #define SetChapterMapThemesWithFlag(chID,pSongID,eSongID) "SetPlayerPhaseThemeWithFlag(chID,pSongID); SetEnemyPhaseThemeWithFlag(chID,eSongID)"
 
-SetVictoryTheme(0,5)
+SetVictoryTheme(0,BKGlitterGulchMine)
 
 // ===== Battle Music =====
 
