@@ -53,7 +53,7 @@ ALIGN 4
 BeginningScene:
 SetBackground(Castle_Hall)
 MUSC 0x26 //Raid!
-FADU 10
+//FADU 10
 Text(OpeningText)
 EndConvo
 LOAD1 0 Units1

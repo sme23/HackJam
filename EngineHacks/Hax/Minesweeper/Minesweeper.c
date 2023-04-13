@@ -16,8 +16,8 @@ void InitRNG() {
 
 void InitMinesweeperBoard(struct Proc* parent) {
 	//create 'initialMineCount' # of mine traps at random locations on the board
-	int curX = -1;
-	int curY = -1;
+	int curX;
+	int curY;
 	
 	//also we want to clear all existing traps
 	memset(&sTrapPool, 0, 2048);
@@ -85,10 +85,14 @@ int Map_OnAPress(struct Proc* parent) {
 		CallEvent(&loseEvent, 1);
 		
 	} 
-	Proc_Goto(parent, 9);
+	EndPlayerPhaseSideWindows(); 
+	MU_EndAll(); 
+	if (CheckWinState()) {
+		CallEvent(&winEvent,1);
+	}
 
-	if (CheckWinState()) CallEvent(&winEvent,1);
-
+	Proc_Goto(parent, 9); 
+	
 	return (-1); // true 
 
 }
@@ -122,9 +126,14 @@ int Map_OnBPress(struct Proc* parent) {
 
 	GenerateTileMapFromMinesAndRevealed(&gBmMapBuffer);
 	RenderBmMap();
-	Proc_Goto(parent, 9); 
+	EndPlayerPhaseSideWindows(); 
+	MU_EndAll(); 
 	
-	if (CheckWinState()) CallEvent(&winEvent,1);
+	if (CheckWinState()) {
+		CallEvent(&winEvent,1);
+	}
+
+	Proc_Goto(parent, 9); 
 
 	return (-1); // true 
 
@@ -287,7 +296,7 @@ bool CheckWinState() {
 	for (int y = 0; y < boardY; y++) {
 		for (int x = 0; x < boardX; x++) {
 			if (gBmMapFog[y][x] == 1) return false;
-			if ((IsTrapAt(x,y)) && (gBmMapFog[y][x] != 0xFE)) return false;
+			if ((gBmMapFog[y][x] != 0xFE) && (IsTrapAt(x,y))) return false;
 		}
 	}
 	return true;	

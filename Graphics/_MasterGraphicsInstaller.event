@@ -5,7 +5,7 @@
 #include "MapSprites/_MapSpriteInstaller.event"
 #include "Mugs/_MugInstaller.event"
 #include "Tilesets/Tilesets.event" //todo: this better
-//#include "TitleScreen/_TitleScreenInstaller.event" //todo: this better
+#include "TitleScreen/_TitleScreenInstaller.event" 
 //#include "WorldMap/WorldMapInstaller.event" 
 //#include "SpellAnims/MasterSpellInstaller.event"
 

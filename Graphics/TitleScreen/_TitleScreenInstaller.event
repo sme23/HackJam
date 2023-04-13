@@ -70,12 +70,12 @@ ORG $B10ABC
 #incbin "splashlogo1.png.pal.dmp"
 ORG $CBED4
 POIN SplashLogo1TSA
-ORG $CBEE0
+/* ORG $CBEE0
 POIN SplashLogo2Img
 ORG $B11864
 #incbin "splashlogo2.png.pal.dmp" 
 ORG $CBEE8
-POIN SplashLogo2TSA
+POIN SplashLogo2TSA */
 POP
 
 ALIGN 4
@@ -86,10 +86,10 @@ ALIGN 4
 SplashLogo1TSA:
 #incbin "splashlogo1.png.tsa.dmp"
 
-ALIGN 4
+/* ALIGN 4
 SplashLogo2Img:
 #incbin "splashlogo2.png.dmp"
 
 ALIGN 4
 SplashLogo2TSA:
-#incbin "splashlogo2.png.tsa.dmp"
+#incbin "splashlogo2.png.tsa.dmp" */

@@ -25,6 +25,7 @@ Text(WinText)
 SVAL s7 1
 BNE 69 sC s7
 
+ASMC 0xB5D5D //suspend save
 ASMC InitMinesweeperBoard
 GOTO 70
 
@@ -38,9 +39,13 @@ ALIGN 4
 winEvent:
 ASMC 0x85C71 //show records screen
 STAL 240
+MUSC BKGlitterGulchMine
 Text(SucceedText)
 Text(WinText)
+SVAL s7 1
+BNE 69 sC s7
 
+ASMC 0xB5D5D //suspend save
 ASMC InitMinesweeperBoard
 GOTO 70
 
