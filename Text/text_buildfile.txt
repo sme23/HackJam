@@ -2,4 +2,46 @@
 //first text ID in the free block
 [X]
 
+## OpeningText1
+Once upon a time,[N]
+there was a mystical item[N]
+known as the "Fire Emblem".[A][N]
+Using its power, the legendary King Sahad[N]
+was able to found a great kingdom.[A][N]
+Shortly before his death, King Sahad[N]
+released the Fire Emblem back into[N]
+the world. He decreed to his people:[A][N]
+"Upon my death, he who wields the[N]
+Fire Emblem shall sit upon my throne.[A][N] 
+I have released it into the Sea;[N]
+you simply have to find it."[A][N]
+Ever since, treasure hunters from all over[N]
+the world set sail for the Gaete Sea,[A][N]
+searching for the Fire Emblem,[N] 
+the treasure that would make[N]
+their dreams come true![A][X]
+
+## OpeningText2
+[OpenMidRight][LoadFisherman]
+[OpenMidLeft][LoadPlayer]
+Wow, what a story[Beat][N]
+Is it real?[A]
+[OpenMidRight]
+The Fire Emblem?[N]
+O' course it is![A][N]
+I've seen it me'self![A]
+[OpenMidLeft]
+Wow[Beat][A]
+[OpenMidRight]
+If you like, I can get ye[N]
+set up wit' a starter kit.[A][N]
+On 'e house![A][X]
+
+## StarterKitPopup1
+Got a basic rod.[X]
+
+## StarterKitPopup2
+Got a bucket of worms.[X]
+
+
 
