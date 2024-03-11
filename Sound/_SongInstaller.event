@@ -1,0 +1,5 @@
+
+/* {
+#include "Songs/bf2battle2.event"
+SongTable(Battle2BoF2,bf2battle2,BattleMusicGroup)
+} */

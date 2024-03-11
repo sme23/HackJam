@@ -1,0 +1,49 @@
+/////////////////////////////////////////////////////////
+//                                                     //
+//               Master Hack Installer                 //
+//                                                     //
+/////////////////////////////////////////////////////////
+
+#include "Extensions/Hack Installation.txt"
+#include "PopupRework/Extensions/PopupDefinitions.txt"
+
+////////////////////////////////SUPPORTING CHANGES
+
+PUSH
+  //Include essential fixes and autopatches
+  #include "_FE8EssentialFixes.event"
+  
+  // Debug Startup Screen
+  #ifdef __DEBUG__
+    ORG 0x000AD8   // this is somewhere in the startup routine
+      BL(0x01C090) // Call the debug startup menu
+  #endif
+POP
+
+////////////////////////////////FREE SPACE WITHIN BL RANGE
+
+PUSH
+ORG FreeSpaceBLRange //defined in custom definitions
+#define inBLRange
+#undef inBLRange
+POP
+
+////////////////////////////////FREE SPACE OUT OF BL RANGE
+
+  //Improved Sound Mixer
+  #include "ImprovedSoundMixer/SoundMixer.event"
+
+  //Chapter Names as Text
+  #include "TextChNames/TextChNames.event"
+  
+  #include "FixedDifficulty.event"
+  
+  ALIGN 4
+  #include "IconRework/IconRework.event"   // Allows using standard Icon routines to draw skill icons
+  #include "PopupRework/PopupRework.event" // Allows to expand on vanilla popups by adding components
+  #include "Popups.event" 
+  #include "ExpandedModularSave/ExModularSave.event"
+
+
+
+

@@ -1,0 +1,79 @@
+
+//per-chapter attack/defend/npc music
+
+PUSH
+ORG $726CA
+#incbin "ChangingBattleBGM/battle_changer.bin"
+ORG $72700
+#incbin "ChangingBattleBGM/72700.bin"
+POP
+
+/*
+//per-chapter prep music
+PUSH
+ORG $965E2
+B($96656)
+ORG $965E4
+jumpToHack(PerCHPrepMusic1)
+ORG $341C4
+BL($965E4)
+ORG $965DC
+BL($965E4)
+ORG $AEB54
+BL($965E4)
+ORG $A1960
+BL($965E4)
+ORG $B1CF0
+jumpToHack(PerCHPrepMusic2)
+ORG $B1D0A
+B($B24A2)
+ORG $B1D0C
+jumpToHack(PerCHPrepMusic3)
+ORG $9CCD6
+BL($B1D0C)
+ORG $CC6B6
+BL($B1D0C)
+POP
+*/
+PerCHPrepMusic1:
+#incbin "ChangingPreparationBGM/c0p.bin"
+
+PerCHPrepMusic2:
+#incbin "ChangingPreparationBGM/c1p.bin"
+
+PerCHPrepMusic3:
+#incbin "ChangingPreparationBGM/c2p.bin"
+
+
+
+
+//per-chapter victory music
+PUSH
+ORG $20FAC
+#incbin "ChangingVictoryBGM/kill_chapter_prologue_bgm.bin"
+ORG $20CF0
+#incbin "ChangingVictoryBGM/kill_chapter_prologue_bgm2.bin"
+ORG $20D84
+#incbin "ChangingVictoryBGM/kill_chapter_prologue_bgm2.bin"
+ORG $20D94
+#incbin "ChangingVictoryBGM/kill_chapter_prologue_bgm3.bin"
+ORG $20D00
+#incbin "ChangingVictoryBGM/kill_chapter_prologue_bgm3.bin"
+ORG $160C4
+jumpToHack(PerCHVictoryMusic)
+POP
+
+PerCHVictoryMusic:
+#incbin "ChangingVictoryBGM/music10change.bin"
+
+
+
+//allows for setting custom BGM in support data, when the need arises
+PUSH
+ORG $847A4
+#incbin "ChangingSupportTalkBGM/ChangeSupportTalkBGM.dmp"
+POP
+
+
+
+
