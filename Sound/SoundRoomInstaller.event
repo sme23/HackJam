@@ -30,6 +30,10 @@ POP
 ALIGN 4
 SoundRoomList:
 
+SoundRoomEntry(IntroWW,0,0x160)
+SoundRoomEntry(SeaShanty2,0,0x160)
+SoundRoomEntry(RelicSong,0,0x160)
+
 SoundRoomTerminator
 
 /*

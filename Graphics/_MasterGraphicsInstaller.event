@@ -1,1 +1,3 @@
 #include "TitleScreen/_TitleScreenInstaller.event"
+#include "Mugs/MugsInstaller.event"
+

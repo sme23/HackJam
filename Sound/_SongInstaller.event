@@ -7,3 +7,7 @@ SongTable(IntroWW,WWIntro,MapMusicGroup)
 #include "Songs/SS2.event"
 SongTable(SeaShanty2,SS2,MapMusicGroup)
 } 
+{
+#include "Songs/meloetta.event"
+SongTable(RelicSong,meloetta,MapMusicGroup)
+} 

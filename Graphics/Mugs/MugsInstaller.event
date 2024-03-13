@@ -1,0 +1,11 @@
+
+setMugEntry(2,PlayerPortrait,2,8,3,6)
+ALIGN 4
+PlayerPortrait:			// vanilla recolor
+#incext PortraitFormatter "Player.png"
+
+setMugEntry(3,FishermanPortrait,2,5,3,3)
+ALIGN 4
+FishermanPortrait:			// vanilla recolor
+#incext PortraitFormatter "Fisherman.png"
+
