@@ -4,8 +4,8 @@
 
     ORG FreeSpace
 
-	//#inctext DateTimeSetter
-	//#inctext ProjectNameSetter
+	#inctext DateTimeSetter
+	#inctext ProjectNameSetter
 
     //Text first for Text ID definitions
 	MESSAGE Installing Text

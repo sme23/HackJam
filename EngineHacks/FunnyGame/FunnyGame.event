@@ -1,0 +1,41 @@
+#include "Extensions/ProcDefinitions.txt"
+
+#include "FunnyGame.lyn.event"
+
+//vanilla funcs used in procs
+#define StartFadeOutBlackMedium $13D8C|1
+#define StartFadeInBlackMedium $13D68|1
+#define WaitForFade $14068|1
+
+//main driver proc
+ALIGN 4
+ProcScr_FunnyGameMain:
+PROC_SET_NAME(NAME_ProcScr_FunnyGameMain)
+PROC_CALL_ROUTINE(FunnyGameInit)
+
+PROC_LABEL(1)
+PROC_CALL_ROUTINE(StartFadeInBlackMedium)
+PROC_LOOP_ROUTINE(WaitForFade)
+
+PROC_CALL_ROUTINE(FunnyGameMainInit)
+
+PROC_CALL_ROUTINE(StartFadeOutBlackMedium)
+PROC_LOOP_ROUTINE(WaitForFade)
+
+PROC_LOOP_ROUTINE(FunnyGameMainLoop)
+
+
+
+
+PROC_END
+
+
+
+
+
+
+
+
+ALIGN 4
+NAME_ProcScr_FunnyGameMain:
+String(FunnyGameMain)

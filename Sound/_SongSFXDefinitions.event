@@ -15,15 +15,13 @@
 #define Env_CrowdCheer 0x8F
 #define Env_Sandstorm 0x95
 
-
-
+#define IntroWW 0x58
+#define SeaShanty2 0x59
 
 /*
 0x43 //title screen song
 
 free:
-0x58
-0x59
 0x5D
 0x5E
 0x5F

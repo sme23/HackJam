@@ -1,3 +1,7 @@
+#0x160
+//prologue chapter name
+Lure of the Sea[X]
+
 #0xd4c DummyTextEntry
 //first text ID in the free block
 [X]
@@ -12,12 +16,12 @@ Shortly before his death, King Sahad[N]
 released the Fire Emblem back into[N]
 the world. He decreed to his people:[A][N]
 "Upon my death, he who wields the[N]
-Fire Emblem shall sit upon my throne.[A][N] 
+Fire Emblem shall sit upon my throne.[A][N]
 I have released it into the Sea;[N]
 you simply have to find it."[A][N]
 Ever since, treasure hunters from all over[N]
 the world set sail for the Gaete Sea,[A][N]
-searching for the Fire Emblem,[N] 
+searching for the Fire Emblem,[N]
 the treasure that would make[N]
 their dreams come true![A][X]
 

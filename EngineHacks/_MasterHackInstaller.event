@@ -30,8 +30,7 @@ POP
 
 ////////////////////////////////FREE SPACE OUT OF BL RANGE
 
-  //Improved Sound Mixer
-  #include "ImprovedSoundMixer/SoundMixer.event"
+  ALIGN 4
 
   //Chapter Names as Text
   #include "TextChNames/TextChNames.event"
@@ -44,6 +43,4 @@ POP
   #include "Popups.event" 
   #include "ExpandedModularSave/ExModularSave.event"
 
-
-
-
+  #include "FunnyGame/FunnyGame.event"

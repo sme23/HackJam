@@ -51,6 +51,24 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+SetBackground(Black)
+FADU 10
+MUSC IntroWW
+SVAL sB 0xFFFFFFFF
+TUTORIALTEXTBOXSTART
+TEXTSHOW OpeningText1
+TEXTEND
+REMA
+
+MUSC SeaShanty2
+SetBackground(Inn)
+Text(OpeningText2)
+
+POPUP StarterKitPopup1 0x5A
+POPUP StarterKitPopup2 0x5A
+
+ASMC GameStartASMC
+
 NoFade
 ENDA
 

@@ -10,9 +10,9 @@ set "source_rom=%~dp0FE8_clean.gba"
 
 set "main_event=%~dp0ROMBuildfile.event"
 
-set "target_rom=%~dp0_MARTH.gba"
-set "target_ups=%~dp0_MARTH.ups"
-set "target_sym=%~dp0_MARTH.sym"
+set "target_rom=%~dp0_CELICA.gba"
+set "target_ups=%~dp0_CELICA.ups"
+set "target_sym=%~dp0_CELICA.sym"
 
 @rem defining tools
 
