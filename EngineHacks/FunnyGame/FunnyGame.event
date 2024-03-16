@@ -39,3 +39,15 @@ PROC_END
 ALIGN 4
 NAME_ProcScr_FunnyGameMain:
 String(FunnyGameMain)
+
+ALIGN 4
+FunnyGameState:
+WORD DebuffTableRam
+
+#define BestiaryEntry(nameTextID,descTextID,minLength,maxLength) "SHORT nameTextID descTextID minLength maxLength"
+
+ALIGN 4
+BestiaryTable:
+BestiaryEntry(0x160,0x160,1,256)
+
+
