@@ -44,6 +44,18 @@ ALIGN 4
 FunnyGameState:
 WORD DebuffTableRam
 
+ALIGN 4
+GameTiles:
+#incext Png2Dmp "GameTiles.png"
+
+ALIGN 4
+FishTile:
+#incext Png2Dmp "FishTile.png"
+
+ALIGN 4
+GameBoardTSA:
+#incbin "GameBoardTSA.bin"
+
 #define BestiaryEntry(nameTextID,descTextID,minLength,maxLength) "SHORT nameTextID descTextID minLength maxLength"
 
 ALIGN 4
